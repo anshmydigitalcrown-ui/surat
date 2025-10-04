@@ -31,33 +31,38 @@ export default function Header() {
           <nav className="hidden md:flex items-center justify-center space-x-8 flex-1">
             <Link 
               href="/" 
-              className="text-sweet-pink-600 hover:text-light-red-500 font-semibold transition-colors duration-200 hover:scale-105 transform"
+              className="text-gray-700 hover:text-sweet-pink-500 font-medium transition-all duration-200 hover:scale-105 transform relative group"
             >
               Home
+              <span className="absolute inset-x-0 bottom-0 h-0.5 bg-sweet-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200"></span>
             </Link>
             <Link 
               href="/about" 
-              className="text-sweet-pink-600 hover:text-light-red-500 font-semibold transition-colors duration-200 hover:scale-105 transform"
+              className="text-gray-700 hover:text-sweet-pink-500 font-medium transition-all duration-200 hover:scale-105 transform relative group"
             >
               About
+              <span className="absolute inset-x-0 bottom-0 h-0.5 bg-sweet-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200"></span>
             </Link>
             <Link 
               href="/services" 
-              className="text-sweet-pink-600 hover:text-light-red-500 font-semibold transition-colors duration-200 hover:scale-105 transform"
+              className="text-gray-700 hover:text-sweet-pink-500 font-medium transition-all duration-200 hover:scale-105 transform relative group"
             >
               Services
+              <span className="absolute inset-x-0 bottom-0 h-0.5 bg-sweet-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200"></span>
             </Link>
             <Link 
               href="/gallery" 
-              className="text-sweet-pink-600 hover:text-light-red-500 font-semibold transition-colors duration-200 hover:scale-105 transform"
+              className="text-gray-700 hover:text-sweet-pink-500 font-medium transition-all duration-200 hover:scale-105 transform relative group"
             >
               Gallery
+              <span className="absolute inset-x-0 bottom-0 h-0.5 bg-sweet-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200"></span>
             </Link>
             <Link 
               href="/contact" 
-              className="text-sweet-pink-600 hover:text-light-red-500 font-semibold transition-colors duration-200 hover:scale-105 transform"
+              className="text-gray-700 hover:text-sweet-pink-500 font-medium transition-all duration-200 hover:scale-105 transform relative group"
             >
               Contact
+              <span className="absolute inset-x-0 bottom-0 h-0.5 bg-sweet-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200"></span>
             </Link>
           </nav>
 
@@ -79,12 +84,14 @@ export default function Header() {
             {/* Call Button */}
             <a 
               href="tel:+919876543210"
-              className="bg-gradient-to-r from-sweet-pink-500 to-light-red-600 text-white px-4 py-2 rounded-full hover:shadow-lg hover-glow transition-all duration-300 transform hover:scale-105 flex items-center space-x-2"
+              className="relative bg-gradient-to-r from-sweet-pink-500 via-light-red-500 to-sweet-pink-600 text-white px-6 py-3 rounded-full font-semibold text-sm shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center space-x-2 overflow-hidden group"
             >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="absolute inset-0 bg-gradient-to-r from-light-red-400 to-sweet-pink-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <svg className="w-4 h-4 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
               </svg>
-              <span>Call Now</span>
+              <span className="relative z-10">Call Now</span>
+              <div className="absolute inset-0 rounded-full border border-white/20"></div>
             </a>
           </div>
 
@@ -92,7 +99,7 @@ export default function Header() {
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="text-sweet-pink-600 hover:text-light-red-500 focus:outline-none focus:text-light-red-500 transition-colors duration-200"
+              className="text-gray-700 hover:text-sweet-pink-500 focus:outline-none focus:text-sweet-pink-500 transition-colors duration-200"
               aria-label="Toggle menu"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -109,38 +116,38 @@ export default function Header() {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden animate-fadeInUp">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-sweet-pink-50 rounded-lg shadow-lg border border-sweet-pink-200 mb-4">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-white/95 backdrop-blur-md rounded-lg shadow-xl border border-sweet-pink-200 mb-4">
               <Link 
                 href="/" 
-                className="block px-3 py-2 text-sweet-pink-600 hover:text-light-red-500 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200 font-semibold"
+                className="block px-3 py-2 text-gray-700 hover:text-sweet-pink-500 hover:bg-sweet-pink-50 rounded-md transition-all duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link 
                 href="/about" 
-                className="block px-3 py-2 text-sweet-pink-600 hover:text-light-red-500 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200 font-semibold"
+                className="block px-3 py-2 text-gray-700 hover:text-sweet-pink-500 hover:bg-sweet-pink-50 rounded-md transition-all duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </Link>
               <Link 
                 href="/services" 
-                className="block px-3 py-2 text-sweet-pink-600 hover:text-light-red-500 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200 font-semibold"
+                className="block px-3 py-2 text-gray-700 hover:text-sweet-pink-500 hover:bg-sweet-pink-50 rounded-md transition-all duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
               </Link>
               <Link 
                 href="/gallery" 
-                className="block px-3 py-2 text-sweet-pink-600 hover:text-light-red-500 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200 font-semibold"
+                className="block px-3 py-2 text-gray-700 hover:text-sweet-pink-500 hover:bg-sweet-pink-50 rounded-md transition-all duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Gallery
               </Link>
               <Link 
                 href="/contact" 
-                className="block px-3 py-2 text-sweet-pink-600 hover:text-light-red-500 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200 font-semibold"
+                className="block px-3 py-2 text-gray-700 hover:text-sweet-pink-500 hover:bg-sweet-pink-50 rounded-md transition-all duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
@@ -160,10 +167,11 @@ export default function Header() {
               {/* Mobile Call Button */}
               <a 
                 href="tel:+919876543210"
-                className="block mx-3 my-2 bg-gradient-to-r from-sweet-pink-500 to-light-red-600 text-white px-4 py-2 rounded-full text-center hover-glow transition-all duration-300"
+                className="block mx-3 my-2 bg-gradient-to-r from-sweet-pink-500 via-light-red-500 to-sweet-pink-600 text-white px-4 py-3 rounded-full text-center font-semibold shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden group"
                 onClick={() => setIsMenuOpen(false)}
               >
-                📞 Call Now
+                <div className="absolute inset-0 bg-gradient-to-r from-light-red-400 to-sweet-pink-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <span className="relative z-10">📞 Call Now</span>
               </a>
             </div>
           </div>
