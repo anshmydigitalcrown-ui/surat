@@ -97,20 +97,20 @@ export default function Gallery() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             {filteredServices.map((service, index) => (
               <div
                 key={index}
                 className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden border-2 border-pink-300"
               >
                 {/* Service Image */}
-                <div className="h-80 relative bg-pink-50">
+                <div className="h-96 relative bg-pink-50">
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-contain object-center p-4"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-contain object-center p-2"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-pink-200/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
@@ -126,21 +126,18 @@ export default function Gallery() {
                   </div>
                 </div>
                 
-                <div className="p-6 bg-pink-50">
-                  <h3 className="font-black text-black text-xl mb-4">
+                <div className="p-8 bg-pink-50">
+                  <h2 className="text-3xl font-extrabold text-transparent bg-gradient-to-r from-pink-600 to-red-500 bg-clip-text mb-6 leading-tight">
                     {service.title}
-                  </h3>
+                  </h2>
                   
-                  {/* Buttons with different colors */}
-                  <div className="space-y-3">
-                    <button className="w-full bg-blue-500 hover:bg-blue-600 text-white px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200 shadow-lg">
+                  {/* Buttons aligned to left */}
+                  <div className="flex flex-col items-start space-y-3">
+                    <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-xl text-sm font-medium transition-all duration-200 shadow-lg">
                       {service.image.split('/').pop()?.replace('.webp', '')}
                     </button>
-                    <button className="w-full bg-pink-500 hover:bg-pink-600 text-white px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200 shadow-lg">
-                      View Details
-                    </button>
-                    <button className="w-full bg-red-500 hover:bg-red-600 text-white px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200 shadow-lg">
-                      Book
+                    <button className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-xl text-sm font-medium transition-all duration-200 shadow-lg">
+                      Book Now
                     </button>
                   </div>
                 </div>
