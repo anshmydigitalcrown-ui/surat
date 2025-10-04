@@ -344,68 +344,68 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
-              Our Service Areas in Surat
+              Our Location Areas in Surat
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Premium escort services available across all major areas of Surat
+              Premium escort locations available across all major areas of Surat
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Row 1 */}
-            <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-red-500 hover:shadow-xl transition-all duration-300">
-              <h3 className="text-xl font-bold text-red-600 mb-2">Varachha</h3>
-              <p className="text-gray-600">Premium escort services in Varachha area</p>
+            <div className="bg-gradient-to-br from-red-400 to-red-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Varachha</h3>
+              <p className="text-red-100">Premium escort locations in Varachha area</p>
             </div>
-            <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-red-500 hover:shadow-xl transition-all duration-300">
-              <h3 className="text-xl font-bold text-red-600 mb-2">Adajan</h3>
-              <p className="text-gray-600">High-class companions in Adajan locality</p>
+            <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Adajan</h3>
+              <p className="text-blue-100">High-class companions in Adajan locality</p>
             </div>
-            <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-red-500 hover:shadow-xl transition-all duration-300">
-              <h3 className="text-xl font-bold text-red-600 mb-2">Vesu</h3>
-              <p className="text-gray-600">VIP escort services in Vesu residential area</p>
+            <div className="bg-gradient-to-br from-green-400 to-green-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Vesu</h3>
+              <p className="text-green-100">VIP escort locations in Vesu residential area</p>
             </div>
 
             {/* Row 2 */}
-            <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-red-500 hover:shadow-xl transition-all duration-300">
-              <h3 className="text-xl font-bold text-red-600 mb-2">Citylight</h3>
-              <p className="text-gray-600">Professional companions in Citylight area</p>
+            <div className="bg-gradient-to-br from-purple-400 to-purple-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Citylight</h3>
+              <p className="text-purple-100">Professional companions in Citylight area</p>
             </div>
-            <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-red-500 hover:shadow-xl transition-all duration-300">
-              <h3 className="text-xl font-bold text-red-600 mb-2">Althan</h3>
-              <p className="text-gray-600">Elite escort services in Althan locality</p>
+            <div className="bg-gradient-to-br from-pink-400 to-pink-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Althan</h3>
+              <p className="text-pink-100">Elite escort locations in Althan locality</p>
             </div>
-            <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-red-500 hover:shadow-xl transition-all duration-300">
-              <h3 className="text-xl font-bold text-red-600 mb-2">Piplod</h3>
-              <p className="text-gray-600">Luxury companions in Piplod commercial area</p>
+            <div className="bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Piplod</h3>
+              <p className="text-indigo-100">Luxury companions in Piplod commercial area</p>
             </div>
 
             {/* Row 3 */}
-            <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-red-500 hover:shadow-xl transition-all duration-300">
-              <h3 className="text-xl font-bold text-red-600 mb-2">Udhna</h3>
-              <p className="text-gray-600">Premium services in Udhna industrial area</p>
+            <div className="bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Udhna</h3>
+              <p className="text-orange-100">Premium locations in Udhna industrial area</p>
             </div>
-            <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-red-500 hover:shadow-xl transition-all duration-300">
-              <h3 className="text-xl font-bold text-red-600 mb-2">Athwa</h3>
-              <p className="text-gray-600">High-end escort services in Athwa</p>
+            <div className="bg-gradient-to-br from-teal-400 to-teal-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Athwa</h3>
+              <p className="text-teal-100">High-end escort locations in Athwa</p>
             </div>
-            <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-red-500 hover:shadow-xl transition-all duration-300">
-              <h3 className="text-xl font-bold text-red-600 mb-2">Rander</h3>
-              <p className="text-gray-600">Quality companions in Rander area</p>
+            <div className="bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Rander</h3>
+              <p className="text-yellow-100">Quality companions in Rander area</p>
             </div>
 
             {/* Row 4 */}
-            <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-red-500 hover:shadow-xl transition-all duration-300">
-              <h3 className="text-xl font-bold text-red-600 mb-2">Ghod Dod Road</h3>
-              <p className="text-gray-600">VIP services on Ghod Dod Road</p>
+            <div className="bg-gradient-to-br from-rose-400 to-rose-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Ghod Dod Road</h3>
+              <p className="text-rose-100">VIP locations on Ghod Dod Road</p>
             </div>
-            <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-red-500 hover:shadow-xl transition-all duration-300">
-              <h3 className="text-xl font-bold text-red-600 mb-2">Ring Road</h3>
-              <p className="text-gray-600">Professional escorts near Ring Road</p>
+            <div className="bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Ring Road</h3>
+              <p className="text-cyan-100">Professional escorts near Ring Road</p>
             </div>
-            <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-red-500 hover:shadow-xl transition-all duration-300">
-              <h3 className="text-xl font-bold text-red-600 mb-2">Nanpura</h3>
-              <p className="text-gray-600">Elite companions in Nanpura city center</p>
+            <div className="bg-gradient-to-br from-violet-400 to-violet-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Nanpura</h3>
+              <p className="text-violet-100">Elite companions in Nanpura city center</p>
             </div>
           </div>
         </div>
