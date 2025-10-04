@@ -7,30 +7,26 @@ export default function Gallery() {
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   const services = [
-    { title: "VIP Companionship", image: "/images/gallery/0a20e49ae8e5c1e434883d78060d899f.webp", category: "Premium", rating: 5 },
-    { title: "Social Events", image: "/images/gallery/126d43d48bee88fc5a017727b8a72014.webp", category: "Social", rating: 5 },
-    { title: "Business Meetings", image: "/images/gallery/147dbdc5427bd3a11d9e25e07d9f4946.webp", category: "Business", rating: 5 },
-    { title: "Travel Companion", image: "/images/gallery/17911c1f21775f2eb0efdf3042b357e9.webp", category: "Travel", rating: 5 },
-    { title: "Dinner Dates", image: "/images/gallery/1d03177c6a9121224f554f86eea6561f.webp", category: "Social", rating: 5 },
-    { title: "Party Escort", image: "/images/gallery/2386653014fbf30a7d46eb5655ea6898.webp", category: "Entertainment", rating: 5 },
-    { title: "Private Model", image: "/images/gallery/30df14b020334832be7512dec3f06c4b.webp", category: "Premium", rating: 5 },
-    { title: "Hotel Escort", image: "/images/gallery/370287632d7ba5c61bf52b7ea2212f8d.webp", category: "Standard", rating: 4 },
-    { title: "Celebrity Look-alike", image: "/images/gallery/45e43dc8762a49f7e32fec09f46c4beb (1).webp", category: "Premium", rating: 5 },
-    { title: "College Girl", image: "/images/gallery/4ca5679430a6cb5fb444e8b5ba88a5c2.webp", category: "Young", rating: 4 },
-    { title: "Housewife", image: "/images/gallery/50fa4974d71fae7cb6aa6beeabf23aff.webp", category: "Mature", rating: 4 },
-    { title: "Air Hostess", image: "/images/gallery/520f8cc23be016013e09dd18f7ca2ff8.webp", category: "Professional", rating: 5 },
-    { title: "Russian Model", image: "/images/gallery/68968a4787acc7d223d5f39d6af50fa7.webp", category: "International", rating: 5 },
-    { title: "Corporate Event", image: "/images/gallery/73f131c170a6c3b3c69e0740b045de2e.webp", category: "Business", rating: 5 },
-    { title: "Wedding Escort", image: "/images/gallery/8bbc046f619ed3007b7c5325809a6fd1.webp", category: "Special", rating: 5 },
-    { title: "Premium Call Girl", image: "/images/gallery/8bf807d95f77baca1a5d9e72e1ef44f5.webp", category: "Premium", rating: 5 },
-    { title: "Independent", image: "/images/gallery/909c82445d71d59a58ca574da8309883.webp", category: "Independent", rating: 4 },
-    { title: "High Profile", image: "/images/gallery/bc5368c8af5984c25c38a4e15db52749.webp", category: "Elite", rating: 5 },
-    { title: "Massage Service", image: "/images/gallery/d27db602cbde448ca76765ba688d5c11.webp", category: "Wellness", rating: 4 },
-    { title: "Outcall Service", image: "/images/gallery/d924afd90a7aa9e4e2ae4b720a687b66.webp", category: "Outcall", rating: 5 },
-    { title: "In-call Service", image: "/images/gallery/db0819ebec732befe549e66887ee5069.webp", category: "Incall", rating: 4 },
-    { title: "Weekend Special", image: "/images/gallery/e561da040eab9be77db2e99451ef0d79.webp", category: "Special", rating: 5 },
-    { title: "24/7 Available", image: "/images/gallery/eb6f5ed0106779f0081f58fb20e41001.webp", category: "Always", rating: 5 },
-    { title: "Special Service", image: "/images/gallery/f0f35e374ec067f5c6c933c57c831fbc.webp", category: "Premium", rating: 5 }
+    { title: "VIP Companionship", image: "/images/gallery/VIP Companionship.webp", category: "Premium", rating: 5 },
+    { title: "Social Events", image: "/images/gallery/Social Events.webp", category: "Social", rating: 5 },
+    { title: "Business Meetings", image: "/images/gallery/Business Meetings.webp", category: "Business", rating: 5 },
+    { title: "Travel Companion", image: "/images/gallery/Travel Companion.webp", category: "Travel", rating: 5 },
+    { title: "Dinner Dates", image: "/images/gallery/Dinner Dates.webp", category: "Social", rating: 5 },
+    { title: "Party Escort", image: "/images/gallery/Party Escort.webp", category: "Entertainment", rating: 5 },
+    { title: "Private Model", image: "/images/gallery/Private Model.webp", category: "Premium", rating: 5 },
+    { title: "Hotel Escort", image: "/images/gallery/Hotel Escort.webp", category: "Standard", rating: 4 },
+    { title: "Celebrity Look-alike", image: "/images/gallery/Celebrity Look-alike.webp", category: "Premium", rating: 5 },
+    { title: "College Girl", image: "/images/gallery/College Girl.webp", category: "Young", rating: 4 },
+    { title: "Housewife", image: "/images/gallery/Housewife.webp", category: "Mature", rating: 4 },
+    { title: "Air Hostess", image: "/images/gallery/Air Hostess.webp", category: "Professional", rating: 5 },
+    { title: "Russian Model", image: "/images/gallery/Russian Model.webp", category: "International", rating: 5 },
+    { title: "Corporate Event", image: "/images/gallery/Corporate Event.webp", category: "Business", rating: 5 },
+    { title: "Wedding Escort", image: "/images/gallery/Wedding Escort.webp", category: "Special", rating: 5 },
+    { title: "Premium Call Girl", image: "/images/gallery/Premium Call Girl.webp", category: "Premium", rating: 5 },
+    { title: "Outcall Service", image: "/images/gallery/Outcall Service.webp", category: "Outcall", rating: 5 },
+    { title: "In-call Service", image: "/images/gallery/In-call Service.webp", category: "Incall", rating: 4 },
+    { title: "Weekend Special", image: "/images/gallery/Weekend Special.webp", category: "Special", rating: 5 },
+    { title: "Special Service", image: "/images/gallery/Special Service.webp", category: "Premium", rating: 5 }
   ];
 
   const categories = [
@@ -155,10 +151,10 @@ export default function Gallery() {
                   </div>
                   
                   <div className="flex space-x-2">
-                    <button className="flex-1 bg-gradient-to-r from-sweet-pink-500 to-light-red-500 text-white px-4 py-2 rounded-lg text-sm font-medium hover:from-sweet-pink-600 hover:to-light-red-600 transition-all duration-200 shadow-lg">
+                    <button className="flex-1 bg-gradient-to-r from-blue-500 via-red-400 to-pink-500 text-white px-4 py-2 rounded-lg text-sm font-medium hover:from-blue-600 hover:via-red-500 hover:to-pink-600 transition-all duration-200 shadow-lg">
                       View Details
                     </button>
-                    <button className="px-4 py-2 border border-sweet-pink-300 text-sweet-pink-600 rounded-lg text-sm font-medium hover:bg-sweet-pink-50 transition-all duration-200 shadow-lg">
+                    <button className="px-4 py-2 border border-pink-300 text-pink-600 rounded-lg text-sm font-medium hover:bg-pink-50 transition-all duration-200 shadow-lg">
                       Book
                     </button>
                   </div>

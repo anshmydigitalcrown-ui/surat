@@ -172,30 +172,26 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { title: "VIP Companionship", image: "/images/services/0a20e49ae8e5c1e434883d78060d899f.webp", price: "₹15,000/hr" },
-              { title: "Social Events", image: "/images/services/126d43d48bee88fc5a017727b8a72014.webp", price: "₹12,000/hr" },
-              { title: "Business Meetings", image: "/images/services/147dbdc5427bd3a11d9e25e07d9f4946.webp", price: "₹18,000/hr" },
-              { title: "Travel Companion", image: "/images/services/17911c1f21775f2eb0efdf3042b357e9.webp", price: "₹25,000/day" },
-              { title: "Dinner Dates", image: "/images/services/1d03177c6a9121224f554f86eea6561f.webp", price: "₹10,000/hr" },
-              { title: "Party Escort", image: "/images/services/2386653014fbf30a7d46eb5655ea6898.webp", price: "₹14,000/hr" },
-              { title: "Private Model", image: "/images/services/30df14b020334832be7512dec3f06c4b.webp", price: "₹20,000/hr" },
-              { title: "Hotel Escort", image: "/images/services/370287632d7ba5c61bf52b7ea2212f8d.webp", price: "₹8,000/hr" },
-              { title: "Celebrity Look-alike", image: "/images/services/45e43dc8762a49f7e32fec09f46c4beb (1).webp", price: "₹22,000/hr" },
-              { title: "College Girl", image: "/images/services/4ca5679430a6cb5fb444e8b5ba88a5c2.webp", price: "₹9,000/hr" },
-              { title: "Housewife", image: "/images/services/50fa4974d71fae7cb6aa6beeabf23aff.webp", price: "₹11,000/hr" },
-              { title: "Air Hostess", image: "/images/services/520f8cc23be016013e09dd18f7ca2ff8.webp", price: "₹16,000/hr" },
-              { title: "Russian Model", image: "/images/services/68968a4787acc7d223d5f39d6af50fa7.webp", price: "₹30,000/hr" },
-              { title: "Corporate Event", image: "/images/services/73f131c170a6c3b3c69e0740b045de2e.webp", price: "₹19,000/hr" },
-              { title: "Wedding Escort", image: "/images/services/8bbc046f619ed3007b7c5325809a6fd1.webp", price: "₹17,000/hr" },
-              { title: "Premium Call Girl", image: "/images/services/8bf807d95f77baca1a5d9e72e1ef44f5.webp", price: "₹13,000/hr" },
-              { title: "Independent", image: "/images/services/909c82445d71d59a58ca574da8309883.webp", price: "₹12,000/hr" },
-              { title: "High Profile", image: "/images/services/bc5368c8af5984c25c38a4e15db52749.webp", price: "₹35,000/hr" },
-              { title: "Massage Service", image: "/images/services/d27db602cbde448ca76765ba688d5c11.webp", price: "₹7,000/hr" },
-              { title: "Outcall Service", image: "/images/services/d924afd90a7aa9e4e2ae4b720a687b66.webp", price: "₹15,000/hr" },
-              { title: "In-call Service", image: "/images/services/db0819ebec732befe549e66887ee5069.webp", price: "₹10,000/hr" },
-              { title: "Weekend Special", image: "/images/services/e561da040eab9be77db2e99451ef0d79.webp", price: "₹20,000/day" },
-              { title: "24/7 Available", image: "/images/services/eb6f5ed0106779f0081f58fb20e41001.webp", price: "₹12,000/hr" },
-              { title: "Special Service", image: "/images/services/f0f35e374ec067f5c6c933c57c831fbc.webp", price: "₹14,000/hr" }
+              { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", price: "₹15,000/hr" },
+              { title: "Social Events", image: "/images/services/Social Events.webp", price: "₹12,000/hr" },
+              { title: "Business Meetings", image: "/images/services/Business Meetings.webp", price: "₹18,000/hr" },
+              { title: "Travel Companion", image: "/images/services/Travel Companion.webp", price: "₹25,000/day" },
+              { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", price: "₹10,000/hr" },
+              { title: "Party Escort", image: "/images/services/Party Escort.webp", price: "₹14,000/hr" },
+              { title: "Private Model", image: "/images/services/Private Model.webp", price: "₹20,000/hr" },
+              { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", price: "₹8,000/hr" },
+              { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", price: "₹22,000/hr" },
+              { title: "College Girl", image: "/images/services/College Girl.webp", price: "₹9,000/hr" },
+              { title: "Housewife", image: "/images/services/Housewife.webp", price: "₹11,000/hr" },
+              { title: "Air Hostess", image: "/images/services/Air Hostess.webp", price: "₹16,000/hr" },
+              { title: "Russian Model", image: "/images/services/Russian Model.webp", price: "₹30,000/hr" },
+              { title: "Corporate Event", image: "/images/services/Corporate Event.webp", price: "₹19,000/hr" },
+              { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", price: "₹17,000/hr" },
+              { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", price: "₹13,000/hr" },
+              { title: "Outcall Service", image: "/images/services/Outcall Service.webp", price: "₹15,000/hr" },
+              { title: "In-call Service", image: "/images/services/In-call Service.webp", price: "₹10,000/hr" },
+              { title: "Weekend Special", image: "/images/services/Weekend Special.webp", price: "₹20,000/day" },
+              { title: "Special Service", image: "/images/services/Special Service.webp", price: "₹14,000/hr" }
             ].map((service, index) => (
               <div
                 key={index}
@@ -249,7 +245,7 @@ export default function Home() {
                         </svg>
                       ))}
                     </div>
-                    <button className="bg-gradient-to-r from-sweet-pink-500 to-light-red-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:from-sweet-pink-600 hover:to-light-red-600 transition-all duration-200 shadow-lg">
+                    <button className="bg-gradient-to-r from-blue-500 via-red-400 to-pink-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:from-blue-600 hover:via-red-500 hover:to-pink-600 transition-all duration-200 shadow-lg">
                       Book Now
                     </button>
                   </div>
