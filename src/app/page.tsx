@@ -162,8 +162,8 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-black text-black mb-6">
-              Premium Escorts In Indore - Our Services
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
+              Premium Escorts In Surat - Our Services
             </h2>
             <p className="text-2xl md:text-3xl text-gray-700 max-w-4xl mx-auto mb-6 font-medium leading-relaxed">
               Discover our comprehensive range of luxury escort services designed for discerning clients
@@ -254,8 +254,8 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-black text-black mb-6">
-              Our Premium Services in Indore
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
+              Our Premium Services in Surat
             </h2>
           </div>
 
@@ -264,7 +264,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-pink-500">
               <h3 className="text-2xl font-bold text-pink-600 mb-4">VIP Escort Service</h3>
               <p className="text-gray-700 leading-relaxed">
-                Exclusive VIP companions for discerning clients seeking premium escort service in Indore. Professional, elegant, and sophisticated.
+                Exclusive VIP companions for discerning clients seeking premium escort service in Surat. Professional, elegant, and sophisticated.
               </p>
             </div>
 
@@ -272,7 +272,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-blue-500">
               <h3 className="text-2xl font-bold text-blue-600 mb-4">Event Companions</h3>
               <p className="text-gray-700 leading-relaxed">
-                Perfect companions for business events, parties, and social gatherings in Indore. Professional and well-educated.
+                Perfect companions for business events, parties, and social gatherings in Surat. Professional and well-educated.
               </p>
             </div>
 
@@ -280,15 +280,15 @@ export default function Home() {
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-purple-500">
               <h3 className="text-2xl font-bold text-purple-600 mb-4">Premium Call Girls</h3>
               <p className="text-gray-700 leading-relaxed">
-                High-class call girls service with verified profiles and complete discretion in Indore. 24/7 availability.
+                High-class call girls service with verified profiles and complete discretion in Surat. 24/7 availability.
               </p>
             </div>
           </div>
 
           {/* Why We're the Top Choice */}
           <div className="bg-white rounded-3xl p-10 shadow-xl">
-            <h3 className="text-4xl font-bold text-center text-gray-800 mb-12">
-              Why We&apos;re the Top Choice in Indore
+            <h3 className="text-4xl font-bold text-center bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-12">
+              Why We&apos;re the Top Choice in Surat
             </h3>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
