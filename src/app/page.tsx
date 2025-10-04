@@ -1,100 +1,142 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function Home() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  
-  const heroSlides = [
-    {
-      title: "No.1 Best Escorts Service Surat",
-      subtitle: "RashmiKapoor - Premium Experience",
-      description: "Professional and sophisticated companion services for discerning individuals.",
-      image: "bg-gradient-to-br from-primary-400 via-accent-500 to-primary-600"
-    },
-    {
-      title: "Luxury Companionship",
-      subtitle: "Discretion & Professionalism",
-      description: "Tailored services designed to exceed your expectations with complete privacy.",
-      image: "bg-gradient-to-br from-accent-400 via-primary-500 to-accent-600"
-    },
-    {
-      title: "Premium Service",
-      subtitle: "Available 24/7",
-      description: "Round-the-clock availability for your convenience and comfort.",
-      image: "bg-gradient-to-br from-primary-500 via-accent-400 to-primary-700"
-    }
-  ];
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
-    }, 5000);
-    return () => clearInterval(timer);
-  }, [heroSlides.length]);
-
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        {/* Background Slides */}
-        {heroSlides.map((slide, index) => (
-          <div
-            key={index}
-            className={`absolute inset-0 ${slide.image} transition-opacity duration-1000 ${
-              index === currentSlide ? 'opacity-100' : 'opacity-0'
-            }`}
-          />
-        ))}
-        
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-black/30"></div>
-        
-        {/* Content */}
-        <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp">
-            {heroSlides[currentSlide].title}
-          </h1>
-          <h2 className="text-2xl md:text-3xl font-light mb-4 text-pink-200 animate-fadeInUp">
-            {heroSlides[currentSlide].subtitle}
-          </h2>
-          <p className="text-xl md:text-2xl mb-8 text-pink-100 animate-fadeInUp">
-            {heroSlides[currentSlide].description}
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeInUp">
-            <Link 
-              href="/contact" 
-              className="bg-white text-primary-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-pink-50 hover-glow transition-all duration-300 transform hover:scale-105"
-            >
-              Book Consultation
-            </Link>
-            <Link 
-              href="/services" 
-              className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-primary-600 transition-all duration-300 transform hover:scale-105"
-            >
-              Our Services
-            </Link>
+      <section className="relative min-h-screen bg-gradient-to-br from-rose-50 via-pink-50 to-rose-100 py-20">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-20 left-20 w-32 h-32 bg-rose-300 rounded-full blur-xl"></div>
+          <div className="absolute top-40 right-32 w-24 h-24 bg-pink-300 rounded-full blur-lg"></div>
+          <div className="absolute bottom-32 left-1/3 w-40 h-40 bg-rose-200 rounded-full blur-2xl"></div>
+        </div>
+
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
+            
+            {/* Left Side - Website Description */}
+            <div className="space-y-8 animate-fadeInUp">
+              <div className="space-y-4">
+                <div className="flex items-center space-x-3 mb-6">
+                  <div className="w-12 h-12 bg-gradient-to-br from-rose-400 to-pink-500 rounded-xl flex items-center justify-center">
+                    <span className="text-white font-bold text-xl">RK</span>
+                  </div>
+                  <div>
+                    <h1 className="text-3xl font-bold bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+                      RashmiKapoor
+                    </h1>
+                    <p className="text-rose-500 font-medium">Premium Escort Service</p>
+                  </div>
+                </div>
+                
+                <h2 className="text-4xl md:text-6xl font-bold text-gray-800 leading-tight">
+                  Surat&apos;s Most
+                  <span className="block bg-gradient-to-r from-rose-500 to-pink-600 bg-clip-text text-transparent">
+                    Trusted Companion
+                  </span>
+                  Service
+                </h2>
+                
+                <p className="text-xl text-gray-600 leading-relaxed max-w-xl">
+                  Experience luxury and sophistication with Surat&apos;s premier escort service. We offer discreet, professional companionship tailored to your needs with complete privacy and elegance.
+                </p>
+              </div>
+
+              {/* Features List */}
+              <div className="space-y-4">
+                <div className="flex items-center space-x-3">
+                  <div className="w-6 h-6 bg-rose-500 rounded-full flex items-center justify-center">
+                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-lg">24/7 Premium Service Available</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-6 h-6 bg-rose-500 rounded-full flex items-center justify-center">
+                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-lg">Complete Discretion & Privacy</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-6 h-6 bg-rose-500 rounded-full flex items-center justify-center">
+                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-lg">Professional & Sophisticated</span>
+                </div>
+              </div>
+
+              {/* Action Buttons */}
+              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+                <Link 
+                  href="/contact" 
+                  className="bg-gradient-to-r from-rose-500 to-pink-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300 text-center"
+                >
+                  Book Consultation
+                </Link>
+                <a 
+                  href="https://wa.me/919876543210"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="border-2 border-rose-500 text-rose-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-rose-500 hover:text-white transition-all duration-300 text-center flex items-center justify-center space-x-2"
+                >
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.085"/>
+                  </svg>
+                  <span>WhatsApp</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Right Side - Image Card */}
+            <div className="relative animate-fadeInUp" style={{animationDelay: '0.3s'}}>
+              <div className="relative">
+                {/* Main Image Card */}
+                <div className="bg-white rounded-3xl shadow-2xl overflow-hidden transform rotate-3 hover:rotate-0 transition-transform duration-500">
+                  <div className="aspect-[3/4] bg-gradient-to-br from-rose-300 via-pink-300 to-rose-400 relative">
+                    {/* Placeholder for actual image */}
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="text-center text-white">
+                        <div className="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                          <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"/>
+                          </svg>
+                        </div>
+                        <h3 className="text-2xl font-bold mb-2">RashmiKapoor</h3>
+                        <p className="text-lg opacity-90">Premium Companion</p>
+                      </div>
+                    </div>
+                    
+                    {/* Decorative Elements */}
+                    <div className="absolute top-4 right-4 w-3 h-3 bg-white/30 rounded-full"></div>
+                    <div className="absolute top-8 right-8 w-2 h-2 bg-white/20 rounded-full"></div>
+                    <div className="absolute bottom-8 left-6 w-4 h-4 bg-white/25 rounded-full"></div>
+                  </div>
+                </div>
+
+                {/* Floating Badge */}
+                <div className="absolute -top-4 -right-4 bg-rose-500 text-white px-6 py-3 rounded-2xl shadow-lg transform rotate-12">
+                  <div className="text-center">
+                    <div className="text-2xl font-bold">No.1</div>
+                    <div className="text-xs">In Surat</div>
+                  </div>
+                </div>
+
+                {/* Background Decoration */}
+                <div className="absolute -z-10 -top-8 -left-8 w-32 h-32 bg-rose-200 rounded-full opacity-50"></div>
+                <div className="absolute -z-10 -bottom-6 -right-6 w-24 h-24 bg-pink-200 rounded-full opacity-40"></div>
+              </div>
+            </div>
+            
           </div>
         </div>
-
-        {/* Slide Indicators */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-3">
-          {heroSlides.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => setCurrentSlide(index)}
-              className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                index === currentSlide ? 'bg-white scale-125' : 'bg-white/50 hover:bg-white/75'
-              }`}
-            />
-          ))}
-        </div>
-
-        {/* Floating Elements */}
-        <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-white/20 rounded-full animate-pulse-slow"></div>
-        <div className="absolute top-1/3 right-1/4 w-6 h-6 bg-white/10 rounded-full animate-pulse-slow" style={{animationDelay: '1s'}}></div>
-        <div className="absolute bottom-1/4 left-1/3 w-3 h-3 bg-white/30 rounded-full animate-pulse-slow" style={{animationDelay: '2s'}}></div>
       </section>
 
       {/* Features Section */}
