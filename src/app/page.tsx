@@ -106,31 +106,35 @@ export default function Home() {
                 </div>
                 
                 {/* Main Image Card */}
-                <div className="bg-gradient-to-br from-sweet-pink-200 via-sweet-pink-300 to-light-red-200 rounded-3xl shadow-2xl overflow-hidden transform rotate-3 hover:rotate-0 transition-transform duration-500 p-2">
-                  <div className="bg-white rounded-2xl overflow-hidden">
-                    <div className="aspect-[3/4] relative">
+                <div className="bg-gradient-to-br from-sweet-pink-200 via-sweet-pink-300 to-light-red-200 rounded-3xl shadow-2xl overflow-hidden transform rotate-3 hover:rotate-0 transition-transform duration-500 p-3">
+                  <div className="bg-white rounded-2xl overflow-hidden shadow-inner">
+                    <div className="aspect-[3/4] relative bg-gradient-to-br from-gray-100 to-gray-200">
                       {/* Hero Image */}
                       <Image 
                         src="/images/hero/sexy-wet-bhabhi.webp" 
                         alt="RashmiKapoor - Premium Escort Service" 
                         fill
-                        className="object-contain"
+                        className="object-cover object-center"
                         priority
+                        quality={95}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       />
                       
-                      {/* Overlay Gradient */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
+                      {/* Subtle Overlay Gradient */}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent"></div>
                       
                       {/* Content Overlay */}
-                      <div className="absolute bottom-6 left-6 right-6 text-white">
-                        <h3 className="text-xl font-bold mb-1 drop-shadow-lg">Available Now</h3>
-                        <p className="text-sm opacity-90 drop-shadow-lg">Professional Service</p>
+                      <div className="absolute bottom-4 left-4 right-4 text-white">
+                        <div className="bg-black/30 backdrop-blur-sm rounded-lg px-3 py-2">
+                          <h3 className="text-lg font-bold mb-1 drop-shadow-lg">Available Now</h3>
+                          <p className="text-xs opacity-90 drop-shadow-lg">Professional Service</p>
+                        </div>
                       </div>
                       
                       {/* Decorative Elements */}
-                      <div className="absolute top-4 right-4 w-3 h-3 bg-white/30 rounded-full"></div>
-                      <div className="absolute top-8 right-8 w-2 h-2 bg-white/20 rounded-full"></div>
-                      <div className="absolute bottom-20 left-6 w-4 h-4 bg-white/25 rounded-full"></div>
+                      <div className="absolute top-3 right-3 w-2 h-2 bg-white/40 rounded-full"></div>
+                      <div className="absolute top-6 right-6 w-1.5 h-1.5 bg-white/30 rounded-full"></div>
+                      <div className="absolute bottom-16 left-4 w-3 h-3 bg-white/20 rounded-full"></div>
                     </div>
                   </div>
                 </div>
