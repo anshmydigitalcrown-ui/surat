@@ -409,7 +409,7 @@ export default function Home() {
       </section>
 
       {/* Escorts in Surat Content Section */}
-      <section className="py-20 bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400">
+      <section className="py-20 bg-gradient-to-br from-pink-400 via-pink-500 to-pink-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="flex justify-center items-center gap-4 mb-6">
@@ -471,7 +471,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-gradient-to-br from-red-500 via-pink-500 to-purple-600">
+      <section className="py-20 bg-gradient-to-br from-pink-500 via-pink-400 to-pink-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-black text-white mb-6">
