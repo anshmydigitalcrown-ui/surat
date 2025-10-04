@@ -138,6 +138,106 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Service Cards Section */}
+      <section className="py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-sweet-pink-600 to-light-red-600 bg-clip-text text-transparent mb-4">
+              Our Premium Services
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Discover our comprehensive range of luxury escort services designed for discerning clients
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+            {[
+              { title: "VIP Companionship", image: "/images/services/vip-companion.jpg", price: "₹15,000/hr" },
+              { title: "Social Events", image: "/images/services/social-events.jpg", price: "₹12,000/hr" },
+              { title: "Business Meetings", image: "/images/services/business.jpg", price: "₹18,000/hr" },
+              { title: "Travel Companion", image: "/images/services/travel.jpg", price: "₹25,000/day" },
+              { title: "Dinner Dates", image: "/images/services/dinner.jpg", price: "₹10,000/hr" },
+              { title: "Party Escort", image: "/images/services/party.jpg", price: "₹14,000/hr" },
+              { title: "Private Model", image: "/images/services/model.jpg", price: "₹20,000/hr" },
+              { title: "Hotel Escort", image: "/images/services/hotel.jpg", price: "₹8,000/hr" },
+              { title: "Celebrity Look-alike", image: "/images/services/celebrity.jpg", price: "₹22,000/hr" },
+              { title: "College Girl", image: "/images/services/college.jpg", price: "₹9,000/hr" },
+              { title: "Housewife", image: "/images/services/housewife.jpg", price: "₹11,000/hr" },
+              { title: "Air Hostess", image: "/images/services/airhostess.jpg", price: "₹16,000/hr" },
+              { title: "Russian Model", image: "/images/services/russian.jpg", price: "₹30,000/hr" },
+              { title: "Corporate Event", image: "/images/services/corporate.jpg", price: "₹19,000/hr" },
+              { title: "Wedding Escort", image: "/images/services/wedding.jpg", price: "₹17,000/hr" },
+              { title: "Premium Call Girl", image: "/images/services/premium.jpg", price: "₹13,000/hr" },
+              { title: "Independent", image: "/images/services/independent.jpg", price: "₹12,000/hr" },
+              { title: "High Profile", image: "/images/services/high-profile.jpg", price: "₹35,000/hr" },
+              { title: "Massage Service", image: "/images/services/massage.jpg", price: "₹7,000/hr" },
+              { title: "Outcall Service", image: "/images/services/outcall.jpg", price: "₹15,000/hr" },
+              { title: "In-call Service", image: "/images/services/incall.jpg", price: "₹10,000/hr" },
+              { title: "Weekend Special", image: "/images/services/weekend.jpg", price: "₹20,000/day" },
+              { title: "24/7 Available", image: "/images/services/24-7.jpg", price: "₹12,000/hr" }
+            ].map((service, index) => (
+              <div
+                key={index}
+                className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden"
+              >
+                <div className="relative aspect-[4/5]">
+                  <div className="absolute inset-0 bg-gradient-to-br from-sweet-pink-200 via-light-red-200 to-sweet-pink-300">
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="text-center text-white">
+                        <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
+                          <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"/>
+                          </svg>
+                        </div>
+                        <p className="text-sm font-medium">Service {index + 1}</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Price Badge */}
+                  <div className="absolute top-3 right-3 bg-gradient-to-r from-sweet-pink-500 to-light-red-500 text-white px-3 py-1 rounded-full text-xs font-bold">
+                    {service.price}
+                  </div>
+                  
+                  {/* Availability Badge */}
+                  <div className="absolute top-3 left-3 bg-green-500 text-white px-2 py-1 rounded-full text-xs font-medium">
+                    Available
+                  </div>
+                </div>
+                
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800 text-sm mb-2 group-hover:text-sweet-pink-600 transition-colors duration-200">
+                    {service.title}
+                  </h3>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center space-x-1">
+                      {[...Array(5)].map((_, starIndex) => (
+                        <svg key={starIndex} className="w-3 h-3 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                          <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
+                        </svg>
+                      ))}
+                    </div>
+                    <button className="bg-gradient-to-r from-sweet-pink-500 to-light-red-500 text-white px-3 py-1 rounded-full text-xs font-medium hover:from-sweet-pink-600 hover:to-light-red-600 transition-all duration-200">
+                      Book Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+          
+          {/* View All Services Button */}
+          <div className="text-center mt-12">
+            <Link 
+              href="/services" 
+              className="bg-gradient-to-r from-sweet-pink-500 via-light-red-500 to-sweet-pink-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
+            >
+              View All Services
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

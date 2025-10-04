@@ -1,122 +1,66 @@
 'use client';
 
-import { useState } from 'react';
 import Link from 'next/link';
 
 export default function Services() {
-  const [activeCategory, setActiveCategory] = useState('social');
-
-  const serviceCategories = [
-    { id: 'social', name: 'Social Companionship', icon: '🥂' },
-    { id: 'travel', name: 'Travel Companions', icon: '✈️' },
-    { id: 'business', name: 'Business Support', icon: '💼' },
-    { id: 'personal', name: 'Personal Assistant', icon: '👔' }
+  const services = [
+    { title: "VIP Companionship", image: "/images/services/vip-companion.jpg", price: "₹15,000/hr", category: "Premium", rating: 5 },
+    { title: "Social Events", image: "/images/services/social-events.jpg", price: "₹12,000/hr", category: "Social", rating: 5 },
+    { title: "Business Meetings", image: "/images/services/business.jpg", price: "₹18,000/hr", category: "Business", rating: 5 },
+    { title: "Travel Companion", image: "/images/services/travel.jpg", price: "₹25,000/day", category: "Travel", rating: 5 },
+    { title: "Dinner Dates", image: "/images/services/dinner.jpg", price: "₹10,000/hr", category: "Social", rating: 5 },
+    { title: "Party Escort", image: "/images/services/party.jpg", price: "₹14,000/hr", category: "Entertainment", rating: 5 },
+    { title: "Private Model", image: "/images/services/model.jpg", price: "₹20,000/hr", category: "Premium", rating: 5 },
+    { title: "Hotel Escort", image: "/images/services/hotel.jpg", price: "₹8,000/hr", category: "Standard", rating: 4 },
+    { title: "Celebrity Look-alike", image: "/images/services/celebrity.jpg", price: "₹22,000/hr", category: "Premium", rating: 5 },
+    { title: "College Girl", image: "/images/services/college.jpg", price: "₹9,000/hr", category: "Young", rating: 4 },
+    { title: "Housewife", image: "/images/services/housewife.jpg", price: "₹11,000/hr", category: "Mature", rating: 4 },
+    { title: "Air Hostess", image: "/images/services/airhostess.jpg", price: "₹16,000/hr", category: "Professional", rating: 5 },
+    { title: "Russian Model", image: "/images/services/russian.jpg", price: "₹30,000/hr", category: "International", rating: 5 },
+    { title: "Corporate Event", image: "/images/services/corporate.jpg", price: "₹19,000/hr", category: "Business", rating: 5 },
+    { title: "Wedding Escort", image: "/images/services/wedding.jpg", price: "₹17,000/hr", category: "Special", rating: 5 },
+    { title: "Premium Call Girl", image: "/images/services/premium.jpg", price: "₹13,000/hr", category: "Premium", rating: 5 },
+    { title: "Independent", image: "/images/services/independent.jpg", price: "₹12,000/hr", category: "Independent", rating: 4 },
+    { title: "High Profile", image: "/images/services/high-profile.jpg", price: "₹35,000/hr", category: "Elite", rating: 5 },
+    { title: "Massage Service", image: "/images/services/massage.jpg", price: "₹7,000/hr", category: "Wellness", rating: 4 },
+    { title: "Outcall Service", image: "/images/services/outcall.jpg", price: "₹15,000/hr", category: "Outcall", rating: 5 },
+    { title: "In-call Service", image: "/images/services/incall.jpg", price: "₹10,000/hr", category: "Incall", rating: 4 },
+    { title: "Weekend Special", image: "/images/services/weekend.jpg", price: "₹20,000/day", category: "Special", rating: 5 },
+    { title: "24/7 Available", image: "/images/services/24-7.jpg", price: "₹12,000/hr", category: "Always", rating: 5 }
   ];
 
-  const services = {
-    social: [
-      {
-        title: 'Dinner Companions',
-        description: 'Elegant companions for fine dining experiences and social gatherings.',
-        features: ['Fine dining etiquette', 'Engaging conversation', 'Professional appearance', 'Cultural awareness'],
-        price: 'Starting from ₹5,000',
-        duration: '3-4 hours'
-      },
-      {
-        title: 'Event Companions',
-        description: 'Sophisticated partners for galas, premieres, and high-profile events.',
-        features: ['Red carpet experience', 'Networking support', 'Fashion coordination', 'Social grace'],
-        price: 'Starting from ₹8,000',
-        duration: '4-6 hours'
-      },
-      {
-        title: 'Social Gatherings',
-        description: 'Charming companions for parties, weddings, and celebrations.',
-        features: ['Social adaptability', 'Conversation skills', 'Party etiquette', 'Positive energy'],
-        price: 'Starting from ₹6,000',
-        duration: '4-5 hours'
-      }
-    ],
-    travel: [
-      {
-        title: 'Business Travel',
-        description: 'Professional travel companions for business trips and conferences.',
-        features: ['Business acumen', 'Travel coordination', 'Meeting support', 'Cultural liaison'],
-        price: 'Starting from ₹15,000',
-        duration: '1-3 days'
-      },
-      {
-        title: 'Leisure Travel',
-        description: 'Delightful companions for vacations and leisure trips.',
-        features: ['Travel planning', 'Local expertise', 'Adventure spirit', 'Photography skills'],
-        price: 'Starting from ₹12,000',
-        duration: '1-7 days'
-      },
-      {
-        title: 'International Travel',
-        description: 'Experienced companions for international business and leisure travel.',
-        features: ['Passport ready', 'Multi-lingual', 'Cultural knowledge', 'Travel experience'],
-        price: 'Starting from ₹25,000',
-        duration: '3-14 days'
-      }
-    ],
-    business: [
-      {
-        title: 'Conference Support',
-        description: 'Professional assistance for business conferences and meetings.',
-        features: ['Industry knowledge', 'Networking skills', 'Presentation support', 'Client relations'],
-        price: 'Starting from ₹10,000',
-        duration: '8 hours'
-      },
-      {
-        title: 'Corporate Events',
-        description: 'Elegant representation at corporate functions and launches.',
-        features: ['Brand awareness', 'Professional demeanor', 'Client interaction', 'Event coordination'],
-        price: 'Starting from ₹12,000',
-        duration: '6-8 hours'
-      },
-      {
-        title: 'Business Dinners',
-        description: 'Sophisticated companions for important business dinners.',
-        features: ['Business etiquette', 'Conversation skills', 'Professional appearance', 'Cultural sensitivity'],
-        price: 'Starting from ₹8,000',
-        duration: '3-4 hours'
-      }
-    ],
-    personal: [
-      {
-        title: 'Executive Assistant',
-        description: 'Professional support for busy executives and entrepreneurs.',
-        features: ['Schedule management', 'Communication support', 'Task coordination', 'Confidentiality'],
-        price: 'Starting from ₹20,000',
-        duration: 'Full day'
-      },
-      {
-        title: 'Lifestyle Management',
-        description: 'Comprehensive lifestyle and personal management services.',
-        features: ['Personal shopping', 'Appointment scheduling', 'Event planning', 'Travel arrangements'],
-        price: 'Starting from ₹15,000',
-        duration: 'Flexible'
-      },
-      {
-        title: 'Concierge Services',
-        description: 'Luxury concierge services for personalized assistance.',
-        features: ['Reservation management', 'Personal errands', 'Special requests', 'Luxury coordination'],
-        price: 'Starting from ₹10,000',
-        duration: 'Flexible'
-      }
-    ]
+  const getCategoryColor = (category: string) => {
+    const colors: { [key: string]: string } = {
+      Premium: "from-sweet-pink-500 to-light-red-500",
+      Elite: "from-purple-500 to-pink-500",
+      International: "from-blue-500 to-purple-500",
+      Business: "from-gray-500 to-blue-500",
+      Social: "from-green-500 to-teal-500",
+      Entertainment: "from-orange-500 to-red-500",
+      Professional: "from-indigo-500 to-purple-500",
+      Travel: "from-cyan-500 to-blue-500",
+      Special: "from-pink-500 to-rose-500",
+      Standard: "from-gray-400 to-gray-500",
+      Young: "from-pink-400 to-rose-400",
+      Mature: "from-amber-500 to-orange-500",
+      Independent: "from-teal-500 to-green-500",
+      Wellness: "from-emerald-500 to-teal-500",
+      Outcall: "from-violet-500 to-purple-500",
+      Incall: "from-sky-500 to-blue-500",
+      Always: "from-red-500 to-pink-500"
+    };
+    return colors[category] || "from-sweet-pink-500 to-light-red-500";
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
       {/* Hero Section */}
-      <section className="relative py-32 bg-gradient-to-br from-primary-600 via-accent-500 to-primary-700 text-white overflow-hidden">
+      <section className="relative py-32 bg-gradient-to-br from-sweet-pink-600 via-light-red-500 to-sweet-pink-700 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp">Our Services</h1>
-          <p className="text-xl md:text-2xl text-pink-100 max-w-3xl mx-auto animate-fadeInUp">
-            Comprehensive companion services tailored to your unique needs and preferences.
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp">Our Premium Services</h1>
+          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto animate-fadeInUp">
+            Discover our comprehensive range of luxury escort services designed for discerning clients in Surat
           </p>
         </div>
         
@@ -126,67 +70,78 @@ export default function Services() {
         <div className="absolute bottom-1/4 left-1/3 w-3 h-3 bg-white/30 rounded-full animate-pulse-slow" style={{animationDelay: '2s'}}></div>
       </section>
 
-      {/* Service Categories */}
-      <section className="py-16 bg-white">
+      {/* Service Cards Section */}
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Category Navigation */}
-          <div className="flex flex-wrap justify-center mb-12 border-b border-gray-200">
-            {serviceCategories.map((category) => (
-              <button
-                key={category.id}
-                onClick={() => setActiveCategory(category.id)}
-                className={`flex items-center space-x-2 px-6 py-4 font-semibold transition-all duration-300 ${
-                  activeCategory === category.id
-                    ? 'text-primary-600 border-b-2 border-primary-600 transform scale-105'
-                    : 'text-gray-600 hover:text-primary-500'
-                }`}
-              >
-                <span className="text-xl">{category.icon}</span>
-                <span>{category.name}</span>
-              </button>
-            ))}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-sweet-pink-600 to-light-red-600 bg-clip-text text-transparent mb-4">
+              Complete Service Portfolio
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Choose from our extensive collection of premium services, each designed to exceed your expectations
+            </p>
           </div>
 
-          {/* Services Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fadeInUp">
-            {services[activeCategory as keyof typeof services].map((service, index) => (
-              <div 
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+            {services.map((service, index) => (
+              <div
                 key={index}
-                className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border border-primary-100"
+                className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden"
               >
-                <h3 className="text-2xl font-bold gradient-text mb-4">{service.title}</h3>
-                <p className="text-gray-600 mb-6">{service.description}</p>
-                
-                <div className="mb-6">
-                  <h4 className="font-semibold text-gray-800 mb-3">Features:</h4>
-                  <ul className="space-y-2">
-                    {service.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-center">
-                        <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                        <span className="text-gray-700">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div className="border-t border-gray-200 pt-6">
-                  <div className="flex justify-between items-center mb-4">
-                    <div>
-                      <p className="text-sm text-gray-500">Duration</p>
-                      <p className="font-semibold text-gray-800">{service.duration}</p>
-                    </div>
-                    <div className="text-right">
-                      <p className="text-sm text-gray-500">Price</p>
-                      <p className="font-bold text-primary-600">{service.price}</p>
+                <div className="relative aspect-[4/5]">
+                  <div className={`absolute inset-0 bg-gradient-to-br ${getCategoryColor(service.category)}`}>
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="text-center text-white">
+                        <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
+                          <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"/>
+                          </svg>
+                        </div>
+                        <p className="text-sm font-medium">{service.category}</p>
+                      </div>
                     </div>
                   </div>
                   
-                  <Link 
-                    href="/contact"
-                    className="w-full bg-gradient-to-r from-primary-500 to-accent-600 text-white py-3 rounded-full font-semibold text-center hover-glow transition-all duration-300 transform hover:scale-105 block"
-                  >
-                    Book Now
-                  </Link>
+                  {/* Price Badge */}
+                  <div className="absolute top-3 right-3 bg-gradient-to-r from-sweet-pink-500 to-light-red-500 text-white px-3 py-1 rounded-full text-xs font-bold">
+                    {service.price}
+                  </div>
+                  
+                  {/* Category Badge */}
+                  <div className="absolute top-3 left-3 bg-white/90 text-gray-800 px-2 py-1 rounded-full text-xs font-medium">
+                    {service.category}
+                  </div>
+                  
+                  {/* Availability Badge */}
+                  <div className="absolute bottom-3 left-3 bg-green-500 text-white px-2 py-1 rounded-full text-xs font-medium">
+                    Available Now
+                  </div>
+                </div>
+                
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800 text-sm mb-2 group-hover:text-sweet-pink-600 transition-colors duration-200">
+                    {service.title}
+                  </h3>
+                  
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex items-center space-x-1">
+                      {[...Array(service.rating)].map((_, starIndex) => (
+                        <svg key={starIndex} className="w-3 h-3 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                          <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
+                        </svg>
+                      ))}
+                      <span className="text-xs text-gray-500 ml-1">({service.rating}.0)</span>
+                    </div>
+                  </div>
+                  
+                  <div className="flex space-x-2">
+                    <button className="flex-1 bg-gradient-to-r from-sweet-pink-500 to-light-red-500 text-white px-3 py-2 rounded-lg text-xs font-medium hover:from-sweet-pink-600 hover:to-light-red-600 transition-all duration-200">
+                      Book Now
+                    </button>
+                    <button className="px-3 py-2 border border-sweet-pink-300 text-sweet-pink-600 rounded-lg text-xs font-medium hover:bg-sweet-pink-50 transition-all duration-200">
+                      Details
+                    </button>
+                  </div>
                 </div>
               </div>
             ))}
@@ -195,10 +150,10 @@ export default function Services() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-gradient-to-br from-primary-50 via-white to-accent-50">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">Why Choose Our Services</h2>
+            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-sweet-pink-600 to-light-red-600 bg-clip-text text-transparent mb-4">Why Choose Our Services</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We set the standard for excellence in companion services with our unique approach and commitment to quality.
             </p>
@@ -229,7 +184,7 @@ export default function Services() {
             ].map((benefit, index) => (
               <div 
                 key={index}
-                className="bg-white rounded-2xl p-8 text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+                className="bg-gradient-to-br from-sweet-pink-50 to-light-red-50 rounded-2xl p-8 text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105"
               >
                 <div className="text-4xl mb-4">{benefit.icon}</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3">{benefit.title}</h3>
@@ -241,10 +196,10 @@ export default function Services() {
       </section>
 
       {/* Booking Process */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">Simple Booking Process</h2>
+            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-sweet-pink-600 to-light-red-600 bg-clip-text text-transparent mb-4">Simple Booking Process</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Our streamlined process ensures a hassle-free experience from inquiry to service delivery.
             </p>
@@ -278,7 +233,7 @@ export default function Services() {
               }
             ].map((step, index) => (
               <div key={index} className="text-center relative">
-                <div className="bg-gradient-to-br from-primary-500 to-accent-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                <div className="bg-gradient-to-br from-sweet-pink-500 to-light-red-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                   {step.step}
                 </div>
                 <div className="text-3xl mb-4">{step.icon}</div>
@@ -287,7 +242,7 @@ export default function Services() {
                 
                 {index < 3 && (
                   <div className="hidden md:block absolute top-8 left-full w-full">
-                    <div className="border-t-2 border-dashed border-primary-300 transform translate-x-4"></div>
+                    <div className="border-t-2 border-dashed border-sweet-pink-300 transform translate-x-4"></div>
                   </div>
                 )}
               </div>
@@ -297,22 +252,22 @@ export default function Services() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-gradient-to-r from-primary-500 to-accent-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-sweet-pink-500 to-light-red-600 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Book Your Service?</h2>
-          <p className="text-xl mb-8 text-pink-100">
+          <p className="text-xl mb-8 text-white/90">
             Contact us today to discuss your requirements and schedule your preferred service.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               href="/contact" 
-              className="bg-white text-primary-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-pink-50 hover-glow transition-all duration-300 transform hover:scale-105"
+              className="bg-white text-sweet-pink-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-50 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
               Contact Us
             </Link>
             <a 
               href="tel:+91XXXXXXXXX" 
-              className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-primary-600 transition-all duration-300 transform hover:scale-105"
+              className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-sweet-pink-600 transition-all duration-300 transform hover:scale-105"
             >
               Call Now
             </a>
