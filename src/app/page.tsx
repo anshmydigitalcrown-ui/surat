@@ -162,7 +162,7 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-sweet-pink-600 to-light-red-600 bg-clip-text text-transparent mb-6">
+            <h2 className="text-5xl md:text-6xl font-black text-black mb-6">
               Our Premium Services
             </h2>
             <p className="text-2xl md:text-3xl text-gray-700 max-w-4xl mx-auto mb-6 font-medium leading-relaxed">
@@ -175,74 +175,65 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", price: "₹15,000/hr" },
-              { title: "Social Events", image: "/images/services/Social Events.webp", price: "₹12,000/hr" },
-              { title: "Business Meetings", image: "/images/services/Business Meetings.webp", price: "₹18,000/hr" },
-              { title: "Travel Companion", image: "/images/services/Travel Companion.webp", price: "₹25,000/day" },
-              { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", price: "₹10,000/hr" },
-              { title: "Party Escort", image: "/images/services/Party Escort.webp", price: "₹14,000/hr" },
-              { title: "Private Model", image: "/images/services/Private Model.webp", price: "₹20,000/hr" },
-              { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", price: "₹8,000/hr" },
-              { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", price: "₹22,000/hr" },
-              { title: "College Girl", image: "/images/services/College Girl.webp", price: "₹9,000/hr" },
-              { title: "Housewife", image: "/images/services/Housewife.webp", price: "₹11,000/hr" },
-              { title: "Air Hostess", image: "/images/services/Air Hostess.webp", price: "₹16,000/hr" },
-              { title: "Russian Model", image: "/images/services/Russian Model.webp", price: "₹30,000/hr" },
-              { title: "Corporate Event", image: "/images/services/Corporate Event.webp", price: "₹19,000/hr" },
-              { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", price: "₹17,000/hr" },
-              { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", price: "₹13,000/hr" },
-              { title: "Outcall Service", image: "/images/services/Outcall Service.webp", price: "₹15,000/hr" },
-              { title: "In-call Service", image: "/images/services/In-call Service.webp", price: "₹10,000/hr" },
-              { title: "Weekend Special", image: "/images/services/Weekend Special.webp", price: "₹20,000/day" },
-              { title: "Special Service", image: "/images/services/Special Service.webp", price: "₹14,000/hr" }
+              { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp" },
+              { title: "Social Events", image: "/images/services/Social Events.webp" },
+              { title: "Business Meetings", image: "/images/services/Business Meetings.webp" },
+              { title: "Travel Companion", image: "/images/services/Travel Companion.webp" },
+              { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp" },
+              { title: "Party Escort", image: "/images/services/Party Escort.webp" },
+              { title: "Private Model", image: "/images/services/Private Model.webp" },
+              { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp" },
+              { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp" },
+              { title: "College Girl", image: "/images/services/College Girl.webp" },
+              { title: "Housewife", image: "/images/services/Housewife.webp" },
+              { title: "Air Hostess", image: "/images/services/Air Hostess.webp" },
+              { title: "Russian Model", image: "/images/services/Russian Model.webp" },
+              { title: "Corporate Event", image: "/images/services/Corporate Event.webp" },
+              { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp" },
+              { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp" },
+              { title: "Outcall Service", image: "/images/services/Outcall Service.webp" },
+              { title: "In-call Service", image: "/images/services/In-call Service.webp" },
+              { title: "Weekend Special", image: "/images/services/Weekend Special.webp" },
+              { title: "Special Service", image: "/images/services/Special Service.webp" }
             ].map((service, index) => (
               <div
                 key={index}
-                className="group bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-102 overflow-hidden border border-sweet-pink-100"
+                className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden border-2 border-pink-300"
               >
-                <div className="relative h-80 bg-gray-50">
+                <div className="relative h-80 bg-pink-50">
                   {/* Service Image */}
                   <Image 
                     src={service.image} 
                     alt={service.title} 
                     fill
-                    className="object-contain object-center p-2"
+                    className="object-contain object-center p-4"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                   
                   {/* Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-pink-200/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
                   
-                  {/* Price Badge */}
-                  <div className="absolute top-4 right-4 bg-gradient-to-r from-sweet-pink-500 to-light-red-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg">
-                    {service.price}
-                  </div>
-                  
-                  {/* Availability Badge */}
+                  {/* Available Badge */}
                   <div className="absolute top-4 left-4 bg-green-500 text-white px-3 py-2 rounded-full text-sm font-medium shadow-lg">
                     Available
                   </div>
                 </div>
                 
-                <div className="p-6">
-                  <h3 className="font-bold text-gray-800 text-lg mb-3 group-hover:text-sweet-pink-600 transition-colors duration-200">
+                <div className="p-6 bg-pink-50">
+                  <h3 className="font-black text-black text-xl mb-4">
                     {service.title}
                   </h3>
                   
-                  {/* Image Info */}
-                  <div className="mb-4 text-sm text-gray-600">
-                    <div className="flex justify-between items-center mb-2">
-                      <span className="font-medium">Container Size:</span>
-                      <span>320x320px</span>
-                    </div>
-                    <div className="text-xs bg-gray-100 p-2 rounded-lg break-all">
-                      <span className="font-medium">Image:</span> {service.image.split('/').pop()}
-                    </div>
-                  </div>
-                  
-                  <div className="flex justify-center">
-                    <button className="bg-gradient-to-r from-blue-500 via-red-400 to-pink-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:from-blue-600 hover:via-red-500 hover:to-pink-600 transition-all duration-200 shadow-lg">
+                  {/* Buttons with different colors */}
+                  <div className="space-y-3">
+                    <button className="w-full bg-blue-500 hover:bg-blue-600 text-white px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200 shadow-lg">
+                      {service.image.split('/').pop()?.replace('.webp', '')}
+                    </button>
+                    <button className="w-full bg-pink-500 hover:bg-pink-600 text-white px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200 shadow-lg">
                       Book Now
+                    </button>
+                    <button className="w-full bg-red-500 hover:bg-red-600 text-white px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200 shadow-lg">
+                      View Details
                     </button>
                   </div>
                 </div>

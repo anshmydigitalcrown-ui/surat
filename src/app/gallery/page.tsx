@@ -7,26 +7,26 @@ export default function Gallery() {
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   const services = [
-    { title: "VIP Companionship", image: "/images/gallery/VIP Companionship.webp", category: "Premium", rating: 5 },
-    { title: "Social Events", image: "/images/gallery/Social Events.webp", category: "Social", rating: 5 },
-    { title: "Business Meetings", image: "/images/gallery/Business Meetings.webp", category: "Business", rating: 5 },
-    { title: "Travel Companion", image: "/images/gallery/Travel Companion.webp", category: "Travel", rating: 5 },
-    { title: "Dinner Dates", image: "/images/gallery/Dinner Dates.webp", category: "Social", rating: 5 },
-    { title: "Party Escort", image: "/images/gallery/Party Escort.webp", category: "Entertainment", rating: 5 },
-    { title: "Private Model", image: "/images/gallery/Private Model.webp", category: "Premium", rating: 5 },
-    { title: "Hotel Escort", image: "/images/gallery/Hotel Escort.webp", category: "Standard", rating: 4 },
-    { title: "Celebrity Look-alike", image: "/images/gallery/Celebrity Look-alike.webp", category: "Premium", rating: 5 },
-    { title: "College Girl", image: "/images/gallery/College Girl.webp", category: "Young", rating: 4 },
-    { title: "Housewife", image: "/images/gallery/Housewife.webp", category: "Mature", rating: 4 },
-    { title: "Air Hostess", image: "/images/gallery/Air Hostess.webp", category: "Professional", rating: 5 },
-    { title: "Russian Model", image: "/images/gallery/Russian Model.webp", category: "International", rating: 5 },
-    { title: "Corporate Event", image: "/images/gallery/Corporate Event.webp", category: "Business", rating: 5 },
-    { title: "Wedding Escort", image: "/images/gallery/Wedding Escort.webp", category: "Special", rating: 5 },
-    { title: "Premium Call Girl", image: "/images/gallery/Premium Call Girl.webp", category: "Premium", rating: 5 },
-    { title: "Outcall Service", image: "/images/gallery/Outcall Service.webp", category: "Outcall", rating: 5 },
-    { title: "In-call Service", image: "/images/gallery/In-call Service.webp", category: "Incall", rating: 4 },
-    { title: "Weekend Special", image: "/images/gallery/Weekend Special.webp", category: "Special", rating: 5 },
-    { title: "Special Service", image: "/images/gallery/Special Service.webp", category: "Premium", rating: 5 }
+    { title: "VIP Companionship", image: "/images/gallery/VIP Companionship.webp", category: "Premium" },
+    { title: "Social Events", image: "/images/gallery/Social Events.webp", category: "Social" },
+    { title: "Business Meetings", image: "/images/gallery/Business Meetings.webp", category: "Business" },
+    { title: "Travel Companion", image: "/images/gallery/Travel Companion.webp", category: "Travel" },
+    { title: "Dinner Dates", image: "/images/gallery/Dinner Dates.webp", category: "Social" },
+    { title: "Party Escort", image: "/images/gallery/Party Escort.webp", category: "Entertainment" },
+    { title: "Private Model", image: "/images/gallery/Private Model.webp", category: "Premium" },
+    { title: "Hotel Escort", image: "/images/gallery/Hotel Escort.webp", category: "Standard" },
+    { title: "Celebrity Look-alike", image: "/images/gallery/Celebrity Look-alike.webp", category: "Premium" },
+    { title: "College Girl", image: "/images/gallery/College Girl.webp", category: "Young" },
+    { title: "Housewife", image: "/images/gallery/Housewife.webp", category: "Mature" },
+    { title: "Air Hostess", image: "/images/gallery/Air Hostess.webp", category: "Professional" },
+    { title: "Russian Model", image: "/images/gallery/Russian Model.webp", category: "International" },
+    { title: "Corporate Event", image: "/images/gallery/Corporate Event.webp", category: "Business" },
+    { title: "Wedding Escort", image: "/images/gallery/Wedding Escort.webp", category: "Special" },
+    { title: "Premium Call Girl", image: "/images/gallery/Premium Call Girl.webp", category: "Premium" },
+    { title: "Outcall Service", image: "/images/gallery/Outcall Service.webp", category: "Outcall" },
+    { title: "In-call Service", image: "/images/gallery/In-call Service.webp", category: "Incall" },
+    { title: "Weekend Special", image: "/images/gallery/Weekend Special.webp", category: "Special" },
+    { title: "Special Service", image: "/images/gallery/Special Service.webp", category: "Premium" }
   ];
 
   const categories = [
@@ -86,7 +86,7 @@ export default function Gallery() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-sweet-pink-600 to-light-red-600 bg-clip-text text-transparent mb-6">
+            <h2 className="text-5xl md:text-6xl font-black text-black mb-6">
               {selectedCategory === 'all' ? 'Complete Gallery' : `${selectedCategory} Services`}
             </h2>
             <p className="text-2xl md:text-3xl text-gray-700 max-w-4xl mx-auto mb-6 font-medium leading-relaxed">
@@ -101,19 +101,19 @@ export default function Gallery() {
             {filteredServices.map((service, index) => (
               <div
                 key={index}
-                className="group bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-102 overflow-hidden border border-sweet-pink-100"
+                className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden border-2 border-pink-300"
               >
                 {/* Service Image */}
-                <div className="h-80 relative bg-gray-50">
+                <div className="h-80 relative bg-pink-50">
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-contain object-center p-2"
+                    className="object-contain object-center p-4"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                   {/* Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-pink-200/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
                   
                   {/* Category Badge */}
                   <div className="absolute top-4 left-4 bg-white/90 text-gray-800 px-3 py-2 rounded-full text-sm font-bold shadow-lg">
@@ -126,27 +126,20 @@ export default function Gallery() {
                   </div>
                 </div>
                 
-                <div className="p-6">
-                  <h3 className="font-bold text-gray-800 text-lg mb-3 group-hover:text-sweet-pink-600 transition-colors duration-200">
+                <div className="p-6 bg-pink-50">
+                  <h3 className="font-black text-black text-xl mb-4">
                     {service.title}
                   </h3>
                   
-                  {/* Image Info */}
-                  <div className="mb-4 text-sm text-gray-600">
-                    <div className="flex justify-between items-center mb-2">
-                      <span className="font-medium">Container Size:</span>
-                      <span>320x320px</span>
-                    </div>
-                    <div className="text-xs bg-gray-100 p-2 rounded-lg break-all">
-                      <span className="font-medium">Image:</span> {service.image.split('/').pop()}
-                    </div>
-                  </div>
-                  
-                  <div className="flex space-x-2">
-                    <button className="flex-1 bg-gradient-to-r from-blue-500 via-red-400 to-pink-500 text-white px-4 py-2 rounded-lg text-sm font-medium hover:from-blue-600 hover:via-red-500 hover:to-pink-600 transition-all duration-200 shadow-lg">
+                  {/* Buttons with different colors */}
+                  <div className="space-y-3">
+                    <button className="w-full bg-blue-500 hover:bg-blue-600 text-white px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200 shadow-lg">
+                      {service.image.split('/').pop()?.replace('.webp', '')}
+                    </button>
+                    <button className="w-full bg-pink-500 hover:bg-pink-600 text-white px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200 shadow-lg">
                       View Details
                     </button>
-                    <button className="px-4 py-2 border border-pink-300 text-pink-600 rounded-lg text-sm font-medium hover:bg-pink-50 transition-all duration-200 shadow-lg">
+                    <button className="w-full bg-red-500 hover:bg-red-600 text-white px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200 shadow-lg">
                       Book
                     </button>
                   </div>
