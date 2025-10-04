@@ -210,7 +210,7 @@ export default function Home() {
                   {/* Enhanced Gradient Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   
-                  {/* Price Badge - Larger */}
+                  {/* Price Badge - Enhanced */}
                   <div className="absolute top-4 left-4">
                     <span className={`px-4 py-2 rounded-full text-sm font-bold text-white shadow-xl ${
                       service.price === 'Luxury' ? 'bg-gradient-to-r from-purple-500 to-purple-700' :
@@ -795,71 +795,71 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-20 bg-gradient-to-br from-pink-50 via-pink-25 to-purple-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-4">
+      {/* FAQ Section - Enhanced Size & UI/UX */}
+      <section className="py-24 bg-gradient-to-br from-pink-50 via-pink-25 to-purple-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-20">
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 bg-clip-text text-transparent mb-6">
               Frequently Asked Questions
             </h2>
-            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
               Common questions about our premium escort services and professional companions
             </p>
           </div>
 
-          {/* FAQ Grid - 2 Columns */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* FAQ Grid - Enhanced 2 Columns with Larger Cards */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Left Column */}
-            <div className="space-y-4">
-              {/* FAQ Item 1 */}
-              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
-                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
-                  <h3 className="text-lg font-bold text-pink-800">Are your services available 24/7?</h3>
-                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            <div className="space-y-6">
+              {/* FAQ Item 1 - Enhanced */}
+              <details className="group bg-gradient-to-br from-pink-100 via-pink-50 to-white rounded-3xl border-2 border-pink-300 overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
+                <summary className="flex items-center justify-between p-8 cursor-pointer hover:bg-gradient-to-r hover:from-pink-200 hover:to-pink-100 transition-all duration-300">
+                  <h3 className="text-xl md:text-2xl font-bold text-pink-800 pr-4">Are your services available 24/7?</h3>
+                  <svg className="w-8 h-8 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-6 pb-6 text-gray-700">
-                  <p>Yes, our premium escort services are available 24/7. We provide round-the-clock assistance to ensure you can book our services at any time that suits your schedule.</p>
+                <div className="px-8 pb-8 text-gray-700">
+                  <p className="text-lg leading-relaxed">Yes, our premium escort services are available 24/7. We provide round-the-clock assistance to ensure you can book our services at any time that suits your schedule.</p>
                 </div>
               </details>
 
-              {/* FAQ Item 2 */}
-              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
-                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
-                  <h3 className="text-lg font-bold text-pink-800">How do I make a booking?</h3>
-                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              {/* FAQ Item 2 - Enhanced */}
+              <details className="group bg-gradient-to-br from-pink-100 via-pink-50 to-white rounded-3xl border-2 border-pink-300 overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
+                <summary className="flex items-center justify-between p-8 cursor-pointer hover:bg-gradient-to-r hover:from-pink-200 hover:to-pink-100 transition-all duration-300">
+                  <h3 className="text-xl md:text-2xl font-bold text-pink-800 pr-4">How do I make a booking?</h3>
+                  <svg className="w-8 h-8 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-6 pb-6 text-gray-700">
-                  <p>You can make a booking by calling us directly, sending a WhatsApp message, or filling out our contact form. Our team will respond promptly to confirm your booking details.</p>
+                <div className="px-8 pb-8 text-gray-700">
+                  <p className="text-lg leading-relaxed">You can make a booking by calling us directly, sending a WhatsApp message, or filling out our contact form. Our team will respond promptly to confirm your booking details.</p>
                 </div>
               </details>
 
-              {/* FAQ Item 3 */}
-              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
-                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
-                  <h3 className="text-lg font-bold text-pink-800">What types of services do you offer?</h3>
-                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              {/* FAQ Item 3 - Enhanced */}
+              <details className="group bg-gradient-to-br from-pink-100 via-pink-50 to-white rounded-3xl border-2 border-pink-300 overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
+                <summary className="flex items-center justify-between p-8 cursor-pointer hover:bg-gradient-to-r hover:from-pink-200 hover:to-pink-100 transition-all duration-300">
+                  <h3 className="text-xl md:text-2xl font-bold text-pink-800 pr-4">What types of services do you offer?</h3>
+                  <svg className="w-8 h-8 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-6 pb-6 text-gray-700">
-                  <p>We offer a wide range of premium companion services including social events, business meetings, dinner dates, and travel companionship. All services are provided with complete professionalism.</p>
+                <div className="px-8 pb-8 text-gray-700">
+                  <p className="text-lg leading-relaxed">We offer a wide range of premium companion services including social events, business meetings, dinner dates, and travel companionship. All services are provided with complete professionalism.</p>
                 </div>
               </details>
 
-              {/* FAQ Item 4 */}
-              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
-                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
-                  <h3 className="text-lg font-bold text-pink-800">What are your service charges?</h3>
-                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              {/* FAQ Item 4 - Enhanced */}
+              <details className="group bg-gradient-to-br from-pink-100 via-pink-50 to-white rounded-3xl border-2 border-pink-300 overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
+                <summary className="flex items-center justify-between p-8 cursor-pointer hover:bg-gradient-to-r hover:from-pink-200 hover:to-pink-100 transition-all duration-300">
+                  <h3 className="text-xl md:text-2xl font-bold text-pink-800 pr-4">What are your service charges?</h3>
+                  <svg className="w-8 h-8 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-6 pb-6 text-gray-700">
-                  <p>Our service charges vary based on the type of service, duration, and specific requirements. Please contact us directly for detailed pricing information and package options.</p>
+                <div className="px-8 pb-8 text-gray-700">
+                  <p className="text-lg leading-relaxed">Our service charges vary based on the type of service, duration, and specific requirements. Please contact us directly for detailed pricing information and package options.</p>
                 </div>
               </details>
             </div>
