@@ -165,11 +165,8 @@ export default function Home() {
             <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
               Premium Escorts In Surat - Our Services
             </h2>
-            <p className="text-2xl md:text-3xl text-gray-700 max-w-4xl mx-auto mb-6 font-medium leading-relaxed">
-              Discover our comprehensive range of luxury escort services designed for discerning clients
-            </p>
-            <p className="text-xl md:text-2xl text-gray-600 max-w-5xl mx-auto leading-relaxed">
-              Experience unmatched elegance and sophistication with our carefully curated collection of premium services. Each offering is tailored to provide exceptional quality and memorable experiences that exceed your highest expectations.
+            <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Professional Call Girls & VIP Companions Available 24/7
             </p>
           </div>
 

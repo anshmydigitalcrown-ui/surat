@@ -89,11 +89,8 @@ export default function Gallery() {
             <h2 className="text-5xl md:text-6xl font-black text-black mb-6">
               {selectedCategory === 'all' ? 'Complete Gallery' : `${selectedCategory} Services`}
             </h2>
-            <p className="text-2xl md:text-3xl text-gray-700 max-w-4xl mx-auto mb-6 font-medium leading-relaxed">
-              {filteredServices.length} premium services available for your selection
-            </p>
-            <p className="text-xl md:text-2xl text-gray-600 max-w-5xl mx-auto leading-relaxed">
-              Browse through our carefully curated gallery showcasing the finest selection of professional services. Each image represents our commitment to excellence and quality.
+            <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Professional Call Girls & VIP Companions Available 24/7
             </p>
           </div>
 

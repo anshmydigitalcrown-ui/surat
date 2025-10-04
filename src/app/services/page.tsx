@@ -52,11 +52,8 @@ export default function Services() {
             <h2 className="text-5xl md:text-6xl font-black text-black mb-6">
               Complete Service Portfolio
             </h2>
-            <p className="text-2xl md:text-3xl text-gray-700 max-w-4xl mx-auto mb-6 font-medium leading-relaxed">
-              Choose from our extensive collection of premium services, each designed to exceed your expectations
-            </p>
-            <p className="text-xl md:text-2xl text-gray-600 max-w-5xl mx-auto leading-relaxed">
-              Our professional team delivers exceptional service quality with attention to every detail. Discover the perfect match for your preferences from our diverse range of premium offerings.
+            <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Professional Call Girls & VIP Companions Available 24/7
             </p>
           </div>
 
