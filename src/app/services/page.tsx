@@ -330,7 +330,7 @@ export default function Services() {
               <p className="text-gray-600 italic leading-relaxed mb-6">
                 &ldquo;Professional, discrete, and exactly what I was looking for. The booking process was simple and the service exceeded expectations.&rdquo;
               </p>
-              <p className="text-pink-600 font-bold">- VIP Client, Vijay Nagar</p>
+              <p className="text-pink-600 font-bold">- VIP Client, Varachha</p>
             </div>
 
             {/* Highly Recommend */}
@@ -348,7 +348,7 @@ export default function Services() {
               <p className="text-gray-600 italic leading-relaxed mb-6">
                 &ldquo;Outstanding companions and excellent customer service. Very professional team that maintains complete privacy and confidentiality.&rdquo;
               </p>
-              <p className="text-blue-600 font-bold">- Regular Client, AB Road</p>
+              <p className="text-blue-600 font-bold">- Regular Client, Adajan</p>
             </div>
 
             {/* Premium Quality */}
@@ -366,7 +366,7 @@ export default function Services() {
               <p className="text-gray-600 italic leading-relaxed mb-6">
                 &ldquo;Top-notch service with beautiful and intelligent companions. The 24/7 availability and quick response time is impressive.&rdquo;
               </p>
-              <p className="text-orange-600 font-bold">- Business Client, Palasia</p>
+              <p className="text-orange-600 font-bold">- Business Client, Vesu</p>
             </div>
           </div>
         </div>
