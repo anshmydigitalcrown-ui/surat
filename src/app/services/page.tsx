@@ -1,56 +1,35 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Services() {
   const services = [
-    { title: "VIP Companionship", image: "/images/services/vip-companion.jpg", price: "₹15,000/hr", category: "Premium", rating: 5 },
-    { title: "Social Events", image: "/images/services/social-events.jpg", price: "₹12,000/hr", category: "Social", rating: 5 },
-    { title: "Business Meetings", image: "/images/services/business.jpg", price: "₹18,000/hr", category: "Business", rating: 5 },
-    { title: "Travel Companion", image: "/images/services/travel.jpg", price: "₹25,000/day", category: "Travel", rating: 5 },
-    { title: "Dinner Dates", image: "/images/services/dinner.jpg", price: "₹10,000/hr", category: "Social", rating: 5 },
-    { title: "Party Escort", image: "/images/services/party.jpg", price: "₹14,000/hr", category: "Entertainment", rating: 5 },
-    { title: "Private Model", image: "/images/services/model.jpg", price: "₹20,000/hr", category: "Premium", rating: 5 },
-    { title: "Hotel Escort", image: "/images/services/hotel.jpg", price: "₹8,000/hr", category: "Standard", rating: 4 },
-    { title: "Celebrity Look-alike", image: "/images/services/celebrity.jpg", price: "₹22,000/hr", category: "Premium", rating: 5 },
-    { title: "College Girl", image: "/images/services/college.jpg", price: "₹9,000/hr", category: "Young", rating: 4 },
-    { title: "Housewife", image: "/images/services/housewife.jpg", price: "₹11,000/hr", category: "Mature", rating: 4 },
-    { title: "Air Hostess", image: "/images/services/airhostess.jpg", price: "₹16,000/hr", category: "Professional", rating: 5 },
-    { title: "Russian Model", image: "/images/services/russian.jpg", price: "₹30,000/hr", category: "International", rating: 5 },
-    { title: "Corporate Event", image: "/images/services/corporate.jpg", price: "₹19,000/hr", category: "Business", rating: 5 },
-    { title: "Wedding Escort", image: "/images/services/wedding.jpg", price: "₹17,000/hr", category: "Special", rating: 5 },
-    { title: "Premium Call Girl", image: "/images/services/premium.jpg", price: "₹13,000/hr", category: "Premium", rating: 5 },
-    { title: "Independent", image: "/images/services/independent.jpg", price: "₹12,000/hr", category: "Independent", rating: 4 },
-    { title: "High Profile", image: "/images/services/high-profile.jpg", price: "₹35,000/hr", category: "Elite", rating: 5 },
-    { title: "Massage Service", image: "/images/services/massage.jpg", price: "₹7,000/hr", category: "Wellness", rating: 4 },
-    { title: "Outcall Service", image: "/images/services/outcall.jpg", price: "₹15,000/hr", category: "Outcall", rating: 5 },
-    { title: "In-call Service", image: "/images/services/incall.jpg", price: "₹10,000/hr", category: "Incall", rating: 4 },
-    { title: "Weekend Special", image: "/images/services/weekend.jpg", price: "₹20,000/day", category: "Special", rating: 5 },
-    { title: "24/7 Available", image: "/images/services/24-7.jpg", price: "₹12,000/hr", category: "Always", rating: 5 }
+    { title: "VIP Companionship", image: "/images/services/0a20e49ae8e5c1e434883d78060d899f.webp", price: "₹15,000/hr", category: "Premium", rating: 5 },
+    { title: "Social Events", image: "/images/services/126d43d48bee88fc5a017727b8a72014.webp", price: "₹12,000/hr", category: "Social", rating: 5 },
+    { title: "Business Meetings", image: "/images/services/147dbdc5427bd3a11d9e25e07d9f4946.webp", price: "₹18,000/hr", category: "Business", rating: 5 },
+    { title: "Travel Companion", image: "/images/services/17911c1f21775f2eb0efdf3042b357e9.webp", price: "₹25,000/day", category: "Travel", rating: 5 },
+    { title: "Dinner Dates", image: "/images/services/1d03177c6a9121224f554f86eea6561f.webp", price: "₹10,000/hr", category: "Social", rating: 5 },
+    { title: "Party Escort", image: "/images/services/2386653014fbf30a7d46eb5655ea6898.webp", price: "₹14,000/hr", category: "Entertainment", rating: 5 },
+    { title: "Private Model", image: "/images/services/30df14b020334832be7512dec3f06c4b.webp", price: "₹20,000/hr", category: "Premium", rating: 5 },
+    { title: "Hotel Escort", image: "/images/services/370287632d7ba5c61bf52b7ea2212f8d.webp", price: "₹8,000/hr", category: "Standard", rating: 4 },
+    { title: "Celebrity Look-alike", image: "/images/services/45e43dc8762a49f7e32fec09f46c4beb (1).webp", price: "₹22,000/hr", category: "Premium", rating: 5 },
+    { title: "College Girl", image: "/images/services/4ca5679430a6cb5fb444e8b5ba88a5c2.webp", price: "₹9,000/hr", category: "Young", rating: 4 },
+    { title: "Housewife", image: "/images/services/50fa4974d71fae7cb6aa6beeabf23aff.webp", price: "₹11,000/hr", category: "Mature", rating: 4 },
+    { title: "Air Hostess", image: "/images/services/520f8cc23be016013e09dd18f7ca2ff8.webp", price: "₹16,000/hr", category: "Professional", rating: 5 },
+    { title: "Russian Model", image: "/images/services/68968a4787acc7d223d5f39d6af50fa7.webp", price: "₹30,000/hr", category: "International", rating: 5 },
+    { title: "Corporate Event", image: "/images/services/73f131c170a6c3b3c69e0740b045de2e.webp", price: "₹19,000/hr", category: "Business", rating: 5 },
+    { title: "Wedding Escort", image: "/images/services/8bbc046f619ed3007b7c5325809a6fd1.webp", price: "₹17,000/hr", category: "Special", rating: 5 },
+    { title: "Premium Call Girl", image: "/images/services/8bf807d95f77baca1a5d9e72e1ef44f5.webp", price: "₹13,000/hr", category: "Premium", rating: 5 },
+    { title: "Independent", image: "/images/services/909c82445d71d59a58ca574da8309883.webp", price: "₹12,000/hr", category: "Independent", rating: 4 },
+    { title: "High Profile", image: "/images/services/bc5368c8af5984c25c38a4e15db52749.webp", price: "₹35,000/hr", category: "Elite", rating: 5 },
+    { title: "Massage Service", image: "/images/services/d27db602cbde448ca76765ba688d5c11.webp", price: "₹7,000/hr", category: "Wellness", rating: 4 },
+    { title: "Outcall Service", image: "/images/services/d924afd90a7aa9e4e2ae4b720a687b66.webp", price: "₹15,000/hr", category: "Outcall", rating: 5 },
+    { title: "In-call Service", image: "/images/services/db0819ebec732befe549e66887ee5069.webp", price: "₹10,000/hr", category: "Incall", rating: 4 },
+    { title: "Weekend Special", image: "/images/services/e561da040eab9be77db2e99451ef0d79.webp", price: "₹20,000/day", category: "Special", rating: 5 },
+    { title: "24/7 Available", image: "/images/services/eb6f5ed0106779f0081f58fb20e41001.webp", price: "₹12,000/hr", category: "Always", rating: 5 },
+    { title: "Special Service", image: "/images/services/f0f35e374ec067f5c6c933c57c831fbc.webp", price: "₹14,000/hr", category: "Premium", rating: 5 }
   ];
-
-  const getCategoryColor = (category: string) => {
-    const colors: { [key: string]: string } = {
-      Premium: "from-sweet-pink-500 to-light-red-500",
-      Elite: "from-purple-500 to-pink-500",
-      International: "from-blue-500 to-purple-500",
-      Business: "from-gray-500 to-blue-500",
-      Social: "from-green-500 to-teal-500",
-      Entertainment: "from-orange-500 to-red-500",
-      Professional: "from-indigo-500 to-purple-500",
-      Travel: "from-cyan-500 to-blue-500",
-      Special: "from-pink-500 to-rose-500",
-      Standard: "from-gray-400 to-gray-500",
-      Young: "from-pink-400 to-rose-400",
-      Mature: "from-amber-500 to-orange-500",
-      Independent: "from-teal-500 to-green-500",
-      Wellness: "from-emerald-500 to-teal-500",
-      Outcall: "from-violet-500 to-purple-500",
-      Incall: "from-sky-500 to-blue-500",
-      Always: "from-red-500 to-pink-500"
-    };
-    return colors[category] || "from-sweet-pink-500 to-light-red-500";
-  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
@@ -89,18 +68,14 @@ export default function Services() {
                 className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden"
               >
                 <div className="relative aspect-[4/5]">
-                  <div className={`absolute inset-0 bg-gradient-to-br ${getCategoryColor(service.category)}`}>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="text-center text-white">
-                        <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                          <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"/>
-                          </svg>
-                        </div>
-                        <p className="text-sm font-medium">{service.category}</p>
-                      </div>
-                    </div>
-                  </div>
+                  <Image
+                    src={service.image}
+                    alt={service.title}
+                    fill
+                    className="object-cover object-center transition-transform duration-300 group-hover:scale-110"
+                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 25vw, 20vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   
                   {/* Price Badge */}
                   <div className="absolute top-3 right-3 bg-gradient-to-r from-sweet-pink-500 to-light-red-500 text-white px-3 py-1 rounded-full text-xs font-bold">

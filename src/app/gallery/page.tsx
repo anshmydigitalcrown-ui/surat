@@ -1,34 +1,36 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Gallery() {
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   const services = [
-    { title: "VIP Companionship", image: "/images/gallery/vip-companion.jpg", category: "Premium", rating: 5 },
-    { title: "Social Events", image: "/images/gallery/social-events.jpg", category: "Social", rating: 5 },
-    { title: "Business Meetings", image: "/images/gallery/business.jpg", category: "Business", rating: 5 },
-    { title: "Travel Companion", image: "/images/gallery/travel.jpg", category: "Travel", rating: 5 },
-    { title: "Dinner Dates", image: "/images/gallery/dinner.jpg", category: "Social", rating: 5 },
-    { title: "Party Escort", image: "/images/gallery/party.jpg", category: "Entertainment", rating: 5 },
-    { title: "Private Model", image: "/images/gallery/model.jpg", category: "Premium", rating: 5 },
-    { title: "Hotel Escort", image: "/images/gallery/hotel.jpg", category: "Standard", rating: 4 },
-    { title: "Celebrity Look-alike", image: "/images/gallery/celebrity.jpg", category: "Premium", rating: 5 },
-    { title: "College Girl", image: "/images/gallery/college.jpg", category: "Young", rating: 4 },
-    { title: "Housewife", image: "/images/gallery/housewife.jpg", category: "Mature", rating: 4 },
-    { title: "Air Hostess", image: "/images/gallery/airhostess.jpg", category: "Professional", rating: 5 },
-    { title: "Russian Model", image: "/images/gallery/russian.jpg", category: "International", rating: 5 },
-    { title: "Corporate Event", image: "/images/gallery/corporate.jpg", category: "Business", rating: 5 },
-    { title: "Wedding Escort", image: "/images/gallery/wedding.jpg", category: "Special", rating: 5 },
-    { title: "Premium Call Girl", image: "/images/gallery/premium.jpg", category: "Premium", rating: 5 },
-    { title: "Independent", image: "/images/gallery/independent.jpg", category: "Independent", rating: 4 },
-    { title: "High Profile", image: "/images/gallery/high-profile.jpg", category: "Elite", rating: 5 },
-    { title: "Massage Service", image: "/images/gallery/massage.jpg", category: "Wellness", rating: 4 },
-    { title: "Outcall Service", image: "/images/gallery/outcall.jpg", category: "Outcall", rating: 5 },
-    { title: "In-call Service", image: "/images/gallery/incall.jpg", category: "Incall", rating: 4 },
-    { title: "Weekend Special", image: "/images/gallery/weekend.jpg", category: "Special", rating: 5 },
-    { title: "24/7 Available", image: "/images/gallery/24-7.jpg", category: "Always", rating: 5 }
+    { title: "VIP Companionship", image: "/images/gallery/0a20e49ae8e5c1e434883d78060d899f.webp", category: "Premium", rating: 5 },
+    { title: "Social Events", image: "/images/gallery/126d43d48bee88fc5a017727b8a72014.webp", category: "Social", rating: 5 },
+    { title: "Business Meetings", image: "/images/gallery/147dbdc5427bd3a11d9e25e07d9f4946.webp", category: "Business", rating: 5 },
+    { title: "Travel Companion", image: "/images/gallery/17911c1f21775f2eb0efdf3042b357e9.webp", category: "Travel", rating: 5 },
+    { title: "Dinner Dates", image: "/images/gallery/1d03177c6a9121224f554f86eea6561f.webp", category: "Social", rating: 5 },
+    { title: "Party Escort", image: "/images/gallery/2386653014fbf30a7d46eb5655ea6898.webp", category: "Entertainment", rating: 5 },
+    { title: "Private Model", image: "/images/gallery/30df14b020334832be7512dec3f06c4b.webp", category: "Premium", rating: 5 },
+    { title: "Hotel Escort", image: "/images/gallery/370287632d7ba5c61bf52b7ea2212f8d.webp", category: "Standard", rating: 4 },
+    { title: "Celebrity Look-alike", image: "/images/gallery/45e43dc8762a49f7e32fec09f46c4beb (1).webp", category: "Premium", rating: 5 },
+    { title: "College Girl", image: "/images/gallery/4ca5679430a6cb5fb444e8b5ba88a5c2.webp", category: "Young", rating: 4 },
+    { title: "Housewife", image: "/images/gallery/50fa4974d71fae7cb6aa6beeabf23aff.webp", category: "Mature", rating: 4 },
+    { title: "Air Hostess", image: "/images/gallery/520f8cc23be016013e09dd18f7ca2ff8.webp", category: "Professional", rating: 5 },
+    { title: "Russian Model", image: "/images/gallery/68968a4787acc7d223d5f39d6af50fa7.webp", category: "International", rating: 5 },
+    { title: "Corporate Event", image: "/images/gallery/73f131c170a6c3b3c69e0740b045de2e.webp", category: "Business", rating: 5 },
+    { title: "Wedding Escort", image: "/images/gallery/8bbc046f619ed3007b7c5325809a6fd1.webp", category: "Special", rating: 5 },
+    { title: "Premium Call Girl", image: "/images/gallery/8bf807d95f77baca1a5d9e72e1ef44f5.webp", category: "Premium", rating: 5 },
+    { title: "Independent", image: "/images/gallery/909c82445d71d59a58ca574da8309883.webp", category: "Independent", rating: 4 },
+    { title: "High Profile", image: "/images/gallery/bc5368c8af5984c25c38a4e15db52749.webp", category: "Elite", rating: 5 },
+    { title: "Massage Service", image: "/images/gallery/d27db602cbde448ca76765ba688d5c11.webp", category: "Wellness", rating: 4 },
+    { title: "Outcall Service", image: "/images/gallery/d924afd90a7aa9e4e2ae4b720a687b66.webp", category: "Outcall", rating: 5 },
+    { title: "In-call Service", image: "/images/gallery/db0819ebec732befe549e66887ee5069.webp", category: "Incall", rating: 4 },
+    { title: "Weekend Special", image: "/images/gallery/e561da040eab9be77db2e99451ef0d79.webp", category: "Special", rating: 5 },
+    { title: "24/7 Available", image: "/images/gallery/eb6f5ed0106779f0081f58fb20e41001.webp", category: "Always", rating: 5 },
+    { title: "Special Service", image: "/images/gallery/f0f35e374ec067f5c6c933c57c831fbc.webp", category: "Premium", rating: 5 }
   ];
 
   const categories = [
@@ -43,29 +45,6 @@ export default function Gallery() {
   const filteredServices = selectedCategory === 'all' 
     ? services 
     : services.filter(service => service.category === selectedCategory);
-
-  const getCategoryGradient = (category: string) => {
-    const gradients: { [key: string]: string } = {
-      Premium: "from-sweet-pink-400 via-light-red-400 to-sweet-pink-500",
-      Elite: "from-purple-400 via-pink-400 to-purple-500",
-      International: "from-blue-400 via-purple-400 to-blue-500",
-      Business: "from-gray-400 via-blue-400 to-gray-500",
-      Social: "from-green-400 via-teal-400 to-green-500",
-      Entertainment: "from-orange-400 via-red-400 to-orange-500",
-      Professional: "from-indigo-400 via-purple-400 to-indigo-500",
-      Travel: "from-cyan-400 via-blue-400 to-cyan-500",
-      Special: "from-pink-400 via-rose-400 to-pink-500",
-      Standard: "from-gray-400 via-gray-500 to-gray-400",
-      Young: "from-pink-300 via-rose-300 to-pink-400",
-      Mature: "from-amber-400 via-orange-400 to-amber-500",
-      Independent: "from-teal-400 via-green-400 to-teal-500",
-      Wellness: "from-emerald-400 via-teal-400 to-emerald-500",
-      Outcall: "from-violet-400 via-purple-400 to-violet-500",
-      Incall: "from-sky-400 via-blue-400 to-sky-500",
-      Always: "from-red-400 via-pink-400 to-red-500"
-    };
-    return gradients[category] || "from-sweet-pink-400 via-light-red-400 to-sweet-pink-500";
-  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
@@ -125,8 +104,15 @@ export default function Gallery() {
                 key={index}
                 className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105"
               >
-                {/* Service Image/Gradient */}
-                <div className={`bg-gradient-to-br ${getCategoryGradient(service.category)} h-80 relative`}>
+                {/* Service Image */}
+                <div className="h-80 relative">
+                  <Image
+                    src={service.image}
+                    alt={service.title}
+                    fill
+                    className="object-cover object-center"
+                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 25vw, 20vw"
+                  />
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
                   
