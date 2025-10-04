@@ -17,12 +17,12 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-sweet-pink-400 to-light-red-500 rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-br from-red-600 to-red-800 rounded-lg flex items-center justify-center shadow-lg">
                 <span className="text-white font-bold text-xl">RK</span>
               </div>
               <div>
-                <h1 className="text-2xl font-bold gradient-text">RashmiKapoor</h1>
-                <p className="text-sm text-sweet-pink-600">Premium Escort Service</p>
+                <h1 className="text-2xl font-bold bg-gradient-to-r from-red-700 to-red-900 bg-clip-text text-transparent">RashmiKapoor</h1>
+                <p className="text-sm text-red-700">Premium Escort Service</p>
               </div>
             </Link>
           </div>
@@ -84,9 +84,9 @@ export default function Header() {
             {/* Call Button */}
             <a 
               href="tel:+919876543210"
-              className="relative bg-gradient-to-r from-sweet-pink-500 via-light-red-500 to-sweet-pink-600 text-white px-6 py-3 rounded-full font-semibold text-sm shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center space-x-2 overflow-hidden group"
+              className="relative bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white px-6 py-3 rounded-full font-semibold text-sm shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center space-x-2 overflow-hidden group"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-light-red-400 to-sweet-pink-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-red-400 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <svg className="w-4 h-4 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
               </svg>
@@ -167,10 +167,10 @@ export default function Header() {
               {/* Mobile Call Button */}
               <a 
                 href="tel:+919876543210"
-                className="block mx-3 my-2 bg-gradient-to-r from-sweet-pink-500 via-light-red-500 to-sweet-pink-600 text-white px-4 py-3 rounded-full text-center font-semibold shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden group"
+                className="block mx-3 my-2 bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white px-4 py-3 rounded-full text-center font-semibold shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden group"
                 onClick={() => setIsMenuOpen(false)}
               >
-                <div className="absolute inset-0 bg-gradient-to-r from-light-red-400 to-sweet-pink-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-red-400 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <span className="relative z-10">📞 Call Now</span>
               </a>
             </div>
