@@ -5,26 +5,22 @@ import Image from 'next/image';
 
 export default function Services() {
   const services = [
-    { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", category: "Premium" },
-    { title: "Social Events", image: "/images/services/Social Events.webp", category: "Social" },
-    { title: "Business Meetings", image: "/images/services/Business Meetings.webp", category: "Business" },
-    { title: "Travel Companion", image: "/images/services/Travel Companion.webp", category: "Travel" },
-    { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", category: "Social" },
-    { title: "Party Escort", image: "/images/services/Party Escort.webp", category: "Entertainment" },
-    { title: "Private Model", image: "/images/services/Private Model.webp", category: "Premium" },
-    { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", category: "Standard" },
-    { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", category: "Premium" },
-    { title: "College Girl", image: "/images/services/College Girl.webp", category: "Young" },
-    { title: "Housewife", image: "/images/services/Housewife.webp", category: "Mature" },
-    { title: "Air Hostess", image: "/images/services/Air Hostess.webp", category: "Professional" },
-    { title: "Russian Model", image: "/images/services/Russian Model.webp", category: "International" },
-    { title: "Corporate Event", image: "/images/services/Corporate Event.webp", category: "Business" },
-    { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", category: "Special" },
-    { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", category: "Premium" },
-    { title: "Outcall Service", image: "/images/services/Outcall Service.webp", category: "Outcall" },
-    { title: "In-call Service", image: "/images/services/In-call Service.webp", category: "Incall" },
-    { title: "Weekend Special", image: "/images/services/Weekend Special.webp", category: "Special" },
-    { title: "Special Service", image: "/images/services/Special Service.webp", category: "Premium" }
+    { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", category: "Premium", description: "Elite companions for exclusive events and occasions", price: "₹25,000+", rating: "4.9", features: ["Verified Profile", "24/7 Available", "Discrete Service"] },
+    { title: "Social Events", image: "/images/services/Social Events.webp", category: "Social", description: "Perfect companions for social gatherings and parties", price: "₹15,000+", rating: "4.8", features: ["Event Ready", "Social Skills", "Professional"] },
+    { title: "Business Meetings", image: "/images/services/Business Meetings.webp", category: "Business", description: "Professional support for corporate events", price: "₹20,000+", rating: "4.9", features: ["Corporate Ready", "Professional", "Confidential"] },
+    { title: "Travel Companion", image: "/images/services/Travel Companion.webp", category: "Travel", description: "Elegant travel partners for business or leisure", price: "₹30,000+", rating: "5.0", features: ["Travel Ready", "Passport Valid", "International"] },
+    { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", category: "Social", description: "Sophisticated dining companions", price: "₹12,000+", rating: "4.7", features: ["Fine Dining", "Elegant", "Conversational"] },
+    { title: "Party Escort", image: "/images/services/Party Escort.webp", category: "Entertainment", description: "Fun and engaging party companions", price: "₹18,000+", rating: "4.8", features: ["Party Ready", "Energetic", "Fun Loving"] },
+    { title: "Private Model", image: "/images/services/Private Model.webp", category: "Premium", description: "Exclusive modeling and photography sessions", price: "₹35,000+", rating: "4.9", features: ["Model Figure", "Photogenic", "Professional"] },
+    { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", category: "Standard", description: "Discreet hotel visit arrangements", price: "₹10,000+", rating: "4.6", features: ["Hotel Services", "Discrete", "Flexible Timing"] },
+    { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", category: "Premium", description: "Companions resembling famous personalities", price: "₹40,000+", rating: "4.8", features: ["Celebrity Look", "Unique", "Exclusive"] },
+    { title: "College Girl", image: "/images/services/College Girl.webp", category: "Young", description: "Young and vibrant companions", price: "₹8,000+", rating: "4.7", features: ["Young & Fresh", "Energetic", "Student Look"] },
+    { title: "Housewife", image: "/images/services/Housewife.webp", category: "Mature", description: "Mature and experienced companions", price: "₹14,000+", rating: "4.8", features: ["Mature", "Experienced", "Homely"] },
+    { title: "Air Hostess", image: "/images/services/Air Hostess.webp", category: "Professional", description: "Professional airline crew companions", price: "₹22,000+", rating: "4.9", features: ["Professional", "Well Groomed", "Service Oriented"] },
+    { title: "Russian Model", image: "/images/services/Russian Model.webp", category: "International", description: "International model companions", price: "₹50,000+", rating: "5.0", features: ["International", "Model Figure", "Exotic"] },
+    { title: "Corporate Event", image: "/images/services/Corporate Event.webp", category: "Business", description: "Business event support and networking", price: "₹25,000+", rating: "4.8", features: ["Corporate", "Professional", "Networking"] },
+    { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", category: "Special", description: "Elegant companions for wedding events", price: "₹20,000+", rating: "4.7", features: ["Wedding Ready", "Elegant", "Traditional"] },
+    { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", category: "Premium", description: "High-end escort services", price: "₹30,000+", rating: "4.9", features: ["Premium Service", "High Class", "Exclusive"] }
   ];
 
   return (
@@ -57,44 +53,96 @@ export default function Services() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {services.map((service, index) => (
               <div
                 key={index}
-                className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden border-2 border-pink-300"
+                className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 overflow-hidden border border-pink-100 hover:border-pink-300"
               >
-                <div className="relative h-80 bg-pink-50">
+                {/* Service Image Container */}
+                <div className="relative h-56 overflow-hidden">
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-contain object-center p-4 transition-transform duration-300 group-hover:scale-105"
+                    className="object-cover object-center transition-transform duration-500 group-hover:scale-110"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-pink-200/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  
+                  {/* Gradient Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   
                   {/* Category Badge */}
-                  <div className="absolute top-4 left-4 bg-white/90 text-gray-800 px-3 py-2 rounded-full text-sm font-medium shadow-lg">
-                    {service.category}
+                  <div className="absolute top-3 left-3">
+                    <span className={`px-3 py-1 rounded-full text-xs font-semibold text-white shadow-lg ${
+                      service.category === 'Premium' ? 'bg-gradient-to-r from-purple-500 to-purple-600' :
+                      service.category === 'International' ? 'bg-gradient-to-r from-red-500 to-red-600' :
+                      service.category === 'Business' ? 'bg-gradient-to-r from-blue-500 to-blue-600' :
+                      service.category === 'Travel' ? 'bg-gradient-to-r from-green-500 to-green-600' :
+                      service.category === 'Professional' ? 'bg-gradient-to-r from-indigo-500 to-indigo-600' :
+                      'bg-gradient-to-r from-pink-500 to-pink-600'
+                    }`}>
+                      {service.category}
+                    </span>
                   </div>
                   
-                  {/* Availability Badge */}
-                  <div className="absolute bottom-4 left-4 bg-green-500 text-white px-3 py-2 rounded-full text-sm font-medium shadow-lg">
+                  {/* Rating Badge */}
+                  <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded-full shadow-lg">
+                    <div className="flex items-center space-x-1">
+                      <span className="text-yellow-500 text-sm">⭐</span>
+                      <span className="text-gray-800 text-xs font-medium">{service.rating}</span>
+                    </div>
+                  </div>
+                  
+                  {/* Price Badge */}
+                  <div className="absolute bottom-3 left-3 bg-green-500 text-white px-3 py-1 rounded-full text-xs font-medium shadow-lg">
+                    Starting {service.price}
+                  </div>
+                  
+                  {/* Available Status */}
+                  <div className="absolute bottom-3 right-3 bg-green-500 text-white px-3 py-1 rounded-full text-xs font-medium shadow-lg animate-pulse">
                     Available Now
                   </div>
                 </div>
                 
-                <div className="p-6 bg-pink-50">
-                  <h2 className="text-3xl font-extrabold text-transparent bg-gradient-to-r from-pink-600 to-red-500 bg-clip-text mb-6 leading-tight">
+                {/* Content */}
+                <div className="p-5">
+                  <h3 className="text-lg font-bold text-gray-800 mb-2 line-clamp-1 group-hover:text-pink-600 transition-colors duration-300">
                     {service.title}
-                  </h2>
+                  </h3>
                   
-                  {/* Centered Book Now Button */}
-                  <div className="flex justify-center">
-                    <button className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-xl text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
+                  <p className="text-gray-600 text-sm mb-3 line-clamp-2 leading-relaxed">
+                    {service.description}
+                  </p>
+                  
+                  {/* Features */}
+                  <div className="flex flex-wrap gap-1 mb-4">
+                    {service.features.slice(0, 2).map((feature, idx) => (
+                      <span key={idx} className="text-xs bg-pink-50 text-pink-600 px-2 py-1 rounded-full font-medium">
+                        {feature}
+                      </span>
+                    ))}
+                    {service.features.length > 2 && (
+                      <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full font-medium">
+                        +{service.features.length - 2} more
+                      </span>
+                    )}
+                  </div>
+                  
+                  {/* Action Buttons */}
+                  <div className="flex space-x-2">
+                    <button className="flex-1 bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white py-2.5 px-4 rounded-lg font-medium text-sm transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg">
                       Book Now
                     </button>
+                    <button className="px-4 py-2.5 border border-pink-300 text-pink-600 rounded-lg hover:bg-pink-50 transition-all duration-300 font-medium text-sm">
+                      View Details
+                    </button>
                   </div>
+                </div>
+                
+                {/* Hover Effect Shine */}
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -skew-x-12 animate-shimmer"></div>
                 </div>
               </div>
             ))}
