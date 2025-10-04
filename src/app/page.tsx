@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -99,24 +100,29 @@ export default function Home() {
               <div className="relative">
                 {/* Main Image Card */}
                 <div className="bg-white rounded-3xl shadow-2xl overflow-hidden transform rotate-3 hover:rotate-0 transition-transform duration-500">
-                  <div className="aspect-[3/4] bg-gradient-to-br from-red-300 via-red-400 to-red-500 relative">
-                    {/* Placeholder for actual image */}
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="text-center text-white">
-                        <div className="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                          <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"/>
-                          </svg>
-                        </div>
-                        <h3 className="text-2xl font-bold mb-2">Premium</h3>
-                        <p className="text-lg opacity-90">Escort Service</p>
-                      </div>
+                  <div className="aspect-[3/4] relative">
+                    {/* Hero Image */}
+                    <Image 
+                      src="/images/hero/sexy-wet-bhabhi.webp" 
+                      alt="Premium Escort Service" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                    
+                    {/* Overlay Gradient */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                    
+                    {/* Content Overlay */}
+                    <div className="absolute bottom-6 left-6 right-6 text-white">
+                      <h3 className="text-2xl font-bold mb-2 drop-shadow-lg">Premium</h3>
+                      <p className="text-lg opacity-90 drop-shadow-lg">Escort Service</p>
                     </div>
                     
                     {/* Decorative Elements */}
                     <div className="absolute top-4 right-4 w-3 h-3 bg-white/30 rounded-full"></div>
                     <div className="absolute top-8 right-8 w-2 h-2 bg-white/20 rounded-full"></div>
-                    <div className="absolute bottom-8 left-6 w-4 h-4 bg-white/25 rounded-full"></div>
+                    <div className="absolute bottom-20 left-6 w-4 h-4 bg-white/25 rounded-full"></div>
                   </div>
                 </div>
 
