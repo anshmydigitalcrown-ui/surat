@@ -531,52 +531,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">Why Choose RashmiKapoor</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We provide unparalleled companion services with a focus on elegance, discretion, and professionalism.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              {
-                icon: "🌟",
-                title: "Premium Quality",
-                description: "Exceptional standards in every aspect of our service delivery."
-              },
-              {
-                icon: "🔒",
-                title: "Complete Discretion",
-                description: "Your privacy and confidentiality are our highest priorities."
-              },
-              {
-                icon: "⏰",
-                title: "24/7 Availability",
-                description: "Round-the-clock service to meet your schedule and needs."
-              },
-              {
-                icon: "💎",
-                title: "Luxury Experience",
-                description: "Sophisticated companions for the most discerning clients."
-              }
-            ].map((feature, index) => (
-              <div 
-                key={index}
-                className="bg-gradient-to-br from-primary-50 to-accent-50 p-8 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover-glow"
-              >
-                <div className="text-4xl mb-4">{feature.icon}</div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">{feature.title}</h3>
-                <p className="text-gray-600">{feature.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Services Preview */}
       <section className="py-20 bg-gradient-to-br from-primary-50 via-white to-accent-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

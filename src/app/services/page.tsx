@@ -389,52 +389,6 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-sweet-pink-600 to-light-red-600 bg-clip-text text-transparent mb-4">Why Choose Our Services</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We set the standard for excellence in companion services with our unique approach and commitment to quality.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              {
-                icon: '🎓',
-                title: 'Educated Professionals',
-                description: 'All our companions are well-educated and professionally trained.'
-              },
-              {
-                icon: '🔍',
-                title: 'Thorough Screening',
-                description: 'Comprehensive background verification and quality assessment.'
-              },
-              {
-                icon: '🤝',
-                title: 'Personalized Matching',
-                description: 'Careful selection based on your preferences and requirements.'
-              },
-              {
-                icon: '📞',
-                title: '24/7 Support',
-                description: 'Round-the-clock customer support for your peace of mind.'
-              }
-            ].map((benefit, index) => (
-              <div 
-                key={index}
-                className="bg-gradient-to-br from-sweet-pink-50 to-light-red-50 rounded-2xl p-8 text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105"
-              >
-                <div className="text-4xl mb-4">{benefit.icon}</div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">{benefit.title}</h3>
-                <p className="text-gray-600">{benefit.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Booking Process */}
       <section className="py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -361,35 +361,6 @@ export default function Gallery() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            {/* Premium Quality */}
-            <div className="bg-white/70 backdrop-blur-sm rounded-3xl p-8 text-center border border-pink-200 hover:bg-white/80 transition-all duration-300 shadow-lg">
-              <div className="text-5xl mb-4">🏆</div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Premium Quality</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Exceptional standards in every aspect of our service delivery.
-              </p>
-            </div>
-
-            {/* Complete Discretion */}
-            <div className="bg-white/70 backdrop-blur-sm rounded-3xl p-8 text-center border border-pink-200 hover:bg-white/80 transition-all duration-300 shadow-lg">
-              <div className="text-5xl mb-4">🔒</div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Complete Discretion</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Your privacy and confidentiality are our highest priorities
-              </p>
-            </div>
-
-            {/* 24/7 Availability */}
-            <div className="bg-white/70 backdrop-blur-sm rounded-3xl p-8 text-center border border-pink-200 hover:bg-white/80 transition-all duration-300 shadow-lg">
-              <div className="text-5xl mb-4">⚡</div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">24/7 Availability</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Round-the-clock service to meet your schedule and needs
-              </p>
-            </div>
-          </div>
-
           <div className="text-center mb-12">
             <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
               Tailored experiences designed to meet your unique preferences and requirements.
