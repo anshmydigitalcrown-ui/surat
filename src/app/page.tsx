@@ -170,7 +170,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "Elite companions for exclusive events and occasions", price: "Premium", rating: "4.9" },
               { title: "Social Events", image: "/images/services/Social Events.webp", description: "Perfect companions for social gatherings and parties", price: "Standard", rating: "4.8" },
@@ -180,74 +180,82 @@ export default function Home() {
               { title: "Party Escort", image: "/images/services/Party Escort.webp", description: "Fun and engaging party companions", price: "Standard", rating: "4.8" },
               { title: "Private Model", image: "/images/services/Private Model.webp", description: "Exclusive modeling and photography sessions", price: "Luxury", rating: "4.9" },
               { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Discreet hotel visit arrangements", price: "Standard", rating: "4.6" },
-              { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Companions resembling famous personalities", price: "Premium", rating: "4.8" },
-              { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young and vibrant companions", price: "Standard", rating: "4.7" },
-              { title: "Housewife", image: "/images/services/Housewife.webp", description: "Mature and experienced companions", price: "Standard", rating: "4.8" },
-              { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional airline crew companions", price: "Premium", rating: "4.9" },
-              { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "International model companions", price: "Luxury", rating: "5.0" },
-              { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Business event support and networking", price: "Premium", rating: "4.8" },
-              { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Elegant companions for wedding events", price: "Premium", rating: "4.7" },
-              { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "High-end escort services", price: "Luxury", rating: "4.9" },
-              { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Professional outcall escort services", price: "Standard", rating: "4.6" },
-              { title: "In-call Service", image: "/images/services/In-call Service.webp", description: "Comfortable in-call arrangements", price: "Standard", rating: "4.5" },
-              { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Special weekend companion packages", price: "Premium", rating: "4.8" },
-              { title: "Special Service", image: "/images/services/Special Service.webp", description: "Customized special occasion services", price: "Luxury", rating: "4.9" }
+              { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Companions resembling famous personalities", price: "Premium", rating: "4.8" }
             ].map((service, index) => (
               <div
                 key={index}
-                className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 overflow-hidden border border-pink-100 hover:border-pink-300"
+                className="group relative bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-4 overflow-hidden border border-pink-200 hover:border-pink-400"
               >
-                {/* Service Image Container */}
-                <div className="relative h-64 sm:h-56 md:h-60 lg:h-56 xl:h-64 overflow-hidden bg-gray-50">
+                {/* Service Image Container - Much Larger */}
+                <div className="relative h-80 sm:h-96 lg:h-80 xl:h-96 overflow-hidden bg-gradient-to-br from-pink-50 to-purple-50">
                   <Image 
                     src={service.image} 
                     alt={service.title} 
                     fill
-                    className="object-contain object-center p-2 transition-transform duration-500 group-hover:scale-105"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-contain object-center p-4 transition-all duration-700 group-hover:scale-110"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                   
-                  {/* Gradient Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  {/* Enhanced Gradient Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   
-                  {/* Price Badge */}
-                  <div className="absolute top-3 left-3">
-                    <span className={`px-3 py-1 rounded-full text-xs font-semibold text-white shadow-lg ${
-                      service.price === 'Luxury' ? 'bg-gradient-to-r from-purple-500 to-purple-600' :
-                      service.price === 'Premium' ? 'bg-gradient-to-r from-pink-500 to-pink-600' :
-                      'bg-gradient-to-r from-blue-500 to-blue-600'
+                  {/* Price Badge - Larger */}
+                  <div className="absolute top-4 left-4">
+                    <span className={`px-4 py-2 rounded-full text-sm font-bold text-white shadow-xl ${
+                      service.price === 'Luxury' ? 'bg-gradient-to-r from-purple-500 to-purple-700' :
+                      service.price === 'Premium' ? 'bg-gradient-to-r from-pink-500 to-pink-700' :
+                      'bg-gradient-to-r from-blue-500 to-blue-700'
                     }`}>
                       {service.price}
                     </span>
                   </div>
                   
-                  {/* Rating Badge */}
-                  <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded-full shadow-lg">
-                    <div className="flex items-center space-x-1">
-                      <span className="text-yellow-500 text-sm">⭐</span>
-                      <span className="text-gray-800 text-xs font-medium">{service.rating}</span>
+                  {/* Rating Badge - Enhanced */}
+                  <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-md px-3 py-2 rounded-full shadow-xl">
+                    <div className="flex items-center space-x-2">
+                      <span className="text-yellow-500 text-lg">⭐</span>
+                      <span className="text-gray-800 text-sm font-bold">{service.rating}</span>
                     </div>
                   </div>
                   
-                  {/* Available Status */}
-                  <div className="absolute bottom-3 left-3 bg-green-500 text-white px-3 py-1 rounded-full text-xs font-medium shadow-lg animate-pulse">
+                  {/* Available Status - Enhanced */}
+                  <div className="absolute bottom-4 left-4 bg-green-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-xl animate-pulse">
                     Available Now
+                  </div>
+                  
+                  {/* Hover Call-to-Action */}
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    <button className="bg-white/90 backdrop-blur-md text-pink-600 px-6 py-3 rounded-full font-bold shadow-xl hover:bg-white hover:scale-105 transition-all duration-300">
+                      Book Now
+                    </button>
                   </div>
                 </div>
                 
-                {/* Content */}
-                <div className="p-5">
-                  <h3 className="text-lg font-bold text-gray-800 mb-2 line-clamp-1 group-hover:text-pink-600 transition-colors duration-300">
+                {/* Content - Enhanced */}
+                <div className="p-6 lg:p-8">
+                  <h3 className="text-xl lg:text-2xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors duration-300">
                     {service.title}
                   </h3>
                   
-                  <p className="text-gray-600 text-sm mb-4 line-clamp-2 leading-relaxed">
+                  <p className="text-gray-600 text-base mb-6 leading-relaxed">
                     {service.description}
                   </p>
                   
-                  {/* Action Buttons */}
-                  <div className="flex space-x-2">
-                    <button className="flex-1 bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white py-2.5 px-4 rounded-lg font-medium text-sm transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg">
+                  {/* Action Buttons - Enhanced */}
+                  <div className="flex space-x-3">
+                    <button className="flex-1 bg-gradient-to-r from-pink-500 to-pink-700 hover:from-pink-600 hover:to-pink-800 text-white py-3 px-6 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                      Book Service
+                    </button>
+                    <button className="px-6 py-3 border-2 border-pink-400 text-pink-600 rounded-xl hover:bg-pink-50 transition-all duration-300 font-bold text-sm hover:border-pink-600">
+                      Details
+                    </button>
+                  </div>
+                </div>
+                
+                {/* Enhanced Hover Effect */}
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -skew-x-12 animate-shimmer"></div>
+                </div>
                       Book Now
                     </button>
                     <button className="px-4 py-2.5 border border-pink-300 text-pink-600 rounded-lg hover:bg-pink-50 transition-all duration-300 font-medium text-sm">
