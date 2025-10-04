@@ -97,45 +97,46 @@ export default function Home() {
 
             {/* Right Side - Image Card */}
             <div className="relative animate-fadeInUp" style={{animationDelay: '0.3s'}}>
-              {/* Image Name/Title */}
-              <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent mb-2">
-                  RashmiKapoor
-                </h3>
-                <p className="text-gray-600 font-medium">Premium Escort Service</p>
-              </div>
-              
-              <div className="relative">
+              <div className="relative flex items-center">
+                {/* Image Name on Side */}
+                <div className="absolute -left-20 top-1/2 transform -translate-y-1/2 -rotate-90 z-20">
+                  <h3 className="text-2xl font-bold bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent whitespace-nowrap">
+                    RashmiKapoor
+                  </h3>
+                </div>
+                
                 {/* Main Image Card */}
-                <div className="bg-white rounded-3xl shadow-2xl overflow-hidden transform rotate-3 hover:rotate-0 transition-transform duration-500">
-                  <div className="aspect-[3/4] relative">
-                    {/* Hero Image */}
-                    <Image 
-                      src="/images/hero/sexy-wet-bhabhi.webp" 
-                      alt="RashmiKapoor - Premium Escort Service" 
-                      fill
-                      className="object-contain"
-                      priority
-                    />
-                    
-                    {/* Overlay Gradient */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
-                    
-                    {/* Content Overlay */}
-                    <div className="absolute bottom-6 left-6 right-6 text-white">
-                      <h3 className="text-xl font-bold mb-1 drop-shadow-lg">Available Now</h3>
-                      <p className="text-sm opacity-90 drop-shadow-lg">Professional Service</p>
+                <div className="bg-gradient-to-br from-sweet-pink-200 via-sweet-pink-300 to-light-red-200 rounded-3xl shadow-2xl overflow-hidden transform rotate-3 hover:rotate-0 transition-transform duration-500 p-2">
+                  <div className="bg-white rounded-2xl overflow-hidden">
+                    <div className="aspect-[3/4] relative">
+                      {/* Hero Image */}
+                      <Image 
+                        src="/images/hero/sexy-wet-bhabhi.webp" 
+                        alt="RashmiKapoor - Premium Escort Service" 
+                        fill
+                        className="object-contain"
+                        priority
+                      />
+                      
+                      {/* Overlay Gradient */}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
+                      
+                      {/* Content Overlay */}
+                      <div className="absolute bottom-6 left-6 right-6 text-white">
+                        <h3 className="text-xl font-bold mb-1 drop-shadow-lg">Available Now</h3>
+                        <p className="text-sm opacity-90 drop-shadow-lg">Professional Service</p>
+                      </div>
+                      
+                      {/* Decorative Elements */}
+                      <div className="absolute top-4 right-4 w-3 h-3 bg-white/30 rounded-full"></div>
+                      <div className="absolute top-8 right-8 w-2 h-2 bg-white/20 rounded-full"></div>
+                      <div className="absolute bottom-20 left-6 w-4 h-4 bg-white/25 rounded-full"></div>
                     </div>
-                    
-                    {/* Decorative Elements */}
-                    <div className="absolute top-4 right-4 w-3 h-3 bg-white/30 rounded-full"></div>
-                    <div className="absolute top-8 right-8 w-2 h-2 bg-white/20 rounded-full"></div>
-                    <div className="absolute bottom-20 left-6 w-4 h-4 bg-white/25 rounded-full"></div>
                   </div>
                 </div>
 
                 {/* Floating Badge */}
-                <div className="absolute -top-4 -right-4 bg-red-600 text-white px-6 py-3 rounded-2xl shadow-lg transform rotate-12">
+                <div className="absolute -top-4 -right-4 bg-red-600 text-white px-6 py-3 rounded-2xl shadow-lg transform rotate-12 z-10">
                   <div className="text-center">
                     <div className="text-2xl font-bold">No.1</div>
                     <div className="text-xs">In Surat</div>
@@ -143,8 +144,8 @@ export default function Home() {
                 </div>
 
                 {/* Background Decoration */}
-                <div className="absolute -z-10 -top-8 -left-8 w-32 h-32 bg-red-200 rounded-full opacity-50"></div>
-                <div className="absolute -z-10 -bottom-6 -right-6 w-24 h-24 bg-red-300 rounded-full opacity-40"></div>
+                <div className="absolute -z-10 -top-8 -left-8 w-32 h-32 bg-sweet-pink-200 rounded-full opacity-50"></div>
+                <div className="absolute -z-10 -bottom-6 -right-6 w-24 h-24 bg-light-red-200 rounded-full opacity-40"></div>
               </div>
             </div>
             
