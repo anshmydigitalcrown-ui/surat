@@ -302,88 +302,71 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Escorts in Surat Content Section */}
+      {/* Client Testimonials */}
       <section className="py-20 bg-gradient-to-br from-pink-300 via-pink-200 to-pink-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-black text-gray-800 mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
               Client Testimonials
             </h2>
-            <p className="text-xl md:text-2xl text-pink-600 max-w-4xl mx-auto leading-relaxed">
-              Hear what our valued clients have to say about their experiences
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            {/* Premium Quality */}
-            <div className="bg-white/70 backdrop-blur-sm rounded-3xl p-8 text-center border border-pink-200 hover:bg-white/80 transition-all duration-300 shadow-lg">
-              <div className="text-5xl mb-4">🏆</div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Premium Quality</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Exceptional standards in every aspect of our service delivery.
-              </p>
-            </div>
-
-            {/* Complete Discretion */}
-            <div className="bg-white/70 backdrop-blur-sm rounded-3xl p-8 text-center border border-pink-200 hover:bg-white/80 transition-all duration-300 shadow-lg">
-              <div className="text-5xl mb-4">🔒</div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Complete Discretion</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Your privacy and confidentiality are our highest priorities
-              </p>
-            </div>
-
-            {/* 24/7 Availability */}
-            <div className="bg-white/70 backdrop-blur-sm rounded-3xl p-8 text-center border border-pink-200 hover:bg-white/80 transition-all duration-300 shadow-lg">
-              <div className="text-5xl mb-4">⚡</div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">24/7 Availability</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Round-the-clock service to meet your schedule and needs
-              </p>
-            </div>
-          </div>
-
-          <div className="text-center mb-12">
-            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-              Tailored experiences designed to meet your unique preferences and requirements.
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              What our satisfied clients say about our premium escort services
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Professional Etiquette */}
-            <div className="bg-white/60 rounded-2xl p-6 border border-pink-200 shadow-md">
-              <h4 className="text-xl font-bold text-gray-800 mb-4">Professional Etiquette</h4>
-              <p className="text-gray-600 mb-4">Elegant companions for social events, dinners, and business functions.</p>
-              <ul className="space-y-2 text-gray-600">
-                <li>• Professional Etiquette</li>
-                <li>• Multilingual</li>
-                <li>• Well-Educated</li>
-                <li>• Socially Adept</li>
-              </ul>
+            {/* Amazing Service */}
+            <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 text-center shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
+              <div className="flex justify-center mb-6">
+                <div className="flex space-x-1">
+                  <span className="text-3xl text-yellow-500">⭐</span>
+                  <span className="text-3xl text-yellow-500">⭐</span>
+                  <span className="text-3xl text-yellow-500">⭐</span>
+                  <span className="text-3xl text-yellow-500">⭐</span>
+                  <span className="text-3xl text-yellow-500">⭐</span>
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-6">Amazing Service</h3>
+              <p className="text-gray-600 italic leading-relaxed mb-6">
+                &ldquo;Professional, discrete, and exactly what I was looking for. The booking process was simple and the service exceeded expectations.&rdquo;
+              </p>
+              <p className="text-pink-600 font-bold">- VIP Client, Vijay Nagar</p>
             </div>
 
-            {/* Travel Experience */}
-            <div className="bg-white/60 rounded-2xl p-6 border border-pink-200 shadow-md">
-              <h4 className="text-xl font-bold text-gray-800 mb-4">Travel Experience</h4>
-              <p className="text-gray-600 mb-4">Sophisticated travel partners for business trips and leisure vacations.</p>
-              <ul className="space-y-2 text-gray-600">
-                <li>• Travel Experience</li>
-                <li>• Cultural Knowledge</li>
-                <li>• Flexible Schedule</li>
-                <li>• Passport Ready</li>
-              </ul>
+            {/* Highly Recommend */}
+            <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 text-center shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
+              <div className="flex justify-center mb-6">
+                <div className="flex space-x-1">
+                  <span className="text-3xl text-yellow-500">⭐</span>
+                  <span className="text-3xl text-yellow-500">⭐</span>
+                  <span className="text-3xl text-yellow-500">⭐</span>
+                  <span className="text-3xl text-yellow-500">⭐</span>
+                  <span className="text-3xl text-yellow-500">⭐</span>
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-6">Highly Recommend</h3>
+              <p className="text-gray-600 italic leading-relaxed mb-6">
+                &ldquo;Outstanding companions and excellent customer service. Very professional team that maintains complete privacy and confidentiality.&rdquo;
+              </p>
+              <p className="text-blue-600 font-bold">- Regular Client, AB Road</p>
             </div>
 
-            {/* Business Acumen */}
-            <div className="bg-white/60 rounded-2xl p-6 border border-pink-200 shadow-md">
-              <h4 className="text-xl font-bold text-gray-800 mb-4">Business Acumen</h4>
-              <p className="text-gray-600 mb-4">Professional support for busy executives and entrepreneurs.</p>
-              <ul className="space-y-2 text-gray-600">
-                <li>• Business Acumen</li>
-                <li>• Organizational Skills</li>
-                <li>• Confidentiality</li>
-                <li>• Reliability</li>
-              </ul>
+            {/* Premium Quality */}
+            <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 text-center shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
+              <div className="flex justify-center mb-6">
+                <div className="flex space-x-1">
+                  <span className="text-3xl text-yellow-500">⭐</span>
+                  <span className="text-3xl text-yellow-500">⭐</span>
+                  <span className="text-3xl text-yellow-500">⭐</span>
+                  <span className="text-3xl text-yellow-500">⭐</span>
+                  <span className="text-3xl text-yellow-500">⭐</span>
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-6">Premium Quality</h3>
+              <p className="text-gray-600 italic leading-relaxed mb-6">
+                &ldquo;Top-notch service with beautiful and intelligent companions. The 24/7 availability and quick response time is impressive.&rdquo;
+              </p>
+              <p className="text-orange-600 font-bold">- Business Client, Palasia</p>
             </div>
           </div>
         </div>
