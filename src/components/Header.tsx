@@ -31,31 +31,31 @@ export default function Header() {
           <nav className="hidden md:flex items-center justify-center space-x-8 flex-1">
             <Link 
               href="/" 
-              className="text-sweet-pink-700 hover:text-light-red-600 font-medium transition-colors duration-200 hover:scale-105 transform"
+              className="text-sweet-pink-600 hover:text-light-red-500 font-semibold transition-colors duration-200 hover:scale-105 transform"
             >
               Home
             </Link>
             <Link 
               href="/about" 
-              className="text-sweet-pink-700 hover:text-light-red-600 font-medium transition-colors duration-200 hover:scale-105 transform"
+              className="text-sweet-pink-600 hover:text-light-red-500 font-semibold transition-colors duration-200 hover:scale-105 transform"
             >
               About
             </Link>
             <Link 
               href="/services" 
-              className="text-sweet-pink-700 hover:text-light-red-600 font-medium transition-colors duration-200 hover:scale-105 transform"
+              className="text-sweet-pink-600 hover:text-light-red-500 font-semibold transition-colors duration-200 hover:scale-105 transform"
             >
               Services
             </Link>
             <Link 
               href="/gallery" 
-              className="text-sweet-pink-700 hover:text-light-red-600 font-medium transition-colors duration-200 hover:scale-105 transform"
+              className="text-sweet-pink-600 hover:text-light-red-500 font-semibold transition-colors duration-200 hover:scale-105 transform"
             >
               Gallery
             </Link>
             <Link 
               href="/contact" 
-              className="text-sweet-pink-700 hover:text-light-red-600 font-medium transition-colors duration-200 hover:scale-105 transform"
+              className="text-sweet-pink-600 hover:text-light-red-500 font-semibold transition-colors duration-200 hover:scale-105 transform"
             >
               Contact
             </Link>
@@ -92,7 +92,7 @@ export default function Header() {
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="text-sweet-pink-700 hover:text-light-red-600 focus:outline-none focus:text-light-red-600 transition-colors duration-200"
+              className="text-sweet-pink-600 hover:text-light-red-500 focus:outline-none focus:text-light-red-500 transition-colors duration-200"
               aria-label="Toggle menu"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -112,35 +112,35 @@ export default function Header() {
             <div className="px-2 pt-2 pb-3 space-y-1 bg-sweet-pink-50 rounded-lg shadow-lg border border-sweet-pink-200 mb-4">
               <Link 
                 href="/" 
-                className="block px-3 py-2 text-sweet-pink-700 hover:text-light-red-600 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200"
+                className="block px-3 py-2 text-sweet-pink-600 hover:text-light-red-500 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200 font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link 
                 href="/about" 
-                className="block px-3 py-2 text-sweet-pink-700 hover:text-light-red-600 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200"
+                className="block px-3 py-2 text-sweet-pink-600 hover:text-light-red-500 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200 font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </Link>
               <Link 
                 href="/services" 
-                className="block px-3 py-2 text-sweet-pink-700 hover:text-light-red-600 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200"
+                className="block px-3 py-2 text-sweet-pink-600 hover:text-light-red-500 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200 font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
               </Link>
               <Link 
                 href="/gallery" 
-                className="block px-3 py-2 text-sweet-pink-700 hover:text-light-red-600 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200"
+                className="block px-3 py-2 text-sweet-pink-600 hover:text-light-red-500 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200 font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Gallery
               </Link>
               <Link 
                 href="/contact" 
-                className="block px-3 py-2 text-sweet-pink-700 hover:text-light-red-600 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200"
+                className="block px-3 py-2 text-sweet-pink-600 hover:text-light-red-500 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200 font-semibold"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
