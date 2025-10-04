@@ -108,6 +108,98 @@ export default function Services() {
         </div>
       </section>
 
+      {/* Text Service Section */}
+      <section className="py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-black text-black mb-6">
+              Our Premium Services in Indore
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+            {/* VIP Escort Service */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-pink-500">
+              <h3 className="text-2xl font-bold text-pink-600 mb-4">VIP Escort Service</h3>
+              <p className="text-gray-700 leading-relaxed">
+                Exclusive VIP companions for discerning clients seeking premium escort service in Indore. Professional, elegant, and sophisticated.
+              </p>
+            </div>
+
+            {/* Event Companions */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-blue-500">
+              <h3 className="text-2xl font-bold text-blue-600 mb-4">Event Companions</h3>
+              <p className="text-gray-700 leading-relaxed">
+                Perfect companions for business events, parties, and social gatherings in Indore. Professional and well-educated.
+              </p>
+            </div>
+
+            {/* Premium Call Girls */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-purple-500">
+              <h3 className="text-2xl font-bold text-purple-600 mb-4">Premium Call Girls</h3>
+              <p className="text-gray-700 leading-relaxed">
+                High-class call girls service with verified profiles and complete discretion in Indore. 24/7 availability.
+              </p>
+            </div>
+          </div>
+
+          {/* Why We're the Top Choice */}
+          <div className="bg-white rounded-3xl p-10 shadow-xl">
+            <h3 className="text-4xl font-bold text-center text-gray-800 mb-12">
+              Why We&apos;re the Top Choice in Indore
+            </h3>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+              {/* Quality Assurance */}
+              <div>
+                <h4 className="text-2xl font-bold text-gray-800 mb-6">Quality Assurance</h4>
+                <ul className="space-y-4">
+                  <li className="flex items-start">
+                    <span className="font-bold text-gray-800 mr-2">• Verified escorts</span>
+                    <span className="text-gray-600">- All profiles thoroughly verified</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="font-bold text-gray-800 mr-2">• Professional training</span>
+                    <span className="text-gray-600">- Well-trained companions</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="font-bold text-gray-800 mr-2">• Regular health checkups</span>
+                    <span className="text-gray-600">- Health and safety priority</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="font-bold text-gray-800 mr-2">• Background verification</span>
+                    <span className="text-gray-600">- Complete security screening</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Service Excellence */}
+              <div>
+                <h4 className="text-2xl font-bold text-gray-800 mb-6">Service Excellence</h4>
+                <ul className="space-y-4">
+                  <li className="flex items-start">
+                    <span className="font-bold text-gray-800 mr-2">• Prompt response</span>
+                    <span className="text-gray-600">- Quick booking confirmation</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="font-bold text-gray-800 mr-2">• Customer support</span>
+                    <span className="text-gray-600">- 24/7 customer assistance</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="font-bold text-gray-800 mr-2">• Flexible booking</span>
+                    <span className="text-gray-600">- Easy scheduling options</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="font-bold text-gray-800 mr-2">• Satisfaction guaranteed</span>
+                    <span className="text-gray-600">- 100% satisfaction commitment</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
