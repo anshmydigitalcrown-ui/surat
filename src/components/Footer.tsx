@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-br from-primary-900 via-accent-800 to-primary-800 text-white relative overflow-hidden">
+    <footer className="bg-gradient-to-br from-sweet-pink-600 via-light-red-700 to-sweet-pink-700 text-white relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-black/20"></div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
@@ -17,10 +17,10 @@ export default function Footer() {
               </div>
               <div>
                 <h3 className="text-2xl font-bold">RashmiKapoor</h3>
-                <p className="text-pink-200">No.1 Best Escort Service Surat</p>
+                <p className="text-sweet-pink-100">No.1 Best Escort Service Surat</p>
               </div>
             </div>
-            <p className="text-pink-100 mb-6 max-w-md">
+            <p className="text-sweet-pink-100 mb-6 max-w-md">
               Experience luxury and elegance with Surat&apos;s premier escort service. 
               We provide sophisticated, professional, and discreet companionship for all occasions.
             </p>

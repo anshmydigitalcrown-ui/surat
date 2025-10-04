@@ -11,18 +11,18 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-rose-50/90 backdrop-blur-md shadow-lg sticky top-0 z-50 border-b border-pink-200">
+    <header className="bg-sweet-pink-50/90 backdrop-blur-md shadow-lg sticky top-0 z-50 border-b border-sweet-pink-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-rose-400 to-pink-500 rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-br from-sweet-pink-400 to-light-red-500 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-xl">RK</span>
               </div>
               <div>
                 <h1 className="text-2xl font-bold gradient-text">RashmiKapoor</h1>
-                <p className="text-sm text-rose-600">Premium Escort Service</p>
+                <p className="text-sm text-sweet-pink-600">Premium Escort Service</p>
               </div>
             </Link>
           </div>
@@ -31,31 +31,31 @@ export default function Header() {
           <nav className="hidden md:flex items-center justify-center space-x-8 flex-1">
             <Link 
               href="/" 
-              className="text-rose-700 hover:text-pink-600 font-medium transition-colors duration-200 hover:scale-105 transform"
+              className="text-sweet-pink-700 hover:text-light-red-600 font-medium transition-colors duration-200 hover:scale-105 transform"
             >
               Home
             </Link>
             <Link 
               href="/about" 
-              className="text-rose-700 hover:text-pink-600 font-medium transition-colors duration-200 hover:scale-105 transform"
+              className="text-sweet-pink-700 hover:text-light-red-600 font-medium transition-colors duration-200 hover:scale-105 transform"
             >
               About
             </Link>
             <Link 
               href="/services" 
-              className="text-rose-700 hover:text-pink-600 font-medium transition-colors duration-200 hover:scale-105 transform"
+              className="text-sweet-pink-700 hover:text-light-red-600 font-medium transition-colors duration-200 hover:scale-105 transform"
             >
               Services
             </Link>
             <Link 
               href="/gallery" 
-              className="text-rose-700 hover:text-pink-600 font-medium transition-colors duration-200 hover:scale-105 transform"
+              className="text-sweet-pink-700 hover:text-light-red-600 font-medium transition-colors duration-200 hover:scale-105 transform"
             >
               Gallery
             </Link>
             <Link 
               href="/contact" 
-              className="text-rose-700 hover:text-pink-600 font-medium transition-colors duration-200 hover:scale-105 transform"
+              className="text-sweet-pink-700 hover:text-light-red-600 font-medium transition-colors duration-200 hover:scale-105 transform"
             >
               Contact
             </Link>
@@ -79,7 +79,7 @@ export default function Header() {
             {/* Call Button */}
             <a 
               href="tel:+919876543210"
-              className="bg-gradient-to-r from-rose-500 to-pink-600 text-white px-4 py-2 rounded-full hover:shadow-lg hover-glow transition-all duration-300 transform hover:scale-105 flex items-center space-x-2"
+              className="bg-gradient-to-r from-sweet-pink-500 to-light-red-600 text-white px-4 py-2 rounded-full hover:shadow-lg hover-glow transition-all duration-300 transform hover:scale-105 flex items-center space-x-2"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
@@ -92,7 +92,7 @@ export default function Header() {
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="text-rose-700 hover:text-pink-600 focus:outline-none focus:text-pink-600 transition-colors duration-200"
+              className="text-sweet-pink-700 hover:text-light-red-600 focus:outline-none focus:text-light-red-600 transition-colors duration-200"
               aria-label="Toggle menu"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -109,38 +109,38 @@ export default function Header() {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden animate-fadeInUp">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-rose-50 rounded-lg shadow-lg border border-pink-200 mb-4">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-sweet-pink-50 rounded-lg shadow-lg border border-sweet-pink-200 mb-4">
               <Link 
                 href="/" 
-                className="block px-3 py-2 text-rose-700 hover:text-pink-600 hover:bg-rose-100 rounded-md transition-colors duration-200"
+                className="block px-3 py-2 text-sweet-pink-700 hover:text-light-red-600 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link 
                 href="/about" 
-                className="block px-3 py-2 text-rose-700 hover:text-pink-600 hover:bg-rose-100 rounded-md transition-colors duration-200"
+                className="block px-3 py-2 text-sweet-pink-700 hover:text-light-red-600 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </Link>
               <Link 
                 href="/services" 
-                className="block px-3 py-2 text-rose-700 hover:text-pink-600 hover:bg-rose-100 rounded-md transition-colors duration-200"
+                className="block px-3 py-2 text-sweet-pink-700 hover:text-light-red-600 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
               </Link>
               <Link 
                 href="/gallery" 
-                className="block px-3 py-2 text-rose-700 hover:text-pink-600 hover:bg-rose-100 rounded-md transition-colors duration-200"
+                className="block px-3 py-2 text-sweet-pink-700 hover:text-light-red-600 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Gallery
               </Link>
               <Link 
                 href="/contact" 
-                className="block px-3 py-2 text-rose-700 hover:text-pink-600 hover:bg-rose-100 rounded-md transition-colors duration-200"
+                className="block px-3 py-2 text-sweet-pink-700 hover:text-light-red-600 hover:bg-sweet-pink-100 rounded-md transition-colors duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
@@ -160,7 +160,7 @@ export default function Header() {
               {/* Mobile Call Button */}
               <a 
                 href="tel:+919876543210"
-                className="block mx-3 my-2 bg-gradient-to-r from-rose-500 to-pink-600 text-white px-4 py-2 rounded-full text-center hover-glow transition-all duration-300"
+                className="block mx-3 my-2 bg-gradient-to-r from-sweet-pink-500 to-light-red-600 text-white px-4 py-2 rounded-full text-center hover-glow transition-all duration-300"
                 onClick={() => setIsMenuOpen(false)}
               >
                 📞 Call Now

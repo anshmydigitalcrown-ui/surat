@@ -1,14 +1,24 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fdf2f8;
-  --foreground: #1f2937;
+  --background: #fef7f7;
+  --foreground: #7c2d12;
+  --sweet-pink-50: #fef7f7;
+  --sweet-pink-100: #fce8e8;
+  --sweet-pink-200: #f9c5c5;
+  --sweet-pink-300: #f59595;
+  --sweet-pink-400: #f06b6b;
+  --sweet-pink-500: #e85555;
+  --sweet-pink-600: #d63333;
+  --light-red-500: #ef4444;
+  --light-red-600: #dc2626;
+  --light-red-700: #b91c1c;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #1a0e1a;
-    --foreground: #fdf2f8;
+    --background: #1a0606;
+    --foreground: #fef7f7;
   }
 }
 
@@ -20,34 +30,34 @@ body {
   padding: 0;
 }
 
-/* Custom color classes */
-.bg-primary-50 { background-color: #fdf2f8; }
-.bg-primary-100 { background-color: #fce7f3; }
-.bg-primary-200 { background-color: #fbcfe8; }
-.bg-primary-300 { background-color: #f9a8d4; }
-.bg-primary-400 { background-color: #f472b6; }
-.bg-primary-500 { background-color: #ec4899; }
-.bg-primary-600 { background-color: #db2777; }
-.bg-primary-700 { background-color: #be185d; }
-.bg-primary-800 { background-color: #9d174d; }
-.bg-primary-900 { background-color: #831843; }
+/* Sweet Pink and Light Red Color Classes */
+.bg-sweet-pink-50 { background-color: #fef7f7; }
+.bg-sweet-pink-100 { background-color: #fce8e8; }
+.bg-sweet-pink-200 { background-color: #f9c5c5; }
+.bg-sweet-pink-300 { background-color: #f59595; }
+.bg-sweet-pink-400 { background-color: #f06b6b; }
+.bg-sweet-pink-500 { background-color: #e85555; }
+.bg-sweet-pink-600 { background-color: #d63333; }
 
-.text-primary-50 { color: #fdf2f8; }
-.text-primary-100 { color: #fce7f3; }
-.text-primary-200 { color: #fbcfe8; }
-.text-primary-300 { color: #f9a8d4; }
-.text-primary-400 { color: #f472b6; }
-.text-primary-500 { color: #ec4899; }
-.text-primary-600 { color: #db2777; }
-.text-primary-700 { color: #be185d; }
-.text-primary-800 { color: #9d174d; }
-.text-primary-900 { color: #831843; }
+.bg-light-red-400 { background-color: #f87171; }
+.bg-light-red-500 { background-color: #ef4444; }
+.bg-light-red-600 { background-color: #dc2626; }
+.bg-light-red-700 { background-color: #b91c1c; }
 
-.border-primary-100 { border-color: #fce7f3; }
-.border-primary-200 { border-color: #fbcfe8; }
-.border-primary-300 { border-color: #f9a8d4; }
-.border-primary-500 { border-color: #ec4899; }
-.border-primary-600 { border-color: #db2777; }
+.text-sweet-pink-400 { color: #f06b6b; }
+.text-sweet-pink-500 { color: #e85555; }
+.text-sweet-pink-600 { color: #d63333; }
+.text-sweet-pink-700 { color: #b91c1c; }
+
+.text-light-red-500 { color: #ef4444; }
+.text-light-red-600 { color: #dc2626; }
+.text-light-red-700 { color: #b91c1c; }
+
+.border-sweet-pink-200 { border-color: #f9c5c5; }
+.border-sweet-pink-300 { border-color: #f59595; }
+.border-sweet-pink-500 { border-color: #e85555; }
+.border-light-red-300 { border-color: #fca5a5; }
+.border-light-red-500 { border-color: #ef4444; }
 
 .bg-accent-50 { background-color: #fff1f2; }
 .bg-accent-100 { background-color: #ffe4e6; }
@@ -108,24 +118,24 @@ body {
 }
 
 /* Custom Gradients */
-.gradient-pink {
-  background: linear-gradient(-45deg, #f472b6, #f43f5e, #db2777, #fb7185);
+.gradient-sweet-pink {
+  background: linear-gradient(-45deg, #f06b6b, #ef4444, #e85555, #f87171);
 }
 
 .gradient-text {
-  background: linear-gradient(45deg, #db2777, #f43f5e);
+  background: linear-gradient(45deg, #d63333, #ef4444);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 /* Glowing effects */
-.glow-pink {
-  box-shadow: 0 0 20px rgba(236, 72, 153, 0.3);
+.glow-sweet-pink {
+  box-shadow: 0 0 20px rgba(240, 107, 107, 0.4);
 }
 
 .hover-glow:hover {
-  box-shadow: 0 0 30px rgba(236, 72, 153, 0.5);
+  box-shadow: 0 0 30px rgba(239, 68, 68, 0.5);
   transition: box-shadow 0.3s ease;
 }
 
