@@ -31,7 +31,7 @@ export default function Home() {
                 </div>
                 
                 <h2 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
-                  Surat&apos;s Most
+                  Indore&apos;s Most
                   <span className="block bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
                     Trusted Companion
                   </span>
@@ -39,7 +39,7 @@ export default function Home() {
                 </h2>
                 
                 <p className="text-xl text-gray-700 leading-relaxed max-w-xl">
-                  Experience luxury and sophistication with Surat&apos;s premier escort service. We offer discreet, professional companionship tailored to your needs with complete privacy and elegance.
+                  Experience luxury and sophistication with Indore&apos;s premier escort service. We offer discreet, professional companionship tailored to your needs with complete privacy and elegance.
                 </p>
               </div>
 
@@ -144,7 +144,7 @@ export default function Home() {
                 <div className="absolute -top-4 -right-4 bg-red-600 text-white px-6 py-3 rounded-2xl shadow-lg transform rotate-12 z-10">
                   <div className="text-center">
                     <div className="text-2xl font-bold">No.1</div>
-                    <div className="text-xs">In Surat</div>
+                    <div className="text-xs">In Indore</div>
                   </div>
                 </div>
 
@@ -163,7 +163,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
-              Premium Escorts In Surat - Our Services
+              Premium Escorts In Indore - Our Services
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Professional Call Girls & VIP Companions Available 24/7
@@ -268,7 +268,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link 
               href="/services" 
-              className="bg-gradient-to-r from-sweet-pink-500 via-light-red-500 to-sweet-pink-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
+              className="bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
             >
               View All Services
             </Link>
@@ -281,7 +281,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
-              Our Premium Services in Surat
+              Our Premium Services in Indore
             </h2>
           </div>
 
@@ -290,7 +290,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-pink-500">
               <h3 className="text-2xl font-bold text-pink-600 mb-4">VIP Escort Service</h3>
               <p className="text-gray-700 leading-relaxed">
-                Exclusive VIP companions for discerning clients seeking premium escort service in Surat. Professional, elegant, and sophisticated.
+                Exclusive VIP companions for discerning clients seeking premium escort service in Indore. Professional, elegant, and sophisticated.
               </p>
             </div>
 
@@ -298,7 +298,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-blue-500">
               <h3 className="text-2xl font-bold text-blue-600 mb-4">Event Companions</h3>
               <p className="text-gray-700 leading-relaxed">
-                Perfect companions for business events, parties, and social gatherings in Surat. Professional and well-educated.
+                Perfect companions for business events, parties, and social gatherings in Indore. Professional and well-educated.
               </p>
             </div>
 
@@ -306,7 +306,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-purple-500">
               <h3 className="text-2xl font-bold text-purple-600 mb-4">Premium Call Girls</h3>
               <p className="text-gray-700 leading-relaxed">
-                High-class call girls service with verified profiles and complete discretion in Surat. 24/7 availability.
+                High-class call girls service with verified profiles and complete discretion in Indore. 24/7 availability.
               </p>
             </div>
           </div>
@@ -314,7 +314,7 @@ export default function Home() {
           {/* Why We are the Top Choice */}
           <div className="bg-white rounded-3xl p-10 shadow-xl">
             <h3 className="text-4xl font-bold text-center bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-12">
-              Why We&apos;re the Top Choice in Surat
+              Why We&apos;re the Top Choice in Indore
             </h3>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -368,15 +368,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Surat Locations Section */}
+      {/* Indore Locations Section */}
       <section className="py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
-              Our Location Areas in Surat
+              Our Location Areas in Indore
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Premium escort locations available across all major areas of Surat
+              Premium escort locations available across all major areas of Indore
             </p>
           </div>
 
@@ -626,22 +626,22 @@ export default function Home() {
             <div className="space-y-6">
               <div className="text-center lg:text-left">
                 <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 to-pink-400 bg-clip-text text-transparent mb-4">
-                  Find Us in Surat
+                  Find Us in Indore
                 </h2>
                 <p className="text-xl text-gray-600">
-                  We provide premium escort services across all major areas of Surat
+                  We provide premium escort services across all major areas of Indore
                 </p>
               </div>
               <div className="w-full h-96 bg-gray-100 rounded-2xl overflow-hidden shadow-lg">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119066.41583263078!2d72.74109452431642!3d21.17024370000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1696234567890!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58881.094906827295!2d75.79103635!3d22.7195687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1696234567890!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Surat Location Map"
+                  title="Indore Location Map"
                 />
               </div>
             </div>
@@ -651,7 +651,7 @@ export default function Home() {
               <div className="text-center mb-8">
                 <h3 className="text-3xl font-bold text-gray-800 mb-4">Contact Us</h3>
                 <p className="text-gray-600">
-                  Get in touch with us for premium escort services in Surat
+                  Get in touch with us for premium escort services in Indore
                 </p>
               </div>
               
@@ -780,7 +780,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-blue-600 mb-2">Email Us</h3>
-                <p className="text-lg font-bold text-gray-800 mb-2">info@suratescorts.com</p>
+                <p className="text-lg font-bold text-gray-800 mb-2">info@indoreescorts.com</p>
                 <p className="text-gray-600">Quick Response</p>
               </div>
             </div>
@@ -789,115 +789,127 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-gradient-to-br from-pink-100 via-pink-50 to-purple-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 bg-gradient-to-br from-pink-50 via-pink-25 to-purple-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-4">
               Frequently Asked Questions
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Get answers to common questions about our premium escort services in Surat
+              Common questions about our premium escort services and professional companions
             </p>
           </div>
 
-          {/* FAQ Grid - 2 Rows x 4 Columns */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Row 1 */}
-            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white font-bold text-lg">?</span>
+          {/* FAQ Grid - 2 Columns */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Left Column */}
+            <div className="space-y-4">
+              {/* FAQ Item 1 */}
+              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
+                  <h3 className="text-lg font-bold text-pink-800">Are your services available 24/7?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-6 text-gray-700">
+                  <p>Yes, our premium escort services are available 24/7. We provide round-the-clock assistance to ensure you can book our services at any time that suits your schedule.</p>
                 </div>
-                <h3 className="text-lg font-bold text-pink-600 mb-3">How to Book?</h3>
-                <p className="text-gray-600 text-sm">
-                  Simply call us, WhatsApp, or fill out our contact form. We&apos;ll arrange everything professionally and discreetly.
-                </p>
-              </div>
+              </details>
+
+              {/* FAQ Item 2 */}
+              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
+                  <h3 className="text-lg font-bold text-pink-800">How do I make a booking?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-6 text-gray-700">
+                  <p>You can make a booking by calling us directly, sending a WhatsApp message, or filling out our contact form. Our team will respond promptly to confirm your booking details.</p>
+                </div>
+              </details>
+
+              {/* FAQ Item 3 */}
+              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
+                  <h3 className="text-lg font-bold text-pink-800">What types of services do you offer?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-6 text-gray-700">
+                  <p>We offer a wide range of premium companion services including social events, business meetings, dinner dates, and travel companionship. All services are provided with complete professionalism.</p>
+                </div>
+              </details>
+
+              {/* FAQ Item 4 */}
+              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
+                  <h3 className="text-lg font-bold text-pink-800">What are your service charges?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-6 text-gray-700">
+                  <p>Our service charges vary based on the type of service, duration, and specific requirements. Please contact us directly for detailed pricing information and package options.</p>
+                </div>
+              </details>
             </div>
 
-            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white font-bold text-lg">💰</span>
+            {/* Right Column */}
+            <div className="space-y-4">
+              {/* FAQ Item 5 */}
+              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
+                  <h3 className="text-lg font-bold text-pink-800">What areas in Indore do you cover?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-6 text-gray-700">
+                  <p>We provide services across all major areas in Indore including Vijay Nagar, Bhawar Kuan, Rajwada, Sarafa Bazar, MG Road, and surrounding locations. Contact us for specific area availability.</p>
                 </div>
-                <h3 className="text-lg font-bold text-purple-600 mb-3">Payment Methods?</h3>
-                <p className="text-gray-600 text-sm">
-                  We accept cash, bank transfers, and digital payments. Payment terms are discussed during booking confirmation.
-                </p>
-              </div>
-            </div>
+              </details>
 
-            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white font-bold text-lg">🔒</span>
+              {/* FAQ Item 6 */}
+              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
+                  <h3 className="text-lg font-bold text-pink-800">Is privacy and discretion guaranteed?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-6 text-gray-700">
+                  <p>Absolutely! We maintain the highest standards of privacy and discretion. All client information is kept strictly confidential, and our companions are trained to handle all interactions professionally.</p>
                 </div>
-                <h3 className="text-lg font-bold text-green-600 mb-3">Privacy & Safety?</h3>
-                <p className="text-gray-600 text-sm">
-                  Complete confidentiality guaranteed. All our companions are verified and we maintain strict privacy protocols.
-                </p>
-              </div>
-            </div>
+              </details>
 
-            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white font-bold text-lg">📍</span>
+              {/* FAQ Item 7 */}
+              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
+                  <h3 className="text-lg font-bold text-pink-800">Are your companions verified?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-6 text-gray-700">
+                  <p>Yes, all our companions undergo thorough verification processes including background checks, health certificates, and professional training to ensure the highest quality service.</p>
                 </div>
-                <h3 className="text-lg font-bold text-blue-600 mb-3">Service Areas?</h3>
-                <p className="text-gray-600 text-sm">
-                  We serve all major areas in Surat including Varachha, Adajan, Vesu, Althan, and surrounding locations.
-                </p>
-              </div>
-            </div>
+              </details>
 
-            {/* Row 2 */}
-            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white font-bold text-lg">⏰</span>
+              {/* FAQ Item 8 */}
+              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
+                  <h3 className="text-lg font-bold text-pink-800">Do you provide hotel bookings assistance?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-6 pb-6 text-gray-700">
+                  <p>Yes, we can assist with hotel bookings and venue arrangements to ensure a comfortable and convenient experience. Our team can recommend suitable locations based on your preferences.</p>
                 </div>
-                <h3 className="text-lg font-bold text-indigo-600 mb-3">Availability?</h3>
-                <p className="text-gray-600 text-sm">
-                  24/7 availability with advance booking. Same-day bookings subject to availability. Weekend bookings recommended in advance.
-                </p>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-r from-red-500 to-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white font-bold text-lg">✅</span>
-                </div>
-                <h3 className="text-lg font-bold text-red-600 mb-3">Verified Profiles?</h3>
-                <p className="text-gray-600 text-sm">
-                  All companions are thoroughly verified with background checks, health certificates, and professional training.
-                </p>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white font-bold text-lg">📞</span>
-                </div>
-                <h3 className="text-lg font-bold text-yellow-600 mb-3">Customer Support?</h3>
-                <p className="text-gray-600 text-sm">
-                  Dedicated customer support team available 24/7 to assist with bookings, queries, and any special requirements.
-                </p>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-r from-teal-500 to-teal-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white font-bold text-lg">💎</span>
-                </div>
-                <h3 className="text-lg font-bold text-teal-600 mb-3">Premium Quality?</h3>
-                <p className="text-gray-600 text-sm">
-                  High-quality services with elegant, educated, and professional companions. Satisfaction guarantee with every booking.
-                </p>
-              </div>
+              </details>
             </div>
           </div>
         </div>
@@ -952,7 +964,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link 
               href="/services" 
-              className="bg-gradient-to-r from-primary-500 to-accent-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover-glow transition-all duration-300 transform hover:scale-105 inline-block"
+              className="bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white px-8 py-4 rounded-full font-semibold text-lg hover-glow transition-all duration-300 transform hover:scale-105 inline-block"
             >
               View All Services
             </Link>

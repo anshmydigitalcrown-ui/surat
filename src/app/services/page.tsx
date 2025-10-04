@@ -33,9 +33,9 @@ export default function Services() {
       <section className="relative py-32 bg-gradient-to-br from-sweet-pink-600 via-light-red-500 to-sweet-pink-700 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">Premium Escorts In Surat - Our Services</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">Premium Escorts In Indore - Our Services</h1>
           <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto animate-fadeInUp">
-            Discover our comprehensive range of luxury escort services designed for discerning clients in Surat
+            Discover our comprehensive range of luxury escort services designed for discerning clients in Indore
           </p>
         </div>
         
@@ -159,7 +159,7 @@ export default function Services() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
-              Our Premium Services in Surat
+              Our Premium Services in Indore
             </h2>
           </div>
 
@@ -168,7 +168,7 @@ export default function Services() {
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-pink-500">
               <h3 className="text-2xl font-bold text-pink-600 mb-4">VIP Escort Service</h3>
               <p className="text-gray-700 leading-relaxed">
-                Exclusive VIP companions for discerning clients seeking premium escort service in Surat. Professional, elegant, and sophisticated.
+                Exclusive VIP companions for discerning clients seeking premium escort service in Indore. Professional, elegant, and sophisticated.
               </p>
             </div>
 
@@ -176,7 +176,7 @@ export default function Services() {
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-blue-500">
               <h3 className="text-2xl font-bold text-blue-600 mb-4">Event Companions</h3>
               <p className="text-gray-700 leading-relaxed">
-                Perfect companions for business events, parties, and social gatherings in Surat. Professional and well-educated.
+                Perfect companions for business events, parties, and social gatherings in Indore. Professional and well-educated.
               </p>
             </div>
 
@@ -184,7 +184,7 @@ export default function Services() {
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-purple-500">
               <h3 className="text-2xl font-bold text-purple-600 mb-4">Premium Call Girls</h3>
               <p className="text-gray-700 leading-relaxed">
-                High-class call girls service with verified profiles and complete discretion in Surat. 24/7 availability.
+                High-class call girls service with verified profiles and complete discretion in Indore. 24/7 availability.
               </p>
             </div>
           </div>
@@ -192,7 +192,7 @@ export default function Services() {
           {/* Why We're the Top Choice */}
           <div className="bg-white rounded-3xl p-10 shadow-xl">
             <h3 className="text-4xl font-bold text-center bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-12">
-              Why We&apos;re the Top Choice in Surat
+              Why We&apos;re the Top Choice in Indore
             </h3>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -246,15 +246,15 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Surat Locations Section */}
+      {/* Indore Locations Section */}
       <section className="py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
-              Our Location Areas in Surat
+              Our Location Areas in Indore
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Premium escort locations available across all major areas of Surat
+              Premium escort locations available across all major areas of Indore
             </p>
           </div>
 
@@ -504,22 +504,22 @@ export default function Services() {
             <div className="space-y-6">
               <div className="text-center lg:text-left">
                 <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 to-pink-400 bg-clip-text text-transparent mb-4">
-                  Find Us in Surat
+                  Find Us in Indore
                 </h2>
                 <p className="text-xl text-gray-600">
-                  We provide premium escort services across all major areas of Surat
+                  We provide premium escort services across all major areas of Indore
                 </p>
               </div>
               <div className="w-full h-96 bg-gray-100 rounded-2xl overflow-hidden shadow-lg">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119066.41583263078!2d72.74109452431642!3d21.17024370000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1696234567890!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58881.094906827295!2d75.79103635!3d22.7195687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1696234567890!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Surat Location Map"
+                  title="Indore Location Map"
                 />
               </div>
             </div>
@@ -529,7 +529,7 @@ export default function Services() {
               <div className="text-center mb-8">
                 <h3 className="text-3xl font-bold text-gray-800 mb-4">Contact Us</h3>
                 <p className="text-gray-600">
-                  Get in touch with us for premium escort services in Surat
+                  Get in touch with us for premium escort services in Indore
                 </p>
               </div>
               
@@ -658,7 +658,7 @@ export default function Services() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-blue-600 mb-2">Email Us</h3>
-                <p className="text-lg font-bold text-gray-800 mb-2">info@suratescorts.com</p>
+                <p className="text-lg font-bold text-gray-800 mb-2">info@Indoreescorts.com</p>
                 <p className="text-gray-600">Quick Response</p>
               </div>
             </div>
@@ -674,7 +674,7 @@ export default function Services() {
               Frequently Asked Questions
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Get answers to common questions about our premium escort services in Surat
+              Get answers to common questions about our premium escort services in Indore
             </p>
           </div>
 
@@ -724,7 +724,7 @@ export default function Services() {
                 </div>
                 <h3 className="text-lg font-bold text-blue-600 mb-3">Service Areas?</h3>
                 <p className="text-gray-600 text-sm">
-                  We serve all major areas in Surat including Varachha, Adajan, Vesu, Althan, and surrounding locations.
+                  We serve all major areas in Indore including Vijay Nagar, Bhawar Kuan, Rajwada, Sarafa Bazar, and surrounding locations.
                 </p>
               </div>
             </div>
