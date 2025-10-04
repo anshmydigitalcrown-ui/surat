@@ -474,6 +474,127 @@ export default function Gallery() {
         </div>
       </section>
 
+      {/* Contact Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            {/* Google Map */}
+            <div className="space-y-6">
+              <div className="text-center lg:text-left">
+                <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 to-pink-400 bg-clip-text text-transparent mb-4">
+                  Find Us in Surat
+                </h2>
+                <p className="text-xl text-gray-600">
+                  We provide premium escort services across all major areas of Surat
+                </p>
+              </div>
+              <div className="w-full h-96 bg-gray-100 rounded-2xl overflow-hidden shadow-lg">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119066.41583263078!2d72.74109452431642!3d21.17024370000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1696234567890!5m2!1sen!2sin"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Surat Location Map"
+                />
+              </div>
+            </div>
+
+            {/* Contact Form */}
+            <div className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-2xl p-8 shadow-lg">
+              <div className="text-center mb-8">
+                <h3 className="text-3xl font-bold text-gray-800 mb-4">Contact Us</h3>
+                <p className="text-gray-600">
+                  Get in touch with us for premium escort services in Surat
+                </p>
+              </div>
+              
+              <form className="space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-gray-700 font-semibold mb-2">Name *</label>
+                    <input
+                      type="text"
+                      required
+                      className="w-full px-4 py-3 border border-pink-200 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300"
+                      placeholder="Your Name"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-gray-700 font-semibold mb-2">Phone *</label>
+                    <input
+                      type="tel"
+                      required
+                      className="w-full px-4 py-3 border border-pink-200 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300"
+                      placeholder="Your Phone Number"
+                    />
+                  </div>
+                </div>
+                
+                <div>
+                  <label className="block text-gray-700 font-semibold mb-2">Email</label>
+                  <input
+                    type="email"
+                    className="w-full px-4 py-3 border border-pink-200 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300"
+                    placeholder="your.email@example.com"
+                  />
+                </div>
+                
+                <div>
+                  <label className="block text-gray-700 font-semibold mb-2">Location Preference</label>
+                  <select className="w-full px-4 py-3 border border-pink-200 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300">
+                    <option value="">Select Preferred Area</option>
+                    <option value="varachha">Varachha</option>
+                    <option value="adajan">Adajan</option>
+                    <option value="vesu">Vesu</option>
+                    <option value="althan">Althan</option>
+                    <option value="citylight">City Light</option>
+                    <option value="athwa">Athwa</option>
+                    <option value="katargam">Katargam</option>
+                    <option value="piplod">Piplod</option>
+                    <option value="udhana">Udhana</option>
+                    <option value="ringsroad">Ring Road</option>
+                    <option value="nanpura">Nanpura</option>
+                    <option value="other">Other Area</option>
+                  </select>
+                </div>
+                
+                <div>
+                  <label className="block text-gray-700 font-semibold mb-2">Message</label>
+                  <textarea
+                    rows={4}
+                    className="w-full px-4 py-3 border border-pink-200 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300 resize-none"
+                    placeholder="Tell us about your preferences and requirements..."
+                  />
+                </div>
+                
+                <button
+                  type="submit"
+                  className="w-full bg-gradient-to-r from-pink-500 to-pink-600 text-white font-bold py-4 px-6 rounded-lg hover:from-pink-600 hover:to-pink-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+                >
+                  Send Message 💌
+                </button>
+              </form>
+              
+              <div className="mt-8 pt-6 border-t border-pink-200">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-center">
+                  <div className="flex items-center justify-center space-x-2">
+                    <span className="text-pink-600">📱</span>
+                    <span className="text-gray-700">24/7 Available</span>
+                  </div>
+                  <div className="flex items-center justify-center space-x-2">
+                    <span className="text-pink-600">🔒</span>
+                    <span className="text-gray-700">100% Confidential</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Gallery Statistics */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
