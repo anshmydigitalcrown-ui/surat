@@ -8,19 +8,19 @@ export default function Home() {
   
   const heroSlides = [
     {
-      title: "Luxury Companionship",
-      subtitle: "Experience Elegance in Surat",
+      title: "No.1 Best Escorts Service Surat",
+      subtitle: "RashmiKapoor - Premium Experience",
       description: "Professional and sophisticated companion services for discerning individuals.",
       image: "bg-gradient-to-br from-primary-400 via-accent-500 to-primary-600"
     },
     {
-      title: "Premium Experience",
+      title: "Luxury Companionship",
       subtitle: "Discretion & Professionalism",
       description: "Tailored services designed to exceed your expectations with complete privacy.",
       image: "bg-gradient-to-br from-accent-400 via-primary-500 to-accent-600"
     },
     {
-      title: "Sophisticated Service",
+      title: "Premium Service",
       subtitle: "Available 24/7",
       description: "Round-the-clock availability for your convenience and comfort.",
       image: "bg-gradient-to-br from-primary-500 via-accent-400 to-primary-700"
@@ -101,7 +101,7 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">Why Choose Us</h2>
+            <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">Why Choose RashmiKapoor</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We provide unparalleled companion services with a focus on elegance, discretion, and professionalism.
             </p>

@@ -13,15 +13,15 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <div className="w-12 h-12 bg-white/20 backdrop-blur-md rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">ES</span>
+                <span className="text-white font-bold text-xl">RK</span>
               </div>
               <div>
-                <h3 className="text-2xl font-bold">Escorts in Surat</h3>
-                <p className="text-pink-200">Premium Companion Services</p>
+                <h3 className="text-2xl font-bold">RashmiKapoor</h3>
+                <p className="text-pink-200">No.1 Best Escort Service Surat</p>
               </div>
             </div>
             <p className="text-pink-100 mb-6 max-w-md">
-              Experience luxury and elegance with our premium companion services in Surat. 
+              Experience luxury and elegance with Surat&apos;s premier escort service. 
               We provide sophisticated, professional, and discreet companionship for all occasions.
             </p>
             <div className="flex space-x-4">
@@ -140,7 +140,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-pink-200 text-sm">
-            © 2024 Escorts in Surat. All rights reserved. | 
+            © 2024 RashmiKapoor. All rights reserved. | 
             <Link href="/privacy" className="hover:text-white ml-1">Privacy Policy</Link> | 
             <Link href="/terms" className="hover:text-white ml-1">Terms of Service</Link>
           </p>
