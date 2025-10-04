@@ -2,25 +2,25 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-br from-sweet-pink-600 via-light-red-700 to-sweet-pink-700 text-white relative overflow-hidden">
+    <footer className="bg-gradient-to-br from-sweet-pink-500 via-light-red-500 to-sweet-pink-600 text-white relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-black/20"></div>
-      <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+      <div className="absolute inset-0 bg-black/10"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-12 h-12 bg-white/20 backdrop-blur-md rounded-lg flex items-center justify-center">
+              <div className="w-12 h-12 bg-white/20 backdrop-blur-md rounded-lg flex items-center justify-center shadow-lg">
                 <span className="text-white font-bold text-xl">RK</span>
               </div>
               <div>
                 <h3 className="text-2xl font-bold">RashmiKapoor</h3>
-                <p className="text-sweet-pink-100">No.1 Best Escort Service Surat</p>
+                <p className="text-white/90">No.1 Best Escort Service Surat</p>
               </div>
             </div>
-            <p className="text-sweet-pink-100 mb-6 max-w-md">
+            <p className="text-white/80 mb-6 max-w-md">
               Experience luxury and elegance with Surat&apos;s premier escort service. 
               We provide sophisticated, professional, and discreet companionship for all occasions.
             </p>
@@ -66,30 +66,30 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-pink-200">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-4 text-sweet-pink-200">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-pink-100 hover:text-white transition-colors duration-200 hover:translate-x-1 transform block">
+                <Link href="/" className="text-white/80 hover:text-sweet-pink-200 transition-colors duration-200 hover:translate-x-1 transform block">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-pink-100 hover:text-white transition-colors duration-200 hover:translate-x-1 transform block">
+                <Link href="/about" className="text-white/80 hover:text-sweet-pink-200 transition-colors duration-200 hover:translate-x-1 transform block">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-pink-100 hover:text-white transition-colors duration-200 hover:translate-x-1 transform block">
+                <Link href="/services" className="text-white/80 hover:text-sweet-pink-200 transition-colors duration-200 hover:translate-x-1 transform block">
                   Our Services
                 </Link>
               </li>
               <li>
-                <Link href="/gallery" className="text-pink-100 hover:text-white transition-colors duration-200 hover:translate-x-1 transform block">
+                <Link href="/gallery" className="text-white/80 hover:text-sweet-pink-200 transition-colors duration-200 hover:translate-x-1 transform block">
                   Gallery
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-pink-100 hover:text-white transition-colors duration-200 hover:translate-x-1 transform block">
+                <Link href="/contact" className="text-white/80 hover:text-sweet-pink-200 transition-colors duration-200 hover:translate-x-1 transform block">
                   Contact
                 </Link>
               </li>
@@ -98,7 +98,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-pink-200">Contact Info</h4>
+            <h4 className="text-lg font-semibold mb-4 text-sweet-pink-200">Contact Info</h4>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
@@ -107,7 +107,7 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                   </svg>
                 </div>
-                <span className="text-pink-100">Surat, Gujarat, India</span>
+                <span className="text-white/80">Surat, Gujarat, India</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
@@ -115,7 +115,7 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                   </svg>
                 </div>
-                <span className="text-pink-100">+91 XXXXX XXXXX</span>
+                <span className="text-white/80">+91 XXXXX XXXXX</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
@@ -123,7 +123,7 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                   </svg>
                 </div>
-                <span className="text-pink-100">info@escortsinsurat.com</span>
+                <span className="text-white/80">info@escortsinsurat.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
@@ -131,7 +131,7 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                   </svg>
                 </div>
-                <span className="text-pink-100">24/7 Available</span>
+                <span className="text-white/80">24/7 Available</span>
               </div>
             </div>
           </div>
@@ -139,12 +139,12 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-pink-200 text-sm">
+          <p className="text-white/80 text-sm">
             © 2024 RashmiKapoor. All rights reserved. | 
-            <Link href="/privacy" className="hover:text-white ml-1">Privacy Policy</Link> | 
-            <Link href="/terms" className="hover:text-white ml-1">Terms of Service</Link>
+            <Link href="/privacy" className="hover:text-sweet-pink-200 ml-1 transition-colors duration-200">Privacy Policy</Link> | 
+            <Link href="/terms" className="hover:text-sweet-pink-200 ml-1 transition-colors duration-200">Terms of Service</Link>
           </p>
-          <p className="text-pink-200 text-sm mt-2 md:mt-0">
+          <p className="text-white/80 text-sm mt-2 md:mt-0">
             Made with ❤️ in Surat
           </p>
         </div>
