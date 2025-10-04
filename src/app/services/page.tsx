@@ -389,6 +389,61 @@ export default function Services() {
         </div>
       </section>
 
+      {/* What Our Premium Clients Say About Us */}
+      <section className="py-20 bg-gradient-to-br from-pink-300 via-pink-200 to-pink-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 drop-shadow-lg">
+              ⭐ What Our Premium Clients Say About Us ⭐
+            </h2>
+            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+              💎 Thousands of satisfied clients across Indore trust us for premium escort services
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            {/* Premium Quality */}
+            <div className="bg-gradient-to-br from-pink-400 via-pink-300 to-pink-200 rounded-3xl p-8 text-center border border-pink-300 hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-5xl mb-6">🏆</div>
+              <h3 className="text-2xl font-bold text-white mb-4 drop-shadow-md">Premium Quality</h3>
+              <p className="text-gray-700 leading-relaxed font-medium">
+                Handpicked professional escorts with guaranteed satisfaction
+              </p>
+            </div>
+
+            {/* 100% Discrete */}
+            <div className="bg-gradient-to-br from-purple-400 via-purple-300 to-pink-300 rounded-3xl p-8 text-center border border-purple-300 hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-5xl mb-6">🔒</div>
+              <h3 className="text-2xl font-bold text-white mb-4 drop-shadow-md">100% Discrete</h3>
+              <p className="text-gray-700 leading-relaxed font-medium">
+                Complete privacy and confidentiality for all our VIP clients
+              </p>
+            </div>
+
+            {/* 24/7 Available */}
+            <div className="bg-gradient-to-br from-orange-400 via-pink-300 to-pink-200 rounded-3xl p-8 text-center border border-orange-300 hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-5xl mb-6">⚡</div>
+              <h3 className="text-2xl font-bold text-white mb-4 drop-shadow-md">24/7 Available</h3>
+              <p className="text-gray-700 leading-relaxed font-medium">
+                Round the clock service with instant booking confirmation
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-4 mb-8">
+            <div className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white px-8 py-4 rounded-full text-lg font-bold shadow-lg hover:shadow-xl transition-all duration-300">
+              ⭐ 5000+ Happy Clients
+            </div>
+            <div className="bg-gradient-to-r from-red-400 to-pink-400 text-white px-8 py-4 rounded-full text-lg font-bold shadow-lg hover:shadow-xl transition-all duration-300">
+              💯 100% Satisfaction
+            </div>
+            <div className="bg-gradient-to-r from-purple-400 to-pink-400 text-white px-8 py-4 rounded-full text-lg font-bold shadow-lg hover:shadow-xl transition-all duration-300">
+              🔥 Premium Service
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Booking Process */}
       <section className="py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
