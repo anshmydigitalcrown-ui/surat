@@ -61,6 +61,23 @@ export default function Contact() {
         <div className="absolute bottom-1/4 left-1/3 w-3 h-3 bg-white/30 rounded-full animate-pulse-slow" style={{animationDelay: '2s'}}></div>
       </section>
 
+      {/* Visit Us & Get In Touch Section */}
+      <section className="py-16 bg-gradient-to-br from-pink-100 via-pink-50 to-purple-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="flex items-center justify-center mb-6">
+            <div className="w-3 h-3 bg-pink-500 rounded-full mr-4"></div>
+            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
+              Visit Us & Get In Touch
+            </h2>
+            <div className="w-3 h-3 bg-pink-500 rounded-full ml-4"></div>
+          </div>
+          
+          <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+            Find us easily with our location map or contact us directly through our premium booking form
+          </p>
+        </div>
+      </section>
+
       {/* Contact Form & Map */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
