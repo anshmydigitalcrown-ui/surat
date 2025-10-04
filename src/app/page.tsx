@@ -311,7 +311,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Why We're the Top Choice */}
+          {/* Why We are the Top Choice */}
           <div className="bg-white rounded-3xl p-10 shadow-xl">
             <h3 className="text-4xl font-bold text-center bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-12">
               Why We&apos;re the Top Choice in Surat
