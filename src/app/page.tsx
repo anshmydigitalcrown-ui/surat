@@ -163,7 +163,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-black text-black mb-6">
-              Our Premium Services
+              Premium Escorts In Indore - Our Services
             </h2>
             <p className="text-2xl md:text-3xl text-gray-700 max-w-4xl mx-auto mb-6 font-medium leading-relaxed">
               Discover our comprehensive range of luxury escort services designed for discerning clients
