@@ -170,7 +170,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               { title: "VIP Companionship", image: "/images/services/0a20e49ae8e5c1e434883d78060d899f.webp", price: "₹15,000/hr" },
               { title: "Social Events", image: "/images/services/126d43d48bee88fc5a017727b8a72014.webp", price: "₹12,000/hr" },
@@ -199,45 +199,57 @@ export default function Home() {
             ].map((service, index) => (
               <div
                 key={index}
-                className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden"
+                className="group bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-102 overflow-hidden border border-sweet-pink-100"
               >
-                <div className="relative aspect-[4/5]">
+                <div className="relative h-80 bg-gray-50">
                   {/* Service Image */}
                   <Image 
                     src={service.image} 
                     alt={service.title} 
                     fill
-                    className="object-cover object-center"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 33vw, 20vw"
+                    className="object-contain object-center p-2"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                   
                   {/* Overlay */}
-                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
                   
                   {/* Price Badge */}
-                  <div className="absolute top-3 right-3 bg-gradient-to-r from-sweet-pink-500 to-light-red-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+                  <div className="absolute top-4 right-4 bg-gradient-to-r from-sweet-pink-500 to-light-red-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg">
                     {service.price}
                   </div>
                   
                   {/* Availability Badge */}
-                  <div className="absolute top-3 left-3 bg-green-500 text-white px-2 py-1 rounded-full text-xs font-medium">
+                  <div className="absolute top-4 left-4 bg-green-500 text-white px-3 py-2 rounded-full text-sm font-medium shadow-lg">
                     Available
                   </div>
                 </div>
                 
-                <div className="p-4">
-                  <h3 className="font-bold text-gray-800 text-sm mb-2 group-hover:text-sweet-pink-600 transition-colors duration-200">
+                <div className="p-6">
+                  <h3 className="font-bold text-gray-800 text-lg mb-3 group-hover:text-sweet-pink-600 transition-colors duration-200">
                     {service.title}
                   </h3>
+                  
+                  {/* Image Info */}
+                  <div className="mb-4 text-sm text-gray-600">
+                    <div className="flex justify-between items-center mb-2">
+                      <span className="font-medium">Container Size:</span>
+                      <span>320x320px</span>
+                    </div>
+                    <div className="text-xs bg-gray-100 p-2 rounded-lg break-all">
+                      <span className="font-medium">Image:</span> {service.image.split('/').pop()}
+                    </div>
+                  </div>
+                  
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-1">
                       {[...Array(5)].map((_, starIndex) => (
-                        <svg key={starIndex} className="w-3 h-3 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                        <svg key={starIndex} className="w-4 h-4 text-yellow-400 fill-current" viewBox="0 0 20 20">
                           <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
                         </svg>
                       ))}
                     </div>
-                    <button className="bg-gradient-to-r from-sweet-pink-500 to-light-red-500 text-white px-3 py-1 rounded-full text-xs font-medium hover:from-sweet-pink-600 hover:to-light-red-600 transition-all duration-200">
+                    <button className="bg-gradient-to-r from-sweet-pink-500 to-light-red-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:from-sweet-pink-600 hover:to-light-red-600 transition-all duration-200 shadow-lg">
                       Book Now
                     </button>
                   </div>
