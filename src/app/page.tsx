@@ -170,7 +170,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
             {[
               { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "Elite companions for exclusive events and occasions", price: "Premium", rating: "4.9" },
               { title: "Social Events", image: "/images/services/Social Events.webp", description: "Perfect companions for social gatherings and parties", price: "Standard", rating: "4.8" },
@@ -187,19 +187,23 @@ export default function Home() {
               { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "International model companions", price: "Luxury", rating: "5.0" },
               { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Business event support and networking", price: "Premium", rating: "4.8" },
               { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Elegant companions for wedding events", price: "Premium", rating: "4.7" },
-              { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "High-end escort services", price: "Luxury", rating: "4.9" }
+              { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "High-end escort services", price: "Luxury", rating: "4.9" },
+              { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Professional outcall escort services", price: "Standard", rating: "4.6" },
+              { title: "In-call Service", image: "/images/services/In-call Service.webp", description: "Comfortable in-call arrangements", price: "Standard", rating: "4.5" },
+              { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Special weekend companion packages", price: "Premium", rating: "4.8" },
+              { title: "Special Service", image: "/images/services/Special Service.webp", description: "Customized special occasion services", price: "Luxury", rating: "4.9" }
             ].map((service, index) => (
               <div
                 key={index}
                 className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 overflow-hidden border border-pink-100 hover:border-pink-300"
               >
                 {/* Service Image Container */}
-                <div className="relative h-56 overflow-hidden">
+                <div className="relative h-64 sm:h-56 md:h-60 lg:h-56 xl:h-64 overflow-hidden bg-gray-50">
                   <Image 
                     src={service.image} 
                     alt={service.title} 
                     fill
-                    className="object-cover object-center transition-transform duration-500 group-hover:scale-110"
+                    className="object-contain object-center p-2 transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                   

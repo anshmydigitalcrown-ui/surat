@@ -20,7 +20,11 @@ export default function Services() {
     { title: "Russian Model", image: "/images/services/Russian Model.webp", category: "International", description: "International model companions", price: "₹50,000+", rating: "5.0", features: ["International", "Model Figure", "Exotic"] },
     { title: "Corporate Event", image: "/images/services/Corporate Event.webp", category: "Business", description: "Business event support and networking", price: "₹25,000+", rating: "4.8", features: ["Corporate", "Professional", "Networking"] },
     { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", category: "Special", description: "Elegant companions for wedding events", price: "₹20,000+", rating: "4.7", features: ["Wedding Ready", "Elegant", "Traditional"] },
-    { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", category: "Premium", description: "High-end escort services", price: "₹30,000+", rating: "4.9", features: ["Premium Service", "High Class", "Exclusive"] }
+    { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", category: "Premium", description: "High-end escort services", price: "₹30,000+", rating: "4.9", features: ["Premium Service", "High Class", "Exclusive"] },
+    { title: "Outcall Service", image: "/images/services/Outcall Service.webp", category: "Outcall", description: "Professional outcall escort services", price: "₹15,000+", rating: "4.6", features: ["Outcall Only", "Your Location", "Flexible"] },
+    { title: "In-call Service", image: "/images/services/In-call Service.webp", category: "Incall", description: "Comfortable in-call arrangements", price: "₹12,000+", rating: "4.5", features: ["Incall Only", "Safe Location", "Private"] },
+    { title: "Weekend Special", image: "/images/services/Weekend Special.webp", category: "Special", description: "Special weekend companion packages", price: "₹25,000+", rating: "4.8", features: ["Weekend Only", "Special Rates", "Extended Time"] },
+    { title: "Special Service", image: "/images/services/Special Service.webp", category: "Premium", description: "Customized special occasion services", price: "₹35,000+", rating: "4.9", features: ["Custom Service", "Special Events", "Personalized"] }
   ];
 
   return (
@@ -53,19 +57,19 @@ export default function Services() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
             {services.map((service, index) => (
               <div
                 key={index}
                 className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 overflow-hidden border border-pink-100 hover:border-pink-300"
               >
                 {/* Service Image Container */}
-                <div className="relative h-56 overflow-hidden">
+                <div className="relative h-64 sm:h-56 md:h-60 lg:h-56 xl:h-64 overflow-hidden bg-gray-50">
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-cover object-center transition-transform duration-500 group-hover:scale-110"
+                    className="object-contain object-center p-2 transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                   

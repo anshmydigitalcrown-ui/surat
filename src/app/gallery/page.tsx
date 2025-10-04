@@ -94,19 +94,19 @@ export default function Gallery() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
             {filteredServices.map((service, index) => (
               <div
                 key={index}
                 className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 overflow-hidden border border-pink-100 hover:border-pink-300"
               >
                 {/* Service Image Container */}
-                <div className="relative h-56 overflow-hidden">
+                <div className="relative h-64 sm:h-56 md:h-60 lg:h-56 xl:h-64 overflow-hidden bg-gray-50">
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-cover object-center transition-transform duration-500 group-hover:scale-110"
+                    className="object-contain object-center p-2 transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                   
