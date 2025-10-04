@@ -97,14 +97,15 @@ export default function Home() {
 
             {/* Right Side - Image Card */}
             <div className="relative animate-fadeInUp" style={{animationDelay: '0.3s'}}>
-              <div className="relative flex items-center">
-                {/* Image Name on Side */}
-                <div className="absolute -left-20 top-1/2 transform -translate-y-1/2 -rotate-90 z-20">
-                  <h3 className="text-2xl font-bold bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent whitespace-nowrap">
-                    RashmiKapoor
-                  </h3>
-                </div>
-                
+              {/* Image Name Above Container */}
+              <div className="text-center mb-6">
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent mb-2">
+                  RashmiKapoor
+                </h3>
+                <p className="text-gray-600 font-medium">Premium Escort Service</p>
+              </div>
+              
+              <div className="relative">
                 {/* Main Image Card */}
                 <div className="bg-gradient-to-br from-sweet-pink-200 via-sweet-pink-300 to-light-red-200 rounded-3xl shadow-2xl overflow-hidden transform rotate-3 hover:rotate-0 transition-transform duration-500 p-3">
                   <div className="bg-white rounded-2xl overflow-hidden shadow-inner">
@@ -114,14 +115,14 @@ export default function Home() {
                         src="/images/hero/sexy-wet-bhabhi.webp" 
                         alt="RashmiKapoor - Premium Escort Service" 
                         fill
-                        className="object-cover object-center"
+                        className="object-contain"
                         priority
                         quality={95}
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       />
                       
                       {/* Subtle Overlay Gradient */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent"></div>
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/5 via-transparent to-transparent"></div>
                       
                       {/* Content Overlay */}
                       <div className="absolute bottom-4 left-4 right-4 text-white">
