@@ -223,7 +223,7 @@ export default function Home() {
                   
                   {/* Buttons aligned to left */}
                   <div className="flex flex-col items-start space-y-3">
-                    <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-xl text-sm font-medium transition-all duration-200 shadow-lg">
+                    <button className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-xl text-sm font-medium transition-all duration-200 shadow-lg">
                       {service.image.split('/').pop()?.replace('.webp', '')}
                     </button>
                     <button className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-xl text-sm font-medium transition-all duration-200 shadow-lg">
