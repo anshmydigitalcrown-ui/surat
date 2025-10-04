@@ -3,60 +3,130 @@
 :root {
   --background: #fdf2f8;
   --foreground: #1f2937;
-  
-  /* Pink Color Palette */
-  --pink-50: #fdf2f8;
-  --pink-100: #fce7f3;
-  --pink-200: #fbcfe8;
-  --pink-300: #f9a8d4;
-  --pink-400: #f472b6;
-  --pink-500: #ec4899;
-  --pink-600: #db2777;
-  --pink-700: #be185d;
-  --pink-800: #9d174d;
-  --pink-900: #831843;
-  
-  /* Rose/Pink variants */
-  --rose-50: #fff1f2;
-  --rose-100: #ffe4e6;
-  --rose-200: #fecdd3;
-  --rose-300: #fda4af;
-  --rose-400: #fb7185;
-  --rose-500: #f43f5e;
-  --rose-600: #e11d48;
-  --rose-700: #be123c;
-  --rose-800: #9f1239;
-  --rose-900: #881337;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  
-  /* Pink Theme Colors */
-  --color-primary-50: var(--pink-50);
-  --color-primary-100: var(--pink-100);
-  --color-primary-200: var(--pink-200);
-  --color-primary-300: var(--pink-300);
-  --color-primary-400: var(--pink-400);
-  --color-primary-500: var(--pink-500);
-  --color-primary-600: var(--pink-600);
-  --color-primary-700: var(--pink-700);
-  --color-primary-800: var(--pink-800);
-  --color-primary-900: var(--pink-900);
-  
-  --color-accent-50: var(--rose-50);
-  --color-accent-100: var(--rose-100);
-  --color-accent-200: var(--rose-200);
-  --color-accent-300: var(--rose-300);
-  --color-accent-400: var(--rose-400);
-  --color-accent-500: var(--rose-500);
-  --color-accent-600: var(--rose-600);
-  --color-accent-700: var(--rose-700);
-  --color-accent-800: var(--rose-800);
-  --color-accent-900: var(--rose-900);
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1a0e1a;
+    --foreground: #fdf2f8;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom color classes */
+.bg-primary-50 { background-color: #fdf2f8; }
+.bg-primary-100 { background-color: #fce7f3; }
+.bg-primary-200 { background-color: #fbcfe8; }
+.bg-primary-300 { background-color: #f9a8d4; }
+.bg-primary-400 { background-color: #f472b6; }
+.bg-primary-500 { background-color: #ec4899; }
+.bg-primary-600 { background-color: #db2777; }
+.bg-primary-700 { background-color: #be185d; }
+.bg-primary-800 { background-color: #9d174d; }
+.bg-primary-900 { background-color: #831843; }
+
+.text-primary-50 { color: #fdf2f8; }
+.text-primary-100 { color: #fce7f3; }
+.text-primary-200 { color: #fbcfe8; }
+.text-primary-300 { color: #f9a8d4; }
+.text-primary-400 { color: #f472b6; }
+.text-primary-500 { color: #ec4899; }
+.text-primary-600 { color: #db2777; }
+.text-primary-700 { color: #be185d; }
+.text-primary-800 { color: #9d174d; }
+.text-primary-900 { color: #831843; }
+
+.border-primary-100 { border-color: #fce7f3; }
+.border-primary-200 { border-color: #fbcfe8; }
+.border-primary-300 { border-color: #f9a8d4; }
+.border-primary-500 { border-color: #ec4899; }
+.border-primary-600 { border-color: #db2777; }
+
+.bg-accent-50 { background-color: #fff1f2; }
+.bg-accent-100 { background-color: #ffe4e6; }
+.bg-accent-200 { background-color: #fecdd3; }
+.bg-accent-300 { background-color: #fda4af; }
+.bg-accent-400 { background-color: #fb7185; }
+.bg-accent-500 { background-color: #f43f5e; }
+.bg-accent-600 { background-color: #e11d48; }
+.bg-accent-700 { background-color: #be123c; }
+.bg-accent-800 { background-color: #9f1239; }
+.bg-accent-900 { background-color: #881337; }
+
+.text-accent-400 { color: #fb7185; }
+.text-accent-500 { color: #f43f5e; }
+.text-accent-600 { color: #e11d48; }
+
+/* Custom Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes gradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.animate-pulse-slow {
+  animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-gradient {
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+}
+
+/* Custom Gradients */
+.gradient-pink {
+  background: linear-gradient(-45deg, #f472b6, #f43f5e, #db2777, #fb7185);
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #db2777, #f43f5e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glowing effects */
+.glow-pink {
+  box-shadow: 0 0 20px rgba(236, 72, 153, 0.3);
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 30px rgba(236, 72, 153, 0.5);
+  transition: box-shadow 0.3s ease;
 }
 
 @media (prefers-color-scheme: dark) {
