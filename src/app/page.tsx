@@ -256,18 +256,6 @@ export default function Home() {
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -skew-x-12 animate-shimmer"></div>
                 </div>
-                      Book Now
-                    </button>
-                    <button className="px-4 py-2.5 border border-pink-300 text-pink-600 rounded-lg hover:bg-pink-50 transition-all duration-300 font-medium text-sm">
-                      Details
-                    </button>
-                  </div>
-                </div>
-                
-                {/* Hover Effect Shine */}
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -skew-x-12 animate-shimmer"></div>
-                </div>
               </div>
             ))}
           </div>
@@ -923,62 +911,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Preview */}
-      <section className="py-20 bg-gradient-to-br from-primary-50 via-white to-accent-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold gradient-text mb-4">Our Services</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Tailored experiences designed to meet your unique preferences and requirements.
-            </p>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                title: "Social Companionship",
-                description: "Elegant companions for social events, dinners, and business functions.",
-                features: ["Professional Etiquette", "Multilingual", "Well-Educated", "Socially Adept"]
-              },
-              {
-                title: "Travel Companion",
-                description: "Sophisticated travel partners for business trips and leisure vacations.",
-                features: ["Travel Experience", "Cultural Knowledge", "Flexible Schedule", "Passport Ready"]
-              },
-              {
-                title: "Personal Assistant",
-                description: "Professional support for busy executives and entrepreneurs.",
-                features: ["Business Acumen", "Organizational Skills", "Confidentiality", "Reliability"]
-              }
-            ].map((service, index) => (
-              <div 
-                key={index}
-                className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
-              >
-                <h3 className="text-2xl font-bold gradient-text mb-4">{service.title}</h3>
-                <p className="text-gray-600 mb-6">{service.description}</p>
-                <ul className="space-y-2">
-                  {service.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-center">
-                      <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                      <span className="text-gray-700">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-
-          <div className="text-center mt-12">
-            <Link 
-              href="/services" 
-              className="bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white px-8 py-4 rounded-full font-semibold text-lg hover-glow transition-all duration-300 transform hover:scale-105 inline-block"
-            >
-              View All Services
-            </Link>
-          </div>
-        </div>
-      </section>
 
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-primary-500 to-accent-600 text-white">
