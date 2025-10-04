@@ -97,6 +97,14 @@ export default function Home() {
 
             {/* Right Side - Image Card */}
             <div className="relative animate-fadeInUp" style={{animationDelay: '0.3s'}}>
+              {/* Image Name/Title */}
+              <div className="text-center mb-6">
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent mb-2">
+                  RashmiKapoor
+                </h3>
+                <p className="text-gray-600 font-medium">Premium Escort Service</p>
+              </div>
+              
               <div className="relative">
                 {/* Main Image Card */}
                 <div className="bg-white rounded-3xl shadow-2xl overflow-hidden transform rotate-3 hover:rotate-0 transition-transform duration-500">
@@ -104,19 +112,19 @@ export default function Home() {
                     {/* Hero Image */}
                     <Image 
                       src="/images/hero/sexy-wet-bhabhi.webp" 
-                      alt="Premium Escort Service" 
+                      alt="RashmiKapoor - Premium Escort Service" 
                       fill
-                      className="object-cover"
+                      className="object-contain"
                       priority
                     />
                     
                     {/* Overlay Gradient */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
                     
                     {/* Content Overlay */}
                     <div className="absolute bottom-6 left-6 right-6 text-white">
-                      <h3 className="text-2xl font-bold mb-2 drop-shadow-lg">Premium</h3>
-                      <p className="text-lg opacity-90 drop-shadow-lg">Escort Service</p>
+                      <h3 className="text-xl font-bold mb-1 drop-shadow-lg">Available Now</h3>
+                      <p className="text-sm opacity-90 drop-shadow-lg">Professional Service</p>
                     </div>
                     
                     {/* Decorative Elements */}
