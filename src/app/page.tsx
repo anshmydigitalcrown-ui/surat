@@ -173,7 +173,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp" },
               { title: "Social Events", image: "/images/services/Social Events.webp" },
@@ -200,14 +200,14 @@ export default function Home() {
                 key={index}
                 className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden border-2 border-pink-300"
               >
-                <div className="relative h-96 bg-pink-50">
+                <div className="relative h-80 bg-pink-50">
                   {/* Service Image */}
                   <Image 
                     src={service.image} 
                     alt={service.title} 
                     fill
-                    className="object-contain object-center p-2"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-contain object-center p-4"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                   
                   {/* Overlay */}
@@ -219,7 +219,7 @@ export default function Home() {
                   </div>
                 </div>
                 
-                <div className="p-8 bg-pink-50">
+                <div className="p-6 bg-pink-50">
                   <h2 className="text-3xl font-extrabold text-transparent bg-gradient-to-r from-pink-600 to-red-500 bg-clip-text mb-6 leading-tight">
                     {service.title}
                   </h2>

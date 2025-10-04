@@ -97,20 +97,20 @@ export default function Gallery() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {filteredServices.map((service, index) => (
               <div
                 key={index}
                 className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden border-2 border-pink-300"
               >
                 {/* Service Image */}
-                <div className="h-96 relative bg-pink-50">
+                <div className="h-80 relative bg-pink-50">
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-contain object-center p-2"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-contain object-center p-4"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-pink-200/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
@@ -126,7 +126,7 @@ export default function Gallery() {
                   </div>
                 </div>
                 
-                <div className="p-8 bg-pink-50">
+                <div className="p-6 bg-pink-50">
                   <h2 className="text-3xl font-extrabold text-transparent bg-gradient-to-r from-pink-600 to-red-500 bg-clip-text mb-6 leading-tight">
                     {service.title}
                   </h2>
