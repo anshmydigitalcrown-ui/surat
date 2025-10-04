@@ -810,7 +810,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg font-bold text-pink-600 mb-3">How to Book?</h3>
                 <p className="text-gray-600 text-sm">
-                  Simply call us, WhatsApp, or fill out our contact form. We'll arrange everything professionally and discreetly.
+                  Simply call us, WhatsApp, or fill out our contact form. We&apos;ll arrange everything professionally and discreetly.
                 </p>
               </div>
             </div>
