@@ -49,11 +49,14 @@ export default function Services() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-sweet-pink-600 to-light-red-600 bg-clip-text text-transparent mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-sweet-pink-600 to-light-red-600 bg-clip-text text-transparent mb-6">
               Complete Service Portfolio
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-2xl md:text-3xl text-gray-700 max-w-4xl mx-auto mb-6 font-medium leading-relaxed">
               Choose from our extensive collection of premium services, each designed to exceed your expectations
+            </p>
+            <p className="text-xl md:text-2xl text-gray-600 max-w-5xl mx-auto leading-relaxed">
+              Our professional team delivers exceptional service quality with attention to every detail. Discover the perfect match for your preferences from our diverse range of premium offerings.
             </p>
           </div>
 
@@ -102,17 +105,6 @@ export default function Services() {
                     </div>
                     <div className="text-xs bg-gray-100 p-2 rounded-lg break-all">
                       <span className="font-medium">Image:</span> {service.image.split('/').pop()}
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-center justify-between mb-4">
-                    <div className="flex items-center space-x-1">
-                      {[...Array(service.rating)].map((_, starIndex) => (
-                        <svg key={starIndex} className="w-4 h-4 text-yellow-400 fill-current" viewBox="0 0 20 20">
-                          <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
-                        </svg>
-                      ))}
-                      <span className="text-sm text-gray-500 ml-2">({service.rating}.0)</span>
                     </div>
                   </div>
                   

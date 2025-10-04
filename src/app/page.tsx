@@ -162,11 +162,14 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-sweet-pink-600 to-light-red-600 bg-clip-text text-transparent mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-sweet-pink-600 to-light-red-600 bg-clip-text text-transparent mb-6">
               Our Premium Services
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-2xl md:text-3xl text-gray-700 max-w-4xl mx-auto mb-6 font-medium leading-relaxed">
               Discover our comprehensive range of luxury escort services designed for discerning clients
+            </p>
+            <p className="text-xl md:text-2xl text-gray-600 max-w-5xl mx-auto leading-relaxed">
+              Experience unmatched elegance and sophistication with our carefully curated collection of premium services. Each offering is tailored to provide exceptional quality and memorable experiences that exceed your highest expectations.
             </p>
           </div>
 
@@ -237,14 +240,7 @@ export default function Home() {
                     </div>
                   </div>
                   
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-1">
-                      {[...Array(5)].map((_, starIndex) => (
-                        <svg key={starIndex} className="w-4 h-4 text-yellow-400 fill-current" viewBox="0 0 20 20">
-                          <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
-                        </svg>
-                      ))}
-                    </div>
+                  <div className="flex justify-center">
                     <button className="bg-gradient-to-r from-blue-500 via-red-400 to-pink-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:from-blue-600 hover:via-red-500 hover:to-pink-600 transition-all duration-200 shadow-lg">
                       Book Now
                     </button>
