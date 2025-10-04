@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-br from-sweet-pink-500 via-light-red-500 to-sweet-pink-600 text-white relative overflow-hidden">
+    <footer className="bg-gradient-to-br from-pink-400 via-pink-300 to-pink-500 text-white relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
@@ -66,30 +66,30 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-sweet-pink-200">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-4 text-pink-100">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-white/80 hover:text-sweet-pink-200 transition-colors duration-200 hover:translate-x-1 transform block">
+                <Link href="/" className="text-white/80 hover:text-pink-100 transition-colors duration-200 hover:translate-x-1 transform block">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-white/80 hover:text-sweet-pink-200 transition-colors duration-200 hover:translate-x-1 transform block">
+                <Link href="/about" className="text-white/80 hover:text-pink-100 transition-colors duration-200 hover:translate-x-1 transform block">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-white/80 hover:text-sweet-pink-200 transition-colors duration-200 hover:translate-x-1 transform block">
+                <Link href="/services" className="text-white/80 hover:text-pink-100 transition-colors duration-200 hover:translate-x-1 transform block">
                   Our Services
                 </Link>
               </li>
               <li>
-                <Link href="/gallery" className="text-white/80 hover:text-sweet-pink-200 transition-colors duration-200 hover:translate-x-1 transform block">
+                <Link href="/gallery" className="text-white/80 hover:text-pink-100 transition-colors duration-200 hover:translate-x-1 transform block">
                   Gallery
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-white/80 hover:text-sweet-pink-200 transition-colors duration-200 hover:translate-x-1 transform block">
+                <Link href="/contact" className="text-white/80 hover:text-pink-100 transition-colors duration-200 hover:translate-x-1 transform block">
                   Contact
                 </Link>
               </li>
@@ -98,7 +98,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-sweet-pink-200">Contact Info</h4>
+            <h4 className="text-lg font-semibold mb-4 text-pink-100">Contact Info</h4>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
@@ -141,8 +141,8 @@ export default function Footer() {
         <div className="border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/80 text-sm">
             © 2024 RashmiKapoor. All rights reserved. | 
-            <Link href="/privacy" className="hover:text-sweet-pink-200 ml-1 transition-colors duration-200">Privacy Policy</Link> | 
-            <Link href="/terms" className="hover:text-sweet-pink-200 ml-1 transition-colors duration-200">Terms of Service</Link>
+            <Link href="/privacy" className="hover:text-pink-100 ml-1 transition-colors duration-200">Privacy Policy</Link> | 
+            <Link href="/terms" className="hover:text-pink-100 ml-1 transition-colors duration-200">Terms of Service</Link>
           </p>
           <p className="text-white/80 text-sm mt-2 md:mt-0">
             Made with ❤️ in Surat
