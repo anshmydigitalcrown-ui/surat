@@ -266,6 +266,140 @@ export default function Services() {
         </div>
       </section>
 
+      {/* Escorts in Surat Content Section */}
+      <section className="py-20 bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="flex justify-center items-center gap-4 mb-6">
+              <span className="text-4xl">⭐</span>
+              <h2 className="text-5xl md:text-6xl font-black text-white">
+                What Our Premium Clients Say About Us
+              </h2>
+              <span className="text-4xl">⭐</span>
+            </div>
+            <div className="flex justify-center items-center gap-2 mb-8">
+              <span className="text-2xl">💎</span>
+              <p className="text-xl md:text-2xl text-white max-w-4xl mx-auto leading-relaxed">
+                Thousands of satisfied clients across Surat trust us for premium escort services
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            {/* Premium Quality */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 text-center text-white border border-white/20 hover:bg-white/20 transition-all duration-300">
+              <div className="text-5xl mb-4">🏆</div>
+              <h3 className="text-2xl font-bold mb-4">Premium Quality</h3>
+              <p className="text-white/90 leading-relaxed">
+                Handpicked professional escorts with guaranteed satisfaction
+              </p>
+            </div>
+
+            {/* 100% Discrete */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 text-center text-white border border-white/20 hover:bg-white/20 transition-all duration-300">
+              <div className="text-5xl mb-4">🔒</div>
+              <h3 className="text-2xl font-bold mb-4">100% Discrete</h3>
+              <p className="text-white/90 leading-relaxed">
+                Complete privacy and confidentiality for all our VIP clients
+              </p>
+            </div>
+
+            {/* 24/7 Available */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 text-center text-white border border-white/20 hover:bg-white/20 transition-all duration-300">
+              <div className="text-5xl mb-4">⚡</div>
+              <h3 className="text-2xl font-bold mb-4">24/7 Available</h3>
+              <p className="text-white/90 leading-relaxed">
+                Round the clock service with instant booking confirmation
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-6">
+            <div className="bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-full text-lg font-semibold border border-white/30">
+              🏠 5000+ Happy Clients
+            </div>
+            <div className="bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-full text-lg font-semibold border border-white/30">
+              💯 100% Satisfaction
+            </div>
+            <div className="bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-full text-lg font-semibold border border-white/30">
+              👑 Premium Service
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="py-20 bg-gradient-to-br from-red-500 via-pink-500 to-purple-600">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-black text-white mb-6">
+              Book Your Premium Companion Today
+            </h2>
+            <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
+              Ready to experience the finest escort services in Surat? Contact us now for instant booking
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+            {/* WhatsApp */}
+            <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer"
+               className="bg-green-500 hover:bg-green-600 text-white rounded-3xl p-8 text-center transition-all duration-300 transform hover:scale-105 shadow-2xl">
+              <div className="text-5xl mb-4">📱</div>
+              <h3 className="text-2xl font-bold mb-2">WhatsApp</h3>
+              <p className="text-green-100 mb-4">Instant messaging & calls</p>
+              <div className="text-lg font-semibold">+91 98765 43210</div>
+            </a>
+
+            {/* Phone Call */}
+            <a href="tel:+919876543210"
+               className="bg-blue-500 hover:bg-blue-600 text-white rounded-3xl p-8 text-center transition-all duration-300 transform hover:scale-105 shadow-2xl">
+              <div className="text-5xl mb-4">📞</div>
+              <h3 className="text-2xl font-bold mb-2">Phone Call</h3>
+              <p className="text-blue-100 mb-4">Direct voice calls</p>
+              <div className="text-lg font-semibold">+91 98765 43210</div>
+            </a>
+
+            {/* Email */}
+            <a href="mailto:info@suratescorts.com"
+               className="bg-purple-500 hover:bg-purple-600 text-white rounded-3xl p-8 text-center transition-all duration-300 transform hover:scale-105 shadow-2xl">
+              <div className="text-5xl mb-4">📧</div>
+              <h3 className="text-2xl font-bold mb-2">Email</h3>
+              <p className="text-purple-100 mb-4">Professional inquiries</p>
+              <div className="text-lg font-semibold">info@suratescorts.com</div>
+            </a>
+
+            {/* Live Chat */}
+            <div className="bg-orange-500 hover:bg-orange-600 text-white rounded-3xl p-8 text-center transition-all duration-300 transform hover:scale-105 shadow-2xl cursor-pointer">
+              <div className="text-5xl mb-4">💬</div>
+              <h3 className="text-2xl font-bold mb-2">Live Chat</h3>
+              <p className="text-orange-100 mb-4">Chat with our team</p>
+              <div className="text-lg font-semibold">Available 24/7</div>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 max-w-4xl mx-auto border border-white/20">
+              <h3 className="text-3xl font-bold text-white mb-4">🌟 Ready to Book? 🌟</h3>
+              <p className="text-xl text-white/90 mb-6">
+                Contact us through any of the methods above for instant booking confirmation. 
+                Our premium escorts are available 24/7 across all locations in Surat.
+              </p>
+              <div className="flex flex-wrap justify-center gap-4">
+                <span className="bg-yellow-400 text-yellow-900 px-6 py-2 rounded-full font-semibold">
+                  ✨ Instant Confirmation
+                </span>
+                <span className="bg-green-400 text-green-900 px-6 py-2 rounded-full font-semibold">
+                  🔒 100% Discrete
+                </span>
+                <span className="bg-blue-400 text-blue-900 px-6 py-2 rounded-full font-semibold">
+                  👑 Premium Quality
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
