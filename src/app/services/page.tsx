@@ -89,14 +89,11 @@ export default function Services() {
                     {service.title}
                   </h2>
                   
-                  {/* Button layout with Book Now on left and image name on right */}
-                  <div className="flex justify-between items-center space-x-3">
-                    <button className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-xl text-sm font-medium transition-all duration-200 shadow-lg">
+                  {/* Centered Book Now Button */}
+                  <div className="flex justify-center">
+                    <button className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-xl text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
                       Book Now
                     </button>
-                    <div className="text-sm text-gray-600 font-medium">
-                      {service.image.split('/').pop()?.replace('.webp', '')}
-                    </div>
                   </div>
                 </div>
               </div>
