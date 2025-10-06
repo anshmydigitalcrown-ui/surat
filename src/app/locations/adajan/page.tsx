@@ -197,6 +197,130 @@ export default function AdajanEscorts() {
           </div>
         </section>
 
+        {/* Escorts in Adajan Content Section */}
+        <section className="py-16 sm:py-20 bg-gradient-to-br from-white via-blue-50 to-blue-100">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-800 mb-6">
+                Escorts in Adajan - Premium Residential Companionship
+              </h2>
+              <p className="text-lg sm:text-xl text-blue-700 max-w-4xl mx-auto leading-relaxed">
+                Experience elite escort services in Adajan, Surat&apos;s most prestigious residential area offering 
+                sophisticated companionship in a refined neighborhood setting
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+              <div className="space-y-6">
+                <h3 className="text-2xl sm:text-3xl font-bold text-blue-800 mb-4">
+                  Why Choose Adajan Escorts?
+                </h3>
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                  Adajan represents the pinnacle of residential luxury in Surat, featuring upscale apartments, 
+                  modern amenities, and a sophisticated community atmosphere. Our premium escort services in 
+                  Adajan are designed to complement this refined lifestyle, offering discreet and elegant 
+                  companionship for the area&apos;s discerning residents.
+                </p>
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                  Known for its planned infrastructure, luxury housing societies, and proximity to premium 
+                  malls and restaurants, Adajan attracts successful professionals and families who appreciate 
+                  quality and exclusivity. Our carefully vetted companions understand the sophisticated 
+                  social dynamics of this upscale residential community.
+                </p>
+              </div>
+
+              <div className="space-y-6">
+                <h3 className="text-2xl sm:text-3xl font-bold text-blue-800 mb-4">
+                  Residential Services Available
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div className="bg-white p-4 rounded-lg shadow-md border border-blue-100">
+                    <h4 className="font-semibold text-blue-700 mb-2">Private Companionship</h4>
+                    <p className="text-sm text-gray-600">Discreet in-call and outcall services for Adajan residents</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-md border border-blue-100">
+                    <h4 className="font-semibold text-blue-700 mb-2">Dinner Companions</h4>
+                    <p className="text-sm text-gray-600">Elegant escorts for fine dining at Adajan&apos;s upscale restaurants</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-md border border-blue-100">
+                    <h4 className="font-semibold text-blue-700 mb-2">Social Events</h4>
+                    <p className="text-sm text-gray-600">Sophisticated companions for community gatherings and parties</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-md border border-blue-100">
+                    <h4 className="font-semibold text-blue-700 mb-2">Weekend Companionship</h4>
+                    <p className="text-sm text-gray-600">Special weekend packages for leisure and relaxation</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 sm:p-12 text-white mb-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-4">
+                    Adajan&apos;s Residential Excellence
+                  </h3>
+                  <p className="text-blue-100 leading-relaxed mb-6">
+                    As one of Surat&apos;s most sought-after residential localities, Adajan features modern 
+                    infrastructure, luxury apartment complexes, and a family-friendly environment. Our 
+                    escort services are tailored to meet the refined expectations of this upscale 
+                    community while maintaining the highest standards of discretion and professionalism.
+                  </p>
+                  <div className="flex flex-wrap gap-4">
+                    <span className="bg-blue-500 px-4 py-2 rounded-full text-sm font-medium">Residential Focus</span>
+                    <span className="bg-blue-500 px-4 py-2 rounded-full text-sm font-medium">Premium Privacy</span>
+                    <span className="bg-blue-500 px-4 py-2 rounded-full text-sm font-medium">Elite Standards</span>
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div className="bg-white/20 rounded-xl p-6 backdrop-blur-sm">
+                    <div className="text-4xl mb-4">🏠</div>
+                    <h4 className="text-xl font-bold mb-2">Luxury Living</h4>
+                    <p className="text-blue-100 text-sm">
+                      Located in Surat&apos;s premier residential district with modern amenities, 
+                      upscale shopping, and fine dining options
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <h3 className="text-2xl sm:text-3xl font-bold text-blue-800 mb-6">
+                Book Premium Escorts in Adajan Today
+              </h3>
+              <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
+                Experience sophisticated companionship services in Surat&apos;s most prestigious residential 
+                area. Our professional escorts are perfect for private meetings, social events, or 
+                intimate dinner dates in the elegant Adajan neighborhood.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl text-white">🏘️</span>
+                  </div>
+                  <h4 className="font-bold text-blue-700 mb-2">Local Expertise</h4>
+                  <p className="text-sm text-gray-600">Deep understanding of Adajan&apos;s residential community and preferences</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl text-white">🔒</span>
+                  </div>
+                  <h4 className="font-bold text-blue-700 mb-2">Maximum Discretion</h4>
+                  <p className="text-sm text-gray-600">Absolute privacy and confidentiality respecting residential atmosphere</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl text-white">✨</span>
+                  </div>
+                  <h4 className="font-bold text-blue-700 mb-2">Refined Service</h4>
+                  <p className="text-sm text-gray-600">Sophisticated companions matching Adajan&apos;s upscale lifestyle</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Contact Section */}
         <section className="py-12 sm:py-16 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
