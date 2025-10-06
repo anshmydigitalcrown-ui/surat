@@ -46,18 +46,32 @@ export default function Contact() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-32 bg-gradient-to-br from-pink-400 via-pink-300 to-pink-500 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-black/10"></div>
+      <section className="relative py-32 bg-gradient-to-br from-pink-200 via-pink-300 to-pink-400 text-gray-800 overflow-hidden">
+        <div className="absolute inset-0 bg-white/10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp">Contact Us</h1>
-          <p className="text-xl md:text-2xl text-pink-100 max-w-3xl mx-auto animate-fadeInUp">
+          {/* Service Icons */}
+          <div className="flex justify-center space-x-8 mb-8">
+            <div className="w-16 h-16 bg-gradient-to-r from-orange-400 to-pink-500 rounded-full flex items-center justify-center shadow-lg">
+              <span className="text-2xl">📞</span>
+            </div>
+            <div className="w-16 h-16 bg-gradient-to-r from-pink-400 to-pink-600 rounded-full flex items-center justify-center shadow-lg">
+              <span className="text-2xl">✉️</span>
+            </div>
+            <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center shadow-lg">
+              <span className="text-2xl">📍</span>
+            </div>
+          </div>
+          
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-orange-500 via-pink-500 to-pink-600 bg-clip-text text-transparent">Contact Us</h1>
+          <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto animate-fadeInUp">
             Get in touch to discuss your requirements and schedule your preferred service.
           </p>
         </div>
         
-        {/* Floating Elements */}
-        <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-white/20 rounded-full animate-pulse-slow"></div>
-        <div className="absolute top-1/3 right-1/4 w-6 h-6 bg-white/10 rounded-full animate-pulse-slow" style={{animationDelay: '1s'}}></div>
+        {/* Decorative Elements */}
+        <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-pink-400/30 rounded-full animate-pulse-slow"></div>
+        <div className="absolute top-1/3 right-1/4 w-6 h-6 bg-orange-400/20 rounded-full animate-pulse-slow" style={{animationDelay: '1s'}}></div>
+        <div className="absolute bottom-1/4 left-1/3 w-3 h-3 bg-pink-500/40 rounded-full animate-pulse-slow" style={{animationDelay: '2s'}}></div>
         <div className="absolute bottom-1/4 left-1/3 w-3 h-3 bg-white/30 rounded-full animate-pulse-slow" style={{animationDelay: '2s'}}></div>
       </section>
 
