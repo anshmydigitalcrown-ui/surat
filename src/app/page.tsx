@@ -263,30 +263,186 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
-            {/* VIP Escort Service */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-pink-500">
-              <h3 className="text-2xl font-bold text-pink-600 mb-4">VIP Escort Service</h3>
-              <p className="text-red-600 leading-relaxed">
-                Exclusive VIP companions for discerning clients seeking premium escort service in Surat. Professional, elegant, and sophisticated.
-              </p>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
+            {/* Air Hostess Service */}
+            <Link href="/services/air-hostess" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-blue-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">✈️</div>
+                <h3 className="text-xl font-bold text-blue-600 mb-3">Air Hostess</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Professional airline industry companions</p>
+              </div>
+            </Link>
 
-            {/* Event Companions */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-blue-500">
-              <h3 className="text-2xl font-bold text-blue-600 mb-4">Event Companions</h3>
-              <p className="text-red-600 leading-relaxed">
-                Perfect companions for business events, parties, and social gatherings in Surat. Professional and well-educated.
-              </p>
-            </div>
+            {/* Business Meetings */}
+            <Link href="/services/business-meetings" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-slate-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">💼</div>
+                <h3 className="text-xl font-bold text-slate-600 mb-3">Business Meetings</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Corporate event companions</p>
+              </div>
+            </Link>
 
-            {/* Premium Call Girls */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-purple-500">
-              <h3 className="text-2xl font-bold text-purple-600 mb-4">Premium Call Girls</h3>
-              <p className="text-red-600 leading-relaxed">
-                High-class call girls service with verified profiles and complete discretion in Surat. 24/7 availability.
-              </p>
-            </div>
+            {/* Celebrity Look-alike */}
+            <Link href="/services/celebrity-look-alike" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-pink-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">⭐</div>
+                <h3 className="text-xl font-bold text-pink-600 mb-3">Celebrity Look-alike</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Stunning celebrity resemblance</p>
+              </div>
+            </Link>
+
+            {/* College Girl */}
+            <Link href="/services/college-girl" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-purple-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">📚</div>
+                <h3 className="text-xl font-bold text-purple-600 mb-3">College Girl</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Youthful and vibrant companions</p>
+              </div>
+            </Link>
+
+            {/* Corporate Event */}
+            <Link href="/services/corporate-event" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-emerald-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">🏢</div>
+                <h3 className="text-xl font-bold text-emerald-600 mb-3">Corporate Event</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Professional business gatherings</p>
+              </div>
+            </Link>
+
+            {/* Dinner Dates */}
+            <Link href="/services/dinner-dates" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-red-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">🍽️</div>
+                <h3 className="text-xl font-bold text-red-600 mb-3">Dinner Dates</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Elegant dining companions</p>
+              </div>
+            </Link>
+
+            {/* Hotel Escort */}
+            <Link href="/services/hotel-escort" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-indigo-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">🏨</div>
+                <h3 className="text-xl font-bold text-indigo-600 mb-3">Hotel Escort</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Premium hotel companions</p>
+              </div>
+            </Link>
+
+            {/* Housewife */}
+            <Link href="/services/housewife" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-rose-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">🏡</div>
+                <h3 className="text-xl font-bold text-rose-600 mb-3">Housewife</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Mature and experienced companions</p>
+              </div>
+            </Link>
+
+            {/* In-call Service */}
+            <Link href="/services/in-call-service" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-cyan-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">🏠</div>
+                <h3 className="text-xl font-bold text-cyan-600 mb-3">In-call Service</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Private location services</p>
+              </div>
+            </Link>
+
+            {/* Outcall Service */}
+            <Link href="/services/outcall-service" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-teal-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">🚗</div>
+                <h3 className="text-xl font-bold text-teal-600 mb-3">Outcall Service</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Visit your preferred location</p>
+              </div>
+            </Link>
+
+            {/* Party Escort */}
+            <Link href="/services/party-escort" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-yellow-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">🎉</div>
+                <h3 className="text-xl font-bold text-yellow-600 mb-3">Party Escort</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Fun party companions</p>
+              </div>
+            </Link>
+
+            {/* Premium Call Girl */}
+            <Link href="/services/premium-call-girl" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-amber-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">👑</div>
+                <h3 className="text-xl font-bold text-amber-600 mb-3">Premium Call Girl</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Exclusive luxury companions</p>
+              </div>
+            </Link>
+
+            {/* Private Model */}
+            <Link href="/services/private-model" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-fuchsia-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">📸</div>
+                <h3 className="text-xl font-bold text-fuchsia-600 mb-3">Private Model</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Professional model companions</p>
+              </div>
+            </Link>
+
+            {/* Russian Model */}
+            <Link href="/services/russian-model" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-sky-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">🌟</div>
+                <h3 className="text-xl font-bold text-sky-600 mb-3">Russian Model</h3>
+                <p className="text-red-600 text-sm leading-relaxed">International model companions</p>
+              </div>
+            </Link>
+
+            {/* Social Events */}
+            <Link href="/services/social-events" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-lime-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">🎭</div>
+                <h3 className="text-xl font-bold text-lime-600 mb-3">Social Events</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Social gathering companions</p>
+              </div>
+            </Link>
+
+            {/* Special Service */}
+            <Link href="/services/special-service" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-orange-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">💫</div>
+                <h3 className="text-xl font-bold text-orange-600 mb-3">Special Service</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Customized special experiences</p>
+              </div>
+            </Link>
+
+            {/* Travel Companion */}
+            <Link href="/services/travel-companion" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-green-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">✈️</div>
+                <h3 className="text-xl font-bold text-green-600 mb-3">Travel Companion</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Journey together companions</p>
+              </div>
+            </Link>
+
+            {/* VIP Companionship */}
+            <Link href="/services/vip-companionship" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-violet-500 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">💎</div>
+                <h3 className="text-xl font-bold text-violet-600 mb-3">VIP Companionship</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Ultra-exclusive VIP service</p>
+              </div>
+            </Link>
+
+            {/* Wedding Escort */}
+            <Link href="/services/wedding-escort" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-pink-600 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">💒</div>
+                <h3 className="text-xl font-bold text-pink-700 mb-3">Wedding Escort</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Wedding ceremony companions</p>
+              </div>
+            </Link>
+
+            {/* Weekend Special */}
+            <Link href="/services/weekend-special" className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-red-600 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-center">
+                <div className="text-4xl mb-3">🎪</div>
+                <h3 className="text-xl font-bold text-red-700 mb-3">Weekend Special</h3>
+                <p className="text-red-600 text-sm leading-relaxed">Weekend exclusive experiences</p>
+              </div>
+            </Link>
           </div>
 
           {/* Why We are the Top Choice */}

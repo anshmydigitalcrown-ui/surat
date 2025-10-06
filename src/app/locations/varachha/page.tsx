@@ -19,6 +19,16 @@ export default function VarachhaEscorts() {
     { title: "Party Escort", image: "/images/services/Party Escort.webp", description: "Party escort services for Varachha events", price: "₹19,000+" }
   ];
 
+  // Function to convert service title to URL slug
+  const getServiceSlug = (title) => {
+    return title.toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^\w\-]+/g, '')
+      .replace(/\-\-+/g, '-')
+      .replace(/^-+/, '')
+      .replace(/-+$/, '');
+  };
+
   return (
     <>
       {/* JSON-LD Structured Data for SEO */}
@@ -139,7 +149,11 @@ export default function VarachhaEscorts() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
               {services.map((service, index) => (
-                <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <Link 
+                  key={index} 
+                  href={`/services/${getServiceSlug(service.title)}`}
+                  className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                >
                   <div className="relative h-56 sm:h-64 lg:h-72 bg-gradient-to-br from-red-50 to-pink-50">
                     <Image
                       src={service.image}
@@ -155,15 +169,12 @@ export default function VarachhaEscorts() {
                     <p className="text-sm sm:text-base text-gray-600 mb-4">{service.description}</p>
                     <div className="flex justify-between items-center">
                       <span className="text-red-600 font-bold text-base sm:text-lg">{service.price}</span>
-                      <Link
-                        href="/contact"
-                        className="bg-red-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-red-700 transition-colors duration-300"
-                      >
-                        Book Now
-                      </Link>
+                      <span className="bg-red-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-red-700 transition-colors duration-300">
+                        View Details
+                      </span>
                     </div>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>
