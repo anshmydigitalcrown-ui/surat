@@ -131,12 +131,12 @@ export default function NanpuraEscorts() {
                 className="group block"
               >
                 <div className="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
-                  <div className="relative h-48 bg-gray-50">
+                  <div className="relative h-64 bg-gray-50">
                     <Image
                       src={service.image}
                       alt={service.title}
                       fill
-                      className="object-cover group-hover:scale-110 transition-transform duration-300"
+                      className="object-contain group-hover:scale-105 transition-transform duration-300"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, (max-width: 1536px) 25vw, 20vw"
                       loading={index < 8 ? "eager" : "lazy"}
                     />
