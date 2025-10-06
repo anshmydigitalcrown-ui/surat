@@ -221,6 +221,172 @@ export default function About() {
         </div>
       </section>
 
+      {/* What Our Premium Clients Say About Us */}
+      <section className="py-20 bg-gradient-to-br from-pink-300 via-pink-400 to-pink-500">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 flex items-center justify-center space-x-4">
+              <span className="text-5xl">⭐</span>
+              <span>What Our Premium Clients Say About Us</span>
+              <span className="text-5xl">⭐</span>
+            </h2>
+            <p className="text-2xl md:text-3xl text-red-600 max-w-4xl mx-auto font-bold">
+              💎 Thousands of satisfied clients across Surat trust us for premium escort services
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            {/* Premium Quality */}
+            <div className="bg-gradient-to-br from-pink-400 via-pink-300 to-pink-200 rounded-3xl p-8 text-center hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-6xl mb-6">🏆</div>
+              <h3 className="text-3xl md:text-4xl font-bold text-white mb-4 drop-shadow-md">Premium Quality</h3>
+              <p className="text-xl text-red-600 font-bold leading-relaxed">
+                Handpicked professional escorts with guaranteed satisfaction
+              </p>
+            </div>
+
+            {/* 100% Discrete */}
+            <div className="bg-gradient-to-br from-purple-400 via-purple-300 to-purple-200 rounded-3xl p-8 text-center hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-6xl mb-6">🔒</div>
+              <h3 className="text-3xl md:text-4xl font-bold text-white mb-4 drop-shadow-md">100% Discrete</h3>
+              <p className="text-xl text-red-600 font-bold leading-relaxed">
+                Complete privacy and confidentiality for all our VIP clients
+              </p>
+            </div>
+
+            {/* 24/7 Available */}
+            <div className="bg-gradient-to-br from-orange-400 via-orange-300 to-pink-300 rounded-3xl p-8 text-center hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <div className="text-6xl mb-6">⚡</div>
+              <h3 className="text-3xl md:text-4xl font-bold text-white mb-4 drop-shadow-md">24/7 Available</h3>
+              <p className="text-xl text-red-600 font-bold leading-relaxed">
+                Round the clock service with instant booking confirmation
+              </p>
+            </div>
+          </div>
+
+          {/* Bottom Pills */}
+          <div className="flex flex-wrap justify-center gap-6">
+            <div className="bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <span className="text-2xl font-bold text-white flex items-center space-x-2">
+                <span>👑</span>
+                <span>5000+ Happy Clients</span>
+              </span>
+            </div>
+            <div className="bg-gradient-to-r from-pink-400 to-red-400 rounded-full px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <span className="text-2xl font-bold text-white flex items-center space-x-2">
+                <span>💯</span>
+                <span>100% Satisfaction</span>
+              </span>
+            </div>
+            <div className="bg-gradient-to-r from-purple-400 to-indigo-400 rounded-full px-8 py-4 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <span className="text-2xl font-bold text-white flex items-center space-x-2">
+                <span>💎</span>
+                <span>Premium Service</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent mb-6">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-2xl md:text-3xl text-pink-700 max-w-4xl mx-auto font-medium leading-relaxed">
+              Get answers to common questions about our premium companion services in Surat
+            </p>
+          </div>
+
+          {/* FAQ Grid - 2 Rows x 4 Columns */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Row 1 */}
+            <div className="bg-gradient-to-br from-pink-100 to-pink-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-300">
+              <div className="bg-gradient-to-r from-pink-500 to-pink-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">💰</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-pink-700 mb-3 text-center">Pricing?</h3>
+              <p className="text-pink-600 text-sm text-center leading-relaxed">
+                Competitive rates with transparent pricing. Contact us for detailed packages and special offers.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-purple-100 to-purple-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-purple-300">
+              <div className="bg-gradient-to-r from-purple-500 to-purple-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">🕐</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-purple-700 mb-3 text-center">Availability?</h3>
+              <p className="text-purple-600 text-sm text-center leading-relaxed">
+                24/7 availability with advance booking. Same-day bookings subject to availability.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-indigo-100 to-indigo-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-indigo-300">
+              <div className="bg-gradient-to-r from-indigo-500 to-indigo-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">📍</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-indigo-700 mb-3 text-center">Service Areas?</h3>
+              <p className="text-indigo-600 text-sm text-center leading-relaxed">
+                We serve all major areas in Surat including Varachha, Adajan, Vesu, and surrounding locations.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-teal-100 to-teal-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-teal-300">
+              <div className="bg-gradient-to-r from-teal-500 to-teal-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">🔒</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-teal-700 mb-3 text-center">Privacy?</h3>
+              <p className="text-teal-600 text-sm text-center leading-relaxed">
+                Complete confidentiality guaranteed. All client information is kept strictly private and secure.
+              </p>
+            </div>
+
+            {/* Row 2 */}
+            <div className="bg-gradient-to-br from-orange-100 to-orange-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-orange-300">
+              <div className="bg-gradient-to-r from-orange-500 to-orange-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">📋</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-orange-700 mb-3 text-center">Booking Process?</h3>
+              <p className="text-orange-600 text-sm text-center leading-relaxed">
+                Simple 4-step process: Consultation, Selection, Confirmation, and Service Delivery.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-red-100 to-red-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-red-300">
+              <div className="bg-gradient-to-r from-red-500 to-red-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">💳</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-red-700 mb-3 text-center">Payment Methods?</h3>
+              <p className="text-red-600 text-sm text-center leading-relaxed">
+                We accept cash, bank transfers, and digital payments. Secure payment options available.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-green-100 to-green-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-green-300">
+              <div className="bg-gradient-to-r from-green-500 to-green-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">⭐</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-green-700 mb-3 text-center">Quality Assurance?</h3>
+              <p className="text-green-600 text-sm text-center leading-relaxed">
+                Rigorous screening process and continuous training ensure exceptional service quality.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-yellow-300">
+              <div className="bg-gradient-to-r from-yellow-500 to-yellow-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">📞</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-yellow-700 mb-3 text-center">Customer Support?</h3>
+              <p className="text-yellow-600 text-sm text-center leading-relaxed">
+                24/7 customer support available via phone, WhatsApp, and email for any assistance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-primary-500 to-accent-600 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
