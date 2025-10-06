@@ -209,6 +209,130 @@ export default function VarachhaEscorts() {
           </div>
         </section>
 
+        {/* Escorts in Varachha Content Section */}
+        <section className="py-16 sm:py-20 bg-gradient-to-br from-white via-red-50 to-red-100">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-red-800 mb-6">
+                Escorts in Varachha - Premium Companionship Services
+              </h2>
+              <p className="text-lg sm:text-xl text-red-700 max-w-4xl mx-auto leading-relaxed">
+                Discover elite escort services in Varachha, Surat&apos;s premier commercial hub offering 
+                sophisticated companionship for discerning clients
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+              <div className="space-y-6">
+                <h3 className="text-2xl sm:text-3xl font-bold text-red-800 mb-4">
+                  Why Choose Varachha Escorts?
+                </h3>
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                  Varachha stands as Surat&apos;s most prominent commercial district, attracting business 
+                  professionals, entrepreneurs, and visitors from across the globe. Our premium escort 
+                  services in Varachha cater to the sophisticated needs of this elite clientele, 
+                  offering unmatched companionship experiences.
+                </p>
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                  Located in the heart of Surat&apos;s textile and diamond trading center, Varachha 
+                  offers the perfect backdrop for business meetings, social events, and private 
+                  gatherings. Our carefully selected companions understand the nuances of 
+                  professional networking and social etiquette required in this prestigious area.
+                </p>
+              </div>
+
+              <div className="space-y-6">
+                <h3 className="text-2xl sm:text-3xl font-bold text-red-800 mb-4">
+                  Premium Services Available
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div className="bg-white p-4 rounded-lg shadow-md border border-red-100">
+                    <h4 className="font-semibold text-red-700 mb-2">Business Companions</h4>
+                    <p className="text-sm text-gray-600">Professional escorts for corporate events and business meetings</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-md border border-red-100">
+                    <h4 className="font-semibold text-red-700 mb-2">Social Events</h4>
+                    <p className="text-sm text-gray-600">Elegant companions for parties and social gatherings</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-md border border-red-100">
+                    <h4 className="font-semibold text-red-700 mb-2">Hotel Services</h4>
+                    <p className="text-sm text-gray-600">Discreet outcall services to premium hotels in Varachha</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-md border border-red-100">
+                    <h4 className="font-semibold text-red-700 mb-2">VIP Experiences</h4>
+                    <p className="text-sm text-gray-600">Exclusive high-end companionship for elite clients</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-2xl p-8 sm:p-12 text-white mb-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-4">
+                    Varachha&apos;s Commercial Advantage
+                  </h3>
+                  <p className="text-red-100 leading-relaxed mb-6">
+                    As Surat&apos;s primary commercial district, Varachha hosts numerous multinational 
+                    companies, luxury hotels, and upscale restaurants. Our escort services are 
+                    strategically positioned to serve the sophisticated clientele that frequents 
+                    this prestigious business hub.
+                  </p>
+                  <div className="flex flex-wrap gap-4">
+                    <span className="bg-red-500 px-4 py-2 rounded-full text-sm font-medium">24/7 Availability</span>
+                    <span className="bg-red-500 px-4 py-2 rounded-full text-sm font-medium">Elite Companions</span>
+                    <span className="bg-red-500 px-4 py-2 rounded-full text-sm font-medium">Complete Discretion</span>
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div className="bg-white/20 rounded-xl p-6 backdrop-blur-sm">
+                    <div className="text-4xl mb-4">🏢</div>
+                    <h4 className="text-xl font-bold mb-2">Commercial Hub</h4>
+                    <p className="text-red-100 text-sm">
+                      Located in Surat&apos;s premier business district with easy access to hotels, 
+                      restaurants, and corporate offices
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <h3 className="text-2xl sm:text-3xl font-bold text-red-800 mb-6">
+                Book Premium Escorts in Varachha Today
+              </h3>
+              <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
+                Experience the finest companionship services in Surat&apos;s most prestigious commercial 
+                area. Our professional escorts are ready to accompany you to business meetings, 
+                social events, or private gatherings in Varachha.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl text-white">📞</span>
+                  </div>
+                  <h4 className="font-bold text-red-700 mb-2">Instant Booking</h4>
+                  <p className="text-sm text-gray-600">Quick response and immediate availability for your requirements</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl text-white">🔐</span>
+                  </div>
+                  <h4 className="font-bold text-red-700 mb-2">Complete Privacy</h4>
+                  <p className="text-sm text-gray-600">Absolute confidentiality and discretion guaranteed for all clients</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl text-white">⭐</span>
+                  </div>
+                  <h4 className="font-bold text-red-700 mb-2">Premium Quality</h4>
+                  <p className="text-sm text-gray-600">Verified professionals with excellent reviews and reputation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Contact Section */}
         <section className="py-12 sm:py-16 bg-gradient-to-r from-red-600 to-red-700 text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
