@@ -211,10 +211,10 @@ export default function Home() {
                 
                 {/* Service Content */}
                 <div className="p-4">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                  <h3 className="text-lg font-semibold text-pink-800 mb-2">
                     {service.title}
                   </h3>
-                  <p className="text-sm text-gray-600 mb-4">
+                  <p className="text-sm text-pink-600 mb-4">
                     {service.description}
                   </p>
                   
@@ -443,7 +443,7 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-br from-pink-300 via-pink-200 to-pink-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-pink-800 mb-6">
               Client Testimonials
             </h2>
             <p className="text-xl text-red-600 max-w-4xl mx-auto leading-relaxed">
@@ -575,7 +575,7 @@ export default function Home() {
             <div className="w-3 h-3 bg-pink-500 rounded-full ml-4"></div>
           </div>
           
-          <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-pink-700 max-w-3xl mx-auto leading-relaxed">
             Find us easily with our location map or contact us directly through our premium booking form
           </p>
         </div>
@@ -591,7 +591,7 @@ export default function Home() {
                 <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 to-pink-400 bg-clip-text text-transparent mb-4">
                   Find Us in Surat
                 </h2>
-                <p className="text-xl text-gray-600">
+                <p className="text-xl text-pink-600">
                   We provide premium escort services across all major areas of Surat
                 </p>
               </div>
@@ -715,8 +715,8 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-pink-600 mb-2">Call Us Now</h3>
-                <p className="text-2xl font-bold text-gray-800 mb-2">+91 98765-43210</p>
-                <p className="text-gray-600">24/7 Available</p>
+                <p className="text-2xl font-bold text-pink-800 mb-2">+91 98765-43210</p>
+                <p className="text-pink-600">24/7 Available</p>
               </div>
             </div>
 
@@ -729,8 +729,8 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-green-600 mb-2">WhatsApp</h3>
-                <p className="text-2xl font-bold text-gray-800 mb-2">+91 98765-43210</p>
-                <p className="text-gray-600">Instant Response</p>
+                <p className="text-2xl font-bold text-pink-800 mb-2">+91 98765-43210</p>
+                <p className="text-pink-600">Instant Response</p>
               </div>
             </div>
 
@@ -743,8 +743,8 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-blue-600 mb-2">Email Us</h3>
-                <p className="text-lg font-bold text-gray-800 mb-2">info@suratescorts.com</p>
-                <p className="text-gray-600">Quick Response</p>
+                <p className="text-lg font-bold text-pink-800 mb-2">info@suratescorts.com</p>
+                <p className="text-pink-600">Quick Response</p>
               </div>
             </div>
           </div>
@@ -758,7 +758,7 @@ export default function Home() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-red-600 via-pink-600 to-rose-600 bg-clip-text text-transparent mb-4">
               Frequently Asked Questions
             </h2>
-            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-pink-600 max-w-3xl mx-auto leading-relaxed">
               Common questions about our premium escort services and professional companions
             </p>
           </div>
@@ -770,12 +770,12 @@ export default function Home() {
               {/* FAQ Item 1 */}
               <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
                 <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
-                  <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">Are your services available 24/7?</h3>
+                  <h3 className="text-lg md:text-xl font-semibold text-pink-800 pr-4">Are your services available 24/7?</h3>
                   <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-4 md:px-6 pb-4 md:pb-6 text-gray-700">
+                <div className="px-4 md:px-6 pb-4 md:pb-6 text-pink-700">
                   <p className="text-sm md:text-base leading-relaxed">Yes, our premium escort services are available 24/7. We provide round-the-clock assistance to ensure you can book our services at any time that suits your schedule.</p>
                 </div>
               </details>

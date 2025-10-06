@@ -30,7 +30,7 @@ export default function Services() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
       {/* Hero Section */}
-      <section className="relative py-32 bg-gradient-to-br from-pink-200 via-pink-300 to-pink-400 text-gray-800 overflow-hidden">
+      <section className="relative py-32 bg-gradient-to-br from-pink-200 via-pink-300 to-pink-400 text-pink-800 overflow-hidden">
         <div className="absolute inset-0 bg-white/10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Service Icons */}
@@ -47,7 +47,7 @@ export default function Services() {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-orange-500 via-pink-500 to-pink-600 bg-clip-text text-transparent">Premium Escorts In Surat - Our Services</h1>
-          <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto animate-fadeInUp">
+          <p className="text-xl md:text-2xl text-pink-700 max-w-3xl mx-auto animate-fadeInUp">
             Discover our comprehensive range of luxury escort services designed for discerning clients in Surat
           </p>
         </div>
@@ -66,22 +66,22 @@ export default function Services() {
               <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-xl">🔒</span>
               </div>
-              <h3 className="text-lg font-semibold text-gray-800 mb-2">100% Discrete</h3>
-              <p className="text-gray-600 text-sm">Complete privacy and confidentiality guaranteed</p>
+              <h3 className="text-lg font-semibold text-pink-800 mb-2">100% Discrete</h3>
+              <p className="text-pink-600 text-sm">Complete privacy and confidentiality guaranteed</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-xl">⚡</span>
               </div>
-              <h3 className="text-lg font-semibold text-gray-800 mb-2">24/7 Available</h3>
-              <p className="text-gray-600 text-sm">Round the clock premium service</p>
+              <h3 className="text-lg font-semibold text-pink-800 mb-2">24/7 Available</h3>
+              <p className="text-pink-600 text-sm">Round the clock premium service</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-gradient-to-r from-pink-600 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-xl">⭐</span>
               </div>
-              <h3 className="text-lg font-semibold text-gray-800 mb-2">Premium Quality</h3>
-              <p className="text-gray-600 text-sm">Verified profiles with exceptional service</p>
+              <h3 className="text-lg font-semibold text-pink-800 mb-2">Premium Quality</h3>
+              <p className="text-pink-600 text-sm">Verified profiles with exceptional service</p>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ export default function Services() {
             <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 via-pink-500 to-pink-600 bg-clip-text text-transparent mb-6">
               Complete Service Portfolio
             </h2>
-            <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-pink-600 max-w-3xl mx-auto leading-relaxed">
               Professional Call Girls & VIP Companions Available 24/7
             </p>
           </div>
@@ -118,10 +118,10 @@ export default function Services() {
                 
                 {/* Content */}
                 <div className="p-4 text-center">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                  <h3 className="text-lg font-semibold text-pink-800 mb-2">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 text-sm mb-4">
+                  <p className="text-pink-600 text-sm mb-4">
                     {service.description}
                   </p>
                   
@@ -149,7 +149,7 @@ export default function Services() {
             {/* VIP Escort Service */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-pink-500">
               <h3 className="text-2xl font-bold text-pink-600 mb-4">VIP Escort Service</h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-pink-700 leading-relaxed">
                 Exclusive VIP companions for discerning clients seeking premium escort service in Surat. Professional, elegant, and sophisticated.
               </p>
             </div>
@@ -157,7 +157,7 @@ export default function Services() {
             {/* Event Companions */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-blue-500">
               <h3 className="text-2xl font-bold text-blue-600 mb-4">Event Companions</h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-pink-700 leading-relaxed">
                 Perfect companions for business events, parties, and social gatherings in Surat. Professional and well-educated.
               </p>
             </div>
@@ -165,7 +165,7 @@ export default function Services() {
             {/* Premium Call Girls */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-purple-500">
               <h3 className="text-2xl font-bold text-purple-600 mb-4">Premium Call Girls</h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-pink-700 leading-relaxed">
                 High-class call girls service with verified profiles and complete discretion in Surat. 24/7 availability.
               </p>
             </div>
@@ -180,46 +180,46 @@ export default function Services() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               {/* Quality Assurance */}
               <div>
-                <h4 className="text-2xl font-bold text-gray-800 mb-6">Quality Assurance</h4>
+                <h4 className="text-2xl font-bold text-pink-800 mb-6">Quality Assurance</h4>
                 <ul className="space-y-4">
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Verified escorts</span>
-                    <span className="text-gray-600">- All profiles thoroughly verified</span>
+                    <span className="font-bold text-pink-800 mr-2">• Verified escorts</span>
+                    <span className="text-pink-600">- All profiles thoroughly verified</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Professional training</span>
-                    <span className="text-gray-600">- Well-trained companions</span>
+                    <span className="font-bold text-pink-800 mr-2">• Professional training</span>
+                    <span className="text-pink-600">- Well-trained companions</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Regular health checkups</span>
-                    <span className="text-gray-600">- Health and safety priority</span>
+                    <span className="font-bold text-pink-800 mr-2">• Regular health checkups</span>
+                    <span className="text-pink-600">- Health and safety priority</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Background verification</span>
-                    <span className="text-gray-600">- Complete security screening</span>
+                    <span className="font-bold text-pink-800 mr-2">• Background verification</span>
+                    <span className="text-pink-600">- Complete security screening</span>
                   </li>
                 </ul>
               </div>
 
               {/* Service Excellence */}
               <div>
-                <h4 className="text-2xl font-bold text-gray-800 mb-6">Service Excellence</h4>
+                <h4 className="text-2xl font-bold text-pink-800 mb-6">Service Excellence</h4>
                 <ul className="space-y-4">
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Prompt response</span>
-                    <span className="text-gray-600">- Quick booking confirmation</span>
+                    <span className="font-bold text-pink-800 mr-2">• Prompt response</span>
+                    <span className="text-pink-600">- Quick booking confirmation</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Customer support</span>
-                    <span className="text-gray-600">- 24/7 customer assistance</span>
+                    <span className="font-bold text-pink-800 mr-2">• Customer support</span>
+                    <span className="text-pink-600">- 24/7 customer assistance</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Flexible booking</span>
-                    <span className="text-gray-600">- Easy scheduling options</span>
+                    <span className="font-bold text-pink-800 mr-2">• Flexible booking</span>
+                    <span className="text-pink-600">- Easy scheduling options</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Satisfaction guaranteed</span>
-                    <span className="text-gray-600">- 100% satisfaction commitment</span>
+                    <span className="font-bold text-pink-800 mr-2">• Satisfaction guaranteed</span>
+                    <span className="text-pink-600">- 100% satisfaction commitment</span>
                   </li>
                 </ul>
               </div>
@@ -235,7 +235,7 @@ export default function Services() {
             <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
               Our Location Areas in Surat
             </h2>
-            <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-pink-600 max-w-3xl mx-auto leading-relaxed">
               Premium escort locations available across all major areas of Surat
             </p>
           </div>
@@ -340,10 +340,10 @@ export default function Services() {
       <section className="py-20 bg-gradient-to-br from-pink-300 via-pink-200 to-pink-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-pink-800 mb-6">
               Client Testimonials
             </h2>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-pink-600 max-w-4xl mx-auto leading-relaxed">
               What our satisfied clients say about our premium escort services
             </p>
           </div>
@@ -360,8 +360,8 @@ export default function Services() {
                   <span className="text-3xl text-yellow-500">⭐</span>
                 </div>
               </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-6">Amazing Service</h3>
-              <p className="text-gray-600 italic leading-relaxed mb-6">
+              <h3 className="text-2xl font-bold text-pink-800 mb-6">Amazing Service</h3>
+              <p className="text-pink-600 italic leading-relaxed mb-6">
                 &ldquo;Professional, discrete, and exactly what I was looking for. The booking process was simple and the service exceeded expectations.&rdquo;
               </p>
               <p className="text-pink-600 font-bold">- VIP Client, Varachha</p>
@@ -378,8 +378,8 @@ export default function Services() {
                   <span className="text-3xl text-yellow-500">⭐</span>
                 </div>
               </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-6">Highly Recommend</h3>
-              <p className="text-gray-600 italic leading-relaxed mb-6">
+              <h3 className="text-2xl font-bold text-pink-800 mb-6">Highly Recommend</h3>
+              <p className="text-pink-600 italic leading-relaxed mb-6">
                 &ldquo;Outstanding companions and excellent customer service. Very professional team that maintains complete privacy and confidentiality.&rdquo;
               </p>
               <p className="text-blue-600 font-bold">- Regular Client, Adajan</p>
@@ -396,8 +396,8 @@ export default function Services() {
                   <span className="text-3xl text-yellow-500">⭐</span>
                 </div>
               </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-6">Premium Quality</h3>
-              <p className="text-gray-600 italic leading-relaxed mb-6">
+              <h3 className="text-2xl font-bold text-pink-800 mb-6">Premium Quality</h3>
+              <p className="text-pink-600 italic leading-relaxed mb-6">
                 &ldquo;Top-notch service with beautiful and intelligent companions. The 24/7 availability and quick response time is impressive.&rdquo;
               </p>
               <p className="text-orange-600 font-bold">- Business Client, Vesu</p>
@@ -472,7 +472,7 @@ export default function Services() {
             <div className="w-3 h-3 bg-pink-500 rounded-full ml-4"></div>
           </div>
           
-          <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-pink-700 max-w-3xl mx-auto leading-relaxed">
             Find us easily with our location map or contact us directly through our premium booking form
           </p>
         </div>
@@ -509,8 +509,8 @@ export default function Services() {
             {/* Contact Form */}
             <div className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-2xl p-8 shadow-lg">
               <div className="text-center mb-8">
-                <h3 className="text-3xl font-bold text-gray-800 mb-4">Contact Us</h3>
-                <p className="text-gray-600">
+                <h3 className="text-3xl font-bold text-pink-800 mb-4">Contact Us</h3>
+                <p className="text-pink-600">
                   Get in touch with us for premium escort services in Surat
                 </p>
               </div>
@@ -518,7 +518,7 @@ export default function Services() {
               <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2">Name *</label>
+                    <label className="block text-pink-700 font-semibold mb-2">Name *</label>
                     <input
                       type="text"
                       required
@@ -527,7 +527,7 @@ export default function Services() {
                     />
                   </div>
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2">Phone *</label>
+                    <label className="block text-pink-700 font-semibold mb-2">Phone *</label>
                     <input
                       type="tel"
                       required
@@ -538,7 +538,7 @@ export default function Services() {
                 </div>
                 
                 <div>
-                  <label className="block text-gray-700 font-semibold mb-2">Email</label>
+                  <label className="block text-pink-700 font-semibold mb-2">Email</label>
                   <input
                     type="email"
                     className="w-full px-4 py-3 border border-pink-200 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300"
@@ -547,7 +547,7 @@ export default function Services() {
                 </div>
                 
                 <div>
-                  <label className="block text-gray-700 font-semibold mb-2">Location Preference</label>
+                  <label className="block text-pink-700 font-semibold mb-2">Location Preference</label>
                   <select className="w-full px-4 py-3 border border-pink-200 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300">
                     <option value="">Select Preferred Area</option>
                     <option value="varachha">Varachha</option>

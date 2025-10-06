@@ -45,7 +45,7 @@ export default function Gallery() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
       {/* Hero Section */}
-      <section className="relative py-32 bg-gradient-to-br from-pink-200 via-pink-300 to-pink-400 text-gray-800 overflow-hidden">
+      <section className="relative py-32 bg-gradient-to-br from-pink-200 via-pink-300 to-pink-400 text-pink-800 overflow-hidden">
         <div className="absolute inset-0 bg-white/10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Service Icons */}
@@ -62,7 +62,7 @@ export default function Gallery() {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-orange-500 via-pink-500 to-pink-600 bg-clip-text text-transparent">Premium Escorts In Surat - Our Gallery</h1>
-          <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto animate-fadeInUp">
+          <p className="text-xl md:text-2xl text-pink-700 max-w-3xl mx-auto animate-fadeInUp">
             Explore our comprehensive collection of premium escort services with elegant presentation
           </p>
         </div>
@@ -102,7 +102,7 @@ export default function Gallery() {
             <h2 className="text-5xl md:text-6xl font-black text-black mb-6">
               {selectedCategory === 'all' ? 'Complete Gallery' : `${selectedCategory} Services`}
             </h2>
-            <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-pink-600 max-w-3xl mx-auto leading-relaxed">
               Professional Call Girls & VIP Companions Available 24/7
             </p>
           </div>
@@ -126,10 +126,10 @@ export default function Gallery() {
                 
                 {/* Content */}
                 <div className="p-4 text-center">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                  <h3 className="text-lg font-semibold text-pink-800 mb-2">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 text-sm mb-4">
+                  <p className="text-pink-600 text-sm mb-4">
                     Premium {service.category.toLowerCase()} service available 24/7
                   </p>
                   
