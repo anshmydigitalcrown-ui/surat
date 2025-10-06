@@ -452,6 +452,110 @@ export default function Contact() {
           </div>
         </div>
       </section>
+
+      {/* Contact Information & Social Section */}
+      <section className="py-20 bg-gradient-to-br from-orange-50 via-pink-50 to-purple-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-black bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent mb-6">
+              Connect With Us
+            </h2>
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+              Multiple ways to reach us for your convenience and privacy
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            {/* Phone Contact */}
+            <div className="bg-gradient-to-br from-green-400 to-green-600 rounded-3xl p-8 text-white shadow-2xl transform hover:scale-105 transition-all duration-300">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-3xl">📱</span>
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Call Us Direct</h3>
+                <p className="text-green-100 mb-4">Available 24/7 for immediate assistance</p>
+                <a href="tel:+919876543210" className="bg-white text-green-600 px-6 py-3 rounded-full font-bold hover:bg-green-50 transition-colors inline-block">
+                  📞 +91 98765 43210
+                </a>
+              </div>
+            </div>
+
+            {/* WhatsApp Contact */}
+            <div className="bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-3xl p-8 text-white shadow-2xl transform hover:scale-105 transition-all duration-300">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-3xl">💬</span>
+                </div>
+                <h3 className="text-2xl font-bold mb-4">WhatsApp Chat</h3>
+                <p className="text-emerald-100 mb-4">Quick responses & discrete communication</p>
+                <a href="https://wa.me/919876543210" className="bg-white text-emerald-600 px-6 py-3 rounded-full font-bold hover:bg-emerald-50 transition-colors inline-block">
+                  💚 WhatsApp Now
+                </a>
+              </div>
+            </div>
+
+            {/* Email Contact */}
+            <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-3xl p-8 text-white shadow-2xl transform hover:scale-105 transition-all duration-300">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-3xl">✉️</span>
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Email Support</h3>
+                <p className="text-blue-100 mb-4">Detailed inquiries & information requests</p>
+                <a href="mailto:info@suratescorts.com" className="bg-white text-blue-600 px-6 py-3 rounded-full font-bold hover:bg-blue-50 transition-colors inline-block">
+                  📧 Send Email
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Service Highlights */}
+          <div className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 rounded-3xl p-12 text-white shadow-2xl">
+            <div className="text-center mb-12">
+              <h3 className="text-3xl md:text-4xl font-black mb-4">
+                🌟 Why Choose Our Services? 🌟
+              </h3>
+              <p className="text-xl text-white/90">
+                Premium quality, absolute discretion, and complete satisfaction guaranteed
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-4xl">🔒</span>
+                </div>
+                <h4 className="text-xl font-bold mb-2">100% Discrete</h4>
+                <p className="text-white/80">Complete privacy and confidentiality</p>
+              </div>
+
+              <div className="text-center">
+                <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-4xl">✨</span>
+                </div>
+                <h4 className="text-xl font-bold mb-2">Premium Quality</h4>
+                <p className="text-white/80">High-class and professional companions</p>
+              </div>
+
+              <div className="text-center">
+                <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-4xl">⚡</span>
+                </div>
+                <h4 className="text-xl font-bold mb-2">Quick Response</h4>
+                <p className="text-white/80">Fast booking and immediate availability</p>
+              </div>
+
+              <div className="text-center">
+                <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-4xl">💯</span>
+                </div>
+                <h4 className="text-xl font-bold mb-2">Satisfaction</h4>
+                <p className="text-white/80">Guaranteed satisfaction with every service</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
