@@ -30,26 +30,68 @@ export default function Services() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
       {/* Hero Section */}
-      <section className="relative py-32 bg-gradient-to-br from-pink-800 via-pink-900 to-pink-800 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-black/20"></div>
+      <section className="relative py-32 bg-gradient-to-br from-pink-200 via-pink-300 to-pink-400 text-gray-800 overflow-hidden">
+        <div className="absolute inset-0 bg-white/10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-pink-300 to-pink-100 bg-clip-text text-transparent">Premium Escorts In Indore - Our Services</h1>
-          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto animate-fadeInUp">
+          {/* Service Icons */}
+          <div className="flex justify-center space-x-8 mb-8">
+            <div className="w-16 h-16 bg-gradient-to-r from-orange-400 to-pink-500 rounded-full flex items-center justify-center shadow-lg">
+              <span className="text-2xl">💎</span>
+            </div>
+            <div className="w-16 h-16 bg-gradient-to-r from-pink-400 to-pink-600 rounded-full flex items-center justify-center shadow-lg">
+              <span className="text-2xl">👑</span>
+            </div>
+            <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center shadow-lg">
+              <span className="text-2xl">⭐</span>
+            </div>
+          </div>
+          
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-orange-500 via-pink-500 to-pink-600 bg-clip-text text-transparent">Premium Escorts In Indore - Our Services</h1>
+          <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto animate-fadeInUp">
             Discover our comprehensive range of luxury escort services designed for discerning clients in Indore
           </p>
         </div>
         
-        {/* Floating Elements */}
-        <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-white/20 rounded-full animate-pulse-slow"></div>
-        <div className="absolute top-1/3 right-1/4 w-6 h-6 bg-white/10 rounded-full animate-pulse-slow" style={{animationDelay: '1s'}}></div>
-        <div className="absolute bottom-1/4 left-1/3 w-3 h-3 bg-white/30 rounded-full animate-pulse-slow" style={{animationDelay: '2s'}}></div>
+        {/* Decorative Elements */}
+        <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-pink-400/30 rounded-full animate-pulse-slow"></div>
+        <div className="absolute top-1/3 right-1/4 w-6 h-6 bg-orange-400/20 rounded-full animate-pulse-slow" style={{animationDelay: '1s'}}></div>
+        <div className="absolute bottom-1/4 left-1/3 w-3 h-3 bg-pink-500/40 rounded-full animate-pulse-slow" style={{animationDelay: '2s'}}></div>
+      </section>
+
+      {/* Feature Highlights */}
+      <section className="py-12 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-xl">🔒</span>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">100% Discrete</h3>
+              <p className="text-gray-600 text-sm">Complete privacy and confidentiality guaranteed</p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-xl">⚡</span>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">24/7 Available</h3>
+              <p className="text-gray-600 text-sm">Round the clock premium service</p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-gradient-to-r from-pink-600 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-xl">⭐</span>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">Premium Quality</h3>
+              <p className="text-gray-600 text-sm">Verified profiles with exceptional service</p>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Service Cards Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-black text-black mb-6">
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 via-pink-500 to-pink-600 bg-clip-text text-transparent mb-6">
               Complete Service Portfolio
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
