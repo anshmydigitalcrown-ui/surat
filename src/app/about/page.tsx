@@ -387,6 +387,205 @@ export default function About() {
         </div>
       </section>
 
+      {/* About Content Section */}
+      <section className="py-20 bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent mb-6">
+              🏢 About Our Premium Services
+            </h2>
+            <p className="text-2xl md:text-3xl text-pink-700 max-w-4xl mx-auto font-medium leading-relaxed">
+              Discover the excellence, professionalism, and luxury that define our companion services
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            {/* Our Heritage */}
+            <div className="bg-gradient-to-br from-pink-100 to-pink-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-pink-300">
+              <div className="text-6xl mb-6 text-center">🏛️</div>
+              <h3 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-pink-600 to-pink-800 bg-clip-text text-transparent mb-4 text-center">Our Heritage</h3>
+              <p className="text-lg text-pink-700 font-medium leading-relaxed text-center">
+                Built on years of trust and excellence, we&apos;ve established ourselves as Surat&apos;s premier companion service provider with unwavering commitment to quality.
+              </p>
+            </div>
+
+            {/* Professional Standards */}
+            <div className="bg-gradient-to-br from-purple-100 to-purple-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-purple-300">
+              <div className="text-6xl mb-6 text-center">⭐</div>
+              <h3 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent mb-4 text-center">Professional Standards</h3>
+              <p className="text-lg text-purple-700 font-medium leading-relaxed text-center">
+                Every companion undergoes rigorous screening and training to ensure they meet our exceptionally high standards of professionalism and elegance.
+              </p>
+            </div>
+
+            {/* Client Commitment */}
+            <div className="bg-gradient-to-br from-indigo-100 to-indigo-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-indigo-300">
+              <div className="text-6xl mb-6 text-center">💎</div>
+              <h3 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-indigo-600 to-indigo-800 bg-clip-text text-transparent mb-4 text-center">Client Commitment</h3>
+              <p className="text-lg text-indigo-700 font-medium leading-relaxed text-center">
+                Your satisfaction is our priority. We go above and beyond to ensure every experience exceeds expectations with personalized attention to detail.
+              </p>
+            </div>
+
+            {/* Luxury Experience */}
+            <div className="bg-gradient-to-br from-teal-100 to-teal-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-teal-300">
+              <div className="text-6xl mb-6 text-center">✨</div>
+              <h3 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-teal-600 to-teal-800 bg-clip-text text-transparent mb-4 text-center">Luxury Experience</h3>
+              <p className="text-lg text-teal-700 font-medium leading-relaxed text-center">
+                From elegant dining to sophisticated events, our companions are trained to enhance every moment with grace, intelligence, and charm.
+              </p>
+            </div>
+
+            {/* Safety & Security */}
+            <div className="bg-gradient-to-br from-orange-100 to-orange-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-orange-300">
+              <div className="text-6xl mb-6 text-center">🔒</div>
+              <h3 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent mb-4 text-center">Safety & Security</h3>
+              <p className="text-lg text-orange-700 font-medium leading-relaxed text-center">
+                Complete privacy protection and secure arrangements ensure your peace of mind throughout every interaction and service experience.
+              </p>
+            </div>
+
+            {/* Innovation */}
+            <div className="bg-gradient-to-br from-rose-100 to-rose-200 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-rose-300">
+              <div className="text-6xl mb-6 text-center">🚀</div>
+              <h3 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-rose-600 to-rose-800 bg-clip-text text-transparent mb-4 text-center">Innovation</h3>
+              <p className="text-lg text-rose-700 font-medium leading-relaxed text-center">
+                We continuously evolve our services with modern booking systems, enhanced privacy measures, and innovative service offerings.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Premium Locations in Surat */}
+      <section className="py-20 bg-gradient-to-br from-gray-50 via-purple-50 to-pink-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 bg-clip-text text-transparent mb-6">
+              📍 Premium Service Locations in Surat
+            </h2>
+            <p className="text-2xl md:text-3xl text-purple-700 max-w-4xl mx-auto font-medium leading-relaxed">
+              Comprehensive coverage across all major areas of Surat with premium companion services
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {/* Location 1 - Varachha Road */}
+            <div className="bg-gradient-to-br from-red-100 to-red-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-red-300">
+              <div className="text-5xl mb-4 text-center">🏙️</div>
+              <h3 className="text-2xl md:text-3xl font-bold text-red-700 mb-3 text-center">Varachha Road</h3>
+              <p className="text-red-600 text-sm text-center">Commercial hub with premium hotels and business centers</p>
+            </div>
+
+            {/* Location 2 - Adajan */}
+            <div className="bg-gradient-to-br from-blue-100 to-blue-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-blue-300">
+              <div className="text-5xl mb-4 text-center">🏘️</div>
+              <h3 className="text-2xl md:text-3xl font-bold text-blue-700 mb-3 text-center">Adajan</h3>
+              <p className="text-blue-600 text-sm text-center">Upscale residential area with modern amenities and facilities</p>
+            </div>
+
+            {/* Location 3 - City Light */}
+            <div className="bg-gradient-to-br from-green-100 to-green-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-green-300">
+              <div className="text-5xl mb-4 text-center">✨</div>
+              <h3 className="text-2xl md:text-3xl font-bold text-green-700 mb-3 text-center">City Light</h3>
+              <p className="text-green-600 text-sm text-center">Entertainment district with fine dining and luxury venues</p>
+            </div>
+
+            {/* Location 4 - Vesu */}
+            <div className="bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-yellow-300">
+              <div className="text-5xl mb-4 text-center">🌟</div>
+              <h3 className="text-2xl md:text-3xl font-bold text-yellow-700 mb-3 text-center">Vesu</h3>
+              <p className="text-yellow-600 text-sm text-center">Premium locality known for upscale living and shopping</p>
+            </div>
+
+            {/* Location 5 - Nanpura */}
+            <div className="bg-gradient-to-br from-purple-100 to-purple-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-purple-300">
+              <div className="text-5xl mb-4 text-center">🏛️</div>
+              <h3 className="text-2xl md:text-3xl font-bold text-purple-700 mb-3 text-center">Nanpura</h3>
+              <p className="text-purple-600 text-sm text-center">Historic area with cultural significance and modern facilities</p>
+            </div>
+
+            {/* Location 6 - Piplod */}
+            <div className="bg-gradient-to-br from-pink-100 to-pink-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-pink-300">
+              <div className="text-5xl mb-4 text-center">🏢</div>
+              <h3 className="text-2xl md:text-3xl font-bold text-pink-700 mb-3 text-center">Piplod</h3>
+              <p className="text-pink-600 text-sm text-center">Emerging business district with contemporary infrastructure</p>
+            </div>
+
+            {/* Location 7 - Udhna */}
+            <div className="bg-gradient-to-br from-indigo-100 to-indigo-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-indigo-300">
+              <div className="text-5xl mb-4 text-center">🏭</div>
+              <h3 className="text-2xl md:text-3xl font-bold text-indigo-700 mb-3 text-center">Udhna</h3>
+              <p className="text-indigo-600 text-sm text-center">Industrial area with growing residential developments</p>
+            </div>
+
+            {/* Location 8 - Rander */}
+            <div className="bg-gradient-to-br from-teal-100 to-teal-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-teal-300">
+              <div className="text-5xl mb-4 text-center">🌊</div>
+              <h3 className="text-2xl md:text-3xl font-bold text-teal-700 mb-3 text-center">Rander</h3>
+              <p className="text-teal-600 text-sm text-center">Riverside location with scenic beauty and accessibility</p>
+            </div>
+
+            {/* Location 9 - Katargam */}
+            <div className="bg-gradient-to-br from-orange-100 to-orange-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-orange-300">
+              <div className="text-5xl mb-4 text-center">🛣️</div>
+              <h3 className="text-2xl md:text-3xl font-bold text-orange-700 mb-3 text-center">Katargam</h3>
+              <p className="text-orange-600 text-sm text-center">Well-connected area with excellent transport links</p>
+            </div>
+
+            {/* Location 10 - Althan */}
+            <div className="bg-gradient-to-br from-cyan-100 to-cyan-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-cyan-300">
+              <div className="text-5xl mb-4 text-center">🏞️</div>
+              <h3 className="text-2xl md:text-3xl font-bold text-cyan-700 mb-3 text-center">Althan</h3>
+              <p className="text-cyan-600 text-sm text-center">Peaceful residential area with modern amenities nearby</p>
+            </div>
+
+            {/* Location 11 - Sumul Dairy Road */}
+            <div className="bg-gradient-to-br from-lime-100 to-lime-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-lime-300">
+              <div className="text-5xl mb-4 text-center">🛍️</div>
+              <h3 className="text-2xl md:text-3xl font-bold text-lime-700 mb-3 text-center">Sumul Dairy Road</h3>
+              <p className="text-lime-600 text-sm text-center">Shopping destination with restaurants and entertainment</p>
+            </div>
+
+            {/* Location 12 - Dumas */}
+            <div className="bg-gradient-to-br from-rose-100 to-rose-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-rose-300">
+              <div className="text-5xl mb-4 text-center">🏖️</div>
+              <h3 className="text-2xl md:text-3xl font-bold text-rose-700 mb-3 text-center">Dumas</h3>
+              <p className="text-rose-600 text-sm text-center">Coastal area with beach resorts and scenic beauty</p>
+            </div>
+          </div>
+
+          {/* Service Coverage Info */}
+          <div className="bg-gradient-to-r from-purple-100 via-pink-100 to-red-100 rounded-3xl p-8 md:p-12 mt-12">
+            <h3 className="text-4xl md:text-5xl font-bold text-center bg-gradient-to-r from-purple-600 to-red-600 bg-clip-text text-transparent mb-8">
+              🌟 Comprehensive Service Coverage
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="text-center p-6 bg-white/70 rounded-2xl hover:bg-white/90 transition-all duration-300">
+                <div className="text-4xl mb-4">🚗</div>
+                <h4 className="text-xl font-bold text-purple-700 mb-2">Quick Response</h4>
+                <p className="text-purple-600">Fast arrival across all Surat locations</p>
+              </div>
+              <div className="text-center p-6 bg-white/70 rounded-2xl hover:bg-white/90 transition-all duration-300">
+                <div className="text-4xl mb-4">🔒</div>
+                <h4 className="text-xl font-bold text-pink-700 mb-2">Complete Privacy</h4>
+                <p className="text-pink-600">100% discreet services in every area</p>
+              </div>
+              <div className="text-center p-6 bg-white/70 rounded-2xl hover:bg-white/90 transition-all duration-300">
+                <div className="text-4xl mb-4">💎</div>
+                <h4 className="text-xl font-bold text-red-700 mb-2">Premium Quality</h4>
+                <p className="text-red-600">Luxury companions for all locations</p>
+              </div>
+              <div className="text-center p-6 bg-white/70 rounded-2xl hover:bg-white/90 transition-all duration-300">
+                <div className="text-4xl mb-4">⭐</div>
+                <h4 className="text-xl font-bold text-purple-700 mb-2">24/7 Service</h4>
+                <p className="text-purple-600">Round-the-clock availability</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-primary-500 to-accent-600 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
