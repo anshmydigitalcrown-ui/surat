@@ -30,7 +30,7 @@ export default function Home() {
                   </div>
                 </div>
                 
-                <h2 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
+                <h2 className="text-4xl md:text-6xl font-bold text-red-600 leading-tight">
                   Indore&apos;s Most
                   <span className="block bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
                     Trusted Companion
@@ -38,7 +38,7 @@ export default function Home() {
                   Service
                 </h2>
                 
-                <p className="text-xl text-gray-700 leading-relaxed max-w-xl">
+                <p className="text-xl text-red-600 leading-relaxed max-w-xl">
                   Experience luxury and sophistication with Indore&apos;s premier escort service. We offer discreet, professional companionship tailored to your needs with complete privacy and elegance.
                 </p>
               </div>
@@ -51,7 +51,7 @@ export default function Home() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                     </svg>
                   </div>
-                  <span className="text-gray-800 text-lg font-medium">24/7 Premium Service Available</span>
+                  <span className="text-red-600 text-lg font-medium">24/7 Premium Service Available</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-6 h-6 bg-gradient-to-r from-red-500 to-red-700 rounded-full flex items-center justify-center shadow-md">
@@ -59,7 +59,7 @@ export default function Home() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                     </svg>
                   </div>
-                  <span className="text-gray-800 text-lg font-medium">Complete Discretion & Privacy</span>
+                  <span className="text-red-600 text-lg font-medium">Complete Discretion & Privacy</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-6 h-6 bg-gradient-to-r from-red-500 to-red-700 rounded-full flex items-center justify-center shadow-md">
@@ -67,7 +67,7 @@ export default function Home() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                     </svg>
                   </div>
-                  <span className="text-gray-800 text-lg font-medium">Professional & Sophisticated</span>
+                  <span className="text-red-600 text-lg font-medium">Professional & Sophisticated</span>
                 </div>
               </div>
 
@@ -170,7 +170,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+          {/* Service Grid - Fixed 4 Rows × 5 Columns Layout */}
+          <div className="grid grid-cols-5 grid-rows-4 gap-6 max-w-7xl mx-auto">
             {[
               { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "Elite companions for exclusive events and occasions", price: "Premium", rating: "4.9" },
               { title: "Social Events", image: "/images/services/Social Events.webp", description: "Perfect companions for social gatherings and parties", price: "Standard", rating: "4.8" },
@@ -195,77 +196,50 @@ export default function Home() {
             ].map((service, index) => (
               <div
                 key={index}
-                className="group relative bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2 overflow-hidden border border-pink-200 hover:border-pink-400"
+                className="group relative bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-pink-200 hover:border-pink-400"
               >
-                {/* Service Image Container - Optimized for 5-column layout */}
-                <div className="relative h-48 sm:h-56 md:h-64 lg:h-56 xl:h-64 overflow-hidden bg-gradient-to-br from-pink-50 to-purple-50">
+                {/* Service Image Container - Full Size Images */}
+                <div className="relative h-64 overflow-hidden">
                   <Image 
                     src={service.image} 
                     alt={service.title} 
                     fill
-                    className="object-contain object-center p-3 transition-all duration-500 group-hover:scale-105"
-                    sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 25vw, 20vw"
+                    className="object-cover object-center transition-all duration-300 group-hover:scale-105"
+                    sizes="20vw"
                   />
                   
-                  {/* Enhanced Gradient Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  {/* Gradient Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   
-                  {/* Price Badge - Enhanced */}
-                  <div className="absolute top-4 left-4">
-                    <span className={`px-4 py-2 rounded-full text-sm font-bold text-white shadow-xl ${
-                      service.price === 'Luxury' ? 'bg-gradient-to-r from-purple-500 to-purple-700' :
-                      service.price === 'Premium' ? 'bg-gradient-to-r from-pink-500 to-pink-700' :
-                      'bg-gradient-to-r from-blue-500 to-blue-700'
-                    }`}>
-                      {service.price}
-                    </span>
-                  </div>
-                  
-                  {/* Rating Badge - Enhanced */}
-                  <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-md px-3 py-2 rounded-full shadow-xl">
-                    <div className="flex items-center space-x-2">
-                      <span className="text-yellow-500 text-lg">⭐</span>
-                      <span className="text-gray-800 text-sm font-bold">{service.rating}</span>
+                  {/* Service Title Overlay */}
+                  <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                    <h3 className="text-xl font-bold text-white mb-2">{service.title}</h3>
+                    <div className="flex items-center justify-between">
+                      <span className={`px-3 py-1 rounded-full text-xs font-bold text-white ${
+                        service.price === 'Luxury' ? 'bg-purple-600' :
+                        service.price === 'Premium' ? 'bg-pink-600' :
+                        'bg-blue-600'
+                      }`}>
+                        {service.price}
+                      </span>
+                      <div className="flex items-center space-x-1">
+                        <span className="text-yellow-400">⭐</span>
+                        <span className="text-white text-sm font-bold">{service.rating}</span>
+                      </div>
                     </div>
-                  </div>
-                  
-                  {/* Available Status - Enhanced */}
-                  <div className="absolute bottom-4 left-4 bg-green-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-xl animate-pulse">
-                    Available Now
-                  </div>
-                  
-                  {/* Hover Call-to-Action */}
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    <button className="bg-white/90 backdrop-blur-md text-pink-600 px-6 py-3 rounded-full font-bold shadow-xl hover:bg-white hover:scale-105 transition-all duration-300">
-                      Book Now
-                    </button>
                   </div>
                 </div>
                 
-                {/* Content - Enhanced */}
-                <div className="p-6 lg:p-8">
-                  <h3 className="text-xl lg:text-2xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors duration-300">
-                    {service.title}
-                  </h3>
-                  
-                  <p className="text-gray-600 text-base mb-6 leading-relaxed">
+                {/* Content with Single Centered Button */}
+                <div className="p-6 text-center">
+                  <p className="text-gray-600 text-sm mb-4 leading-relaxed">
                     {service.description}
                   </p>
                   
-                  {/* Action Buttons - Enhanced */}
-                  <div className="flex space-x-3">
-                    <button className="flex-1 bg-gradient-to-r from-pink-500 to-pink-700 hover:from-pink-600 hover:to-pink-800 text-white py-3 px-6 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-                      Book Service
-                    </button>
-                    <button className="px-6 py-3 border-2 border-pink-400 text-pink-600 rounded-xl hover:bg-pink-50 transition-all duration-300 font-bold text-sm hover:border-pink-600">
-                      Details
-                    </button>
-                  </div>
-                </div>
-                
-                {/* Enhanced Hover Effect */}
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -skew-x-12 animate-shimmer"></div>
+                  {/* Single Centered Book Now Button */}
+                  <button className="w-full bg-gradient-to-r from-pink-500 to-pink-700 hover:from-pink-600 hover:to-pink-800 text-white py-3 px-6 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                    Book Now
+                  </button>
                 </div>
               </div>
             ))}
