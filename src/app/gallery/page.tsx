@@ -784,7 +784,7 @@ export default function Gallery() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-sweet-pink-600 to-light-red-600 bg-clip-text text-transparent mb-4">Our Gallery Highlights</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-2xl md:text-3xl text-pink-700 max-w-4xl mx-auto font-medium leading-relaxed">
               Statistics that showcase our excellence and commitment to quality service delivery
             </p>
           </div>
@@ -818,14 +818,14 @@ export default function Gallery() {
             ].map((stat, index) => (
               <div 
                 key={index}
-                className="bg-gradient-to-br from-sweet-pink-50 to-light-red-50 rounded-2xl p-8 text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+                className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-2xl p-8 text-center hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-pink-200"
               >
-                <div className="text-4xl mb-4">{stat.icon}</div>
-                <div className="text-3xl font-bold bg-gradient-to-r from-sweet-pink-600 to-light-red-600 bg-clip-text text-transparent mb-2">
+                <div className="text-5xl mb-6">{stat.icon}</div>
+                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 to-pink-800 bg-clip-text text-transparent mb-4">
                   {stat.number}
                 </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">{stat.title}</h3>
-                <p className="text-gray-600">{stat.description}</p>
+                <h3 className="text-2xl md:text-3xl font-bold text-pink-800 mb-4">{stat.title}</h3>
+                <p className="text-lg md:text-xl text-pink-700 font-medium leading-relaxed">{stat.description}</p>
               </div>
             ))}
           </div>
