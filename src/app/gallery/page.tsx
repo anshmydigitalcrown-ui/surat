@@ -100,7 +100,7 @@ export default function Gallery() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-5xl md:text-6xl font-black text-black mb-6">
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-pink-600 via-pink-500 to-orange-500 bg-clip-text text-transparent mb-6 drop-shadow-lg">
               {selectedCategory === 'all' ? 'Complete Gallery' : `${selectedCategory} Services`}
             </h2>
             <p className="text-xl md:text-2xl text-pink-600 max-w-3xl mx-auto leading-relaxed">
