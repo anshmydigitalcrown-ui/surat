@@ -20,15 +20,15 @@ export default function About() {
         <div className="absolute inset-0 bg-white/10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Service Icons */}
-          <div className="flex justify-center space-x-8 mb-8">
-            <div className="w-16 h-16 bg-gradient-to-r from-orange-400 to-pink-500 rounded-full flex items-center justify-center shadow-lg">
-              <span className="text-2xl">🏢</span>
+          <div className="flex justify-center space-x-12 mb-12">
+            <div className="w-24 h-24 bg-gradient-to-r from-orange-400 to-pink-500 rounded-2xl flex items-center justify-center shadow-2xl transform hover:scale-110 transition-all duration-300">
+              <span className="text-4xl">🏢</span>
             </div>
-            <div className="w-16 h-16 bg-gradient-to-r from-pink-400 to-pink-600 rounded-full flex items-center justify-center shadow-lg">
-              <span className="text-2xl">🎯</span>
+            <div className="w-24 h-24 bg-gradient-to-r from-pink-400 to-pink-600 rounded-2xl flex items-center justify-center shadow-2xl transform hover:scale-110 transition-all duration-300">
+              <span className="text-4xl">🎯</span>
             </div>
-            <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center shadow-lg">
-              <span className="text-2xl">💎</span>
+            <div className="w-24 h-24 bg-gradient-to-r from-pink-500 to-purple-500 rounded-2xl flex items-center justify-center shadow-2xl transform hover:scale-110 transition-all duration-300">
+              <span className="text-4xl">💎</span>
             </div>
           </div>
           
@@ -52,14 +52,20 @@ export default function About() {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`flex items-center space-x-2 px-6 py-4 font-semibold transition-all duration-300 ${
+                className={`flex items-center space-x-3 px-8 py-6 font-semibold transition-all duration-300 rounded-t-2xl ${
                   activeTab === tab.id
-                    ? 'text-primary-600 border-b-2 border-primary-600 transform scale-105'
-                    : 'text-gray-600 hover:text-primary-500'
+                    ? 'text-primary-600 border-b-4 border-primary-600 transform scale-105 bg-gradient-to-t from-pink-50 to-white shadow-lg'
+                    : 'text-gray-600 hover:text-primary-500 hover:bg-gray-50'
                 }`}
               >
-                <span className="text-xl">{tab.icon}</span>
-                <span>{tab.label}</span>
+                <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${
+                  activeTab === tab.id 
+                    ? 'bg-gradient-to-r from-pink-500 to-purple-500 shadow-lg' 
+                    : 'bg-gray-100'
+                }`}>
+                  <span className="text-2xl">{tab.icon}</span>
+                </div>
+                <span className="text-lg">{tab.label}</span>
               </button>
             ))}
           </div>
@@ -67,62 +73,129 @@ export default function About() {
           {/* Tab Content */}
           <div className="animate-fadeInUp">
             {activeTab === 'story' && (
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div>
-                  <h2 className="text-4xl font-bold gradient-text mb-6">Our Story</h2>
-                  <div className="space-y-4 text-gray-700 text-lg">
-                    <p>
-                      Founded with a vision to provide unparalleled companion services in Surat, we have established 
-                      ourselves as the premier destination for sophisticated and professional companionship.
-                    </p>
-                    <p>
-                      Our journey began with a simple yet profound understanding: that every individual deserves 
-                      access to refined, elegant, and trustworthy companion services that enhance their personal 
-                      and professional experiences.
-                    </p>
-                    <p>
-                      Over the years, we have built a reputation based on trust, discretion, and excellence. 
-                      Our commitment to maintaining the highest standards has made us the preferred choice for 
-                      discerning clients across Surat and beyond.
-                    </p>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div className="space-y-8">
+                  <div className="flex items-center mb-8">
+                    <div className="w-20 h-20 bg-gradient-to-br from-pink-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-2xl mr-6">
+                      <span className="text-4xl">📖</span>
+                    </div>
+                    <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">Our Story</h2>
                   </div>
-                </div>
-                <div className="relative">
-                  <div className="w-full h-96 bg-gradient-to-br from-primary-400 to-accent-500 rounded-2xl flex items-center justify-center">
-                    <div className="text-white text-center">
-                      <div className="text-6xl mb-4">🏛️</div>
-                      <h3 className="text-2xl font-bold">Established Excellence</h3>
-                      <p className="text-pink-100">Building trust since our inception</p>
+                  
+                  <div className="space-y-6">
+                    <div className="bg-gradient-to-br from-pink-50 to-purple-50 rounded-2xl p-8 border-l-4 border-pink-500 shadow-lg">
+                      <div className="flex items-start space-x-4">
+                        <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                          <span className="text-2xl">🏛️</span>
+                        </div>
+                        <p className="text-gray-800 text-lg leading-relaxed font-medium">
+                          Founded with a vision to provide unparalleled companion services in Surat, we have established 
+                          ourselves as the premier destination for sophisticated and professional companionship.
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border-l-4 border-blue-500 shadow-lg">
+                      <div className="flex items-start space-x-4">
+                        <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                          <span className="text-2xl">💎</span>
+                        </div>
+                        <p className="text-gray-800 text-lg leading-relaxed font-medium">
+                          Our journey began with a simple yet profound understanding: that every individual deserves 
+                          access to refined, elegant, and trustworthy companion services that enhance their personal 
+                          and professional experiences.
+                        </p>
+                      </div>
+                    </div>
+                    
+                    <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl p-8 border-l-4 border-green-500 shadow-lg">
+                      <div className="flex items-start space-x-4">
+                        <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-teal-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                          <span className="text-2xl">🏆</span>
+                        </div>
+                        <p className="text-gray-800 text-lg leading-relaxed font-medium">
+                          Over the years, we have built a reputation based on trust, discretion, and excellence. 
+                          Our commitment to maintaining the highest standards has made us the preferred choice for 
+                          discerning clients across Surat and beyond.
+                        </p>
+                      </div>
                     </div>
                   </div>
+                </div>
+                
+                <div className="relative">
+                  <div className="w-full h-[500px] bg-gradient-to-br from-pink-400 via-purple-500 to-indigo-600 rounded-3xl flex items-center justify-center shadow-2xl transform hover:scale-105 transition-all duration-300">
+                    <div className="text-white text-center space-y-6">
+                      <div className="w-32 h-32 bg-white/20 rounded-full flex items-center justify-center mx-auto backdrop-blur-sm">
+                        <span className="text-8xl">🏛️</span>
+                      </div>
+                      <h3 className="text-3xl font-bold">Established Excellence</h3>
+                      <p className="text-xl text-pink-100 px-8">Building trust since our inception with unmatched dedication</p>
+                      <div className="flex justify-center space-x-6 mt-8">
+                        <div className="text-center">
+                          <div className="text-4xl mb-2">🌟</div>
+                          <p className="text-sm text-pink-100">Premium Quality</p>
+                        </div>
+                        <div className="text-center">
+                          <div className="text-4xl mb-2">🤝</div>
+                          <p className="text-sm text-pink-100">Trusted Service</p>
+                        </div>
+                        <div className="text-center">
+                          <div className="text-4xl mb-2">🔒</div>
+                          <p className="text-sm text-pink-100">Complete Discretion</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Decorative floating elements */}
+                  <div className="absolute -top-4 -left-4 w-16 h-16 bg-gradient-to-r from-pink-400 to-purple-500 rounded-full opacity-70 animate-pulse"></div>
+                  <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-gradient-to-r from-purple-400 to-indigo-500 rounded-full opacity-60 animate-pulse" style={{animationDelay: '1s'}}></div>
                 </div>
               </div>
             )}
 
             {activeTab === 'mission' && (
-              <div className="text-center max-w-4xl mx-auto">
-                <h2 className="text-4xl font-bold gradient-text mb-8">Our Mission</h2>
-                <div className="bg-gradient-to-br from-primary-50 to-accent-50 rounded-2xl p-12">
-                  <div className="text-6xl mb-6">🚀</div>
-                  <p className="text-xl text-gray-700 mb-8 leading-relaxed">
+              <div className="text-center max-w-6xl mx-auto">
+                <div className="flex items-center justify-center mb-12">
+                  <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center shadow-2xl mr-6">
+                    <span className="text-4xl">🚀</span>
+                  </div>
+                  <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">Our Mission</h2>
+                </div>
+                
+                <div className="bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 rounded-3xl p-12 shadow-2xl border border-blue-100">
+                  <div className="w-24 h-24 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-8 shadow-lg">
+                    <span className="text-5xl">🎯</span>
+                  </div>
+                  <p className="text-2xl text-gray-800 mb-12 leading-relaxed font-medium">
                     To provide exceptional, professional, and discreet companion services that exceed expectations 
                     while maintaining the highest standards of integrity, elegance, and confidentiality.
                   </p>
+                  
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-                    <div className="text-center">
-                      <div className="text-3xl mb-3">🌟</div>
-                      <h4 className="font-bold text-primary-600 mb-2">Excellence</h4>
-                      <p className="text-gray-600">Delivering superior quality in every interaction</p>
+                    <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-yellow-100">
+                      <div className="w-16 h-16 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span className="text-3xl">🌟</span>
+                      </div>
+                      <h4 className="font-bold text-xl text-yellow-600 mb-3">Excellence</h4>
+                      <p className="text-gray-700">Delivering superior quality in every interaction with unmatched attention to detail</p>
                     </div>
-                    <div className="text-center">
-                      <div className="text-3xl mb-3">🤝</div>
-                      <h4 className="font-bold text-primary-600 mb-2">Trust</h4>
-                      <p className="text-gray-600">Building lasting relationships through reliability</p>
+                    
+                    <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-green-100">
+                      <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span className="text-3xl">🤝</span>
+                      </div>
+                      <h4 className="font-bold text-xl text-green-600 mb-3">Trust</h4>
+                      <p className="text-gray-700">Building lasting relationships through reliability and consistent professional service</p>
                     </div>
-                    <div className="text-center">
-                      <div className="text-3xl mb-3">🔒</div>
-                      <h4 className="font-bold text-primary-600 mb-2">Discretion</h4>
-                      <p className="text-gray-600">Ensuring complete privacy and confidentiality</p>
+                    
+                    <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-purple-100">
+                      <div className="w-16 h-16 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span className="text-3xl">🔒</span>
+                      </div>
+                      <h4 className="font-bold text-xl text-purple-600 mb-3">Discretion</h4>
+                      <p className="text-gray-700">Maintaining complete confidentiality and privacy in all our professional engagements</p>
                     </div>
                   </div>
                 </div>
@@ -131,47 +204,73 @@ export default function About() {
 
             {activeTab === 'values' && (
               <div>
-                <h2 className="text-4xl font-bold gradient-text mb-12 text-center">Our Core Values</h2>
+                <div className="flex items-center justify-center mb-12">
+                  <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center shadow-2xl mr-6">
+                    <span className="text-4xl">💎</span>
+                  </div>
+                  <h2 className="text-5xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-indigo-600 bg-clip-text text-transparent">Our Core Values</h2>
+                </div>
+                
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {[
                     {
                       icon: '🎭',
                       title: 'Professionalism',
-                      description: 'Maintaining the highest standards of professional conduct in all our services.'
+                      description: 'Maintaining the highest standards of professional conduct in all our services.',
+                      gradient: 'from-blue-500 to-cyan-500',
+                      bgGradient: 'from-blue-50 to-cyan-50',
+                      borderColor: 'border-blue-200'
                     },
                     {
                       icon: '💼',
                       title: 'Confidentiality',
-                      description: 'Absolute discretion and privacy protection for all our valued clients.'
+                      description: 'Absolute discretion and privacy protection for all our valued clients.',
+                      gradient: 'from-purple-500 to-indigo-500',
+                      bgGradient: 'from-purple-50 to-indigo-50',
+                      borderColor: 'border-purple-200'
                     },
                     {
                       icon: '⭐',
                       title: 'Quality',
-                      description: 'Delivering exceptional experiences that exceed expectations consistently.'
+                      description: 'Delivering exceptional experiences that exceed expectations consistently.',
+                      gradient: 'from-yellow-500 to-orange-500',
+                      bgGradient: 'from-yellow-50 to-orange-50',
+                      borderColor: 'border-yellow-200'
                     },
                     {
                       icon: '🎨',
                       title: 'Elegance',
-                      description: 'Bringing sophistication and refinement to every aspect of our service.'
+                      description: 'Bringing sophistication and refinement to every aspect of our service.',
+                      gradient: 'from-pink-500 to-rose-500',
+                      bgGradient: 'from-pink-50 to-rose-50',
+                      borderColor: 'border-pink-200'
                     },
                     {
                       icon: '🏆',
                       title: 'Excellence',
-                      description: 'Striving for perfection in everything we do, every single time.'
+                      description: 'Striving for perfection in everything we do, every single time.',
+                      gradient: 'from-green-500 to-emerald-500',
+                      bgGradient: 'from-green-50 to-emerald-50',
+                      borderColor: 'border-green-200'
                     },
                     {
                       icon: '💎',
                       title: 'Luxury',
-                      description: 'Providing premium experiences that define the standards of luxury service.'
+                      description: 'Providing premium experiences that define the standards of luxury service.',
+                      gradient: 'from-violet-500 to-purple-500',
+                      bgGradient: 'from-violet-50 to-purple-50',
+                      borderColor: 'border-violet-200'
                     }
                   ].map((value, index) => (
                     <div 
                       key={index}
-                      className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-primary-100"
+                      className={`bg-gradient-to-br ${value.bgGradient} rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border ${value.borderColor}`}
                     >
-                      <div className="text-4xl mb-4">{value.icon}</div>
-                      <h3 className="text-xl font-bold text-gray-800 mb-3">{value.title}</h3>
-                      <p className="text-gray-600">{value.description}</p>
+                      <div className={`w-16 h-16 bg-gradient-to-r ${value.gradient} rounded-2xl flex items-center justify-center mb-6 shadow-lg mx-auto`}>
+                        <span className="text-3xl">{value.icon}</span>
+                      </div>
+                      <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center">{value.title}</h3>
+                      <p className="text-gray-700 leading-relaxed text-center">{value.description}</p>
                     </div>
                   ))}
                 </div>
