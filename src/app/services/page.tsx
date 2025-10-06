@@ -57,103 +57,36 @@ export default function Services() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {services.map((service, index) => (
               <div
                 key={index}
-                className="group relative bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-4 overflow-hidden border border-pink-200 hover:border-pink-400"
+                className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden"
               >
-                {/* Service Image Container - Much Larger */}
-                <div className="relative h-80 sm:h-96 lg:h-80 xl:h-96 overflow-hidden bg-gradient-to-br from-pink-50 to-purple-50">
+                {/* Service Image Container */}
+                <div className="relative h-48 overflow-hidden">
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-contain object-center p-4 transition-all duration-700 group-hover:scale-110"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover object-center transition-transform duration-300 hover:scale-105"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
-                  
-                  {/* Enhanced Gradient Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  
-                  {/* Category Badge - Enhanced */}
-                  <div className="absolute top-4 left-4">
-                    <span className={`px-4 py-2 rounded-full text-sm font-bold text-white shadow-xl ${
-                      service.category === 'Premium' ? 'bg-gradient-to-r from-purple-500 to-purple-700' :
-                      service.category === 'International' ? 'bg-gradient-to-r from-red-500 to-red-700' :
-                      service.category === 'Business' ? 'bg-gradient-to-r from-blue-500 to-blue-700' :
-                      service.category === 'Travel' ? 'bg-gradient-to-r from-green-500 to-green-700' :
-                      service.category === 'Professional' ? 'bg-gradient-to-r from-indigo-500 to-indigo-700' :
-                      'bg-gradient-to-r from-pink-500 to-pink-700'
-                    }`}>
-                      {service.category}
-                    </span>
-                  </div>
-                  
-                  {/* Rating Badge - Enhanced */}
-                  <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-md px-3 py-2 rounded-full shadow-xl">
-                    <div className="flex items-center space-x-2">
-                      <span className="text-yellow-500 text-lg">⭐</span>
-                      <span className="text-gray-800 text-sm font-bold">{service.rating}</span>
-                    </div>
-                  </div>
-                  
-                  {/* Price Badge - Enhanced */}
-                  <div className="absolute bottom-4 left-4 bg-green-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-xl">
-                    Starting {service.price}
-                  </div>
-                  
-                  {/* Available Status - Enhanced */}
-                  <div className="absolute bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-xl animate-pulse">
-                    Available Now
-                  </div>
-                  
-                  {/* Hover Call-to-Action */}
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    <button className="bg-white/90 backdrop-blur-md text-pink-600 px-6 py-3 rounded-full font-bold shadow-xl hover:bg-white hover:scale-105 transition-all duration-300">
-                      Book Now
-                    </button>
-                  </div>
                 </div>
                 
-                {/* Content - Enhanced */}
-                <div className="p-6 lg:p-8">
-                  <h3 className="text-xl lg:text-2xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors duration-300">
+                {/* Content */}
+                <div className="p-4 text-center">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-2">
                     {service.title}
                   </h3>
-                  
-                  <p className="text-gray-600 text-base mb-4 leading-relaxed">
+                  <p className="text-gray-600 text-sm mb-4">
                     {service.description}
                   </p>
                   
-                  {/* Features - Enhanced */}
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    {service.features.slice(0, 3).map((feature, idx) => (
-                      <span key={idx} className="text-sm bg-pink-100 text-pink-700 px-3 py-1 rounded-full font-medium">
-                        {feature}
-                      </span>
-                    ))}
-                    {service.features.length > 3 && (
-                      <span className="text-sm bg-gray-100 text-gray-600 px-3 py-1 rounded-full font-medium">
-                        +{service.features.length - 3} more
-                      </span>
-                    )}
-                  </div>
-                  
-                  {/* Action Buttons - Enhanced */}
-                  <div className="flex space-x-3">
-                    <button className="flex-1 bg-gradient-to-r from-pink-500 to-pink-700 hover:from-pink-600 hover:to-pink-800 text-white py-3 px-6 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-                      Book Service
-                    </button>
-                    <button className="px-6 py-3 border-2 border-pink-400 text-pink-600 rounded-xl hover:bg-pink-50 transition-all duration-300 font-bold text-sm hover:border-pink-600">
-                      Details
-                    </button>
-                  </div>
-                </div>
-                
-                {/* Enhanced Hover Effect */}
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -skew-x-12 animate-shimmer"></div>
+                  {/* Action Button */}
+                  <button className="bg-pink-500 hover:bg-pink-600 text-white py-2 px-6 rounded-full font-medium text-sm transition-colors duration-300">
+                    Book
+                  </button>
                 </div>
               </div>
             ))}

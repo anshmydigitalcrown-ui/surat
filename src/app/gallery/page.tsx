@@ -94,59 +94,36 @@ export default function Gallery() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {filteredServices.map((service, index) => (
               <div
                 key={index}
-                className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 overflow-hidden border border-pink-100 hover:border-pink-300"
+                className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden"
               >
                 {/* Service Image Container */}
-                <div className="relative h-64 sm:h-56 md:h-60 lg:h-56 xl:h-64 overflow-hidden bg-gray-50">
+                <div className="relative h-48 overflow-hidden">
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-contain object-center p-2 transition-transform duration-500 group-hover:scale-105"
+                    className="object-cover object-center transition-transform duration-300 hover:scale-105"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
-                  
-                  {/* Gradient Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  
-                  {/* Category Badge */}
-                  <div className="absolute top-3 left-3">
-                    <span className={`px-3 py-1 rounded-full text-xs font-semibold text-white shadow-lg ${
-                      service.category === 'Premium' ? 'bg-gradient-to-r from-purple-500 to-purple-600' :
-                      service.category === 'Business' ? 'bg-gradient-to-r from-blue-500 to-blue-600' :
-                      service.category === 'Travel' ? 'bg-gradient-to-r from-green-500 to-green-600' :
-                      service.category === 'Entertainment' ? 'bg-gradient-to-r from-red-500 to-red-600' :
-                      'bg-gradient-to-r from-pink-500 to-pink-600'
-                    }`}>
-                      {service.category}
-                    </span>
-                  </div>
-                  
-                  {/* Available Badge */}
-                  <div className="absolute top-3 right-3 bg-green-500 text-white px-3 py-1 rounded-full text-xs font-medium shadow-lg animate-pulse">
-                    Available Now
-                  </div>
                 </div>
                 
                 {/* Content */}
-                <div className="p-5">
-                  <h3 className="text-lg font-bold text-gray-800 mb-3 line-clamp-1 group-hover:text-pink-600 transition-colors duration-300">
+                <div className="p-4 text-center">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-2">
                     {service.title}
                   </h3>
+                  <p className="text-gray-600 text-sm mb-4">
+                    Premium {service.category.toLowerCase()} service available 24/7
+                  </p>
                   
                   {/* Action Button */}
-                  <button className="w-full bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white py-2.5 px-4 rounded-lg font-medium text-sm transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg">
-                    View Gallery
+                  <button className="bg-pink-500 hover:bg-pink-600 text-white py-2 px-6 rounded-full font-medium text-sm transition-colors duration-300">
+                    Book
                   </button>
-                </div>
-                
-                {/* Hover Effect Shine */}
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -skew-x-12 animate-shimmer"></div>
                 </div>
               </div>
             ))}
