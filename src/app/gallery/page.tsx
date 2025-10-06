@@ -108,26 +108,26 @@ export default function Gallery() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-8">
             {filteredServices.map((service, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden"
+                className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:scale-105"
               >
                 {/* Service Image Container */}
-                <div className="relative h-64 bg-gray-50 overflow-hidden">
+                <div className="relative h-80 bg-gray-50 overflow-hidden">
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-contain object-center p-2 transition-transform duration-300 hover:scale-105"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-cover object-center transition-transform duration-300 hover:scale-110"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, (max-width: 1536px) 25vw, 20vw"
                   />
                 </div>
                 
                 {/* Content */}
-                <div className="p-4 text-center">
-                  <h3 className="text-lg font-semibold text-pink-800 mb-2">
+                <div className="p-6 text-center">
+                  <h3 className="text-xl font-bold text-pink-800 mb-3">
                     {service.title}
                   </h3>
                   <p className="text-pink-600 text-sm mb-4">
@@ -135,7 +135,7 @@ export default function Gallery() {
                   </p>
                   
                   {/* Action Button */}
-                  <button className="bg-pink-500 hover:bg-pink-600 text-white py-2 px-6 rounded-full font-medium text-sm transition-colors duration-300">
+                  <button className="bg-pink-500 hover:bg-pink-600 text-white py-3 px-8 rounded-full font-semibold text-sm transition-colors duration-300 w-full">
                     Book
                   </button>
                 </div>
