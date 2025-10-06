@@ -83,8 +83,8 @@ export default function Gallery() {
                 onClick={() => setSelectedCategory(category.id)}
                 className={`flex items-center space-x-2 px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
                   selectedCategory === category.id
-                    ? 'bg-gradient-to-r from-sweet-pink-500 to-light-red-500 text-white shadow-lg transform scale-105'
-                    : 'bg-gray-100 text-gray-600 hover:bg-sweet-pink-100 hover:text-sweet-pink-600'
+                    ? 'bg-gradient-to-r from-pink-500 to-pink-600 text-white shadow-lg transform scale-105'
+                    : 'bg-pink-100 text-pink-700 hover:bg-pink-200 hover:text-pink-800 border border-pink-300'
                 }`}
               >
                 <span className="text-lg">{category.icon}</span>
