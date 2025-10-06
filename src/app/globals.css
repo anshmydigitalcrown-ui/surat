@@ -299,6 +299,63 @@ body {
   background: linear-gradient(135deg, #25d366, #128c7e);
 }
 
+/* FAQ Section Specific Styles */
+.faq-container {
+  scroll-behavior: smooth;
+}
+
+.faq-item {
+  transition: all 0.3s ease-in-out;
+}
+
+.faq-item:hover {
+  transform: translateY(-2px);
+}
+
+.faq-item[open] {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.faq-item[open] summary {
+  background: rgba(255, 242, 242, 0.7);
+}
+
+/* Improved mobile FAQ styling */
+@media (max-width: 640px) {
+  .faq-item {
+    margin-bottom: 1rem;
+  }
+  
+  .faq-item summary {
+    padding: 1rem !important;
+  }
+  
+  .faq-item div {
+    padding: 1rem !important;
+  }
+  
+  .faq-item h3 {
+    font-size: 1rem !important;
+    line-height: 1.4;
+  }
+  
+  .faq-item p {
+    font-size: 0.875rem !important;
+    line-height: 1.5;
+  }
+}
+
+/* Tablet FAQ styling */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .faq-item summary {
+    padding: 1.25rem !important;
+  }
+  
+  .faq-item div {
+    padding: 1.25rem !important;
+  }
+}
+
 .floating-whatsapp:hover {
   background: linear-gradient(135deg, #128c7e, #075e54);
 }

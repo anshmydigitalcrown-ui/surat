@@ -795,126 +795,126 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FAQ Section - Enhanced Size & UI/UX */}
-      <section className="py-24 bg-gradient-to-br from-pink-50 via-pink-25 to-purple-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 bg-clip-text text-transparent mb-6">
+      {/* FAQ Section - Fixed Size & Responsive UI/UX */}
+      <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-br from-pink-50 via-rose-50 to-purple-50 faq-container">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12 md:mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-red-600 via-pink-600 to-rose-600 bg-clip-text text-transparent mb-4">
               Frequently Asked Questions
             </h2>
-            <p className="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Common questions about our premium escort services and professional companions
             </p>
           </div>
 
-          {/* FAQ Grid - Enhanced 2 Columns with Larger Cards */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {/* FAQ Grid - Responsive 1-2 Columns with Consistent Sizing */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-start">
             {/* Left Column */}
-            <div className="space-y-6">
-              {/* FAQ Item 1 - Enhanced */}
-              <details className="group bg-gradient-to-br from-pink-100 via-pink-50 to-white rounded-3xl border-2 border-pink-300 overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
-                <summary className="flex items-center justify-between p-8 cursor-pointer hover:bg-gradient-to-r hover:from-pink-200 hover:to-pink-100 transition-all duration-300">
-                  <h3 className="text-xl md:text-2xl font-bold text-pink-800 pr-4">Are your services available 24/7?</h3>
-                  <svg className="w-8 h-8 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
+            <div className="space-y-4 md:space-y-6">
+              {/* FAQ Item 1 */}
+              <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
+                <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
+                  <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">Are your services available 24/7?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-8 pb-8 text-gray-700">
-                  <p className="text-lg leading-relaxed">Yes, our premium escort services are available 24/7. We provide round-the-clock assistance to ensure you can book our services at any time that suits your schedule.</p>
+                <div className="px-4 md:px-6 pb-4 md:pb-6 text-gray-700">
+                  <p className="text-sm md:text-base leading-relaxed">Yes, our premium escort services are available 24/7. We provide round-the-clock assistance to ensure you can book our services at any time that suits your schedule.</p>
                 </div>
               </details>
 
-              {/* FAQ Item 2 - Enhanced */}
-              <details className="group bg-gradient-to-br from-pink-100 via-pink-50 to-white rounded-3xl border-2 border-pink-300 overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
-                <summary className="flex items-center justify-between p-8 cursor-pointer hover:bg-gradient-to-r hover:from-pink-200 hover:to-pink-100 transition-all duration-300">
-                  <h3 className="text-xl md:text-2xl font-bold text-pink-800 pr-4">How do I make a booking?</h3>
-                  <svg className="w-8 h-8 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
+              {/* FAQ Item 2 */}
+              <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
+                <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
+                  <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">How do I make a booking?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-8 pb-8 text-gray-700">
-                  <p className="text-lg leading-relaxed">You can make a booking by calling us directly, sending a WhatsApp message, or filling out our contact form. Our team will respond promptly to confirm your booking details.</p>
+                <div className="px-4 md:px-6 pb-4 md:pb-6 text-gray-700">
+                  <p className="text-sm md:text-base leading-relaxed">You can make a booking by calling us directly, sending a WhatsApp message, or filling out our contact form. Our team will respond promptly to confirm your booking details.</p>
                 </div>
               </details>
 
-              {/* FAQ Item 3 - Enhanced */}
-              <details className="group bg-gradient-to-br from-pink-100 via-pink-50 to-white rounded-3xl border-2 border-pink-300 overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
-                <summary className="flex items-center justify-between p-8 cursor-pointer hover:bg-gradient-to-r hover:from-pink-200 hover:to-pink-100 transition-all duration-300">
-                  <h3 className="text-xl md:text-2xl font-bold text-pink-800 pr-4">What types of services do you offer?</h3>
-                  <svg className="w-8 h-8 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
+              {/* FAQ Item 3 */}
+              <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
+                <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
+                  <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">What types of services do you offer?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-8 pb-8 text-gray-700">
-                  <p className="text-lg leading-relaxed">We offer a wide range of premium companion services including social events, business meetings, dinner dates, and travel companionship. All services are provided with complete professionalism.</p>
+                <div className="px-4 md:px-6 pb-4 md:pb-6 text-gray-700">
+                  <p className="text-sm md:text-base leading-relaxed">We offer a wide range of premium companion services including social events, business meetings, dinner dates, and travel companionship. All services are provided with complete professionalism.</p>
                 </div>
               </details>
 
-              {/* FAQ Item 4 - Enhanced */}
-              <details className="group bg-gradient-to-br from-pink-100 via-pink-50 to-white rounded-3xl border-2 border-pink-300 overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
-                <summary className="flex items-center justify-between p-8 cursor-pointer hover:bg-gradient-to-r hover:from-pink-200 hover:to-pink-100 transition-all duration-300">
-                  <h3 className="text-xl md:text-2xl font-bold text-pink-800 pr-4">What are your service charges?</h3>
-                  <svg className="w-8 h-8 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
+              {/* FAQ Item 4 */}
+              <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
+                <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
+                  <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">What are your service charges?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-8 pb-8 text-gray-700">
-                  <p className="text-lg leading-relaxed">Our service charges vary based on the type of service, duration, and specific requirements. Please contact us directly for detailed pricing information and package options.</p>
+                <div className="px-4 md:px-6 pb-4 md:pb-6 text-gray-700">
+                  <p className="text-sm md:text-base leading-relaxed">Our service charges vary based on the type of service, duration, and specific requirements. Please contact us directly for detailed pricing information and package options.</p>
                 </div>
               </details>
             </div>
 
             {/* Right Column */}
-            <div className="space-y-4">
+            <div className="space-y-4 md:space-y-6">
               {/* FAQ Item 5 */}
-              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
-                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
-                  <h3 className="text-lg font-bold text-pink-800">What areas in Indore do you cover?</h3>
-                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
+                <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
+                  <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">What areas in Indore do you cover?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-6 pb-6 text-gray-700">
-                  <p>We provide services across all major areas in Indore including Vijay Nagar, Bhawar Kuan, Rajwada, Sarafa Bazar, MG Road, and surrounding locations. Contact us for specific area availability.</p>
+                <div className="px-4 md:px-6 pb-4 md:pb-6 text-gray-700">
+                  <p className="text-sm md:text-base leading-relaxed">We provide services across all major areas in Indore including Vijay Nagar, Bhawar Kuan, Rajwada, Sarafa Bazar, MG Road, and surrounding locations. Contact us for specific area availability.</p>
                 </div>
               </details>
 
               {/* FAQ Item 6 */}
-              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
-                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
-                  <h3 className="text-lg font-bold text-pink-800">Is privacy and discretion guaranteed?</h3>
-                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
+                <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
+                  <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">Is privacy and discretion guaranteed?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-6 pb-6 text-gray-700">
-                  <p>Absolutely! We maintain the highest standards of privacy and discretion. All client information is kept strictly confidential, and our companions are trained to handle all interactions professionally.</p>
+                <div className="px-4 md:px-6 pb-4 md:pb-6 text-gray-700">
+                  <p className="text-sm md:text-base leading-relaxed">Absolutely! We maintain the highest standards of privacy and discretion. All client information is kept strictly confidential, and our companions are trained to handle all interactions professionally.</p>
                 </div>
               </details>
 
               {/* FAQ Item 7 */}
-              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
-                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
-                  <h3 className="text-lg font-bold text-pink-800">Are your companions verified?</h3>
-                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
+                <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
+                  <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">Are your companions verified?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-6 pb-6 text-gray-700">
-                  <p>Yes, all our companions undergo thorough verification processes including background checks, health certificates, and professional training to ensure the highest quality service.</p>
+                <div className="px-4 md:px-6 pb-4 md:pb-6 text-gray-700">
+                  <p className="text-sm md:text-base leading-relaxed">Yes, all our companions undergo thorough verification processes including background checks, health certificates, and professional training to ensure the highest quality service.</p>
                 </div>
               </details>
 
               {/* FAQ Item 8 */}
-              <details className="group bg-gradient-to-br from-pink-100 to-pink-200 rounded-2xl border border-pink-300 overflow-hidden">
-                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-pink-200 transition-all duration-300">
-                  <h3 className="text-lg font-bold text-pink-800">Do you provide hotel bookings assistance?</h3>
-                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
+                <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
+                  <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">Do you provide hotel bookings assistance?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
-                <div className="px-6 pb-6 text-gray-700">
-                  <p>Yes, we can assist with hotel bookings and venue arrangements to ensure a comfortable and convenient experience. Our team can recommend suitable locations based on your preferences.</p>
+                <div className="px-4 md:px-6 pb-4 md:pb-6 text-gray-700">
+                  <p className="text-sm md:text-base leading-relaxed">Yes, we can assist with hotel bookings and venue arrangements to ensure a comfortable and convenient experience. Our team can recommend suitable locations based on your preferences.</p>
                 </div>
               </details>
             </div>
