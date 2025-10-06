@@ -3,6 +3,16 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
+// Utility function to convert service title to URL slug
+function getServiceSlug(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .trim();
+}
+
 export default function Home() {
   return (
     <div className="min-h-screen">
@@ -194,9 +204,10 @@ export default function Home() {
               { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Special weekend companion packages", price: "Premium", rating: "4.8" },
               { title: "Special Service", image: "/images/services/Special Service.webp", description: "Customized special occasion services", price: "Luxury", rating: "4.9" }
             ].map((service, index) => (
-              <div
+              <Link
                 key={index}
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 hover:scale-105"
+                href={`/services/${getServiceSlug(service.title)}`}
+                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 hover:scale-105 block"
               >
                 {/* Service Image - Responsive Heights */}
                 <div className="relative h-48 sm:h-56 lg:h-64 bg-gray-50 overflow-hidden">
@@ -230,15 +241,12 @@ export default function Home() {
                     </div>
                   </div>
                   
-                  {/* Book Button - Mobile Optimized */}
-                  <Link 
-                    href="/contact"
-                    className="w-full bg-pink-500 hover:bg-pink-600 text-white py-2 sm:py-3 px-4 rounded-lg font-medium text-xs sm:text-sm transition-colors duration-300 block text-center"
-                  >
-                    Book {service.title}
-                  </Link>
+                  {/* Service Page Button - Mobile Optimized */}
+                  <div className="w-full bg-pink-500 hover:bg-pink-600 text-white py-2 sm:py-3 px-4 rounded-lg font-medium text-xs sm:text-sm transition-colors duration-300 text-center">
+                    View {service.title}
+                  </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
           
