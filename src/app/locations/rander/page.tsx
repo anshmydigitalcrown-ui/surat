@@ -166,6 +166,133 @@ export default function RanderEscorts() {
         </div>
       </section>
 
+      {/* Escorts in Rander Content Section */}
+      <section className="py-16 sm:py-20 bg-gradient-to-br from-white via-yellow-50 to-amber-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-yellow-800 mb-6">
+              Escorts in Rander - Riverside Historical Companionship
+            </h2>
+            <p className="text-lg sm:text-xl text-yellow-700 max-w-4xl mx-auto leading-relaxed">
+              Experience premium escort services in Rander, Surat&apos;s historic riverside area offering 
+              scenic companionship, waterfront romance, and cultural exploration along the beautiful 
+              Tapi River with its rich maritime heritage and natural beauty
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+            <div className="space-y-6">
+              <h3 className="text-2xl sm:text-3xl font-bold text-yellow-800 mb-4">
+                Why Choose Rander Escorts?
+              </h3>
+              <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                Rander holds a special place in Surat&apos;s history as a significant riverside area 
+                along the Tapi River, known for its scenic beauty, historical importance, and 
+                waterfront charm. Our premium escort services in Rander are designed to complement 
+                the area&apos;s natural beauty and historical significance, offering companions who 
+                appreciate both scenic romance and cultural heritage.
+              </p>
+              <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                Whether you&apos;re exploring the riverside walkways, visiting historical sites, 
+                or enjoying the peaceful waterfront ambiance, our companions bring sophistication 
+                and cultural awareness to enhance your Rander experience. They excel in creating 
+                romantic moments against the backdrop of Rander&apos;s scenic riverside setting.
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              <h3 className="text-2xl sm:text-3xl font-bold text-yellow-800 mb-4">
+                Riverside Heritage Services
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="bg-white p-4 rounded-lg shadow-md border border-yellow-100">
+                  <h4 className="font-semibold text-yellow-700 mb-2">Riverside Romance</h4>
+                  <p className="text-sm text-gray-600">Romantic companions for scenic waterfront experiences</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-md border border-yellow-100">
+                  <h4 className="font-semibold text-yellow-700 mb-2">Historical Tours</h4>
+                  <p className="text-sm text-gray-600">Cultural escorts for heritage and historical site exploration</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-md border border-yellow-100">
+                  <h4 className="font-semibold text-yellow-700 mb-2">Waterfront Dining</h4>
+                  <p className="text-sm text-gray-600">Elegant companions for riverside dining and entertainment</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-md border border-yellow-100">
+                  <h4 className="font-semibold text-yellow-700 mb-2">Evening Strolls</h4>
+                  <p className="text-sm text-gray-600">Romantic escorts for sunset walks along the Tapi River</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-r from-yellow-600 to-amber-700 rounded-2xl p-8 sm:p-12 text-white mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div>
+                <h3 className="text-2xl sm:text-3xl font-bold mb-4">
+                  Rander&apos;s Riverside Heritage
+                </h3>
+                <p className="text-yellow-100 leading-relaxed mb-6">
+                  Situated along the scenic Tapi River, Rander combines natural beauty with historical 
+                  significance, offering a unique blend of waterfront charm and cultural heritage. 
+                  Our escort services embrace this special character, providing companions who can 
+                  appreciate the romantic riverside setting while being knowledgeable about the area&apos;s 
+                  rich maritime history and cultural importance.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <span className="bg-yellow-500 px-4 py-2 rounded-full text-sm font-medium">Riverside Romance</span>
+                  <span className="bg-yellow-500 px-4 py-2 rounded-full text-sm font-medium">Historical Heritage</span>
+                  <span className="bg-yellow-500 px-4 py-2 rounded-full text-sm font-medium">Scenic Beauty</span>
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="bg-white/20 rounded-xl p-6 backdrop-blur-sm">
+                  <div className="text-4xl mb-4">🌊</div>
+                  <h4 className="text-xl font-bold mb-2">Riverside Paradise</h4>
+                  <p className="text-yellow-100 text-sm">
+                    Located along the beautiful Tapi River with scenic waterfront, 
+                    historical sites, and romantic riverside settings
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <h3 className="text-2xl sm:text-3xl font-bold text-yellow-800 mb-6">
+              Book Riverside Escorts in Rander Today
+            </h3>
+            <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
+              Experience romantic companionship along Surat&apos;s scenic riverside. Our professional 
+              escorts are perfect for waterfront dining, romantic walks, historical exploration, 
+              or peaceful moments along the beautiful Tapi River in historic Rander.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🌅</span>
+                </div>
+                <h4 className="font-bold text-yellow-700 mb-2">Scenic Romance</h4>
+                <p className="text-sm text-gray-600">Companions who excel in creating romantic moments by the riverside</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🏛️</span>
+                </div>
+                <h4 className="font-bold text-yellow-700 mb-2">Cultural Heritage</h4>
+                <p className="text-sm text-gray-600">Knowledgeable escorts familiar with Rander&apos;s historical significance</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">💫</span>
+                </div>
+                <h4 className="font-bold text-yellow-700 mb-2">Waterfront Excellence</h4>
+                <p className="text-sm text-gray-600">Specialized companions for riverside activities and scenic experiences</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section className="py-16 bg-gradient-to-r from-yellow-600 to-yellow-700 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">

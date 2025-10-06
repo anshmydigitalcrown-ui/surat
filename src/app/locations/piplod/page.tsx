@@ -166,6 +166,130 @@ export default function PiplodEscorts() {
         </div>
       </section>
 
+      {/* Escorts in Piplod Content Section */}
+      <section className="py-16 sm:py-20 bg-gradient-to-br from-white via-indigo-50 to-blue-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-indigo-800 mb-6">
+              Escorts in Piplod - Professional Business Companionship
+            </h2>
+            <p className="text-lg sm:text-xl text-indigo-700 max-w-4xl mx-auto leading-relaxed">
+              Experience elite escort services in Piplod, Surat&apos;s prominent business district offering 
+              professional companionship, corporate excellence, and sophisticated service in a premier business environment
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+            <div className="space-y-6">
+              <h3 className="text-2xl sm:text-3xl font-bold text-indigo-800 mb-4">
+                Why Choose Piplod Escorts?
+              </h3>
+              <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                Piplod stands as one of Surat&apos;s key business districts, renowned for its corporate offices, 
+                professional services, and business-focused environment. Our premium escort services in Piplod 
+                are specifically tailored to meet the needs of business professionals, executives, and corporate 
+                clients who require sophisticated companionship that understands the corporate world.
+              </p>
+              <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                With its strategic location and business-friendly infrastructure, Piplod attracts entrepreneurs, 
+                business leaders, and professionals who appreciate quality service and professional excellence. 
+                Our companions are specially trained to excel in corporate environments, making them perfect 
+                for business meetings, professional events, and executive entertainment.
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              <h3 className="text-2xl sm:text-3xl font-bold text-indigo-800 mb-4">
+                Corporate Services Available
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="bg-white p-4 rounded-lg shadow-md border border-indigo-100">
+                  <h4 className="font-semibold text-indigo-700 mb-2">Business Meetings</h4>
+                  <p className="text-sm text-gray-600">Professional companions for corporate meetings and presentations</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-md border border-indigo-100">
+                  <h4 className="font-semibold text-indigo-700 mb-2">Executive Companions</h4>
+                  <p className="text-sm text-gray-600">High-caliber escorts for business executives and leaders</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-md border border-indigo-100">
+                  <h4 className="font-semibold text-indigo-700 mb-2">Corporate Events</h4>
+                  <p className="text-sm text-gray-600">Professional support for business functions and networking</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-md border border-indigo-100">
+                  <h4 className="font-semibold text-indigo-700 mb-2">Business Travel</h4>
+                  <p className="text-sm text-gray-600">Travel companions for business trips and conferences</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-r from-indigo-600 to-blue-700 rounded-2xl p-8 sm:p-12 text-white mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div>
+                <h3 className="text-2xl sm:text-3xl font-bold mb-4">
+                  Piplod&apos;s Business District Advantage
+                </h3>
+                <p className="text-indigo-100 leading-relaxed mb-6">
+                  As a significant business hub in Surat, Piplod houses numerous corporate offices, professional 
+                  services, and business establishments. Our escort services are designed to complement this 
+                  professional environment, providing companions who understand business etiquette, can engage 
+                  in professional conversations, and represent the high standards expected in corporate settings.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <span className="bg-indigo-500 px-4 py-2 rounded-full text-sm font-medium">Corporate Ready</span>
+                  <span className="bg-indigo-500 px-4 py-2 rounded-full text-sm font-medium">Professional Excellence</span>
+                  <span className="bg-indigo-500 px-4 py-2 rounded-full text-sm font-medium">Business Focused</span>
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="bg-white/20 rounded-xl p-6 backdrop-blur-sm">
+                  <div className="text-4xl mb-4">💼</div>
+                  <h4 className="text-xl font-bold mb-2">Business Hub</h4>
+                  <p className="text-indigo-100 text-sm">
+                    Located in Surat&apos;s professional business district with corporate offices, 
+                    business centers, and professional services
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <h3 className="text-2xl sm:text-3xl font-bold text-indigo-800 mb-6">
+              Book Professional Escorts in Piplod Today
+            </h3>
+            <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
+              Experience sophisticated business companionship in Surat&apos;s premier business district. Our 
+              professional escorts are perfect for corporate meetings, business dinners, executive events, 
+              or professional entertainment in the dynamic Piplod business area.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">💼</span>
+                </div>
+                <h4 className="font-bold text-indigo-700 mb-2">Business Acumen</h4>
+                <p className="text-sm text-gray-600">Companions who understand corporate culture and business protocols</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🎯</span>
+                </div>
+                <h4 className="font-bold text-indigo-700 mb-2">Executive Standards</h4>
+                <p className="text-sm text-gray-600">High-caliber service meeting executive expectations and professional needs</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🏆</span>
+                </div>
+                <h4 className="font-bold text-indigo-700 mb-2">Professional Excellence</h4>
+                <p className="text-sm text-gray-600">Elite companions trained for business environments and corporate success</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section className="py-16 bg-gradient-to-r from-indigo-600 to-indigo-700 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">

@@ -198,6 +198,131 @@ export default function AlthanEscorts() {
           </div>
         </section>
 
+        {/* Escorts in Althan Content Section */}
+        <section className="py-16 sm:py-20 bg-gradient-to-br from-white via-pink-50 to-rose-100">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-pink-800 mb-6">
+                Escorts in Althan - Peaceful Residential Companionship
+              </h2>
+              <p className="text-lg sm:text-xl text-pink-700 max-w-4xl mx-auto leading-relaxed">
+                Experience premium escort services in Althan, Surat&apos;s serene residential locality offering 
+                tranquil living, family-friendly environment, and discreet companionship in a peaceful neighborhood
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+              <div className="space-y-6">
+                <h3 className="text-2xl sm:text-3xl font-bold text-pink-800 mb-4">
+                  Why Choose Althan Escorts?
+                </h3>
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                  Althan represents the ideal of peaceful residential living in Surat, characterized by its 
+                  quiet neighborhoods, family-oriented community, and serene atmosphere. Our premium escort 
+                  services in Althan are thoughtfully designed to respect this tranquil environment while 
+                  providing sophisticated companionship that values discretion and community harmony.
+                </p>
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                  Known for its well-planned residential developments, green spaces, and strong community bonds, 
+                  Althan attracts families and professionals who appreciate peaceful living. Our carefully 
+                  vetted companions understand the importance of maintaining the area&apos;s serene character 
+                  while providing exceptional service that meets the refined expectations of this close-knit community.
+                </p>
+              </div>
+
+              <div className="space-y-6">
+                <h3 className="text-2xl sm:text-3xl font-bold text-pink-800 mb-4">
+                  Peaceful Community Services
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div className="bg-white p-4 rounded-lg shadow-md border border-pink-100">
+                    <h4 className="font-semibold text-pink-700 mb-2">Discreet Companionship</h4>
+                    <p className="text-sm text-gray-600">Private services respecting neighborhood tranquility</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-md border border-pink-100">
+                    <h4 className="font-semibold text-pink-700 mb-2">Family-Friendly Approach</h4>
+                    <p className="text-sm text-gray-600">Services that honor community values and family atmosphere</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-md border border-pink-100">
+                    <h4 className="font-semibold text-pink-700 mb-2">Quiet Elegance</h4>
+                    <p className="text-sm text-gray-600">Sophisticated companions for peaceful social settings</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-md border border-pink-100">
+                    <h4 className="font-semibold text-pink-700 mb-2">Community Events</h4>
+                    <p className="text-sm text-gray-600">Appropriate companions for local gatherings and celebrations</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-pink-600 to-rose-700 rounded-2xl p-8 sm:p-12 text-white mb-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-4">
+                    Althan&apos;s Community Harmony
+                  </h3>
+                  <p className="text-pink-100 leading-relaxed mb-6">
+                    As one of Surat&apos;s most peaceful residential areas, Althan embodies the perfect balance 
+                    of modern amenities and traditional community values. Our escort services are carefully 
+                    calibrated to honor this environment, providing companions who understand the importance 
+                    of discretion, respect for neighbors, and maintaining the area&apos;s family-friendly 
+                    atmosphere while delivering premium companionship experiences.
+                  </p>
+                  <div className="flex flex-wrap gap-4">
+                    <span className="bg-pink-500 px-4 py-2 rounded-full text-sm font-medium">Peaceful Living</span>
+                    <span className="bg-pink-500 px-4 py-2 rounded-full text-sm font-medium">Community Respect</span>
+                    <span className="bg-pink-500 px-4 py-2 rounded-full text-sm font-medium">Family Values</span>
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div className="bg-white/20 rounded-xl p-6 backdrop-blur-sm">
+                    <div className="text-4xl mb-4">🏡</div>
+                    <h4 className="text-xl font-bold mb-2">Peaceful Community</h4>
+                    <p className="text-pink-100 text-sm">
+                      Located in Surat&apos;s tranquil residential area with family-friendly 
+                      environment and community-focused lifestyle
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <h3 className="text-2xl sm:text-3xl font-bold text-pink-800 mb-6">
+                Book Respectful Escorts in Althan Today
+              </h3>
+              <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
+                Experience thoughtful companionship services in Surat&apos;s most peaceful residential area. 
+                Our professional escorts provide discreet, respectful service perfect for quiet dinners, 
+                private meetings, or community events in the serene Althan neighborhood.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl text-white">🤫</span>
+                  </div>
+                  <h4 className="font-bold text-pink-700 mb-2">Absolute Discretion</h4>
+                  <p className="text-sm text-gray-600">Complete privacy respecting Althan&apos;s peaceful community atmosphere</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl text-white">🏡</span>
+                  </div>
+                  <h4 className="font-bold text-pink-700 mb-2">Community Respect</h4>
+                  <p className="text-sm text-gray-600">Services that honor family values and neighborhood tranquility</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-2xl text-white">🌸</span>
+                  </div>
+                  <h4 className="font-bold text-pink-700 mb-2">Gentle Elegance</h4>
+                  <p className="text-sm text-gray-600">Sophisticated companions perfect for peaceful residential settings</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Contact Section */}
         <section className="py-12 sm:py-16 bg-gradient-to-r from-pink-600 to-pink-700 text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">

@@ -166,6 +166,132 @@ export default function UdhnaEscorts() {
         </div>
       </section>
 
+      {/* Escorts in Udhna Content Section */}
+      <section className="py-16 sm:py-20 bg-gradient-to-br from-white via-orange-50 to-amber-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-orange-800 mb-6">
+              Escorts in Udhna - Industrial Area Premium Companionship
+            </h2>
+            <p className="text-lg sm:text-xl text-orange-700 max-w-4xl mx-auto leading-relaxed">
+              Experience exceptional escort services in Udhna, Surat&apos;s prominent industrial hub offering 
+              professional companionship, reliable service, and dedicated support for industrial professionals 
+              and business communities in this dynamic manufacturing zone
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+            <div className="space-y-6">
+              <h3 className="text-2xl sm:text-3xl font-bold text-orange-800 mb-4">
+                Why Choose Udhna Escorts?
+              </h3>
+              <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                Udhna stands as one of Surat&apos;s most significant industrial areas, renowned for its 
+                manufacturing units, textile mills, and industrial infrastructure. Our premium escort 
+                services in Udhna are specifically designed to serve the hardworking professionals, 
+                industrialists, and business owners who drive Surat&apos;s economic engine.
+              </p>
+              <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                Understanding the demanding schedules and high-pressure environment of industrial work, 
+                our companions provide the perfect relaxation and professional support needed by busy 
+                professionals. Whether you&apos;re managing a textile unit, running a manufacturing business, 
+                or working in the industrial sector, our escorts offer reliable and refreshing companionship.
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              <h3 className="text-2xl sm:text-3xl font-bold text-orange-800 mb-4">
+                Industrial Area Services
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="bg-white p-4 rounded-lg shadow-md border border-orange-100">
+                  <h4 className="font-semibold text-orange-700 mb-2">Manufacturing Support</h4>
+                  <p className="text-sm text-gray-600">Companion services for industrial professionals and managers</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-md border border-orange-100">
+                  <h4 className="font-semibold text-orange-700 mb-2">Business Meetings</h4>
+                  <p className="text-sm text-gray-600">Professional support for industrial business meetings</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-md border border-orange-100">
+                  <h4 className="font-semibold text-orange-700 mb-2">Stress Relief</h4>
+                  <p className="text-sm text-gray-600">Relaxation services for high-pressure industrial work</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-md border border-orange-100">
+                  <h4 className="font-semibold text-orange-700 mb-2">Factory Visits</h4>
+                  <p className="text-sm text-gray-600">Companion services for industrial site visits and tours</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-r from-orange-600 to-amber-700 rounded-2xl p-8 sm:p-12 text-white mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div>
+                <h3 className="text-2xl sm:text-3xl font-bold mb-4">
+                  Udhna&apos;s Industrial Heritage
+                </h3>
+                <p className="text-orange-100 leading-relaxed mb-6">
+                  As a major industrial hub in Surat, Udhna houses numerous textile mills, manufacturing 
+                  units, and industrial establishments that form the backbone of the city&apos;s economy. 
+                  Our escort services recognize the unique needs of this industrial community, providing 
+                  companions who understand the demands of manufacturing work and can offer the relaxation 
+                  and professional support that busy industrialists deserve.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <span className="bg-orange-500 px-4 py-2 rounded-full text-sm font-medium">Industrial Focus</span>
+                  <span className="bg-orange-500 px-4 py-2 rounded-full text-sm font-medium">Manufacturing Support</span>
+                  <span className="bg-orange-500 px-4 py-2 rounded-full text-sm font-medium">Professional Relief</span>
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="bg-white/20 rounded-xl p-6 backdrop-blur-sm">
+                  <div className="text-4xl mb-4">🏭</div>
+                  <h4 className="text-xl font-bold mb-2">Industrial Hub</h4>
+                  <p className="text-orange-100 text-sm">
+                    Located in Surat&apos;s major industrial area with textile mills, 
+                    manufacturing units, and industrial infrastructure
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <h3 className="text-2xl sm:text-3xl font-bold text-orange-800 mb-6">
+              Book Professional Escorts in Udhna Today
+            </h3>
+            <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
+              Experience dedicated companionship in Surat&apos;s industrial powerhouse. Our professional 
+              escorts understand the demands of industrial work and provide the perfect relaxation and 
+              professional support for busy manufacturers, industrialists, and business professionals.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">⚙️</span>
+                </div>
+                <h4 className="font-bold text-orange-700 mb-2">Industrial Understanding</h4>
+                <p className="text-sm text-gray-600">Companions who appreciate the demands of manufacturing and industrial work</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🔧</span>
+                </div>
+                <h4 className="font-bold text-orange-700 mb-2">Reliable Service</h4>
+                <p className="text-sm text-gray-600">Dependable companionship matching the reliability of industrial operations</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">💼</span>
+                </div>
+                <h4 className="font-bold text-orange-700 mb-2">Professional Support</h4>
+                <p className="text-sm text-gray-600">Expert companions providing stress relief and professional assistance</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section className="py-16 bg-gradient-to-r from-orange-600 to-orange-700 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">

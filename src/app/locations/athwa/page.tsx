@@ -166,6 +166,133 @@ export default function AthwaEscorts() {
         </div>
       </section>
 
+      {/* Escorts in Athwa Content Section */}
+      <section className="py-16 sm:py-20 bg-gradient-to-br from-white via-teal-50 to-cyan-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-teal-800 mb-6">
+              Escorts in Athwa - Cultural Heritage Companionship
+            </h2>
+            <p className="text-lg sm:text-xl text-teal-700 max-w-4xl mx-auto leading-relaxed">
+              Experience exceptional escort services in Athwa, Surat&apos;s cultural heart offering 
+              sophisticated companionship, traditional elegance, and cultural appreciation in this 
+              historic area renowned for its heritage, festivals, and cultural significance
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+            <div className="space-y-6">
+              <h3 className="text-2xl sm:text-3xl font-bold text-teal-800 mb-4">
+                Why Choose Athwa Escorts?
+              </h3>
+              <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                Athwa represents the cultural soul of Surat, known for its traditional heritage, 
+                cultural festivals, and rich historical significance. Our premium escort services 
+                in Athwa are specially curated to reflect the area&apos;s cultural sophistication, 
+                offering companions who appreciate art, tradition, and the finer aspects of 
+                Gujarati culture.
+              </p>
+              <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                Our culturally aware companions excel in social gatherings, traditional events, 
+                cultural festivals, and heritage celebrations that define Athwa&apos;s character. 
+                Whether attending cultural programs, traditional ceremonies, or modern social events, 
+                our escorts bring elegance and cultural sensitivity to every engagement.
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              <h3 className="text-2xl sm:text-3xl font-bold text-teal-800 mb-4">
+                Cultural Heritage Services
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="bg-white p-4 rounded-lg shadow-md border border-teal-100">
+                  <h4 className="font-semibold text-teal-700 mb-2">Cultural Events</h4>
+                  <p className="text-sm text-gray-600">Sophisticated companions for traditional and cultural celebrations</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-md border border-teal-100">
+                  <h4 className="font-semibold text-teal-700 mb-2">Festival Companions</h4>
+                  <p className="text-sm text-gray-600">Cultural escorts for Gujarati festivals and religious celebrations</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-md border border-teal-100">
+                  <h4 className="font-semibold text-teal-700 mb-2">Heritage Tours</h4>
+                  <p className="text-sm text-gray-600">Knowledgeable companions for cultural heritage exploration</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-md border border-teal-100">
+                  <h4 className="font-semibold text-teal-700 mb-2">Social Gatherings</h4>
+                  <p className="text-sm text-gray-600">Elegant escorts for family and community social events</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-r from-teal-600 to-cyan-700 rounded-2xl p-8 sm:p-12 text-white mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div>
+                <h3 className="text-2xl sm:text-3xl font-bold mb-4">
+                  Athwa&apos;s Cultural Legacy
+                </h3>
+                <p className="text-teal-100 leading-relaxed mb-6">
+                  As one of Surat&apos;s most culturally significant areas, Athwa is home to traditional 
+                  festivals, cultural centers, heritage sites, and community celebrations that showcase 
+                  the rich Gujarati heritage. Our escort services honor this cultural legacy by providing 
+                  companions who understand and appreciate traditional values while being equally comfortable 
+                  in contemporary social settings.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <span className="bg-teal-500 px-4 py-2 rounded-full text-sm font-medium">Cultural Heritage</span>
+                  <span className="bg-teal-500 px-4 py-2 rounded-full text-sm font-medium">Traditional Values</span>
+                  <span className="bg-teal-500 px-4 py-2 rounded-full text-sm font-medium">Social Elegance</span>
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="bg-white/20 rounded-xl p-6 backdrop-blur-sm">
+                  <div className="text-4xl mb-4">🏛️</div>
+                  <h4 className="text-xl font-bold mb-2">Cultural Hub</h4>
+                  <p className="text-teal-100 text-sm">
+                    Located in Surat&apos;s traditional cultural area with heritage sites, 
+                    cultural centers, and community celebration spaces
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <h3 className="text-2xl sm:text-3xl font-bold text-teal-800 mb-6">
+              Book Cultural Escorts in Athwa Today
+            </h3>
+            <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
+              Experience sophisticated companionship in Surat&apos;s cultural heart. Our cultural 
+              escorts are perfect for traditional events, social gatherings, festival celebrations, 
+              or contemporary entertainment in the culturally rich Athwa area.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🎭</span>
+                </div>
+                <h4 className="font-bold text-teal-700 mb-2">Cultural Sophistication</h4>
+                <p className="text-sm text-gray-600">Companions with deep appreciation for Gujarati culture and traditions</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🌟</span>
+                </div>
+                <h4 className="font-bold text-teal-700 mb-2">Social Elegance</h4>
+                <p className="text-sm text-gray-600">Graceful presence at cultural events, festivals, and social gatherings</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🏆</span>
+                </div>
+                <h4 className="font-bold text-teal-700 mb-2">Heritage Appreciation</h4>
+                <p className="text-sm text-gray-600">Knowledgeable escorts who understand and respect traditional heritage</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section className="py-16 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">

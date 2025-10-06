@@ -166,6 +166,133 @@ export default function NanpuraEscorts() {
         </div>
       </section>
 
+      {/* Escorts in Nanpura Content Section */}
+      <section className="py-16 sm:py-20 bg-gradient-to-br from-white via-violet-50 to-purple-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-violet-800 mb-6">
+              Escorts in Nanpura - Youthful Vibrant Companionship
+            </h2>
+            <p className="text-lg sm:text-xl text-violet-700 max-w-4xl mx-auto leading-relaxed">
+              Experience energetic escort services in Nanpura, Surat&apos;s vibrant youth-centric area offering 
+              youthful companionship, social energy, and dynamic experiences in this lively neighborhood 
+              known for its young atmosphere, social activities, and energetic community spirit
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+            <div className="space-y-6">
+              <h3 className="text-2xl sm:text-3xl font-bold text-violet-800 mb-4">
+                Why Choose Nanpura Escorts?
+              </h3>
+              <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                Nanpura represents the youthful and energetic side of Surat, known for its vibrant 
+                social scene, young demographic, and dynamic community atmosphere. Our escort services 
+                in Nanpura are specially curated to match this energetic vibe, offering companions 
+                who embody youth, enthusiasm, and social charm perfect for the area&apos;s lively 
+                character.
+              </p>
+              <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
+                Our young and vibrant companions excel in social settings, energetic entertainment, 
+                and creating memorable experiences that reflect Nanpura&apos;s youthful spirit. Whether 
+                attending social events, exploring the local scene, or enjoying casual entertainment, 
+                our escorts bring the perfect blend of youth, charm, and social sophistication.
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              <h3 className="text-2xl sm:text-3xl font-bold text-violet-800 mb-4">
+                Youthful Energy Services
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="bg-white p-4 rounded-lg shadow-md border border-violet-100">
+                  <h4 className="font-semibold text-violet-700 mb-2">College Companions</h4>
+                  <p className="text-sm text-gray-600">Young and vibrant college-age companions for social activities</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-md border border-violet-100">
+                  <h4 className="font-semibold text-violet-700 mb-2">Social Events</h4>
+                  <p className="text-sm text-gray-600">Energetic escorts for parties, gatherings, and social functions</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-md border border-violet-100">
+                  <h4 className="font-semibold text-violet-700 mb-2">Casual Dating</h4>
+                  <p className="text-sm text-gray-600">Fun and charming companions for casual dates and outings</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-md border border-violet-100">
+                  <h4 className="font-semibold text-violet-700 mb-2">Youth Entertainment</h4>
+                  <p className="text-sm text-gray-600">Dynamic companions for youth-oriented entertainment and activities</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-r from-violet-600 to-purple-700 rounded-2xl p-8 sm:p-12 text-white mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div>
+                <h3 className="text-2xl sm:text-3xl font-bold mb-4">
+                  Nanpura&apos;s Youthful Spirit
+                </h3>
+                <p className="text-violet-100 leading-relaxed mb-6">
+                  As one of Surat&apos;s most youthful and energetic neighborhoods, Nanpura attracts 
+                  young professionals, students, and social enthusiasts who appreciate vibrant community 
+                  life and dynamic social experiences. Our escort services embrace this youthful energy, 
+                  providing companions who understand and embody the area&apos;s spirited atmosphere while 
+                  maintaining professional excellence and social charm.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <span className="bg-violet-500 px-4 py-2 rounded-full text-sm font-medium">Youthful Energy</span>
+                  <span className="bg-violet-500 px-4 py-2 rounded-full text-sm font-medium">Social Vibrancy</span>
+                  <span className="bg-violet-500 px-4 py-2 rounded-full text-sm font-medium">Dynamic Spirit</span>
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="bg-white/20 rounded-xl p-6 backdrop-blur-sm">
+                  <div className="text-4xl mb-4">🎉</div>
+                  <h4 className="text-xl font-bold mb-2">Youth Hub</h4>
+                  <p className="text-violet-100 text-sm">
+                    Located in Surat&apos;s vibrant youth-centric area with energetic social scene, 
+                    dynamic community activities, and youthful atmosphere
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <h3 className="text-2xl sm:text-3xl font-bold text-violet-800 mb-6">
+              Book Youthful Escorts in Nanpura Today
+            </h3>
+            <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
+              Experience vibrant companionship in Surat&apos;s most energetic neighborhood. Our youthful 
+              escorts are perfect for social events, casual dates, dynamic entertainment, or 
+              experiencing the lively social scene in the spirited Nanpura area.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-violet-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">💫</span>
+                </div>
+                <h4 className="font-bold text-violet-700 mb-2">Youthful Charm</h4>
+                <p className="text-sm text-gray-600">Young and vibrant companions matching Nanpura&apos;s energetic spirit</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-violet-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🎭</span>
+                </div>
+                <h4 className="font-bold text-violet-700 mb-2">Social Excellence</h4>
+                <p className="text-sm text-gray-600">Expert companions for parties, events, and social gatherings</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-violet-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">✨</span>
+                </div>
+                <h4 className="font-bold text-violet-700 mb-2">Dynamic Energy</h4>
+                <p className="text-sm text-gray-600">Energetic and enthusiastic escorts for memorable experiences</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section className="py-16 bg-gradient-to-r from-violet-600 to-violet-700 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
