@@ -457,130 +457,109 @@ export default function About() {
         </div>
       </section>
 
-      {/* Premium Locations in Surat */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 via-purple-50 to-pink-50">
+      {/* Surat Locations Section */}
+      <section className="py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 bg-clip-text text-transparent mb-6">
-              📍 Premium Service Locations in Surat
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
+              Our Location Areas in Surat
             </h2>
-            <p className="text-2xl md:text-3xl text-purple-700 max-w-4xl mx-auto font-medium leading-relaxed">
-              Comprehensive coverage across all major areas of Surat with premium companion services
+            <p className="text-xl md:text-2xl text-red-600 max-w-3xl mx-auto leading-relaxed">
+              Premium escort locations available across all major areas of Surat
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {/* Location 1 - Varachha Road */}
-            <div className="bg-gradient-to-br from-red-100 to-red-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-red-300">
-              <div className="text-5xl mb-4 text-center">🏙️</div>
-              <h3 className="text-2xl md:text-3xl font-bold text-red-700 mb-3 text-center">Varachha Road</h3>
-              <p className="text-red-600 text-sm text-center">Commercial hub with premium hotels and business centers</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* Row 1 */}
+            <div className="bg-gradient-to-br from-red-400 to-red-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Varachha</h3>
+              <p className="text-red-100 mb-4">Premium escort locations in Varachha area</p>
+              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+                Varachha Escorts
+              </button>
+            </div>
+            <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Adajan</h3>
+              <p className="text-blue-100 mb-4">High-class companions in Adajan locality</p>
+              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+                Adajan Escorts
+              </button>
+            </div>
+            <div className="bg-gradient-to-br from-green-400 to-green-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Vesu</h3>
+              <p className="text-green-100 mb-4">VIP escort locations in Vesu residential area</p>
+              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+                Vesu Escorts
+              </button>
             </div>
 
-            {/* Location 2 - Adajan */}
-            <div className="bg-gradient-to-br from-blue-100 to-blue-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-blue-300">
-              <div className="text-5xl mb-4 text-center">🏘️</div>
-              <h3 className="text-2xl md:text-3xl font-bold text-blue-700 mb-3 text-center">Adajan</h3>
-              <p className="text-blue-600 text-sm text-center">Upscale residential area with modern amenities and facilities</p>
+            {/* Row 2 */}
+            <div className="bg-gradient-to-br from-purple-400 to-purple-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Citylight</h3>
+              <p className="text-purple-100 mb-4">Professional companions in Citylight area</p>
+              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+                Citylight Escorts
+              </button>
+            </div>
+            <div className="bg-gradient-to-br from-pink-400 to-pink-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Althan</h3>
+              <p className="text-pink-100 mb-4">Elite escort locations in Althan locality</p>
+              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+                Althan Escorts
+              </button>
+            </div>
+            <div className="bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Piplod</h3>
+              <p className="text-indigo-100 mb-4">Luxury companions in Piplod commercial area</p>
+              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+                Piplod Escorts
+              </button>
             </div>
 
-            {/* Location 3 - City Light */}
-            <div className="bg-gradient-to-br from-green-100 to-green-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-green-300">
-              <div className="text-5xl mb-4 text-center">✨</div>
-              <h3 className="text-2xl md:text-3xl font-bold text-green-700 mb-3 text-center">City Light</h3>
-              <p className="text-green-600 text-sm text-center">Entertainment district with fine dining and luxury venues</p>
+            {/* Row 3 */}
+            <div className="bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Udhna</h3>
+              <p className="text-orange-100 mb-4">Premium locations in Udhna industrial area</p>
+              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+                Udhna Escorts
+              </button>
+            </div>
+            <div className="bg-gradient-to-br from-teal-400 to-teal-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Athwa</h3>
+              <p className="text-teal-100 mb-4">High-end escort locations in Athwa</p>
+              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+                Athwa Escorts
+              </button>
+            </div>
+            <div className="bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Rander</h3>
+              <p className="text-yellow-100 mb-4">Quality companions in Rander area</p>
+              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+                Rander Escorts
+              </button>
             </div>
 
-            {/* Location 4 - Vesu */}
-            <div className="bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-yellow-300">
-              <div className="text-5xl mb-4 text-center">🌟</div>
-              <h3 className="text-2xl md:text-3xl font-bold text-yellow-700 mb-3 text-center">Vesu</h3>
-              <p className="text-yellow-600 text-sm text-center">Premium locality known for upscale living and shopping</p>
+            {/* Row 4 */}
+            <div className="bg-gradient-to-br from-rose-400 to-rose-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Ghod Dod Road</h3>
+              <p className="text-rose-100 mb-4">VIP locations on Ghod Dod Road</p>
+              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+                Ghod Dod Escorts
+              </button>
             </div>
-
-            {/* Location 5 - Nanpura */}
-            <div className="bg-gradient-to-br from-purple-100 to-purple-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-purple-300">
-              <div className="text-5xl mb-4 text-center">🏛️</div>
-              <h3 className="text-2xl md:text-3xl font-bold text-purple-700 mb-3 text-center">Nanpura</h3>
-              <p className="text-purple-600 text-sm text-center">Historic area with cultural significance and modern facilities</p>
+            <div className="bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Ring Road</h3>
+              <p className="text-cyan-100 mb-4">Professional escorts near Ring Road</p>
+              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+                Ring Road Escorts
+              </button>
             </div>
-
-            {/* Location 6 - Piplod */}
-            <div className="bg-gradient-to-br from-pink-100 to-pink-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-pink-300">
-              <div className="text-5xl mb-4 text-center">🏢</div>
-              <h3 className="text-2xl md:text-3xl font-bold text-pink-700 mb-3 text-center">Piplod</h3>
-              <p className="text-pink-600 text-sm text-center">Emerging business district with contemporary infrastructure</p>
-            </div>
-
-            {/* Location 7 - Udhna */}
-            <div className="bg-gradient-to-br from-indigo-100 to-indigo-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-indigo-300">
-              <div className="text-5xl mb-4 text-center">🏭</div>
-              <h3 className="text-2xl md:text-3xl font-bold text-indigo-700 mb-3 text-center">Udhna</h3>
-              <p className="text-indigo-600 text-sm text-center">Industrial area with growing residential developments</p>
-            </div>
-
-            {/* Location 8 - Rander */}
-            <div className="bg-gradient-to-br from-teal-100 to-teal-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-teal-300">
-              <div className="text-5xl mb-4 text-center">🌊</div>
-              <h3 className="text-2xl md:text-3xl font-bold text-teal-700 mb-3 text-center">Rander</h3>
-              <p className="text-teal-600 text-sm text-center">Riverside location with scenic beauty and accessibility</p>
-            </div>
-
-            {/* Location 9 - Katargam */}
-            <div className="bg-gradient-to-br from-orange-100 to-orange-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-orange-300">
-              <div className="text-5xl mb-4 text-center">🛣️</div>
-              <h3 className="text-2xl md:text-3xl font-bold text-orange-700 mb-3 text-center">Katargam</h3>
-              <p className="text-orange-600 text-sm text-center">Well-connected area with excellent transport links</p>
-            </div>
-
-            {/* Location 10 - Althan */}
-            <div className="bg-gradient-to-br from-cyan-100 to-cyan-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-cyan-300">
-              <div className="text-5xl mb-4 text-center">🏞️</div>
-              <h3 className="text-2xl md:text-3xl font-bold text-cyan-700 mb-3 text-center">Althan</h3>
-              <p className="text-cyan-600 text-sm text-center">Peaceful residential area with modern amenities nearby</p>
-            </div>
-
-            {/* Location 11 - Sumul Dairy Road */}
-            <div className="bg-gradient-to-br from-lime-100 to-lime-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-lime-300">
-              <div className="text-5xl mb-4 text-center">🛍️</div>
-              <h3 className="text-2xl md:text-3xl font-bold text-lime-700 mb-3 text-center">Sumul Dairy Road</h3>
-              <p className="text-lime-600 text-sm text-center">Shopping destination with restaurants and entertainment</p>
-            </div>
-
-            {/* Location 12 - Dumas */}
-            <div className="bg-gradient-to-br from-rose-100 to-rose-200 rounded-3xl p-6 hover:shadow-2xl transition-all duration-500 transform hover:scale-105 border border-rose-300">
-              <div className="text-5xl mb-4 text-center">🏖️</div>
-              <h3 className="text-2xl md:text-3xl font-bold text-rose-700 mb-3 text-center">Dumas</h3>
-              <p className="text-rose-600 text-sm text-center">Coastal area with beach resorts and scenic beauty</p>
-            </div>
-          </div>
-
-          {/* Service Coverage Info */}
-          <div className="bg-gradient-to-r from-purple-100 via-pink-100 to-red-100 rounded-3xl p-8 md:p-12 mt-12">
-            <h3 className="text-4xl md:text-5xl font-bold text-center bg-gradient-to-r from-purple-600 to-red-600 bg-clip-text text-transparent mb-8">
-              🌟 Comprehensive Service Coverage
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="text-center p-6 bg-white/70 rounded-2xl hover:bg-white/90 transition-all duration-300">
-                <div className="text-4xl mb-4">🚗</div>
-                <h4 className="text-xl font-bold text-purple-700 mb-2">Quick Response</h4>
-                <p className="text-purple-600">Fast arrival across all Surat locations</p>
-              </div>
-              <div className="text-center p-6 bg-white/70 rounded-2xl hover:bg-white/90 transition-all duration-300">
-                <div className="text-4xl mb-4">🔒</div>
-                <h4 className="text-xl font-bold text-pink-700 mb-2">Complete Privacy</h4>
-                <p className="text-pink-600">100% discreet services in every area</p>
-              </div>
-              <div className="text-center p-6 bg-white/70 rounded-2xl hover:bg-white/90 transition-all duration-300">
-                <div className="text-4xl mb-4">💎</div>
-                <h4 className="text-xl font-bold text-red-700 mb-2">Premium Quality</h4>
-                <p className="text-red-600">Luxury companions for all locations</p>
-              </div>
-              <div className="text-center p-6 bg-white/70 rounded-2xl hover:bg-white/90 transition-all duration-300">
-                <div className="text-4xl mb-4">⭐</div>
-                <h4 className="text-xl font-bold text-purple-700 mb-2">24/7 Service</h4>
-                <p className="text-purple-600">Round-the-clock availability</p>
-              </div>
+            <div className="bg-gradient-to-br from-violet-400 to-violet-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Nanpura</h3>
+              <p className="text-violet-100 mb-4">Elite companions in Nanpura city center</p>
+              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+                Nanpura Escorts
+              </button>
             </div>
           </div>
         </div>
