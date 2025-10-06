@@ -768,7 +768,7 @@ export default function Services() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-sweet-pink-600 to-light-red-600 bg-clip-text text-transparent mb-4">Simple Booking Process</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-2xl md:text-3xl text-pink-700 max-w-4xl mx-auto font-medium leading-relaxed">
               Our streamlined process ensures a hassle-free experience from inquiry to service delivery.
             </p>
           </div>
@@ -800,17 +800,17 @@ export default function Services() {
                 icon: '🌟'
               }
             ].map((step, index) => (
-              <div key={index} className="text-center relative">
-                <div className="bg-gradient-to-br from-sweet-pink-500 to-light-red-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+              <div key={index} className="text-center relative group">
+                <div className="bg-gradient-to-br from-pink-500 via-purple-500 to-indigo-500 text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold shadow-xl group-hover:scale-110 transition-transform duration-300">
                   {step.step}
                 </div>
-                <div className="text-3xl mb-4">{step.icon}</div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">{step.title}</h3>
-                <p className="text-gray-600">{step.description}</p>
+                <div className="text-5xl mb-6 group-hover:scale-110 transition-transform duration-300">{step.icon}</div>
+                <h3 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent mb-4 leading-tight">{step.title}</h3>
+                <p className="text-lg md:text-xl text-pink-700 font-medium leading-relaxed">{step.description}</p>
                 
                 {index < 3 && (
-                  <div className="hidden md:block absolute top-8 left-full w-full">
-                    <div className="border-t-2 border-dashed border-sweet-pink-300 transform translate-x-4"></div>
+                  <div className="hidden md:block absolute top-10 left-full w-full">
+                    <div className="border-t-3 border-dashed border-gradient-to-r from-pink-400 to-purple-400 transform translate-x-4"></div>
                   </div>
                 )}
               </div>
