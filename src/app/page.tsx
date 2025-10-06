@@ -22,23 +22,23 @@ export default function Home() {
             <div className="space-y-8 animate-fadeInUp">
               <div className="space-y-4">
                 <div className="flex items-center space-x-3 mb-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-red-600 to-red-800 rounded-xl flex items-center justify-center shadow-lg">
+                  <div className="w-12 h-12 bg-gradient-to-br from-pink-700 to-pink-900 rounded-xl flex items-center justify-center shadow-lg">
                     <span className="text-white font-bold text-xl">RK</span>
                   </div>
                   <div>
-                    <p className="text-red-600 font-medium text-lg">Premium Escort Service</p>
+                    <p className="text-pink-800 font-medium text-lg">Premium Escort Service</p>
                   </div>
                 </div>
                 
-                <h2 className="text-4xl md:text-6xl font-bold text-red-600 leading-tight">
+                <h2 className="text-4xl md:text-6xl font-bold text-pink-800 leading-tight">
                   Indore&apos;s Most
-                  <span className="block bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
+                  <span className="block bg-gradient-to-r from-pink-700 to-pink-900 bg-clip-text text-transparent">
                     Trusted Companion
                   </span>
                   Service
                 </h2>
                 
-                <p className="text-xl text-red-600 leading-relaxed max-w-xl">
+                <p className="text-xl text-pink-800 leading-relaxed max-w-xl">
                   Experience luxury and sophistication with Indore&apos;s premier escort service. We offer discreet, professional companionship tailored to your needs with complete privacy and elegance.
                 </p>
               </div>
@@ -46,28 +46,28 @@ export default function Home() {
               {/* Features List */}
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
-                  <div className="w-6 h-6 bg-gradient-to-r from-red-500 to-red-700 rounded-full flex items-center justify-center shadow-md">
+                  <div className="w-6 h-6 bg-gradient-to-r from-pink-700 to-pink-900 rounded-full flex items-center justify-center shadow-md">
                     <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                     </svg>
                   </div>
-                  <span className="text-red-600 text-lg font-medium">24/7 Premium Service Available</span>
+                  <span className="text-pink-800 text-lg font-medium">24/7 Premium Service Available</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-6 h-6 bg-gradient-to-r from-red-500 to-red-700 rounded-full flex items-center justify-center shadow-md">
+                  <div className="w-6 h-6 bg-gradient-to-r from-pink-700 to-pink-900 rounded-full flex items-center justify-center shadow-md">
                     <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                     </svg>
                   </div>
-                  <span className="text-red-600 text-lg font-medium">Complete Discretion & Privacy</span>
+                  <span className="text-pink-800 text-lg font-medium">Complete Discretion & Privacy</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-6 h-6 bg-gradient-to-r from-red-500 to-red-700 rounded-full flex items-center justify-center shadow-md">
+                  <div className="w-6 h-6 bg-gradient-to-r from-pink-700 to-pink-900 rounded-full flex items-center justify-center shadow-md">
                     <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                     </svg>
                   </div>
-                  <span className="text-red-600 text-lg font-medium">Professional & Sophisticated</span>
+                  <span className="text-pink-800 text-lg font-medium">Professional & Sophisticated</span>
                 </div>
               </div>
 
@@ -75,9 +75,9 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
                   href="/contact" 
-                  className="relative bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-center overflow-hidden group"
+                  className="relative bg-gradient-to-r from-pink-700 via-pink-800 to-pink-900 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-center overflow-hidden group"
                 >
-                  <div className="absolute inset-0 bg-gradient-to-r from-red-400 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-pink-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <span className="relative z-10">Book Consultation</span>
                   <div className="absolute inset-0 rounded-full border border-white/20"></div>
                 </Link>
@@ -162,10 +162,10 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-pink-700 to-pink-900 bg-clip-text text-transparent mb-6">
               Premium Escorts In Indore - Our Services
             </h2>
-            <p className="text-xl md:text-2xl text-red-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-pink-800 max-w-3xl mx-auto leading-relaxed">
               Professional Call Girls & VIP Companions Available 24/7
             </p>
           </div>
@@ -231,7 +231,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link 
               href="/services" 
-              className="bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
+              className="bg-gradient-to-r from-pink-700 via-pink-800 to-pink-900 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
             >
               View All Services
             </Link>
@@ -881,10 +881,10 @@ export default function Home() {
 
 
       {/* Call to Action */}
-      <section className="py-20 bg-gradient-to-r from-primary-500 to-accent-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-pink-800 to-pink-900 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-red-100">Ready to Experience Luxury?</h2>
-          <p className="text-xl mb-8 text-red-200">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">Ready to Experience Luxury?</h2>
+          <p className="text-xl mb-8 text-pink-100">
             Contact us today to discuss your requirements and schedule a consultation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -896,7 +896,7 @@ export default function Home() {
             </Link>
             <Link 
               href="tel:+91XXXXXXXXX" 
-              className="border-2 border-red-300 text-red-100 px-8 py-4 rounded-full font-semibold text-lg hover:bg-red-600 hover:text-white transition-all duration-300 transform hover:scale-105"
+              className="border-2 border-pink-300 text-pink-100 px-8 py-4 rounded-full font-semibold text-lg hover:bg-pink-700 hover:text-white transition-all duration-300 transform hover:scale-105"
             >
               Call Directly
             </Link>

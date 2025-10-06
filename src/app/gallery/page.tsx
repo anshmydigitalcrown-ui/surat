@@ -45,10 +45,10 @@ export default function Gallery() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
       {/* Hero Section */}
-      <section className="relative py-32 bg-gradient-to-br from-sweet-pink-600 via-light-red-500 to-sweet-pink-700 text-white overflow-hidden">
+      <section className="relative py-32 bg-gradient-to-br from-pink-800 via-pink-900 to-pink-800 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text text-transparent">Premium Escorts In Surat - Our Services</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-pink-300 to-pink-100 bg-clip-text text-transparent">Premium Escorts In Surat - Our Services</h1>
           <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto animate-fadeInUp">
             Explore our comprehensive collection of premium escort services with elegant presentation
           </p>
@@ -143,7 +143,7 @@ export default function Gallery() {
       <section className="py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-pink-700 to-pink-900 bg-clip-text text-transparent mb-6">
               Our Premium Services in Surat
             </h2>
           </div>
