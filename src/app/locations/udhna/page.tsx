@@ -5,26 +5,26 @@ import Link from 'next/link';
 
 export default function UdhnaEscorts() {
   const services = [
-    { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Professional outcall services in Udhna industrial area", price: "₹16,000+" },
-    { title: "In-call Service", image: "/images/services/In-call Service.webp", description: "Comfortable in-call services in Udhna", price: "₹14,000+" },
-    { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Hotel escort services in Udhna business hotels", price: "₹18,000+" },
-    { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "Premium call girl services in Udhna area", price: "₹20,000+" },
-    { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Business meeting companions in Udhna", price: "₹17,000+" },
-    { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Travel companion services from Udhna", price: "₹22,000+" },
-    { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young college girl companions in Udhna", price: "₹15,000+" },
-    { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Udhna", price: "₹24,000+" },
-    { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companions for exclusive events in Udhna", price: "₹25,000+" },
-    { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "Russian model escorts in Udhna", price: "₹27,000+" },
-    { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Weekend special companions in Udhna", price: "₹19,000+" },
-    { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Corporate event companions in Udhna", price: "₹21,000+" },
-    { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Celebrity look-alike companions in Udhna", price: "₹26,000+" },
-    { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", description: "Elegant dinner date companions in Udhna", price: "₹16,000+" },
-    { title: "Housewife", image: "/images/services/Housewife.webp", description: "Mature housewife companions in Udhna", price: "₹17,000+" },
-    { title: "Party Escort", image: "/images/services/Party Escort.webp", description: "Party escort services in Udhna", price: "₹18,000+" },
-    { title: "Private Model", image: "/images/services/Private Model.webp", description: "Private model services in Udhna", price: "₹28,000+" },
-    { title: "Social Events", image: "/images/services/Social Events.webp", description: "Social event companions in Udhna", price: "₹17,000+" },
-    { title: "Special Service", image: "/images/services/Special Service.webp", description: "Specialized escort services in Udhna", price: "₹23,000+" },
-    { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Wedding companion services in Udhna", price: "₹20,000+" }
+    { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Professional outcall services in Udhna industrial area", price: "₹16,000+", rating: "4.6" },
+    { title: "In-call Service", image: "/images/services/In-call Service.webp", description: "Comfortable in-call services in Udhna", price: "₹14,000+", rating: "4.5" },
+    { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Hotel escort services in Udhna business hotels", price: "₹18,000+", rating: "4.6" },
+    { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "Premium call girl services in Udhna area", price: "₹20,000+", rating: "4.9" },
+    { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Business meeting companions in Udhna", price: "₹17,000+", rating: "4.9" },
+    { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Travel companion services from Udhna", price: "₹22,000+", rating: "5.0" },
+    { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young college girl companions in Udhna", price: "₹15,000+", rating: "4.7" },
+    { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Udhna", price: "₹24,000+", rating: "4.9" },
+    { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companions for exclusive events in Udhna", price: "₹25,000+", rating: "4.9" },
+    { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "Russian model escorts in Udhna", price: "₹27,000+", rating: "5.0" },
+    { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Weekend special companions in Udhna", price: "₹19,000+", rating: "4.8" },
+    { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Corporate event companions in Udhna", price: "₹21,000+", rating: "4.8" },
+    { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Celebrity look-alike companions in Udhna", price: "₹26,000+", rating: "4.8" },
+    { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", description: "Elegant dinner date companions in Udhna", price: "₹16,000+", rating: "4.7" },
+    { title: "Housewife", image: "/images/services/Housewife.webp", description: "Mature housewife companions in Udhna", price: "₹17,000+", rating: "4.8" },
+    { title: "Party Escort", image: "/images/services/Party Escort.webp", description: "Party escort services in Udhna", price: "₹18,000+", rating: "4.8" },
+    { title: "Private Model", image: "/images/services/Private Model.webp", description: "Private model services in Udhna", price: "₹28,000+", rating: "4.9" },
+    { title: "Social Events", image: "/images/services/Social Events.webp", description: "Social event companions in Udhna", price: "₹17,000+", rating: "4.8" },
+    { title: "Special Service", image: "/images/services/Special Service.webp", description: "Specialized escort services in Udhna", price: "₹23,000+", rating: "4.9" },
+    { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Wedding companion services in Udhna", price: "₹20,000+", rating: "4.7" }
   ];
 
   // Function to convert service title to URL slug
@@ -123,33 +123,51 @@ export default function UdhnaEscorts() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 sm:gap-6">
             {services.map((service, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div className="relative h-56 sm:h-64 lg:h-72 bg-gradient-to-br from-slate-50 to-gray-50">
+              <Link 
+                key={index} 
+                href={`/services/${getServiceSlug(service.title)}`}
+                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 hover:scale-105 block"
+              >
+                {/* Service Image - Consistent with Main Page */}
+                <div className="relative h-48 sm:h-56 lg:h-64 bg-gray-50 overflow-hidden">
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-contain p-2"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
-                    loading={index < 6 ? "eager" : "lazy"}
+                    className="object-contain object-center p-2"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, (max-width: 1536px) 25vw, 20vw"
+                    loading={index < 8 ? "eager" : "lazy"}
                   />
                 </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-orange-700 mb-2">{service.title}</h3>
-                  <p className="text-gray-600 text-sm mb-4">{service.description}</p>
-                  <div className="flex justify-between items-center">
-                    <span className="text-orange-600 font-bold text-lg">{service.price}</span>
-                    <Link
-                      href="/contact"
-                      className="bg-orange-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-orange-700 transition-colors duration-300"
-                    >
-                      Book Now
-                    </Link>
+                
+                {/* Service Content - Mobile-Optimized */}
+                <div className="p-3 sm:p-4">
+                  <h3 className="text-base sm:text-lg font-semibold text-pink-800 mb-2 line-clamp-2">
+                    {service.title}
+                  </h3>
+                  <p className="text-xs sm:text-sm text-pink-600 mb-3 sm:mb-4 line-clamp-3">
+                    {service.description}
+                  </p>
+                  
+                  {/* Price and Rating - Mobile Optimized */}
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="text-xs sm:text-sm font-medium text-pink-700 bg-pink-100 px-2 py-1 rounded-full">
+                      {service.price}
+                    </span>
+                    <div className="flex items-center">
+                      <span className="text-yellow-400 text-sm">★</span>
+                      <span className="text-xs sm:text-sm text-gray-600 ml-1">{service.rating}</span>
+                    </div>
+                  </div>
+                  
+                  {/* Service Page Button - Mobile Optimized */}
+                  <div className="w-full bg-pink-500 hover:bg-pink-600 text-white py-2 sm:py-3 px-4 rounded-lg font-medium text-xs sm:text-sm transition-colors duration-300 text-center">
+                    View {service.title}
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
