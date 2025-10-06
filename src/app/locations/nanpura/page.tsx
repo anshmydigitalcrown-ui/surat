@@ -10,7 +10,13 @@ export default function NanpuraEscorts() {
     { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", description: "Charming dinner date companions in Nanpura", price: "₹16,000+" },
     { title: "In-call Service", image: "/images/services/In-call Service.webp", description: "Comfortable in-call services in Nanpura", price: "₹14,000+" },
     { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "Premium call girl services in Nanpura", price: "₹19,000+" },
-    { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Travel companion services from Nanpura", price: "₹21,000+" }
+    { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Travel companion services from Nanpura", price: "₹21,000+" },
+    { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companions for exclusive events in Nanpura", price: "₹25,000+" },
+    { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Nanpura", price: "₹24,000+" },
+    { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Business meeting companions in Nanpura", price: "₹20,000+" },
+    { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Hotel escort services in Nanpura area", price: "₹18,000+" },
+    { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Outcall escort services in Nanpura", price: "₹19,000+" },
+    { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Weekend special companions in Nanpura", price: "₹22,000+" }
   ];
 
   return (

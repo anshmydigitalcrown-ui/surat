@@ -10,7 +10,13 @@ export default function RanderEscorts() {
     { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", description: "Romantic dinner date companions in Rander", price: "₹16,000+" },
     { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Hotel escort services in Rander area", price: "₹18,000+" },
     { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "Premium call girl services in Rander", price: "₹21,000+" },
-    { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companionship for Rander riverside experiences", price: "₹26,000+" }
+    { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companionship for Rander riverside experiences", price: "₹26,000+" },
+    { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young college girl companions in Rander", price: "₹15,000+" },
+    { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Rander", price: "₹24,000+" },
+    { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Business meeting companions in Rander", price: "₹20,000+" },
+    { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "Russian model escorts in Rander", price: "₹28,000+" },
+    { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Wedding escort services in Rander", price: "₹22,000+" },
+    { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Weekend special companions in Rander", price: "₹19,000+" }
   ];
 
   return (

@@ -498,69 +498,69 @@ export default function About() {
             <div className="bg-gradient-to-br from-purple-400 to-purple-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
               <h3 className="text-xl font-bold mb-2">Citylight</h3>
               <p className="text-purple-100 mb-4">Professional companions in Citylight area</p>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+              <Link href="/locations/citylight" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Citylight Escorts
-              </button>
+              </Link>
             </div>
             <div className="bg-gradient-to-br from-pink-400 to-pink-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
               <h3 className="text-xl font-bold mb-2">Althan</h3>
               <p className="text-pink-100 mb-4">Elite escort locations in Althan locality</p>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+              <Link href="/locations/althan" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Althan Escorts
-              </button>
+              </Link>
             </div>
             <div className="bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
               <h3 className="text-xl font-bold mb-2">Piplod</h3>
               <p className="text-indigo-100 mb-4">Luxury companions in Piplod commercial area</p>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+              <Link href="/locations/piplod" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Piplod Escorts
-              </button>
+              </Link>
             </div>
 
             {/* Row 3 */}
             <div className="bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
               <h3 className="text-xl font-bold mb-2">Udhna</h3>
               <p className="text-orange-100 mb-4">Premium locations in Udhna industrial area</p>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+              <Link href="/locations/udhna" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Udhna Escorts
-              </button>
+              </Link>
             </div>
             <div className="bg-gradient-to-br from-teal-400 to-teal-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
               <h3 className="text-xl font-bold mb-2">Athwa</h3>
               <p className="text-teal-100 mb-4">High-end escort locations in Athwa</p>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+              <Link href="/locations/athwa" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Athwa Escorts
-              </button>
+              </Link>
             </div>
             <div className="bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
               <h3 className="text-xl font-bold mb-2">Rander</h3>
               <p className="text-yellow-100 mb-4">Quality companions in Rander area</p>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+              <Link href="/locations/rander" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Rander Escorts
-              </button>
+              </Link>
             </div>
 
             {/* Row 4 */}
             <div className="bg-gradient-to-br from-rose-400 to-rose-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
               <h3 className="text-xl font-bold mb-2">Ghod Dod Road</h3>
               <p className="text-rose-100 mb-4">VIP locations on Ghod Dod Road</p>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+              <Link href="/locations/ghod-dod-road" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Ghod Dod Escorts
-              </button>
+              </Link>
             </div>
             <div className="bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
               <h3 className="text-xl font-bold mb-2">Ring Road</h3>
               <p className="text-cyan-100 mb-4">Professional escorts near Ring Road</p>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+              <Link href="/locations/ring-road" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Ring Road Escorts
-              </button>
+              </Link>
             </div>
             <div className="bg-gradient-to-br from-violet-400 to-violet-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
               <h3 className="text-xl font-bold mb-2">Nanpura</h3>
               <p className="text-violet-100 mb-4">Elite companions in Nanpura city center</p>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+              <Link href="/locations/nanpura" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Nanpura Escorts
-              </button>
+              </Link>
             </div>
           </div>
         </div>

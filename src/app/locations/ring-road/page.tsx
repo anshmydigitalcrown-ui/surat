@@ -10,7 +10,13 @@ export default function RingRoadEscorts() {
     { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Highway hotel escort services on Ring Road", price: "₹19,000+" },
     { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companionship for Ring Road travelers", price: "₹26,000+" },
     { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Business meeting companions on Ring Road", price: "₹20,000+" },
-    { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "Premium call girl services on Ring Road", price: "₹22,000+" }
+    { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "Premium call girl services on Ring Road", price: "₹22,000+" },
+    { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young college girl companions on Ring Road", price: "₹15,000+" },
+    { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions on Ring Road", price: "₹24,000+" },
+    { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "Russian model escorts on Ring Road", price: "₹28,000+" },
+    { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Celebrity look-alike companions on Ring Road", price: "₹30,000+" },
+    { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Weekend special companions on Ring Road", price: "₹20,000+" },
+    { title: "Social Events", image: "/images/services/Social Events.webp", description: "Social event companions on Ring Road", price: "₹17,000+" }
   ];
 
   return (
