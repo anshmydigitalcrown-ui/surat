@@ -5,26 +5,26 @@ import Link from 'next/link';
 
 export default function NanpuraEscorts() {
   const services = [
-    { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young and vibrant college girl companions in Nanpura", price: "₹15,000+" },
-    { title: "Social Events", image: "/images/services/Social Events.webp", description: "Social event companions in Nanpura area", price: "₹17,000+" },
-    { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", description: "Charming dinner date companions in Nanpura", price: "₹16,000+" },
-    { title: "In-call Service", image: "/images/services/In-call Service.webp", description: "Comfortable in-call services in Nanpura", price: "₹14,000+" },
-    { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "Premium call girl services in Nanpura", price: "₹19,000+" },
-    { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Travel companion services from Nanpura", price: "₹21,000+" },
-    { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companions for exclusive events in Nanpura", price: "₹25,000+" },
-    { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Nanpura", price: "₹24,000+" },
-    { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Business meeting companions in Nanpura", price: "₹20,000+" },
-    { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Hotel escort services in Nanpura area", price: "₹18,000+" },
-    { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Outcall escort services in Nanpura", price: "₹19,000+" },
-    { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Weekend special companions in Nanpura", price: "₹22,000+" },
-    { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Celebrity look-alike companions in Nanpura", price: "₹26,000+" },
-    { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Corporate event companions in Nanpura", price: "₹21,000+" },
-    { title: "Housewife", image: "/images/services/Housewife.webp", description: "Mature housewife companions in Nanpura", price: "₹17,000+" },
-    { title: "Party Escort", image: "/images/services/Party Escort.webp", description: "Party escort services in Nanpura", price: "₹18,000+" },
-    { title: "Private Model", image: "/images/services/Private Model.webp", description: "Private model services in Nanpura", price: "₹27,000+" },
-    { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "Russian model companions in Nanpura", price: "₹29,000+" },
-    { title: "Special Service", image: "/images/services/Special Service.webp", description: "Specialized escort services in Nanpura", price: "₹23,000+" },
-    { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Wedding companion services in Nanpura", price: "₹20,000+" }
+    { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young and vibrant college girl companions in Nanpura", price: "₹15,000+", rating: "4.7" },
+    { title: "Social Events", image: "/images/services/Social Events.webp", description: "Social event companions in Nanpura area", price: "₹17,000+", rating: "4.8" },
+    { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", description: "Charming dinner date companions in Nanpura", price: "₹16,000+", rating: "4.6" },
+    { title: "In-call Service", image: "/images/services/In-call Service.webp", description: "Comfortable in-call services in Nanpura", price: "₹14,000+", rating: "4.5" },
+    { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "Premium call girl services in Nanpura", price: "₹19,000+", rating: "4.9" },
+    { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Travel companion services from Nanpura", price: "₹21,000+", rating: "5.0" },
+    { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companions for exclusive events in Nanpura", price: "₹25,000+", rating: "5.0" },
+    { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Nanpura", price: "₹24,000+", rating: "4.8" },
+    { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Business meeting companions in Nanpura", price: "₹20,000+", rating: "4.7" },
+    { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Hotel escort services in Nanpura area", price: "₹18,000+", rating: "4.6" },
+    { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Outcall escort services in Nanpura", price: "₹19,000+", rating: "4.6" },
+    { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Weekend special companions in Nanpura", price: "₹22,000+", rating: "4.8" },
+    { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Celebrity look-alike companions in Nanpura", price: "₹26,000+", rating: "4.9" },
+    { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Corporate event companions in Nanpura", price: "₹21,000+", rating: "4.7" },
+    { title: "Housewife", image: "/images/services/Housewife.webp", description: "Mature housewife companions in Nanpura", price: "₹17,000+", rating: "4.5" },
+    { title: "Party Escort", image: "/images/services/Party Escort.webp", description: "Party escort services in Nanpura", price: "₹18,000+", rating: "4.6" },
+    { title: "Private Model", image: "/images/services/Private Model.webp", description: "Private model services in Nanpura", price: "₹27,000+", rating: "4.9" },
+    { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "Russian model companions in Nanpura", price: "₹29,000+", rating: "5.0" },
+    { title: "Special Service", image: "/images/services/Special Service.webp", description: "Special personalized services in Nanpura", price: "₹23,000+", rating: "4.8" },
+    { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Wedding event companions in Nanpura", price: "₹20,000+", rating: "4.7" }
   ];
 
   // Function to convert service title to URL slug
@@ -123,33 +123,61 @@ export default function NanpuraEscorts() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
             {services.map((service, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div className="relative h-56 sm:h-64 lg:h-72 bg-gradient-to-br from-yellow-50 to-orange-50">
-                  <Image
-                    src={service.image}
-                    alt={service.title}
-                    fill
-                    className="object-contain p-2"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
-                    loading={index < 6 ? "eager" : "lazy"}
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-violet-700 mb-2">{service.title}</h3>
-                  <p className="text-gray-600 text-sm mb-4">{service.description}</p>
-                  <div className="flex justify-between items-center">
-                    <span className="text-violet-600 font-bold text-lg">{service.price}</span>
-                    <Link
-                      href="/contact"
-                      className="bg-violet-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-violet-700 transition-colors duration-300"
-                    >
-                      Book Now
-                    </Link>
+              <Link
+                key={index}
+                href={`/services/${getServiceSlug(service.title)}`}
+                className="group block"
+              >
+                <div className="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
+                  <div className="relative h-48 bg-gray-50">
+                    <Image
+                      src={service.image}
+                      alt={service.title}
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-300"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, (max-width: 1536px) 25vw, 20vw"
+                      loading={index < 8 ? "eager" : "lazy"}
+                    />
+                    <div className="absolute top-3 right-3">
+                      <span className="bg-pink-100 text-pink-600 px-2 py-1 rounded-full text-xs font-medium">
+                        {service.price}
+                      </span>
+                    </div>
+                  </div>
+                  
+                  <div className="p-4">
+                    <h3 className="text-lg font-semibold text-gray-800 mb-2 group-hover:text-pink-600 transition-colors">
+                      {service.title}
+                    </h3>
+                    
+                    <div className="flex items-center mb-2">
+                      <div className="flex items-center text-yellow-400">
+                        {[...Array(5)].map((_, i) => (
+                          <svg
+                            key={i}
+                            className={`w-4 h-4 ${i < Math.floor(parseFloat(service.rating)) ? 'text-yellow-400' : 'text-gray-300'}`}
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                          >
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+                        ))}
+                      </div>
+                      <span className="text-sm text-gray-600 ml-1">({service.rating})</span>
+                    </div>
+                    
+                    <p className="text-gray-600 text-sm mb-3 line-clamp-2">
+                      {service.description}
+                    </p>
+                    
+                    <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-pink-700 transition-colors group-hover:bg-pink-700">
+                      View {service.title}
+                    </button>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
