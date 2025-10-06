@@ -610,48 +610,48 @@ export default function Home() {
             </div>
 
             {/* Contact Form */}
-            <div className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-2xl p-8 shadow-lg">
+            <div className="bg-gradient-to-br from-pink-800 to-pink-900 rounded-2xl p-8 shadow-lg">
               <div className="text-center mb-8">
-                <h3 className="text-3xl font-bold text-gray-800 mb-4">Contact Us</h3>
-                <p className="text-gray-600">
-                  Get in touch with us for premium escort services in Indore
+                <h3 className="text-3xl font-bold text-white mb-4">Contact Us</h3>
+                <p className="text-pink-100">
+                  Get in touch with us for premium escort services in Surat
                 </p>
               </div>
               
               <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2">Name *</label>
+                    <label className="block text-pink-100 font-semibold mb-2">Name *</label>
                     <input
                       type="text"
                       required
-                      className="w-full px-4 py-3 border border-pink-200 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300"
+                      className="w-full px-4 py-3 border border-pink-300 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300 bg-white/10 text-white placeholder-pink-200"
                       placeholder="Your Name"
                     />
                   </div>
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2">Phone *</label>
+                    <label className="block text-pink-100 font-semibold mb-2">Phone *</label>
                     <input
                       type="tel"
                       required
-                      className="w-full px-4 py-3 border border-pink-200 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300"
+                      className="w-full px-4 py-3 border border-pink-300 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300 bg-white/10 text-white placeholder-pink-200"
                       placeholder="Your Phone Number"
                     />
                   </div>
                 </div>
                 
                 <div>
-                  <label className="block text-gray-700 font-semibold mb-2">Email</label>
+                  <label className="block text-pink-100 font-semibold mb-2">Email</label>
                   <input
                     type="email"
-                    className="w-full px-4 py-3 border border-pink-200 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300"
+                    className="w-full px-4 py-3 border border-pink-300 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300 bg-white/10 text-white placeholder-pink-200"
                     placeholder="your.email@example.com"
                   />
                 </div>
                 
                 <div>
-                  <label className="block text-gray-700 font-semibold mb-2">Location Preference</label>
-                  <select className="w-full px-4 py-3 border border-pink-200 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300">
+                  <label className="block text-pink-100 font-semibold mb-2">Location Preference</label>
+                  <select className="w-full px-4 py-3 border border-pink-300 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300 bg-white/10 text-white">
                     <option value="">Select Preferred Area</option>
                     <option value="varachha">Varachha</option>
                     <option value="adajan">Adajan</option>
@@ -669,31 +669,31 @@ export default function Home() {
                 </div>
                 
                 <div>
-                  <label className="block text-gray-700 font-semibold mb-2">Message</label>
+                  <label className="block text-pink-100 font-semibold mb-2">Message</label>
                   <textarea
                     rows={4}
-                    className="w-full px-4 py-3 border border-pink-200 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300 resize-none"
+                    className="w-full px-4 py-3 border border-pink-300 rounded-lg focus:ring-2 focus:ring-pink-400 focus:border-transparent outline-none transition-all duration-300 resize-none bg-white/10 text-white placeholder-pink-200"
                     placeholder="Tell us about your preferences and requirements..."
                   />
                 </div>
                 
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-pink-500 to-pink-600 text-white font-bold py-4 px-6 rounded-lg hover:from-pink-600 hover:to-pink-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+                  className="w-full bg-gradient-to-r from-pink-600 to-pink-700 text-white font-bold py-4 px-6 rounded-lg hover:from-pink-700 hover:to-pink-800 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
                 >
                   Send Message 💌
                 </button>
               </form>
               
-              <div className="mt-8 pt-6 border-t border-pink-200">
+              <div className="mt-8 pt-6 border-t border-pink-300">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-center">
                   <div className="flex items-center justify-center space-x-2">
-                    <span className="text-pink-600">📱</span>
-                    <span className="text-gray-700">24/7 Available</span>
+                    <span className="text-pink-300">📱</span>
+                    <span className="text-pink-100">24/7 Available</span>
                   </div>
                   <div className="flex items-center justify-center space-x-2">
-                    <span className="text-pink-600">🔒</span>
-                    <span className="text-gray-700">100% Confidential</span>
+                    <span className="text-pink-300">🔒</span>
+                    <span className="text-pink-100">100% Confidential</span>
                   </div>
                 </div>
               </div>
