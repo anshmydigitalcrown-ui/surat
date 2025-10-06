@@ -170,8 +170,8 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Service Grid - Fixed 4 Rows × 5 Columns Layout */}
-          <div className="grid grid-cols-5 grid-rows-4 gap-6 max-w-7xl mx-auto">
+          {/* Service Grid - 4 Columns × 5 Rows Layout (20 cards) */}
+          <div className="grid grid-cols-4 gap-6 max-w-6xl mx-auto">
             {[
               { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "Elite companions for exclusive events and occasions", price: "Premium", rating: "4.9" },
               { title: "Social Events", image: "/images/services/Social Events.webp", description: "Perfect companions for social gatherings and parties", price: "Standard", rating: "4.8" },
@@ -196,49 +196,31 @@ export default function Home() {
             ].map((service, index) => (
               <div
                 key={index}
-                className="group relative bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-pink-200 hover:border-pink-400"
+                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
               >
-                {/* Service Image Container - Full Size Images */}
-                <div className="relative h-64 overflow-hidden">
+                {/* Service Image */}
+                <div className="relative h-64 bg-gray-50 overflow-hidden">
                   <Image 
                     src={service.image} 
                     alt={service.title} 
                     fill
-                    className="object-cover object-center transition-all duration-300 group-hover:scale-105"
-                    sizes="20vw"
+                    className="object-contain object-center p-2"
+                    sizes="25vw"
                   />
-                  
-                  {/* Gradient Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  
-                  {/* Service Title Overlay */}
-                  <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
-                    <h3 className="text-xl font-bold text-white mb-2">{service.title}</h3>
-                    <div className="flex items-center justify-between">
-                      <span className={`px-3 py-1 rounded-full text-xs font-bold text-white ${
-                        service.price === 'Luxury' ? 'bg-purple-600' :
-                        service.price === 'Premium' ? 'bg-pink-600' :
-                        'bg-blue-600'
-                      }`}>
-                        {service.price}
-                      </span>
-                      <div className="flex items-center space-x-1">
-                        <span className="text-yellow-400">⭐</span>
-                        <span className="text-white text-sm font-bold">{service.rating}</span>
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 
-                {/* Content with Single Centered Button */}
-                <div className="p-6 text-center">
-                  <p className="text-red-600 text-sm mb-4 leading-relaxed">
+                {/* Service Content */}
+                <div className="p-4">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                    {service.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 mb-4">
                     {service.description}
                   </p>
                   
-                  {/* Single Centered Book Now Button */}
-                  <button className="w-full bg-gradient-to-r from-pink-500 to-pink-700 hover:from-pink-600 hover:to-pink-800 text-white py-3 px-6 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-                    Book Now
+                  {/* Book Button - Pink like screenshot */}
+                  <button className="w-full bg-pink-500 hover:bg-pink-600 text-white py-2 px-4 rounded-lg font-medium text-sm transition-colors duration-300">
+                    Book {service.title}
                   </button>
                 </div>
               </div>
@@ -901,20 +883,20 @@ export default function Home() {
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-primary-500 to-accent-600 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Experience Luxury?</h2>
-          <p className="text-xl mb-8 text-pink-100">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-red-100">Ready to Experience Luxury?</h2>
+          <p className="text-xl mb-8 text-red-200">
             Contact us today to discuss your requirements and schedule a consultation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               href="/contact" 
-              className="bg-white text-primary-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-pink-50 hover-glow transition-all duration-300 transform hover:scale-105"
+              className="bg-red-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-red-700 hover-glow transition-all duration-300 transform hover:scale-105"
             >
               Contact Us Now
             </Link>
             <Link 
               href="tel:+91XXXXXXXXX" 
-              className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-primary-600 transition-all duration-300 transform hover:scale-105"
+              className="border-2 border-red-300 text-red-100 px-8 py-4 rounded-full font-semibold text-lg hover:bg-red-600 hover:text-white transition-all duration-300 transform hover:scale-105"
             >
               Call Directly
             </Link>

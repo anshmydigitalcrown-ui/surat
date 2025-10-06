@@ -64,12 +64,12 @@ export default function Services() {
                 className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden"
               >
                 {/* Service Image Container */}
-                <div className="relative h-48 overflow-hidden">
+                <div className="relative h-64 bg-gray-50 overflow-hidden">
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-cover object-center transition-transform duration-300 hover:scale-105"
+                    className="object-contain object-center p-2 transition-transform duration-300 hover:scale-105"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                 </div>
