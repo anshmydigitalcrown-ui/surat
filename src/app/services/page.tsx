@@ -4,6 +4,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Services() {
+  // Function to convert service title to URL slug
+  const getServiceSlug = (title: string): string => {
+    return title.toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^\w\-]+/g, '')
+      .replace(/\-\-+/g, '-')
+      .replace(/^-+/, '')
+      .replace(/-+$/, '');
+  };
+
   const services = [
     { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", category: "Premium", description: "Elite companions for exclusive events and occasions", price: "₹25,000+", rating: "4.9", features: ["Verified Profile", "24/7 Available", "Discrete Service"] },
     { title: "Social Events", image: "/images/services/Social Events.webp", category: "Social", description: "Perfect companions for social gatherings and parties", price: "₹15,000+", rating: "4.8", features: ["Event Ready", "Social Skills", "Professional"] },
@@ -101,9 +111,10 @@ export default function Services() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {services.map((service, index) => (
-              <div
+              <Link
                 key={index}
-                className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden"
+                href={`/services/${getServiceSlug(service.title)}`}
+                className="bg-white rounded-lg shadow-md hover:shadow-lg overflow-hidden hover:scale-105 transform transition-all duration-300"
               >
                 {/* Service Image Container */}
                 <div className="relative h-64 bg-gray-50 overflow-hidden">
@@ -126,11 +137,11 @@ export default function Services() {
                   </p>
                   
                   {/* Action Button */}
-                  <button className="bg-pink-500 hover:bg-pink-600 text-white py-2 px-6 rounded-full font-medium text-sm transition-colors duration-300">
-                    Book
-                  </button>
+                  <div className="bg-pink-500 hover:bg-pink-600 text-white py-2 px-6 rounded-full font-medium text-sm transition-colors duration-300 inline-block">
+                    View Details
+                  </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
