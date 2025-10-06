@@ -20,7 +20,7 @@ export default function VarachhaEscorts() {
   ];
 
   // Function to convert service title to URL slug
-  const getServiceSlug = (title) => {
+  const getServiceSlug = (title: string): string => {
     return title.toLowerCase()
       .replace(/\s+/g, '-')
       .replace(/[^\w\-]+/g, '')
