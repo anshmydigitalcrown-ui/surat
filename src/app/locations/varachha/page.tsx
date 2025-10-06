@@ -16,7 +16,15 @@ export default function VarachhaEscorts() {
     { title: "Private Model", image: "/images/services/Private Model.webp", description: "Exclusive private model services in Varachha", price: "₹28,000+" },
     { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "International Russian model companions in Varachha", price: "₹30,000+" },
     { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Celebrity look-alike companions in Varachha", price: "₹26,000+" },
-    { title: "Party Escort", image: "/images/services/Party Escort.webp", description: "Party escort services for Varachha events", price: "₹19,000+" }
+    { title: "Party Escort", image: "/images/services/Party Escort.webp", description: "Party escort services for Varachha events", price: "₹19,000+" },
+    { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young and vibrant college girl companions in Varachha", price: "₹15,000+" },
+    { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", description: "Elegant dinner date companions in Varachha", price: "₹16,000+" },
+    { title: "Housewife", image: "/images/services/Housewife.webp", description: "Mature housewife companions in Varachha", price: "₹17,000+" },
+    { title: "In-call Service", image: "/images/services/In-call Service.webp", description: "Comfortable in-call services in Varachha", price: "₹14,000+" },
+    { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Professional outcall services in Varachha", price: "₹16,000+" },
+    { title: "Special Service", image: "/images/services/Special Service.webp", description: "Specialized escort services in Varachha", price: "₹23,000+" },
+    { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Wedding companion services in Varachha", price: "₹21,000+" },
+    { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Weekend special companions in Varachha", price: "₹18,000+" }
   ];
 
   // Function to convert service title to URL slug
@@ -147,29 +155,29 @@ export default function VarachhaEscorts() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 sm:gap-6">
               {services.map((service, index) => (
                 <Link 
                   key={index} 
                   href={`/services/${getServiceSlug(service.title)}`}
                   className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                 >
-                  <div className="relative h-56 sm:h-64 lg:h-72 bg-gradient-to-br from-red-50 to-pink-50">
+                  <div className="relative h-48 sm:h-56 lg:h-64 bg-gradient-to-br from-red-50 to-pink-50">
                     <Image
                       src={service.image}
                       alt={`${service.title} - Varachha Escort Service`}
                       fill
                       className="object-contain p-2"
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
-                      loading={index < 6 ? "eager" : "lazy"}
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, (max-width: 1536px) 25vw, 20vw"
+                      loading={index < 8 ? "eager" : "lazy"}
                     />
                   </div>
-                  <div className="p-4 sm:p-6">
-                    <h3 className="text-lg sm:text-xl font-semibold text-red-700 mb-2">{service.title}</h3>
-                    <p className="text-sm sm:text-base text-gray-600 mb-4">{service.description}</p>
+                  <div className="p-3 sm:p-4 lg:p-6">
+                    <h3 className="text-base sm:text-lg lg:text-xl font-semibold text-red-700 mb-2 line-clamp-1">{service.title}</h3>
+                    <p className="text-sm text-gray-600 mb-3 sm:mb-4 line-clamp-2">{service.description}</p>
                     <div className="flex justify-between items-center">
-                      <span className="text-red-600 font-bold text-base sm:text-lg">{service.price}</span>
-                      <span className="bg-red-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-red-700 transition-colors duration-300">
+                      <span className="text-red-600 font-bold text-sm sm:text-base lg:text-lg">{service.price}</span>
+                      <span className="bg-red-600 text-white px-2 sm:px-3 lg:px-4 py-1 sm:py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-red-700 transition-colors duration-300">
                         View Details
                       </span>
                     </div>
