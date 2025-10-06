@@ -10,7 +10,13 @@ export default function VesuEscorts() {
     { title: "Social Events", image: "/images/services/Social Events.webp", description: "Perfect companions for social gatherings in Vesu", price: "₹15,000+" },
     { title: "Private Model", image: "/images/services/Private Model.webp", description: "Exclusive private model services in Vesu", price: "₹28,000+" },
     { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "High-class call girl services in Vesu", price: "₹20,000+" },
-    { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Elegant wedding escort services in Vesu", price: "₹18,000+" }
+    { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Elegant wedding escort services in Vesu", price: "₹18,000+" },
+    { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Vesu", price: "₹24,000+" },
+    { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Business meeting companions in Vesu", price: "₹21,000+" },
+    { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Corporate event companions in Vesu", price: "₹22,000+" },
+    { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", description: "Elegant dinner companions in Vesu", price: "₹16,000+" },
+    { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Premium hotel escort services in Vesu", price: "₹18,000+" },
+    { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "International Russian model companions in Vesu", price: "₹30,000+" }
   ];
 
   return (
@@ -99,16 +105,17 @@ export default function VesuEscorts() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             {services.map((service, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div className="relative h-48">
+                <div className="relative h-56 sm:h-64 lg:h-72 bg-gradient-to-br from-green-50 to-pink-50">
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-cover"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-contain p-2"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+                    loading={index < 6 ? "eager" : "lazy"}
                   />
                 </div>
                 <div className="p-6">

@@ -10,7 +10,13 @@ export default function AdajanEscorts() {
     { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", description: "Elegant dinner companions in Adajan restaurants", price: "₹12,000+" },
     { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Travel companion services from Adajan", price: "₹22,000+" },
     { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "High-class call girl services in Adajan", price: "₹20,000+" },
-    { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Premium hotel escort services in Adajan area", price: "₹18,000+" }
+    { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Premium hotel escort services in Adajan area", price: "₹18,000+" },
+    { title: "Housewife", image: "/images/services/Housewife.webp", description: "Housewife companions for Adajan residential area", price: "₹16,000+" },
+    { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young college girl companions in Adajan", price: "₹14,000+" },
+    { title: "In-call Service", image: "/images/services/In-call Service.webp", description: "In-call escort services in Adajan apartments", price: "₹17,000+" },
+    { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Outcall escort services to Adajan residences", price: "₹19,000+" },
+    { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Weekend special companions in Adajan", price: "₹21,000+" },
+    { title: "Special Service", image: "/images/services/Special Service.webp", description: "Special escort services for Adajan clients", price: "₹23,000+" }
   ];
 
   return (
@@ -130,17 +136,17 @@ export default function AdajanEscorts() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
               {services.map((service, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                  <div className="relative h-48 sm:h-56 lg:h-64">
+                  <div className="relative h-56 sm:h-64 lg:h-72 bg-gradient-to-br from-blue-50 to-pink-50">
                     <Image
                       src={service.image}
                       alt={`${service.title} - Adajan Escort Service`}
                       fill
-                      className="object-cover"
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      loading={index < 3 ? "eager" : "lazy"}
+                      className="object-contain p-2"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+                      loading={index < 6 ? "eager" : "lazy"}
                     />
                   </div>
                   <div className="p-4 sm:p-6">

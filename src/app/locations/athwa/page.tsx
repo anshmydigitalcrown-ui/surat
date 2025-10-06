@@ -10,7 +10,13 @@ export default function AthwaEscorts() {
     { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Cultural travel companion services from Athwa", price: "₹22,000+" },
     { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "Premium call girl services in Athwa", price: "₹20,000+" },
     { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Hotel escort services in Athwa area", price: "₹17,000+" },
-    { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companionship for Athwa cultural events", price: "₹25,000+" }
+    { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companionship for Athwa cultural events", price: "₹25,000+" },
+    { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Athwa", price: "₹24,000+" },
+    { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Business meeting companions in Athwa", price: "₹21,000+" },
+    { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Corporate event companions in Athwa", price: "₹22,000+" },
+    { title: "Private Model", image: "/images/services/Private Model.webp", description: "Private model services in Athwa cultural area", price: "₹28,000+" },
+    { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "Russian model companions in Athwa", price: "₹30,000+" },
+    { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Celebrity look-alike companions in Athwa", price: "₹26,000+" }
   ];
 
   return (
@@ -99,16 +105,17 @@ export default function AthwaEscorts() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             {services.map((service, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div className="relative h-48">
+                <div className="relative h-56 sm:h-64 lg:h-72 bg-gradient-to-br from-teal-50 to-cyan-50">
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-cover"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-contain p-2"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+                    loading={index < 6 ? "eager" : "lazy"}
                   />
                 </div>
                 <div className="p-6">

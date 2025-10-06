@@ -10,7 +10,13 @@ export default function VarachhaEscorts() {
     { title: "Social Events", image: "/images/services/Social Events.webp", description: "Perfect companions for social gatherings in Varachha", price: "₹15,000+" },
     { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Premium hotel escort services in Varachha area", price: "₹18,000+" },
     { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Travel companion services from Varachha", price: "₹22,000+" },
-    { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "High-class call girl services in Varachha", price: "₹20,000+" }
+    { title: "Premium Call Girl", image: "/images/services/Premium Call Girl.webp", description: "High-class call girl services in Varachha", price: "₹20,000+" },
+    { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Varachha", price: "₹24,000+" },
+    { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Corporate event companions in Varachha business district", price: "₹21,000+" },
+    { title: "Private Model", image: "/images/services/Private Model.webp", description: "Exclusive private model services in Varachha", price: "₹28,000+" },
+    { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "International Russian model companions in Varachha", price: "₹30,000+" },
+    { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Celebrity look-alike companions in Varachha", price: "₹26,000+" },
+    { title: "Party Escort", image: "/images/services/Party Escort.webp", description: "Party escort services for Varachha events", price: "₹19,000+" }
   ];
 
   return (
@@ -131,17 +137,17 @@ export default function VarachhaEscorts() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
               {services.map((service, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                  <div className="relative h-48 sm:h-56 lg:h-64">
+                  <div className="relative h-56 sm:h-64 lg:h-72 bg-gradient-to-br from-red-50 to-pink-50">
                     <Image
                       src={service.image}
                       alt={`${service.title} - Varachha Escort Service`}
                       fill
-                      className="object-cover"
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      loading={index < 3 ? "eager" : "lazy"}
+                      className="object-contain p-2"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+                      loading={index < 6 ? "eager" : "lazy"}
                     />
                   </div>
                   <div className="p-4 sm:p-6">
