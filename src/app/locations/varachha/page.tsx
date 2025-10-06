@@ -14,174 +14,208 @@ export default function VarachhaEscorts() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-red-50 via-white to-pink-50">
-      {/* Hero Section */}
-      <section className="relative py-32 bg-gradient-to-br from-red-400 to-red-600 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-black/20"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp">
-            Varachha Escorts Services
-          </h1>
-          <p className="text-xl md:text-2xl text-red-100 max-w-3xl mx-auto animate-fadeInUp">
-            Premium escort services in Varachha - Commercial hub with premium hotels and business centers
-          </p>
-          <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/contact"
-              className="bg-white text-red-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-red-50 transition-all duration-300 transform hover:scale-105"
-            >
-              Book Now
-            </Link>
-            <Link
-              href="/services"
-              className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-red-600 transition-all duration-300 transform hover:scale-105"
-            >
-              View All Services
-            </Link>
-          </div>
-        </div>
-      </section>
+    <>
+      {/* JSON-LD Structured Data for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Varachha Escorts - RashmiKapoor",
+            "image": "/images/services/VIP Companionship.webp",
+            "description": "Premium escort services in Varachha commercial area, Surat",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Varachha, Surat",
+              "addressRegion": "Gujarat",
+              "addressCountry": "IN"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 21.1702,
+              "longitude": 72.8311
+            },
+            "url": "https://surat-escorts.vercel.app/locations/varachha",
+            "openingHours": "Mo-Su 00:00-23:59",
+            "serviceArea": {
+              "@type": "Place", 
+              "name": "Varachha"
+            }
+          })
+        }}
+      />
 
-      {/* Location Info */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-red-700 mb-6">
-                About Varachha Area
-              </h2>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Varachha is one of Surat's most prominent commercial hubs, known for its bustling business centers, 
-                premium hotels, and vibrant commercial activity. Our escort services in Varachha cater to the 
-                sophisticated clientele of this upscale area.
-              </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="bg-red-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-red-700 mb-2">🏢 Business District</h3>
-                  <p className="text-sm text-red-600">Major commercial hub with corporate offices</p>
-                </div>
-                <div className="bg-red-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-red-700 mb-2">🏨 Premium Hotels</h3>
-                  <p className="text-sm text-red-600">Luxury accommodations and venues</p>
-                </div>
-                <div className="bg-red-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-red-700 mb-2">🚗 Easy Access</h3>
-                  <p className="text-sm text-red-600">Well-connected transportation links</p>
-                </div>
-                <div className="bg-red-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-red-700 mb-2">🍽️ Fine Dining</h3>
-                  <p className="text-sm text-red-600">Upscale restaurants and entertainment</p>
-                </div>
-              </div>
-            </div>
-            <div className="relative">
-              <div className="bg-gradient-to-br from-red-200 to-red-300 rounded-2xl p-8 h-96 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-8xl mb-4">🏙️</div>
-                  <h3 className="text-2xl font-bold text-red-700">Varachha Commercial Hub</h3>
-                  <p className="text-red-600 mt-2">Premium escort services available 24/7</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Services Grid */}
-      <section className="py-16 bg-gradient-to-br from-red-50 to-pink-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-red-700 mb-6">
-              Our Varachha Services
-            </h2>
-            <p className="text-xl text-red-600 max-w-3xl mx-auto">
-              Premium escort services tailored for the sophisticated Varachha clientele
+      <div className="min-h-screen bg-gradient-to-br from-red-50 via-white to-pink-50">
+        {/* Hero Section - Mobile Optimized */}
+        <section className="relative py-16 sm:py-24 lg:py-32 bg-gradient-to-br from-red-400 to-red-600 text-white overflow-hidden">
+          <div className="absolute inset-0 bg-black/20"></div>
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 sm:mb-6 animate-fadeInUp leading-tight">
+              Varachha Escorts Services
+            </h1>
+            <p className="text-lg sm:text-xl lg:text-2xl text-red-100 max-w-3xl mx-auto animate-fadeInUp leading-relaxed px-4">
+              Premium escort services in Varachha - Commercial hub with premium hotels and business centers
             </p>
+            <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center max-w-md sm:max-w-none mx-auto">
+              <Link
+                href="/contact"
+                className="bg-white text-red-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-red-50 transition-all duration-300 transform hover:scale-105 text-center"
+              >
+                Book Now
+              </Link>
+              <Link
+                href="/services"
+                className="border-2 border-white text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-white hover:text-red-600 transition-all duration-300 transform hover:scale-105 text-center"
+              >
+                View All Services
+              </Link>
+            </div>
           </div>
+        </section>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div className="relative h-48">
-                  <Image
-                    src={service.image}
-                    alt={service.title}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-red-700 mb-2">{service.title}</h3>
-                  <p className="text-gray-600 text-sm mb-4">{service.description}</p>
-                  <div className="flex justify-between items-center">
-                    <span className="text-red-600 font-bold text-lg">{service.price}</span>
-                    <Link
-                      href="/contact"
-                      className="bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-red-700 transition-colors duration-300"
-                    >
-                      Book Now
-                    </Link>
+        {/* Location Info - Mobile Optimized */}
+        <section className="py-12 sm:py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+              <div className="order-2 lg:order-1">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-red-700 mb-4 sm:mb-6">
+                  About Varachha Area
+                </h2>
+                <p className="text-base sm:text-lg text-gray-700 mb-4 sm:mb-6 leading-relaxed">
+                  Varachha is a major commercial hub in Surat, known for its bustling business centers, 
+                  premium hotels, and shopping complexes. Our escort services in Varachha provide 
+                  sophisticated companionship for business professionals and visitors to this vibrant area.
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                  <div className="bg-red-50 p-3 sm:p-4 rounded-lg">
+                    <h3 className="font-semibold text-red-700 mb-2 text-sm sm:text-base">🏢 Commercial Hub</h3>
+                    <p className="text-xs sm:text-sm text-red-600">Major business centers and offices</p>
+                  </div>
+                  <div className="bg-red-50 p-3 sm:p-4 rounded-lg">
+                    <h3 className="font-semibold text-red-700 mb-2 text-sm sm:text-base">🏨 Premium Hotels</h3>
+                    <p className="text-xs sm:text-sm text-red-600">Luxury accommodations available</p>
+                  </div>
+                  <div className="bg-red-50 p-3 sm:p-4 rounded-lg">
+                    <h3 className="font-semibold text-red-700 mb-2 text-sm sm:text-base">🛍️ Shopping Centers</h3>
+                    <p className="text-xs sm:text-sm text-red-600">Modern malls and retail complexes</p>
+                  </div>
+                  <div className="bg-red-50 p-3 sm:p-4 rounded-lg">
+                    <h3 className="font-semibold text-red-700 mb-2 text-sm sm:text-base">🍽️ Fine Dining</h3>
+                    <p className="text-xs sm:text-sm text-red-600">Upscale restaurants and cafes</p>
                   </div>
                 </div>
               </div>
-            ))}
+              <div className="relative order-1 lg:order-2">
+                <div className="bg-gradient-to-br from-red-200 to-red-300 rounded-2xl p-6 sm:p-8 h-64 sm:h-80 lg:h-96 flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="text-6xl sm:text-7xl lg:text-8xl mb-4">🏢</div>
+                    <h3 className="text-xl sm:text-2xl font-bold text-red-700">Varachha Commercial Hub</h3>
+                    <p className="text-red-600 mt-2 text-sm sm:text-base">Premium escort services available 24/7</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Why Choose Varachha */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-red-700 mb-6">
-              Why Choose Our Varachha Services
-            </h2>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-6 bg-red-50 rounded-xl">
-              <div className="text-4xl mb-4">🏢</div>
-              <h3 className="text-xl font-semibold text-red-700 mb-2">Business Ready</h3>
-              <p className="text-red-600">Perfect for corporate events and business meetings in Varachha's commercial district</p>
+        {/* Services Grid - Mobile First */}
+        <section className="py-12 sm:py-16 bg-gradient-to-br from-red-50 to-pink-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-8 sm:mb-12">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-red-700 mb-4 sm:mb-6">
+                Our Varachha Services
+              </h2>
+              <p className="text-lg sm:text-xl text-red-600 max-w-3xl mx-auto">
+                Premium escort services for Varachha&apos;s commercial community
+              </p>
             </div>
-            <div className="text-center p-6 bg-red-50 rounded-xl">
-              <div className="text-4xl mb-4">🔒</div>
-              <h3 className="text-xl font-semibold text-red-700 mb-2">Complete Discretion</h3>
-              <p className="text-red-600">100% confidential services for professionals and business clients</p>
-            </div>
-            <div className="text-center p-6 bg-red-50 rounded-xl">
-              <div className="text-4xl mb-4">⭐</div>
-              <h3 className="text-xl font-semibold text-red-700 mb-2">Premium Quality</h3>
-              <p className="text-red-600">Elite companions who understand the sophisticated Varachha environment</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Contact Section */}
-      <section className="py-16 bg-gradient-to-r from-red-600 to-red-700 text-white">
-        <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Book Varachha Escorts?</h2>
-          <p className="text-xl mb-8 text-red-100">
-            Contact us today to arrange premium escort services in the heart of Varachha's business district
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/contact"
-              className="bg-white text-red-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-red-50 transition-all duration-300 transform hover:scale-105"
-            >
-              Contact Us Now
-            </Link>
-            <Link
-              href="tel:+91XXXXXXXXX"
-              className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-red-600 transition-all duration-300 transform hover:scale-105"
-            >
-              Call Directly
-            </Link>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+              {services.map((service, index) => (
+                <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                  <div className="relative h-48 sm:h-56 lg:h-64">
+                    <Image
+                      src={service.image}
+                      alt={`${service.title} - Varachha Escort Service`}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      loading={index < 3 ? "eager" : "lazy"}
+                    />
+                  </div>
+                  <div className="p-4 sm:p-6">
+                    <h3 className="text-lg sm:text-xl font-semibold text-red-700 mb-2">{service.title}</h3>
+                    <p className="text-sm sm:text-base text-gray-600 mb-4">{service.description}</p>
+                    <div className="flex justify-between items-center">
+                      <span className="text-red-600 font-bold text-base sm:text-lg">{service.price}</span>
+                      <Link
+                        href="/contact"
+                        className="bg-red-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-red-700 transition-colors duration-300"
+                      >
+                        Book Now
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
-    </div>
+        </section>
+
+        {/* Why Choose Varachha */}
+        <section className="py-12 sm:py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-8 sm:mb-12">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-red-700 mb-4 sm:mb-6">
+                Why Choose Our Varachha Services
+              </h2>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+              <div className="text-center p-4 sm:p-6 bg-red-50 rounded-xl">
+                <div className="text-3xl sm:text-4xl mb-4">🏢</div>
+                <h3 className="text-lg sm:text-xl font-semibold text-red-700 mb-2">Business Professional</h3>
+                <p className="text-sm sm:text-base text-red-600">Perfect companions for Varachha&apos;s commercial environment</p>
+              </div>
+              <div className="text-center p-4 sm:p-6 bg-red-50 rounded-xl">
+                <div className="text-3xl sm:text-4xl mb-4">🏨</div>
+                <h3 className="text-lg sm:text-xl font-semibold text-red-700 mb-2">Premium Hotels</h3>
+                <p className="text-sm sm:text-base text-red-600">Luxury hotel services in Varachha&apos;s finest establishments</p>
+              </div>
+              <div className="text-center p-4 sm:p-6 bg-red-50 rounded-xl">
+                <div className="text-3xl sm:text-4xl mb-4">⭐</div>
+                <h3 className="text-lg sm:text-xl font-semibold text-red-700 mb-2">Elite Quality</h3>
+                <p className="text-sm sm:text-base text-red-600">High-class companions for discerning Varachha clients</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact Section */}
+        <section className="py-12 sm:py-16 bg-gradient-to-r from-red-600 to-red-700 text-white">
+          <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">Ready to Book Varachha Escorts?</h2>
+            <p className="text-lg sm:text-xl mb-6 sm:mb-8 text-red-100">
+              Contact us today to arrange premium escort services in Varachha&apos;s commercial area
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center max-w-md sm:max-w-none mx-auto">
+              <Link
+                href="/contact"
+                className="bg-white text-red-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-red-50 transition-all duration-300 transform hover:scale-105 text-center"
+              >
+                Contact Us Now
+              </Link>
+              <Link
+                href="tel:+91XXXXXXXXX"
+                className="border-2 border-white text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-white hover:text-red-600 transition-all duration-300 transform hover:scale-105 text-center"
+              >
+                Call Directly
+              </Link>
+            </div>
+          </div>
+        </section>
+      </div>
+    </>
   );
 }

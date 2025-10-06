@@ -170,8 +170,8 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Service Grid - 4 Columns × 5 Rows Layout (20 cards) */}
-          <div className="grid grid-cols-4 gap-6 max-w-6xl mx-auto">
+          {/* Service Grid - Mobile-First Responsive Layout */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 max-w-7xl mx-auto">
             {[
               { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "Elite companions for exclusive events and occasions", price: "Premium", rating: "4.9" },
               { title: "Social Events", image: "/images/services/Social Events.webp", description: "Perfect companions for social gatherings and parties", price: "Standard", rating: "4.8" },
@@ -196,32 +196,47 @@ export default function Home() {
             ].map((service, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 hover:scale-105"
               >
-                {/* Service Image */}
-                <div className="relative h-64 bg-gray-50 overflow-hidden">
+                {/* Service Image - Responsive Heights */}
+                <div className="relative h-48 sm:h-56 lg:h-64 bg-gray-50 overflow-hidden">
                   <Image 
                     src={service.image} 
-                    alt={service.title} 
+                    alt={`${service.title} - Premium Escort Service in Surat`}
                     fill
                     className="object-contain object-center p-2"
-                    sizes="25vw"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+                    loading={index < 8 ? "eager" : "lazy"}
                   />
                 </div>
                 
-                {/* Service Content */}
-                <div className="p-4">
-                  <h3 className="text-lg font-semibold text-pink-800 mb-2">
+                {/* Service Content - Mobile-Optimized */}
+                <div className="p-3 sm:p-4">
+                  <h3 className="text-base sm:text-lg font-semibold text-pink-800 mb-2 line-clamp-2">
                     {service.title}
                   </h3>
-                  <p className="text-sm text-pink-600 mb-4">
+                  <p className="text-xs sm:text-sm text-pink-600 mb-3 sm:mb-4 line-clamp-3">
                     {service.description}
                   </p>
                   
-                  {/* Book Button - Pink like screenshot */}
-                  <button className="w-full bg-pink-500 hover:bg-pink-600 text-white py-2 px-4 rounded-lg font-medium text-sm transition-colors duration-300">
+                  {/* Price and Rating - Mobile Optimized */}
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="text-xs sm:text-sm font-medium text-pink-700 bg-pink-100 px-2 py-1 rounded-full">
+                      {service.price}
+                    </span>
+                    <div className="flex items-center">
+                      <span className="text-yellow-400 text-sm">★</span>
+                      <span className="text-xs sm:text-sm text-gray-600 ml-1">{service.rating}</span>
+                    </div>
+                  </div>
+                  
+                  {/* Book Button - Mobile Optimized */}
+                  <Link 
+                    href="/contact"
+                    className="w-full bg-pink-500 hover:bg-pink-600 text-white py-2 sm:py-3 px-4 rounded-lg font-medium text-xs sm:text-sm transition-colors duration-300 block text-center"
+                  >
                     Book {service.title}
-                  </button>
+                  </Link>
                 </div>
               </div>
             ))}
