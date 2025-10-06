@@ -26,7 +26,7 @@ export default function Home() {
                     <span className="text-white font-bold text-xl">RK</span>
                   </div>
                   <div>
-                    <p className="text-gray-600 font-medium text-lg">Premium Escort Service</p>
+                    <p className="text-red-600 font-medium text-lg">Premium Escort Service</p>
                   </div>
                 </div>
                 
@@ -102,7 +102,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent mb-2">
                   RashmiKapoor
                 </h3>
-                <p className="text-gray-600 font-medium">Premium Escort Service</p>
+                <p className="text-red-600 font-medium">Premium Escort Service</p>
               </div>
               
               <div className="relative">
@@ -165,7 +165,7 @@ export default function Home() {
             <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
               Premium Escorts In Indore - Our Services
             </h2>
-            <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-red-600 max-w-3xl mx-auto leading-relaxed">
               Professional Call Girls & VIP Companions Available 24/7
             </p>
           </div>
@@ -232,7 +232,7 @@ export default function Home() {
                 
                 {/* Content with Single Centered Button */}
                 <div className="p-6 text-center">
-                  <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  <p className="text-red-600 text-sm mb-4 leading-relaxed">
                     {service.description}
                   </p>
                   
@@ -270,7 +270,7 @@ export default function Home() {
             {/* VIP Escort Service */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-pink-500">
               <h3 className="text-2xl font-bold text-pink-600 mb-4">VIP Escort Service</h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-red-600 leading-relaxed">
                 Exclusive VIP companions for discerning clients seeking premium escort service in Indore. Professional, elegant, and sophisticated.
               </p>
             </div>
@@ -278,7 +278,7 @@ export default function Home() {
             {/* Event Companions */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-blue-500">
               <h3 className="text-2xl font-bold text-blue-600 mb-4">Event Companions</h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-red-600 leading-relaxed">
                 Perfect companions for business events, parties, and social gatherings in Indore. Professional and well-educated.
               </p>
             </div>
@@ -286,7 +286,7 @@ export default function Home() {
             {/* Premium Call Girls */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-purple-500">
               <h3 className="text-2xl font-bold text-purple-600 mb-4">Premium Call Girls</h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-red-600 leading-relaxed">
                 High-class call girls service with verified profiles and complete discretion in Indore. 24/7 availability.
               </p>
             </div>
@@ -301,46 +301,46 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               {/* Quality Assurance */}
               <div>
-                <h4 className="text-2xl font-bold text-gray-800 mb-6">Quality Assurance</h4>
+                <h4 className="text-2xl font-bold text-red-600 mb-6">Quality Assurance</h4>
                 <ul className="space-y-4">
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Verified escorts</span>
-                    <span className="text-gray-600">- All profiles thoroughly verified</span>
+                    <span className="font-bold text-red-600 mr-2">• Verified escorts</span>
+                    <span className="text-red-500">- All profiles thoroughly verified</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Professional training</span>
-                    <span className="text-gray-600">- Well-trained companions</span>
+                    <span className="font-bold text-red-600 mr-2">• Professional training</span>
+                    <span className="text-red-500">- Well-trained companions</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Regular health checkups</span>
-                    <span className="text-gray-600">- Health and safety priority</span>
+                    <span className="font-bold text-red-600 mr-2">• Regular health checkups</span>
+                    <span className="text-red-500">- Health and safety priority</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Background verification</span>
-                    <span className="text-gray-600">- Complete security screening</span>
+                    <span className="font-bold text-red-600 mr-2">• Background verification</span>
+                    <span className="text-red-500">- Complete security screening</span>
                   </li>
                 </ul>
               </div>
 
               {/* Service Excellence */}
               <div>
-                <h4 className="text-2xl font-bold text-gray-800 mb-6">Service Excellence</h4>
+                <h4 className="text-2xl font-bold text-red-600 mb-6">Service Excellence</h4>
                 <ul className="space-y-4">
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Prompt response</span>
-                    <span className="text-gray-600">- Quick booking confirmation</span>
+                    <span className="font-bold text-red-600 mr-2">• Prompt response</span>
+                    <span className="text-red-500">- Quick booking confirmation</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Customer support</span>
-                    <span className="text-gray-600">- 24/7 customer assistance</span>
+                    <span className="font-bold text-red-600 mr-2">• Customer support</span>
+                    <span className="text-red-500">- 24/7 customer assistance</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Flexible booking</span>
-                    <span className="text-gray-600">- Easy scheduling options</span>
+                    <span className="font-bold text-red-600 mr-2">• Flexible booking</span>
+                    <span className="text-red-500">- Easy scheduling options</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="font-bold text-gray-800 mr-2">• Satisfaction guaranteed</span>
-                    <span className="text-gray-600">- 100% satisfaction commitment</span>
+                    <span className="font-bold text-red-600 mr-2">• Satisfaction guaranteed</span>
+                    <span className="text-red-500">- 100% satisfaction commitment</span>
                   </li>
                 </ul>
               </div>
@@ -356,7 +356,7 @@ export default function Home() {
             <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
               Our Location Areas in Indore
             </h2>
-            <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-red-600 max-w-3xl mx-auto leading-relaxed">
               Premium escort locations available across all major areas of Indore
             </p>
           </div>
@@ -464,7 +464,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
               Client Testimonials
             </h2>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-red-600 max-w-4xl mx-auto leading-relaxed">
               What our satisfied clients say about our premium escort services
             </p>
           </div>
@@ -481,8 +481,8 @@ export default function Home() {
                   <span className="text-3xl text-yellow-500">⭐</span>
                 </div>
               </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-6">Amazing Service</h3>
-              <p className="text-gray-600 italic leading-relaxed mb-6">
+              <h3 className="text-2xl font-bold text-red-600 mb-6">Amazing Service</h3>
+              <p className="text-red-600 italic leading-relaxed mb-6">
                 &ldquo;Professional, discrete, and exactly what I was looking for. The booking process was simple and the service exceeded expectations.&rdquo;
               </p>
               <p className="text-pink-600 font-bold">- VIP Client, Varachha</p>
@@ -499,8 +499,8 @@ export default function Home() {
                   <span className="text-3xl text-yellow-500">⭐</span>
                 </div>
               </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-6">Highly Recommend</h3>
-              <p className="text-gray-600 italic leading-relaxed mb-6">
+              <h3 className="text-2xl font-bold text-red-600 mb-6">Highly Recommend</h3>
+              <p className="text-red-600 italic leading-relaxed mb-6">
                 &ldquo;Outstanding companions and excellent customer service. Very professional team that maintains complete privacy and confidentiality.&rdquo;
               </p>
               <p className="text-blue-600 font-bold">- Regular Client, Adajan</p>
@@ -517,8 +517,8 @@ export default function Home() {
                   <span className="text-3xl text-yellow-500">⭐</span>
                 </div>
               </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-6">Premium Quality</h3>
-              <p className="text-gray-600 italic leading-relaxed mb-6">
+              <h3 className="text-2xl font-bold text-red-600 mb-6">Premium Quality</h3>
+              <p className="text-red-600 italic leading-relaxed mb-6">
                 &ldquo;Top-notch service with beautiful and intelligent companions. The 24/7 availability and quick response time is impressive.&rdquo;
               </p>
               <p className="text-orange-600 font-bold">- Business Client, Vesu</p>
@@ -534,7 +534,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 drop-shadow-lg">
               ⭐ What Our Premium Clients Say About Us ⭐
             </h2>
-            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-red-600 max-w-4xl mx-auto leading-relaxed">
               💎 Thousands of satisfied clients across Indore trust us for premium escort services
             </p>
           </div>
@@ -544,7 +544,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-pink-400 via-pink-300 to-pink-200 rounded-3xl p-8 text-center border border-pink-300 hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
               <div className="text-5xl mb-6">🏆</div>
               <h3 className="text-2xl font-bold text-white mb-4 drop-shadow-md">Premium Quality</h3>
-              <p className="text-gray-700 leading-relaxed font-medium">
+              <p className="text-red-600 leading-relaxed font-medium">
                 Handpicked professional escorts with guaranteed satisfaction
               </p>
             </div>
@@ -553,7 +553,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-purple-400 via-purple-300 to-pink-300 rounded-3xl p-8 text-center border border-purple-300 hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
               <div className="text-5xl mb-6">🔒</div>
               <h3 className="text-2xl font-bold text-white mb-4 drop-shadow-md">100% Discrete</h3>
-              <p className="text-gray-700 leading-relaxed font-medium">
+              <p className="text-red-600 leading-relaxed font-medium">
                 Complete privacy and confidentiality for all our VIP clients
               </p>
             </div>
@@ -562,7 +562,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-orange-400 via-pink-300 to-pink-200 rounded-3xl p-8 text-center border border-orange-300 hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
               <div className="text-5xl mb-6">⚡</div>
               <h3 className="text-2xl font-bold text-white mb-4 drop-shadow-md">24/7 Available</h3>
-              <p className="text-gray-700 leading-relaxed font-medium">
+              <p className="text-red-600 leading-relaxed font-medium">
                 Round the clock service with instant booking confirmation
               </p>
             </div>
