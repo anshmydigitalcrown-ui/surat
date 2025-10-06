@@ -819,6 +819,133 @@ export default function Services() {
         </div>
       </section>
 
+      {/* Premium Locations Section */}
+      <section className="py-20 bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent mb-6">
+              🏙️ Premium Service Locations in Surat
+            </h2>
+            <p className="text-2xl md:text-3xl text-pink-700 max-w-4xl mx-auto font-medium leading-relaxed mb-4">
+              Experience luxury companionship across Surat&apos;s most prestigious areas
+            </p>
+            <div className="w-32 h-1 bg-gradient-to-r from-pink-500 to-purple-500 mx-auto rounded-full"></div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            {/* Location 1 - Varachha */}
+            <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-pink-400 via-pink-500 to-pink-600 p-8 text-white hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
+              <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-all duration-300"></div>
+              <div className="relative z-10">
+                <div className="text-6xl mb-6 text-center">🏙️</div>
+                <h3 className="text-3xl md:text-4xl font-bold mb-4 text-center">Varachha Road</h3>
+                <div className="space-y-3 text-lg">
+                  <div className="flex items-center justify-center bg-white/20 rounded-full py-2 px-4">
+                    <span className="mr-2">🏢</span>
+                    <span>Business District</span>
+                  </div>
+                  <div className="flex items-center justify-center bg-white/20 rounded-full py-2 px-4">
+                    <span className="mr-2">🛍️</span>
+                    <span>Shopping Centers</span>
+                  </div>
+                  <div className="flex items-center justify-center bg-white/20 rounded-full py-2 px-4">
+                    <span className="mr-2">🏨</span>
+                    <span>Premium Hotels</span>
+                  </div>
+                </div>
+                <p className="text-center mt-6 text-xl font-medium text-pink-100">
+                  VIP companionship services available 24/7 in Surat&apos;s commercial hub
+                </p>
+              </div>
+              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-white/10 rounded-full group-hover:scale-125 transition-transform duration-500"></div>
+            </div>
+
+            {/* Location 2 - Adajan */}
+            <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-purple-400 via-purple-500 to-purple-600 p-8 text-white hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
+              <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-all duration-300"></div>
+              <div className="relative z-10">
+                <div className="text-6xl mb-6 text-center">🏞️</div>
+                <h3 className="text-3xl md:text-4xl font-bold mb-4 text-center">Adajan Gam</h3>
+                <div className="space-y-3 text-lg">
+                  <div className="flex items-center justify-center bg-white/20 rounded-full py-2 px-4">
+                    <span className="mr-2">🏡</span>
+                    <span>Residential Area</span>
+                  </div>
+                  <div className="flex items-center justify-center bg-white/20 rounded-full py-2 px-4">
+                    <span className="mr-2">🌳</span>
+                    <span>Peaceful Environment</span>
+                  </div>
+                  <div className="flex items-center justify-center bg-white/20 rounded-full py-2 px-4">
+                    <span className="mr-2">🚗</span>
+                    <span>Easy Accessibility</span>
+                  </div>
+                </div>
+                <p className="text-center mt-6 text-xl font-medium text-purple-100">
+                  Discreet premium services in Surat&apos;s upscale residential zone
+                </p>
+              </div>
+              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-white/10 rounded-full group-hover:scale-125 transition-transform duration-500"></div>
+            </div>
+
+            {/* Location 3 - City Light */}
+            <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-400 via-indigo-500 to-indigo-600 p-8 text-white hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
+              <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-all duration-300"></div>
+              <div className="relative z-10">
+                <div className="text-6xl mb-6 text-center">✨</div>
+                <h3 className="text-3xl md:text-4xl font-bold mb-4 text-center">City Light</h3>
+                <div className="space-y-3 text-lg">
+                  <div className="flex items-center justify-center bg-white/20 rounded-full py-2 px-4">
+                    <span className="mr-2">🌟</span>
+                    <span>Entertainment Hub</span>
+                  </div>
+                  <div className="flex items-center justify-center bg-white/20 rounded-full py-2 px-4">
+                    <span className="mr-2">🍽️</span>
+                    <span>Fine Dining</span>
+                  </div>
+                  <div className="flex items-center justify-center bg-white/20 rounded-full py-2 px-4">
+                    <span className="mr-2">💎</span>
+                    <span>Luxury Services</span>
+                  </div>
+                </div>
+                <p className="text-center mt-6 text-xl font-medium text-indigo-100">
+                  Elite companion services in Surat&apos;s premium entertainment district
+                </p>
+              </div>
+              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-white/10 rounded-full group-hover:scale-125 transition-transform duration-500"></div>
+            </div>
+          </div>
+
+          {/* Service Features */}
+          <div className="bg-gradient-to-r from-pink-100 via-purple-100 to-indigo-100 rounded-3xl p-8 md:p-12">
+            <h3 className="text-4xl md:text-5xl font-bold text-center bg-gradient-to-r from-pink-600 to-indigo-600 bg-clip-text text-transparent mb-8">
+              🌟 Why Choose Our Location Services?
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="text-center p-6 bg-white/70 rounded-2xl hover:bg-white/90 transition-all duration-300">
+                <div className="text-4xl mb-4">🚗</div>
+                <h4 className="text-xl font-bold text-pink-700 mb-2">Quick Arrival</h4>
+                <p className="text-pink-600">Fast response time across all Surat locations</p>
+              </div>
+              <div className="text-center p-6 bg-white/70 rounded-2xl hover:bg-white/90 transition-all duration-300">
+                <div className="text-4xl mb-4">🔒</div>
+                <h4 className="text-xl font-bold text-purple-700 mb-2">Complete Privacy</h4>
+                <p className="text-purple-600">100% discreet services in all areas</p>
+              </div>
+              <div className="text-center p-6 bg-white/70 rounded-2xl hover:bg-white/90 transition-all duration-300">
+                <div className="text-4xl mb-4">💎</div>
+                <h4 className="text-xl font-bold text-indigo-700 mb-2">Premium Quality</h4>
+                <p className="text-indigo-600">Luxury companions for every location</p>
+              </div>
+              <div className="text-center p-6 bg-white/70 rounded-2xl hover:bg-white/90 transition-all duration-300">
+                <div className="text-4xl mb-4">⭐</div>
+                <h4 className="text-xl font-bold text-pink-700 mb-2">5-Star Service</h4>
+                <p className="text-pink-600">Exceptional experience guaranteed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-sweet-pink-500 to-light-red-600 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
