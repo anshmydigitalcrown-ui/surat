@@ -99,16 +99,17 @@ export default function NanpuraEscorts() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             {services.map((service, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                <div className="relative h-48">
+                <div className="relative h-56 sm:h-64 lg:h-72 bg-gradient-to-br from-yellow-50 to-orange-50">
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-cover"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-contain p-2"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+                    loading={index < 6 ? "eager" : "lazy"}
                   />
                 </div>
                 <div className="p-6">
