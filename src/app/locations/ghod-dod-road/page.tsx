@@ -16,8 +16,26 @@ export default function GhodDodRoadEscorts() {
     { title: "Social Events", image: "/images/services/Social Events.webp", description: "Social event companions on Ghod Dod Road", price: "₹20,000+" },
     { title: "Private Model", image: "/images/services/Private Model.webp", description: "Private model services on Ghod Dod Road", price: "₹29,000+" },
     { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "Russian model companions on main road", price: "₹32,000+" },
-    { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Celebrity look-alike companions", price: "₹28,000+" }
+    { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Celebrity look-alike companions", price: "₹28,000+" },
+    { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young college girl companions on Ghod Dod Road", price: "₹16,000+" },
+    { title: "Housewife", image: "/images/services/Housewife.webp", description: "Mature housewife companions on Ghod Dod Road", price: "₹18,000+" },
+    { title: "In-call Service", image: "/images/services/In-call Service.webp", description: "Comfortable in-call services on Ghod Dod Road", price: "₹17,000+" },
+    { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Professional outcall services on Ghod Dod Road", price: "₹19,000+" },
+    { title: "Party Escort", image: "/images/services/Party Escort.webp", description: "Party escort services on Ghod Dod Road", price: "₹20,000+" },
+    { title: "Special Service", image: "/images/services/Special Service.webp", description: "Specialized escort services on Ghod Dod Road", price: "₹25,000+" },
+    { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Wedding companion services on Ghod Dod Road", price: "₹22,000+" },
+    { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Weekend special companions on Ghod Dod Road", price: "₹21,000+" }
   ];
+
+  // Function to convert service title to URL slug
+  const getServiceSlug = (title: string): string => {
+    return title.toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^\w\-]+/g, '')
+      .replace(/\-\-+/g, '-')
+      .replace(/^-+/, '')
+      .replace(/-+$/, '');
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-rose-50 via-white to-pink-50">
