@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function About() {
   const [activeTab, setActiveTab] = useState('story');
@@ -474,23 +475,23 @@ export default function About() {
             <div className="bg-gradient-to-br from-red-400 to-red-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
               <h3 className="text-xl font-bold mb-2">Varachha</h3>
               <p className="text-red-100 mb-4">Premium escort locations in Varachha area</p>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+              <Link href="/locations/varachha" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Varachha Escorts
-              </button>
+              </Link>
             </div>
             <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
               <h3 className="text-xl font-bold mb-2">Adajan</h3>
               <p className="text-blue-100 mb-4">High-class companions in Adajan locality</p>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+              <Link href="/locations/adajan" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Adajan Escorts
-              </button>
+              </Link>
             </div>
             <div className="bg-gradient-to-br from-green-400 to-green-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
               <h3 className="text-xl font-bold mb-2">Vesu</h3>
               <p className="text-green-100 mb-4">VIP escort locations in Vesu residential area</p>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200">
+              <Link href="/locations/vesu" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Vesu Escorts
-              </button>
+              </Link>
             </div>
 
             {/* Row 2 */}
