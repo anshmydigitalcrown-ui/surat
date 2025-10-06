@@ -887,30 +887,6 @@ export default function Gallery() {
           </div>
         </div>
       </section>
-
-      {/* Call to Action */}
-      <section className="py-20 bg-gradient-to-r from-sweet-pink-500 to-light-red-600 text-white">
-        <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Experience Our Services?</h2>
-          <p className="text-xl mb-8 text-white/90">
-            Contact us today to discuss how we can provide the perfect companion for your next occasion.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="/contact" 
-              className="bg-white text-sweet-pink-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-50 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-            >
-              Book Your Service
-            </a>
-            <a 
-              href="/services" 
-              className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-sweet-pink-600 transition-all duration-300 transform hover:scale-105"
-            >
-              View All Services
-            </a>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

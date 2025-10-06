@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Services() {
@@ -942,30 +941,6 @@ export default function Services() {
                 <p className="text-pink-600">Exceptional experience guaranteed</p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Call to Action */}
-      <section className="py-20 bg-gradient-to-r from-sweet-pink-500 to-light-red-600 text-white">
-        <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Book Your Service?</h2>
-          <p className="text-xl mb-8 text-white/90">
-            Contact us today to discuss your requirements and schedule your preferred service.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
-              href="/contact" 
-              className="bg-white text-sweet-pink-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-50 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-            >
-              Contact Us
-            </Link>
-            <a 
-              href="tel:+91XXXXXXXXX" 
-              className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-sweet-pink-600 transition-all duration-300 transform hover:scale-105"
-            >
-              Call Now
-            </a>
           </div>
         </div>
       </section>

@@ -564,30 +564,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
-      {/* Call to Action */}
-      <section className="py-20 bg-gradient-to-r from-primary-500 to-accent-600 text-white">
-        <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Experience the Difference</h2>
-          <p className="text-xl mb-8 text-pink-100">
-            Discover why we are Surat&apos;s premier choice for sophisticated companion services.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="/contact" 
-              className="bg-white text-primary-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-pink-50 hover-glow transition-all duration-300 transform hover:scale-105"
-            >
-              Get In Touch
-            </a>
-            <a 
-              href="/services" 
-              className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-primary-600 transition-all duration-300 transform hover:scale-105"
-            >
-              View Services
-            </a>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

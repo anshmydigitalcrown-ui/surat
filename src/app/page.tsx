@@ -880,29 +880,6 @@ export default function Home() {
 
 
 
-      {/* Call to Action */}
-      <section className="py-20 bg-gradient-to-r from-pink-800 to-pink-900 text-white">
-        <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">Ready to Experience Luxury?</h2>
-          <p className="text-xl mb-8 text-pink-100">
-            Contact us today to discuss your requirements and schedule a consultation.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
-              href="/contact" 
-              className="bg-red-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-red-700 hover-glow transition-all duration-300 transform hover:scale-105"
-            >
-              Contact Us Now
-            </Link>
-            <Link 
-              href="tel:+91XXXXXXXXX" 
-              className="border-2 border-pink-300 text-pink-100 px-8 py-4 rounded-full font-semibold text-lg hover:bg-pink-700 hover:text-white transition-all duration-300 transform hover:scale-105"
-            >
-              Call Directly
-            </Link>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
