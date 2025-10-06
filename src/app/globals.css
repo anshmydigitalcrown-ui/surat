@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fef2f2;
-  --foreground: #7c2d12;
+  --background: #ffffff;
+  --foreground: #374151;
   --sweet-pink-50: #fef2f2;
   --sweet-pink-100: #fce7e7;
   --sweet-pink-200: #fbbcbc;
@@ -15,16 +15,10 @@
   --light-red-700: #b91c1c;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #1a0606;
-    --foreground: #fef7f7;
-  }
-}
-
+/* Force light mode on all devices */
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: white !important;
+  color: #374151 !important;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
