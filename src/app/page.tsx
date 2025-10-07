@@ -180,8 +180,8 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Service Grid - Larger Cards for Better Visual Impact */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6 lg:gap-8 max-w-7xl mx-auto">
+          {/* Service Grid - 4 Cards Per Row with Larger Images */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8 max-w-7xl mx-auto">
             {[
               { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "Elite companions for exclusive events and occasions", price: "Premium", rating: "4.9" },
               { title: "Social Events", image: "/images/services/Social Events.webp", description: "Perfect companions for social gatherings and parties", price: "Standard", rating: "4.8" },
@@ -209,14 +209,14 @@ export default function Home() {
                 href={`/services/${getServiceSlug(service.title)}`}
                 className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-105 block group"
               >
-                {/* Service Image - Larger Sizes, No Cropping */}
-                <div className="relative h-64 sm:h-72 lg:h-80 xl:h-72 2xl:h-80 bg-gray-50 overflow-hidden">
+                {/* Service Image - Extra Large Sizes, No Cropping */}
+                <div className="relative h-72 sm:h-80 lg:h-96 xl:h-80 bg-gray-50 overflow-hidden">
                   <Image 
                     src={service.image} 
                     alt={`${service.title} - Premium Escort Service in Surat`}
                     fill
                     className="object-contain object-center transition-transform duration-300 group-hover:scale-105"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, (max-width: 1536px) 25vw, 20vw"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
                     loading={index < 8 ? "eager" : "lazy"}
                   />
                 </div>
