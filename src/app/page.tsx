@@ -180,8 +180,8 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Service Grid - Mobile-First Responsive Layout */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 max-w-7xl mx-auto">
+          {/* Service Grid - Larger Cards for Better Visual Impact */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6 lg:gap-8 max-w-7xl mx-auto">
             {[
               { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "Elite companions for exclusive events and occasions", price: "Premium", rating: "4.9" },
               { title: "Social Events", image: "/images/services/Social Events.webp", description: "Perfect companions for social gatherings and parties", price: "Standard", rating: "4.8" },
@@ -207,42 +207,42 @@ export default function Home() {
               <Link
                 key={index}
                 href={`/services/${getServiceSlug(service.title)}`}
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 hover:scale-105 block"
+                className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-105 block group"
               >
-                {/* Service Image - Responsive Heights */}
-                <div className="relative h-48 sm:h-56 lg:h-64 bg-gray-50 overflow-hidden">
+                {/* Service Image - Larger Sizes, No Cropping */}
+                <div className="relative h-64 sm:h-72 lg:h-80 xl:h-72 2xl:h-80 bg-gray-50 overflow-hidden">
                   <Image 
                     src={service.image} 
                     alt={`${service.title} - Premium Escort Service in Surat`}
                     fill
-                    className="object-contain object-center p-2"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+                    className="object-contain object-center transition-transform duration-300 group-hover:scale-105"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, (max-width: 1536px) 25vw, 20vw"
                     loading={index < 8 ? "eager" : "lazy"}
                   />
                 </div>
                 
-                {/* Service Content - Mobile-Optimized */}
-                <div className="p-3 sm:p-4">
-                  <h3 className="text-base sm:text-lg font-semibold text-pink-800 mb-2 line-clamp-2">
+                {/* Service Content - Enhanced Spacing */}
+                <div className="p-5 sm:p-6">
+                  <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 line-clamp-2 group-hover:text-pink-600 transition-colors">
                     {service.title}
                   </h3>
-                  <p className="text-xs sm:text-sm text-pink-600 mb-3 sm:mb-4 line-clamp-3">
+                  <p className="text-sm sm:text-base text-gray-600 mb-4 line-clamp-3 leading-relaxed">
                     {service.description}
                   </p>
                   
-                  {/* Price and Rating - Mobile Optimized */}
-                  <div className="flex items-center justify-between mb-3">
-                    <span className="text-xs sm:text-sm font-medium text-pink-700 bg-pink-100 px-2 py-1 rounded-full">
+                  {/* Price and Rating - Enhanced Design */}
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="text-sm sm:text-base font-semibold text-pink-700 bg-pink-100 px-3 py-1.5 rounded-full">
                       {service.price}
                     </span>
                     <div className="flex items-center">
-                      <span className="text-yellow-400 text-sm">★</span>
-                      <span className="text-xs sm:text-sm text-gray-600 ml-1">{service.rating}</span>
+                      <span className="text-yellow-400 text-lg">★</span>
+                      <span className="text-sm sm:text-base text-gray-700 ml-1 font-medium">{service.rating}</span>
                     </div>
                   </div>
                   
-                  {/* Service Page Button - Mobile Optimized */}
-                  <div className="w-full bg-pink-500 hover:bg-pink-600 text-white py-2 sm:py-3 px-4 rounded-lg font-medium text-xs sm:text-sm transition-colors duration-300 text-center">
+                  {/* Service Page Button - Enhanced Style */}
+                  <div className="w-full bg-gradient-to-r from-pink-500 to-rose-600 hover:from-pink-600 hover:to-rose-700 text-white py-3 sm:py-4 px-4 rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 text-center shadow-lg hover:shadow-xl">
                     View {service.title}
                   </div>
                 </div>
