@@ -2,31 +2,31 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-br from-gray-50 via-white to-pink-50 border-t border-pink-100 relative overflow-hidden">
+    <footer className="bg-gradient-to-br from-rose-400 via-rose-500 to-rose-600 text-white relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-gradient-to-br from-pink-50/50 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-rose-300/30 to-rose-800/20"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-rose-600 rounded-xl flex items-center justify-center shadow-lg">
+              <div className="w-12 h-12 bg-white/20 backdrop-blur-md rounded-xl flex items-center justify-center shadow-lg">
                 <span className="text-white font-bold text-xl">RK</span>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-gray-800">RashmiKapoor</h3>
-                <p className="text-pink-600 font-medium">No.1 Best Escort Service Surat</p>
+                <h3 className="text-2xl font-bold text-white">RashmiKapoor</h3>
+                <p className="text-rose-100 font-medium">No.1 Best Escort Service Surat</p>
               </div>
             </div>
-            <p className="text-gray-600 mb-6 max-w-md leading-relaxed">
+            <p className="text-white/90 mb-6 max-w-md leading-relaxed">
               Experience luxury and elegance with Surat&apos;s premier escort service. 
               We provide sophisticated, professional, and discreet companionship for all occasions.
             </p>
             <div className="flex space-x-4">
               <a 
                 href="#" 
-                className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center hover:shadow-lg transition-all duration-300 hover:scale-110"
+                className="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300 hover:scale-110"
                 aria-label="Facebook"
               >
                 <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -35,7 +35,7 @@ export default function Footer() {
               </a>
               <a 
                 href="#" 
-                className="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center hover:shadow-lg transition-all duration-300 hover:scale-110"
+                className="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300 hover:scale-110"
                 aria-label="Instagram"
               >
                 <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -44,7 +44,7 @@ export default function Footer() {
               </a>
               <a 
                 href="#" 
-                className="w-10 h-10 bg-gradient-to-br from-blue-400 to-blue-500 rounded-full flex items-center justify-center hover:shadow-lg transition-all duration-300 hover:scale-110"
+                className="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300 hover:scale-110"
                 aria-label="Twitter"
               >
                 <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -53,7 +53,7 @@ export default function Footer() {
               </a>
               <a 
                 href="https://wa.me/919876543210" 
-                className="w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center hover:shadow-lg transition-all duration-300 hover:scale-110"
+                className="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300 hover:scale-110"
                 aria-label="WhatsApp"
               >
                 <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -65,30 +65,30 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-gray-800">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-4 text-rose-100">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-gray-600 hover:text-pink-600 transition-colors duration-200 hover:translate-x-1 transform block">
+                <Link href="/" className="text-white/80 hover:text-rose-100 transition-colors duration-200 hover:translate-x-1 transform block">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-600 hover:text-pink-600 transition-colors duration-200 hover:translate-x-1 transform block">
+                <Link href="/about" className="text-white/80 hover:text-rose-100 transition-colors duration-200 hover:translate-x-1 transform block">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-gray-600 hover:text-pink-600 transition-colors duration-200 hover:translate-x-1 transform block">
+                <Link href="/services" className="text-white/80 hover:text-rose-100 transition-colors duration-200 hover:translate-x-1 transform block">
                   Our Services
                 </Link>
               </li>
               <li>
-                <Link href="/gallery" className="text-gray-600 hover:text-pink-600 transition-colors duration-200 hover:translate-x-1 transform block">
+                <Link href="/gallery" className="text-white/80 hover:text-rose-100 transition-colors duration-200 hover:translate-x-1 transform block">
                   Gallery
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-600 hover:text-pink-600 transition-colors duration-200 hover:translate-x-1 transform block">
+                <Link href="/contact" className="text-white/80 hover:text-rose-100 transition-colors duration-200 hover:translate-x-1 transform block">
                   Contact
                 </Link>
               </li>
@@ -97,53 +97,53 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-gray-800">Contact Info</h4>
+            <h4 className="text-lg font-semibold mb-4 text-rose-100">Contact Info</h4>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center">
-                  <svg className="w-4 h-4 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                   </svg>
                 </div>
-                <span className="text-gray-600">Surat, Gujarat, India</span>
+                <span className="text-white/80">Surat, Gujarat, India</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center">
-                  <svg className="w-4 h-4 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                   </svg>
                 </div>
-                <span className="text-gray-600">+91 XXXXX XXXXX</span>
+                <span className="text-white/80">+91 XXXXX XXXXX</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center">
-                  <svg className="w-4 h-4 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                   </svg>
                 </div>
-                <span className="text-gray-600">info@escortsinsurat.com</span>
+                <span className="text-white/80">info@escortsinsurat.com</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center">
-                  <svg className="w-4 h-4 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
+                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                   </svg>
                 </div>
-                <span className="text-gray-600">24/7 Available</span>
+                <span className="text-white/80">24/7 Available</span>
               </div>
             </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-pink-200 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-600 text-sm">
+        <div className="border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-white/80 text-sm">
             © 2024 RashmiKapoor. All rights reserved. | 
-            <Link href="/privacy" className="hover:text-pink-600 ml-1 transition-colors duration-200">Privacy Policy</Link> | 
-            <Link href="/terms" className="hover:text-pink-600 ml-1 transition-colors duration-200">Terms of Service</Link>
+            <Link href="/privacy" className="hover:text-rose-100 ml-1 transition-colors duration-200">Privacy Policy</Link> | 
+            <Link href="/terms" className="hover:text-rose-100 ml-1 transition-colors duration-200">Terms of Service</Link>
           </p>
-          <p className="text-gray-600 text-sm mt-2 md:mt-0">
+          <p className="text-white/80 text-sm mt-2 md:mt-0">
             Made with ❤️ in Surat
           </p>
         </div>
