@@ -148,6 +148,61 @@ body {
   padding: 0;
 }
 
+/* Mobile-Friendly Improvements */
+
+/* Better touch targets for mobile */
+@media (max-width: 768px) {
+  button, a {
+    min-height: 44px;
+  }
+  
+  /* Improved font sizes for readability */
+  html {
+    font-size: 16px;
+  }
+  
+  /* Prevent horizontal scroll */
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Better spacing for mobile */
+  .max-w-7xl {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  /* Optimize images for mobile */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Better card grid spacing */
+  .grid {
+    gap: 1rem !important;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  /* Stack flex items */
+  .flex-col-mobile {
+    flex-direction: column;
+  }
+  
+  /* Full width on mobile */
+  .w-full-mobile {
+    width: 100% !important;
+  }
+  
+  /* Smaller padding on very small screens */
+  section {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+}
+
 /* Custom Animations */
 @keyframes fadeInUp {
   from {

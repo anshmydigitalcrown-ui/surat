@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative min-h-screen bg-gradient-to-br from-pink-50 via-rose-50 to-pink-100 py-20">
+      <section className="relative min-h-screen bg-gradient-to-br from-pink-50 via-rose-50 to-pink-100 py-12 sm:py-20">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-20 w-32 h-32 bg-pink-300 rounded-full blur-xl"></div>
@@ -26,21 +26,21 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[80vh]">
             
             {/* Left Side - Website Description */}
-            <div className="space-y-8 animate-fadeInUp">
+            <div className="space-y-6 sm:space-y-8 animate-fadeInUp order-2 lg:order-1">
               <div className="space-y-4">
-                <div className="flex items-center space-x-3 mb-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-rose-600 rounded-xl flex items-center justify-center shadow-lg">
-                    <span className="text-white font-bold text-xl">RK</span>
+                <div className="flex items-center space-x-3 mb-4 sm:mb-6">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-pink-500 to-rose-600 rounded-xl flex items-center justify-center shadow-lg">
+                    <span className="text-white font-bold text-lg sm:text-xl">RK</span>
                   </div>
                   <div>
-                    <p className="text-pink-600 font-medium text-lg">Premium Escort Service</p>
+                    <p className="text-pink-600 font-medium text-base sm:text-lg">Premium Escort Service</p>
                   </div>
                 </div>
                 
-                <h2 className="text-4xl md:text-6xl font-bold text-gray-800 leading-tight">
+                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
                   Surat&apos;s Most
                   <span className="block bg-gradient-to-r from-pink-500 to-rose-600 bg-clip-text text-transparent">
                     Trusted Companion
@@ -48,44 +48,44 @@ export default function Home() {
                   Service
                 </h2>
                 
-                <p className="text-xl text-gray-700 leading-relaxed max-w-xl">
+                <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed max-w-xl">
                   Experience luxury and sophistication with Surat&apos;s premier escort service. We offer discreet, professional companionship tailored to your needs with complete privacy and elegance.
                 </p>
               </div>
 
               {/* Features List */}
-              <div className="space-y-4">
+              <div className="space-y-3 sm:space-y-4">
                 <div className="flex items-center space-x-3">
-                  <div className="w-6 h-6 bg-gradient-to-r from-pink-500 to-rose-600 rounded-full flex items-center justify-center shadow-md">
+                  <div className="w-6 h-6 bg-gradient-to-r from-pink-500 to-rose-600 rounded-full flex items-center justify-center shadow-md flex-shrink-0">
                     <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                     </svg>
                   </div>
-                  <span className="text-gray-700 text-lg font-medium">24/7 Premium Service Available</span>
+                  <span className="text-gray-700 text-base sm:text-lg font-medium">24/7 Premium Service Available</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-6 h-6 bg-gradient-to-r from-pink-500 to-rose-600 rounded-full flex items-center justify-center shadow-md">
+                  <div className="w-6 h-6 bg-gradient-to-r from-pink-500 to-rose-600 rounded-full flex items-center justify-center shadow-md flex-shrink-0">
                     <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                     </svg>
                   </div>
-                  <span className="text-gray-700 text-lg font-medium">Complete Discretion & Privacy</span>
+                  <span className="text-gray-700 text-base sm:text-lg font-medium">Complete Discretion & Privacy</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-6 h-6 bg-gradient-to-r from-pink-500 to-rose-600 rounded-full flex items-center justify-center shadow-md">
+                  <div className="w-6 h-6 bg-gradient-to-r from-pink-500 to-rose-600 rounded-full flex items-center justify-center shadow-md flex-shrink-0">
                     <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                     </svg>
                   </div>
-                  <span className="text-gray-700 text-lg font-medium">Professional & Sophisticated</span>
+                  <span className="text-gray-700 text-base sm:text-lg font-medium">Professional & Sophisticated</span>
                 </div>
               </div>
 
               {/* Action Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-4">
                 <Link 
                   href="/contact" 
-                  className="relative bg-gradient-to-r from-pink-500 via-pink-600 to-rose-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-center overflow-hidden group"
+                  className="relative bg-gradient-to-r from-pink-500 via-pink-600 to-rose-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-center overflow-hidden group"
                 >
                   <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-rose-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <span className="relative z-10">Book Consultation</span>
@@ -95,7 +95,7 @@ export default function Home() {
                   href="https://wa.me/919876543210"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="relative border-2 border-green-500 text-green-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-green-500 hover:text-white transition-all duration-300 text-center flex items-center justify-center space-x-2 group shadow-lg hover:shadow-xl"
+                  className="relative border-2 border-green-500 text-green-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-green-500 hover:text-white transition-all duration-300 text-center flex items-center justify-center space-x-2 group shadow-lg hover:shadow-xl"
                 >
                   <svg className="w-5 h-5 transition-transform group-hover:scale-110" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.085"/>
@@ -106,19 +106,19 @@ export default function Home() {
             </div>
 
             {/* Right Side - Image Card */}
-            <div className="relative animate-fadeInUp" style={{animationDelay: '0.3s'}}>
+            <div className="relative animate-fadeInUp order-1 lg:order-2" style={{animationDelay: '0.3s'}}>
               {/* Image Name Above Container */}
-              <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent mb-2">
+              <div className="text-center mb-4 sm:mb-6">
+                <h3 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent mb-2">
                   RashmiKapoor
                 </h3>
-                <p className="text-red-600 font-medium">Premium Escort Service</p>
+                <p className="text-red-600 font-medium text-sm sm:text-base">Premium Escort Service</p>
               </div>
               
-              <div className="relative">
+              <div className="relative max-w-md mx-auto lg:max-w-none">
                 {/* Main Image Card */}
-                <div className="bg-gradient-to-br from-sweet-pink-200 via-sweet-pink-300 to-light-red-200 rounded-3xl shadow-2xl overflow-hidden transform rotate-3 hover:rotate-0 transition-transform duration-500 p-3">
-                  <div className="bg-white rounded-2xl overflow-hidden shadow-inner">
+                <div className="bg-gradient-to-br from-sweet-pink-200 via-sweet-pink-300 to-light-red-200 rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden transform rotate-2 hover:rotate-0 transition-transform duration-500 p-2 sm:p-3">
+                  <div className="bg-white rounded-xl sm:rounded-2xl overflow-hidden shadow-inner">
                     <div className="aspect-[3/4] relative bg-gradient-to-br from-gray-100 to-gray-200">
                       {/* Hero Image */}
                       <Image 
@@ -135,32 +135,32 @@ export default function Home() {
                       <div className="absolute inset-0 bg-gradient-to-t from-black/5 via-transparent to-transparent"></div>
                       
                       {/* Content Overlay */}
-                      <div className="absolute bottom-4 left-4 right-4 text-white">
-                        <div className="bg-black/30 backdrop-blur-sm rounded-lg px-3 py-2">
-                          <h3 className="text-lg font-bold mb-1 drop-shadow-lg">Available Now</h3>
+                      <div className="absolute bottom-2 sm:bottom-4 left-2 sm:left-4 right-2 sm:right-4 text-white">
+                        <div className="bg-black/30 backdrop-blur-sm rounded-lg px-2 sm:px-3 py-1.5 sm:py-2">
+                          <h3 className="text-base sm:text-lg font-bold mb-0.5 sm:mb-1 drop-shadow-lg">Available Now</h3>
                           <p className="text-xs opacity-90 drop-shadow-lg">Professional Service</p>
                         </div>
                       </div>
                       
                       {/* Decorative Elements */}
-                      <div className="absolute top-3 right-3 w-2 h-2 bg-white/40 rounded-full"></div>
-                      <div className="absolute top-6 right-6 w-1.5 h-1.5 bg-white/30 rounded-full"></div>
-                      <div className="absolute bottom-16 left-4 w-3 h-3 bg-white/20 rounded-full"></div>
+                      <div className="absolute top-2 sm:top-3 right-2 sm:right-3 w-2 h-2 bg-white/40 rounded-full"></div>
+                      <div className="absolute top-4 sm:top-6 right-4 sm:right-6 w-1.5 h-1.5 bg-white/30 rounded-full"></div>
+                      <div className="absolute bottom-12 sm:bottom-16 left-2 sm:left-4 w-3 h-3 bg-white/20 rounded-full"></div>
                     </div>
                   </div>
                 </div>
 
                 {/* Floating Badge */}
-                <div className="absolute -top-4 -right-4 bg-red-600 text-white px-6 py-3 rounded-2xl shadow-lg transform rotate-12 z-10">
+                <div className="absolute -top-2 sm:-top-4 -right-2 sm:-right-4 bg-red-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-xl sm:rounded-2xl shadow-lg transform rotate-12 z-10">
                   <div className="text-center">
-                    <div className="text-2xl font-bold">No.1</div>
+                    <div className="text-xl sm:text-2xl font-bold">No.1</div>
                     <div className="text-xs">In Surat</div>
                   </div>
                 </div>
 
                 {/* Background Decoration */}
-                <div className="absolute -z-10 -top-8 -left-8 w-32 h-32 bg-sweet-pink-200 rounded-full opacity-50"></div>
-                <div className="absolute -z-10 -bottom-6 -right-6 w-24 h-24 bg-light-red-200 rounded-full opacity-40"></div>
+                <div className="absolute -z-10 -top-4 sm:-top-8 -left-4 sm:-left-8 w-24 sm:w-32 h-24 sm:h-32 bg-sweet-pink-200 rounded-full opacity-50"></div>
+                <div className="absolute -z-10 -bottom-4 sm:-bottom-6 -right-4 sm:-right-6 w-20 sm:w-24 h-20 sm:h-24 bg-light-red-200 rounded-full opacity-40"></div>
               </div>
             </div>
             
@@ -169,19 +169,19 @@ export default function Home() {
       </section>
 
       {/* Service Cards Section */}
-      <section className="py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
+      <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-sweet-pink-50 via-white to-light-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-pink-700 to-pink-900 bg-clip-text text-transparent mb-6">
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black bg-gradient-to-r from-pink-700 to-pink-900 bg-clip-text text-transparent mb-4 sm:mb-6">
               Premium Escorts In Surat - Our Services
             </h2>
-            <p className="text-xl md:text-2xl text-pink-800 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg sm:text-xl md:text-2xl text-pink-800 max-w-3xl mx-auto leading-relaxed px-4">
               Professional Call Girls & VIP Companions Available 24/7
             </p>
           </div>
 
           {/* Service Grid - 4 Cards Per Row with Larger Images */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 max-w-7xl mx-auto">
             {[
               { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "Elite companions for exclusive events and occasions", price: "Premium", rating: "4.9" },
               { title: "Social Events", image: "/images/services/Social Events.webp", description: "Perfect companions for social gatherings and parties", price: "Standard", rating: "4.8" },
