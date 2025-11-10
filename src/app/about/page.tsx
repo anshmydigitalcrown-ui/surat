@@ -33,8 +33,8 @@ export default function About() {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-orange-500 via-pink-500 to-pink-600 bg-clip-text text-transparent">About Us</h1>
-          <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto animate-fadeInUp">
-            Discover our commitment to excellence, discretion, and luxury companionship services in Surat.
+          <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto animate-fadeInUp leading-relaxed">
+            Where <span className="font-semibold text-pink-600">sophistication</span> meets <span className="font-semibold text-orange-500">exclusivity</span> — experience unparalleled elegance, absolute discretion, and bespoke luxury companionship services in the heart of Surat.
           </p>
         </div>
         
