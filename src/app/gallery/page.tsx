@@ -115,12 +115,12 @@ export default function Gallery() {
                 className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:scale-105"
               >
                 {/* Service Image Container */}
-                <div className="relative aspect-[3/4] bg-gradient-to-br from-gray-50 to-gray-100 overflow-hidden">
+                <div className="relative w-full" style={{ paddingBottom: '133.33%' }}>
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-cover transition-transform duration-300 hover:scale-105"
+                    className="object-contain p-2 transition-transform duration-300"
                     sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 25vw, 20vw"
                   />
                 </div>
