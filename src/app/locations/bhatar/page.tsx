@@ -144,12 +144,12 @@ export default function BhatarEscorts() {
                 key={index}
                 className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:scale-105"
               >
-                <div className="relative h-64">
+                <div className="relative aspect-[3/4]">
                   <Image
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-cover"
+                    className="object-contain"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                 </div>
