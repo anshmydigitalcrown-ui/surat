@@ -11,7 +11,7 @@ export default function VarachhaEscorts() {
  { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: " hotel escort services in Varachha area", price: "₹18,000+", rating: "4.6" },
  { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Travel companion services from Varachha", price: "₹22,000+", rating: "5.0" },
  { title: " Call Girl", image: "/images/services/ Call Girl.webp", description: "High-class call girl services in Varachha", price: "₹20,000+", rating: "4.9" },
- { title: "Call Girls", image: "/images/services/Call Girls.webp", description: "Professional Call Girls companions in Varachha", price: "₹24,000+", rating: "4.9" },
+ { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Varachha", price: "₹24,000+", rating: "4.9" },
  { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Corporate event companions in Varachha business district", price: "₹21,000+", rating: "4.8" },
  { title: "Private Model", image: "/images/services/Private Model.webp", description: "Exclusive private model services in Varachha", price: "₹28,000+", rating: "4.9" },
  { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "International Russian model companions in Varachha", price: "₹30,000+", rating: "5.0" },
@@ -350,7 +350,7 @@ export default function VarachhaEscorts() {
  </div>
  <div className="bg-white p-4 rounded-lg shadow-md border border-red-100">
  <h4 className="font-semibold text-red-700 mb-2">🌟 Russian Model Escorts</h4>
- <p className="text-sm text-gray-600">International models and Call Girls escorts in Varachha</p>
+ <p className="text-sm text-gray-600">International models and air hostess escorts in Varachha</p>
  </div>
  </div>
  </div>
@@ -441,7 +441,7 @@ export default function VarachhaEscorts() {
  <h3 className="text-3xl font-bold text-red-600 mt-10 mb-6">Comprehensive Escort Services in Varachha</h3>
 
  <p className="text-gray-700 leading-relaxed mb-6">
- Our <strong>Varachha escort service</strong> provides an extensive array of companionship options designed to satisfy diverse tastes and occasions. We maintain rigorous quality standards, ensuring every client receives an unforgettable and gratifying experience. From sophisticated VIP companions to charming college girl escorts, professional Call Girlses to elegant housewife companions, our diverse portfolio includes professionals with various backgrounds, specializations, and expertise levels to match your specific desires. Each companion is carefully selected based on beauty, intelligence, personality, and professional service capabilities.
+ Our <strong>Varachha escort service</strong> provides an extensive array of companionship options designed to satisfy diverse tastes and occasions. We maintain rigorous quality standards, ensuring every client receives an unforgettable and gratifying experience. From sophisticated VIP companions to charming college girl escorts, professional air hostesses to elegant housewife companions, our diverse portfolio includes professionals with various backgrounds, specializations, and expertise levels to match your specific desires. Each companion is carefully selected based on beauty, intelligence, personality, and professional service capabilities.
  </p>
 
  <h4 className="text-2xl font-bold text-red-600 mt-8 mb-4"> In-Call Services</h4>

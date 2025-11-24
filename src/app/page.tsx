@@ -192,7 +192,7 @@ export default function Home() {
  { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Companions resembling famous personalities", price: "", rating: "4.8" },
  { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young and vibrant companions", price: "Standard", rating: "4.7" },
  { title: "Housewife", image: "/images/services/Housewife.webp", description: "Mature and experienced companions", price: "Standard", rating: "4.8" },
- { title: "Call Girls", image: "/images/services/Call Girls.webp", description: "Professional airline crew companions", price: "", rating: "4.9" },
+ { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional airline crew companions", price: "", rating: "4.9" },
  { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "International model companions", price: "Luxury", rating: "5.0" },
  { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Business event support and networking", price: "", rating: "4.8" },
  { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Elegant companions for wedding events", price: "", rating: "4.7" },

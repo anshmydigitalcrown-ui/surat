@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function callgirlsService() {
+export default function AirHostessService() {
  const serviceFeatures = [
  "Professional airline industry experience",
  "Elegant appearance and sophisticated manner",
@@ -39,7 +39,7 @@ export default function callgirlsService() {
  <span className="text-5xl">✈️</span>
  </div>
  </div>
- <h1 className="text-5xl md:text-7xl font-bold mb-6">Call Girls Service</h1>
+ <h1 className="text-5xl md:text-7xl font-bold mb-6">Air Hostess Service</h1>
  <p className="text-xl md:text-2xl text-sky-100 max-w-3xl mx-auto">
  Professional companions with airline industry experience, bringing sophistication and elegance to your special occasions
  </p>
@@ -51,9 +51,9 @@ export default function callgirlsService() {
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
  <div>
- <h2 className="text-4xl font-bold text-gray-800 mb-6">Professional Call Girls Companions</h2>
+ <h2 className="text-4xl font-bold text-gray-800 mb-6">Professional Air Hostess Companions</h2>
  <p className="text-lg text-gray-700 leading-relaxed mb-8">
- Our Call Girls companions bring the highest levels of professionalism and sophistication to any occasion. 
+ Our air hostess companions bring the highest levels of professionalism and sophistication to any occasion. 
  With genuine airline industry experience and extensive training in hospitality and customer service, they 
  provide an unmatched level of elegance and grace.
  </p>
@@ -72,8 +72,8 @@ export default function callgirlsService() {
  <div className="relative">
  <div className="aspect-w-4 aspect-h-5 rounded-3xl overflow-hidden shadow-2xl">
  <Image
- src="/images/services/Call Girls.webp"
- alt="Professional Call Girls Service in Surat"
+ src="/images/services/Air Hostess.webp"
+ alt="Professional Air Hostess Service in Surat"
  width={600}
  height={750}
  className="w-full h-full object-contain bg-gradient-to-br from-blue-100 to-sky-100"
@@ -135,8 +135,8 @@ export default function callgirlsService() {
 
  {/* Call to Action */}
  <div className="text-center bg-gradient-to-r from-blue-500 to-sky-600 rounded-3xl p-12 text-white">
- <h3 className="text-3xl font-bold mb-6">Ready to Book Call Girls Service?</h3>
- <p className="text-xl mb-8 text-blue-100">Experience professional companionship with our trained Call Girls companions</p>
+ <h3 className="text-3xl font-bold mb-6">Ready to Book Air Hostess Service?</h3>
+ <p className="text-xl mb-8 text-blue-100">Experience professional companionship with our trained air hostess companions</p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <Link href="/contact" className="bg-white text-blue-600 px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-50 transition-all duration-300 transform hover:scale-105">
  Book Now
@@ -153,13 +153,13 @@ export default function callgirlsService() {
  <section className="py-20 bg-white">
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  <div className="prose prose-lg max-w-none">
- <h2 className="text-4xl font-bold text-blue-700 mb-8">Discover Call Girls Escort Service in Surat - Luxury Companionship Redefined</h2>
+ <h2 className="text-4xl font-bold text-blue-700 mb-8">Discover Air Hostess Escort Service in Surat - Luxury Companionship Redefined</h2>
 
  <p className="text-gray-700 leading-relaxed mb-6">
- Welcome to Surat&apos;s most trusted <strong>air-hostess-escort-service</strong>, where exceptional quality meets absolute discretion. Our Call Girls service represents the finest in professional companionship, carefully designed for discerning clients who appreciate excellence, sophistication, and personalized attention. Whether you&apos;re seeking companionship for special occasions, intimate encounters, or simply desire the pleasure of beautiful company, our <strong>air-hostess-escort-service in Surat</strong> delivers unforgettable experiences that exceed your highest expectations.
+ Welcome to Surat&apos;s most trusted <strong>air-hostess-escort-service</strong>, where exceptional quality meets absolute discretion. Our air hostess service represents the finest in professional companionship, carefully designed for discerning clients who appreciate excellence, sophistication, and personalized attention. Whether you&apos;re seeking companionship for special occasions, intimate encounters, or simply desire the pleasure of beautiful company, our <strong>air-hostess-escort-service in Surat</strong> delivers unforgettable experiences that exceed your highest expectations.
  </p>
 
- <h3 className="text-3xl font-bold text-blue-600 mt-10 mb-6">Why Choose Our Call Girls Escort Service</h3>
+ <h3 className="text-3xl font-bold text-blue-600 mt-10 mb-6">Why Choose Our Air Hostess Escort Service</h3>
 
  <p className="text-gray-700 leading-relaxed mb-6">
  Our <strong>air-hostess-escort-service</strong> stands out through unwavering commitment to quality, professionalism, and client satisfaction. Professional companions with airline industry experience bringing sophistication and elegance. Each companion in our exclusive collection has been carefully selected based on beauty, personality, intelligence, and professional service capabilities. We maintain the highest standards of verification, ensuring every escort meets our rigorous quality requirements. Our companions understand the importance of discretion, respect, and creating genuine connections that make every moment memorable.
@@ -169,7 +169,7 @@ export default function callgirlsService() {
  What distinguishes our <strong>air-hostess-escort-service in Surat</strong> is our dedication to personalized experiences. We understand that every client has unique preferences, desires, and expectations. Our professional booking team takes time to understand your specific requirements, recommending companions who perfectly match your preferences. From initial contact through your entire experience, we ensure seamless service, absolute confidentiality, and complete satisfaction. Our 24/7 availability means you can access companionship whenever you desire.
  </p>
 
- <h3 className="text-3xl font-bold text-blue-600 mt-10 mb-6">Comprehensive Call Girls Services</h3>
+ <h3 className="text-3xl font-bold text-blue-600 mt-10 mb-6">Comprehensive Air Hostess Services</h3>
 
  <p className="text-gray-700 leading-relaxed mb-6">
  Our <strong>air-hostess-escort-service</strong> encompasses a wide range of companionship options designed to fulfill diverse needs and occasions. Whether you require a companion for social events, business functions, romantic dinners, private meetings, or extended companionship, we provide flexible services tailored to your situation. Each service is customized to reflect your personal preferences, ensuring experiences that feel perfectly suited to your desires and circumstances.
@@ -185,7 +185,7 @@ export default function callgirlsService() {
  For maximum convenience and privacy, our <strong>air-hostess-escort-service</strong> offers outcall services where companions come directly to your preferred location. Whether you&apos;re at a luxury hotel, private residence, or any other venue across Surat, our escorts arrive promptly, elegantly presented, and ready to provide exceptional companionship. Outcall services are particularly popular among business travelers and clients who value the comfort and privacy of their own environment.
  </p>
 
- <h3 className="text-3xl font-bold text-blue-600 mt-10 mb-6">Our Exceptional Call Girls Companions</h3>
+ <h3 className="text-3xl font-bold text-blue-600 mt-10 mb-6">Our Exceptional Air Hostess Companions</h3>
 
  <p className="text-gray-700 leading-relaxed mb-6">
  The companions representing our <strong>air-hostess-escort-service in Surat</strong> are truly exceptional individuals. Each escort brings unique qualities, personality, and specializations that cater to diverse client preferences. Our selection process is thorough and comprehensive, ensuring only the most beautiful, intelligent, and professional companions join our exclusive roster. We verify identities, conduct background checks, and maintain regular health screenings to guarantee safety and quality. Our companions range from college students to professional models, mature housewives to international beauties, ensuring we can match you with your ideal companion.
@@ -251,12 +251,12 @@ export default function callgirlsService() {
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  <div className="text-center mb-16">
  <h2 className="text-4xl md:text-5xl font-bold text-blue-700 mb-4">Frequently Asked Questions</h2>
- <p className="text-xl text-gray-600">Common questions about Call Girls escort service</p>
+ <p className="text-xl text-gray-600">Common questions about air hostess escort service</p>
  </div>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
  <div className="space-y-6">
  <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
- <h3 className="text-xl font-bold text-blue-700 mb-3">How do I book Call Girls escort service?</h3>
+ <h3 className="text-xl font-bold text-blue-700 mb-3">How do I book air hostess escort service?</h3>
  <p className="text-gray-600">You can book through our website, WhatsApp, or phone call. Browse our gallery, select your preferred companion, and contact our booking team. We handle all arrangements with complete discretion and professionalism. Available 24/7.</p>
  </div>
 

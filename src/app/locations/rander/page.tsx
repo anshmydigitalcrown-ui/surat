@@ -12,7 +12,7 @@ export default function RanderEscorts() {
  { title: " Call Girl", image: "/images/services/ Call Girl.webp", description: " call girl services in Rander", price: "₹21,000+", rating: "4.9" },
  { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companionship for Rander riverside experiences", price: "₹26,000+", rating: "4.9" },
  { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young college girl companions in Rander", price: "₹15,000+", rating: "4.7" },
- { title: "Call Girls", image: "/images/services/Call Girls.webp", description: "Professional Call Girls companions in Rander", price: "₹24,000+", rating: "4.9" },
+ { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Rander", price: "₹24,000+", rating: "4.9" },
  { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Business meeting companions in Rander", price: "₹20,000+", rating: "4.9" },
  { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "Russian model escorts in Rander", price: "₹28,000+", rating: "5.0" },
  { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Wedding escort services in Rander", price: "₹22,000+", rating: "4.7" },
@@ -364,7 +364,7 @@ export default function RanderEscorts() {
  <h3 className="text-3xl font-bold text-red-600 mt-10 mb-6">Comprehensive Escort Services in Rander</h3>
 
  <p className="text-gray-700 leading-relaxed mb-6">
- Our <strong>Rander escort service</strong> provides an extensive array of companionship options designed to satisfy diverse tastes and occasions. We maintain rigorous quality standards, ensuring every client receives an unforgettable and gratifying experience. From sophisticated VIP companions to charming college girl escorts, professional Call Girlses to elegant housewife companions, our diverse portfolio includes professionals with various backgrounds, specializations, and expertise levels to match your specific desires.
+ Our <strong>Rander escort service</strong> provides an extensive array of companionship options designed to satisfy diverse tastes and occasions. We maintain rigorous quality standards, ensuring every client receives an unforgettable and gratifying experience. From sophisticated VIP companions to charming college girl escorts, professional air hostesses to elegant housewife companions, our diverse portfolio includes professionals with various backgrounds, specializations, and expertise levels to match your specific desires.
  </p>
 
  <h4 className="text-2xl font-bold text-red-600 mt-8 mb-4"> In-Call Services</h4>
