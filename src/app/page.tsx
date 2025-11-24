@@ -749,6 +749,32 @@ export default function Home() {
                   <p className="text-sm md:text-base leading-relaxed">Our service charges vary based on the type of service, duration, and specific requirements. Please contact us directly for detailed pricing information and package options.</p>
                 </div>
               </details>
+
+              {/* FAQ Item 9 */}
+              <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
+                <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
+                  <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">Can I choose my companion?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-4 md:px-6 pb-4 md:pb-6 text-gray-700">
+                  <p className="text-sm md:text-base leading-relaxed">Yes, you can browse our gallery and select your preferred companion based on your preferences. We strive to match you with companions that meet your specific requirements.</p>
+                </div>
+              </details>
+
+              {/* FAQ Item 10 */}
+              <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
+                <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
+                  <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">What payment methods do you accept?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-4 md:px-6 pb-4 md:pb-6 text-gray-700">
+                  <p className="text-sm md:text-base leading-relaxed">We accept multiple payment methods including cash, online transfers, and digital payment platforms. Payment details and preferred methods will be discussed during the booking confirmation.</p>
+                </div>
+              </details>
             </div>
 
             {/* Right Column */}
@@ -802,6 +828,32 @@ export default function Home() {
                 </summary>
                 <div className="px-4 md:px-6 pb-4 md:pb-6 text-gray-700">
                   <p className="text-sm md:text-base leading-relaxed">Yes, we can assist with hotel bookings and venue arrangements to ensure a comfortable and convenient experience. Our team can recommend suitable locations based on your preferences.</p>
+                </div>
+              </details>
+
+              {/* FAQ Item 11 */}
+              <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
+                <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
+                  <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">How far in advance should I book?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-4 md:px-6 pb-4 md:pb-6 text-gray-700">
+                  <p className="text-sm md:text-base leading-relaxed">While we accept same-day bookings subject to availability, we recommend booking at least 2-4 hours in advance to ensure your preferred companion is available and to allow proper arrangements.</p>
+                </div>
+              </details>
+
+              {/* FAQ Item 12 */}
+              <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
+                <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
+                  <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">Do you offer outcall and incall services?</h3>
+                  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="px-4 md:px-6 pb-4 md:pb-6 text-gray-700">
+                  <p className="text-sm md:text-base leading-relaxed">Yes, we provide both outcall services where our companions visit your location, and incall services at pre-arranged safe and comfortable venues. Choose the option that best suits your needs.</p>
                 </div>
               </details>
             </div>
