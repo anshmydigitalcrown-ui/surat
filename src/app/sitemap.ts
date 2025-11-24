@@ -42,10 +42,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'new-civil-hospital-road'
   ]
 
-  // All 20 Service pages
+  // All 21 Service pages
   const services = [
     'air-hostess',
     'business-meetings',
+    'call-girl',
     'celebrity-look-alike',
     'college-girl',
     'corporate-event',
