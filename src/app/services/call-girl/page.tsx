@@ -69,11 +69,11 @@ export default function CallGirlsService() {
  </div>
  </div>
 
- <div className="relative">
+         <div className="relative">
  <div className="aspect-w-4 aspect-h-5 rounded-3xl overflow-hidden shadow-2xl">
  <Image
- src="/images/services/Air Hostess.webp"
- alt="Professional Air Hostess Service in Surat"
+ src="/images/services/Call Girl.webp"
+ alt="Professional Call Girl Service in Surat"
  width={600}
  height={750}
  className="w-full h-full object-contain bg-gradient-to-br from-blue-100 to-sky-100"
