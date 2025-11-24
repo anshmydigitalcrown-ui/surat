@@ -276,22 +276,31 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Row 1 */}
-            <div className="bg-gradient-to-br from-red-400 to-red-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Varachha</h3>
+            <div className="bg-gradient-to-br from-red-400 to-red-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Varachha</h3>
+                <span className="text-3xl">🏪</span>
+              </div>
               <p className="text-red-100 mb-4">Premium escort locations in Varachha area</p>
               <Link href="/locations/varachha" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Varachha Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Adajan</h3>
+            <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Adajan</h3>
+                <span className="text-3xl">🏘️</span>
+              </div>
               <p className="text-blue-100 mb-4">High-class companions in Adajan locality</p>
               <Link href="/locations/adajan" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Adajan Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-green-400 to-green-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Vesu</h3>
+            <div className="bg-gradient-to-br from-green-400 to-green-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Vesu</h3>
+                <span className="text-3xl">🏢</span>
+              </div>
               <p className="text-green-100 mb-4">VIP escort locations in Vesu residential area</p>
               <Link href="/locations/vesu" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Vesu Escorts
@@ -299,22 +308,31 @@ export default function Home() {
             </div>
 
             {/* Row 2 */}
-            <div className="bg-gradient-to-br from-purple-400 to-purple-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Citylight</h3>
+            <div className="bg-gradient-to-br from-purple-400 to-purple-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Citylight</h3>
+                <span className="text-3xl">🎉</span>
+              </div>
               <p className="text-purple-100 mb-4">Professional companions in Citylight area</p>
               <Link href="/locations/citylight" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Citylight Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-pink-400 to-pink-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Althan</h3>
+            <div className="bg-gradient-to-br from-pink-400 to-pink-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Althan</h3>
+                <span className="text-3xl">🏞️</span>
+              </div>
               <p className="text-pink-100 mb-4">Elite escort locations in Althan locality</p>
               <Link href="/locations/althan" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Althan Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Piplod</h3>
+            <div className="bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Piplod</h3>
+                <span className="text-3xl">🏢</span>
+              </div>
               <p className="text-indigo-100 mb-4">Luxury companions in Piplod commercial area</p>
               <Link href="/locations/piplod" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Piplod Escorts
@@ -322,22 +340,31 @@ export default function Home() {
             </div>
 
             {/* Row 3 */}
-            <div className="bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Udhna</h3>
+            <div className="bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Udhna</h3>
+                <span className="text-3xl">🏭</span>
+              </div>
               <p className="text-orange-100 mb-4">Premium locations in Udhna industrial area</p>
               <Link href="/locations/udhna" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Udhna Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-teal-400 to-teal-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Athwa</h3>
+            <div className="bg-gradient-to-br from-teal-400 to-teal-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Athwa</h3>
+                <span className="text-3xl">🏛️</span>
+              </div>
               <p className="text-teal-100 mb-4">High-end escort locations in Athwa</p>
               <Link href="/locations/athwa" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Athwa Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Rander</h3>
+            <div className="bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Rander</h3>
+                <span className="text-3xl">🌊</span>
+              </div>
               <p className="text-yellow-100 mb-4">Quality companions in Rander area</p>
               <Link href="/locations/rander" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Rander Escorts
@@ -345,22 +372,31 @@ export default function Home() {
             </div>
 
             {/* Row 4 */}
-            <div className="bg-gradient-to-br from-rose-400 to-rose-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Ghod Dod Road</h3>
+            <div className="bg-gradient-to-br from-rose-400 to-rose-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Ghod Dod Road</h3>
+                <span className="text-3xl">🛣️</span>
+              </div>
               <p className="text-rose-100 mb-4">VIP locations on Ghod Dod Road</p>
               <Link href="/locations/ghod-dod-road" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Ghod Dod Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Ring Road</h3>
+            <div className="bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Ring Road</h3>
+                <span className="text-3xl">🛜️</span>
+              </div>
               <p className="text-cyan-100 mb-4">Professional escorts near Ring Road</p>
               <Link href="/locations/ring-road" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Ring Road Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-violet-400 to-violet-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Nanpura</h3>
+            <div className="bg-gradient-to-br from-violet-400 to-violet-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Nanpura</h3>
+                <span className="text-3xl">🏙️</span>
+              </div>
               <p className="text-violet-100 mb-4">Elite companions in Nanpura city center</p>
               <Link href="/locations/nanpura" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Nanpura Escorts
@@ -368,22 +404,31 @@ export default function Home() {
             </div>
 
             {/* Row 5 */}
-            <div className="bg-gradient-to-br from-lime-400 to-lime-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Majura Gate</h3>
+            <div className="bg-gradient-to-br from-lime-400 to-lime-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Majura Gate</h3>
+                <span className="text-3xl">🏛️</span>
+              </div>
               <p className="text-lime-100 mb-4">Premium companions near Majura Gate</p>
               <Link href="/locations/majura-gate" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Majura Gate Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-amber-400 to-amber-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Pal</h3>
+            <div className="bg-gradient-to-br from-amber-400 to-amber-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Pal</h3>
+                <span className="text-3xl">🏡</span>
+              </div>
               <p className="text-amber-100 mb-4">VIP escort services in Pal area</p>
               <Link href="/locations/pal" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Pal Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Katargam</h3>
+            <div className="bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Katargam</h3>
+                <span className="text-3xl">🏭</span>
+              </div>
               <p className="text-emerald-100 mb-4">Luxury companions in Katargam locality</p>
               <Link href="/locations/katargam" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Katargam Escorts
@@ -391,22 +436,31 @@ export default function Home() {
             </div>
 
             {/* Row 6 */}
-            <div className="bg-gradient-to-br from-sky-400 to-sky-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Sagrampura</h3>
+            <div className="bg-gradient-to-br from-sky-400 to-sky-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Sagrampura</h3>
+                <span className="text-3xl">🏘️</span>
+              </div>
               <p className="text-sky-100 mb-4">Professional escorts in Sagrampura</p>
               <Link href="/locations/sagrampura" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Sagrampura Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-fuchsia-400 to-fuchsia-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Mota Varachha</h3>
+            <div className="bg-gradient-to-br from-fuchsia-400 to-fuchsia-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Mota Varachha</h3>
+                <span className="text-3xl">🌹</span>
+              </div>
               <p className="text-fuchsia-100 mb-4">Elite companions in Mota Varachha</p>
               <Link href="/locations/mota-varachha" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Mota Varachha Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-red-500 to-red-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Magdalla</h3>
+            <div className="bg-gradient-to-br from-red-500 to-red-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Magdalla</h3>
+                <span className="text-3xl">🏭</span>
+              </div>
               <p className="text-red-100 mb-4">Premium services in Magdalla port area</p>
               <Link href="/locations/magdalla" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Magdalla Escorts
@@ -414,22 +468,31 @@ export default function Home() {
             </div>
 
             {/* Row 7 */}
-            <div className="bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Dumas Road</h3>
+            <div className="bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Dumas Road</h3>
+                <span className="text-3xl">🏖️</span>
+              </div>
               <p className="text-blue-100 mb-4">Beachside companions on Dumas Road</p>
               <Link href="/locations/dumas-road" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Dumas Road Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-green-500 to-green-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Someshwara</h3>
+            <div className="bg-gradient-to-br from-green-500 to-green-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Someshwara</h3>
+                <span className="text-3xl">🛕</span>
+              </div>
               <p className="text-green-100 mb-4">High-class escorts in Someshwara</p>
               <Link href="/locations/someshwara" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Someshwara Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-purple-500 to-purple-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Kamrej</h3>
+            <div className="bg-gradient-to-br from-purple-500 to-purple-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Kamrej</h3>
+                <span className="text-3xl">🌾</span>
+              </div>
               <p className="text-purple-100 mb-4">Professional companions in Kamrej area</p>
               <Link href="/locations/kamrej" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Kamrej Escorts
@@ -437,22 +500,31 @@ export default function Home() {
             </div>
 
             {/* Row 8 */}
-            <div className="bg-gradient-to-br from-pink-500 to-pink-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Bhatar</h3>
+            <div className="bg-gradient-to-br from-pink-500 to-pink-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Bhatar</h3>
+                <span className="text-3xl">🎓</span>
+              </div>
               <p className="text-pink-100 mb-4">VIP companions in Bhatar locality</p>
               <Link href="/locations/bhatar" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Bhatar Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-indigo-500 to-indigo-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">Pandesara</h3>
+            <div className="bg-gradient-to-br from-indigo-500 to-indigo-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">Pandesara</h3>
+                <span className="text-3xl">🏭</span>
+              </div>
               <p className="text-indigo-100 mb-4">Luxury escorts in Pandesara industrial hub</p>
               <Link href="/locations/pandesara" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Pandesara Escorts
               </Link>
             </div>
-            <div className="bg-gradient-to-br from-orange-500 to-orange-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
-              <h3 className="text-xl font-bold mb-2">New Civil Hospital Road</h3>
+            <div className="bg-gradient-to-br from-orange-500 to-orange-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white transform hover:scale-105">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-bold">New Civil Hospital Road</h3>
+                <span className="text-3xl">🏥</span>
+              </div>
               <p className="text-orange-100 mb-4">Elite escorts near New Civil Hospital</p>
               <Link href="/locations/new-civil-hospital-road" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 NCH Road Escorts
