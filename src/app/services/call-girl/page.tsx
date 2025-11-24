@@ -1,5 +1,5 @@
 'use client';
-// Deployment update
+// URL fix deployment
 import Image from 'next/image';
 import Link from 'next/link';
 
