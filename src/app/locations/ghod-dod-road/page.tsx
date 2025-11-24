@@ -447,7 +447,7 @@ export default function GhodDodRoadEscorts() {
  </Link>
 
  <Link
- href="/services/premium-call-girl"
+ href="/services/vip-companionship"
  className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-pink-200"
  >
  <h3 className="text-xl font-bold text-pink-700 mb-3"> Call Girl</h3>
