@@ -46,7 +46,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const services = [
     'air-hostess',
     'business-meetings',
-    'call-girl',
     'celebrity-look-alike',
     'college-girl',
     'corporate-event',
