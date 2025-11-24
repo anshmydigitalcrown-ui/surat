@@ -11,7 +11,7 @@ export default function PiplodEscorts() {
  { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Professional hotel escort services in Piplod", price: "₹19,000+", rating: "4.6" },
  { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Business travel companion services from Piplod", price: "₹25,000+", rating: "5.0" },
  { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companionship for Piplod business executives", price: "₹28,000+", rating: "4.9" },
- { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Piplod", price: "₹24,000+", rating: "4.9" },
+ { title: "Call Girls", image: "/images/services/Call Girls.webp", description: "Professional Call Girls companions in Piplod", price: "₹24,000+", rating: "4.9" },
  { title: "Social Events", image: "/images/services/Social Events.webp", description: "Social event companions in Piplod", price: "₹17,000+", rating: "4.8" },
  { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", description: "Elegant dinner companions in Piplod", price: "₹16,000+", rating: "4.7" },
  { title: "Private Model", image: "/images/services/Private Model.webp", description: "Private model services in Piplod", price: "₹27,000+", rating: "4.9" },
@@ -361,7 +361,7 @@ export default function PiplodEscorts() {
  <h3 className="text-3xl font-bold text-red-600 mt-10 mb-6">Comprehensive Escort Services in Piplod</h3>
 
  <p className="text-gray-700 leading-relaxed mb-6">
- Our <strong>Piplod escort service</strong> provides an extensive array of companionship options designed to satisfy diverse tastes and occasions. We maintain rigorous quality standards, ensuring every client receives an unforgettable and gratifying experience. From sophisticated VIP companions to charming college girl escorts, professional air hostesses to elegant housewife companions, our diverse portfolio includes professionals with various backgrounds, specializations, and expertise levels to match your specific desires.
+ Our <strong>Piplod escort service</strong> provides an extensive array of companionship options designed to satisfy diverse tastes and occasions. We maintain rigorous quality standards, ensuring every client receives an unforgettable and gratifying experience. From sophisticated VIP companions to charming college girl escorts, professional Call Girlses to elegant housewife companions, our diverse portfolio includes professionals with various backgrounds, specializations, and expertise levels to match your specific desires.
  </p>
 
  <h4 className="text-2xl font-bold text-red-600 mt-8 mb-4"> In-Call Services</h4>

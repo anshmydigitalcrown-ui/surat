@@ -19,7 +19,7 @@ export default function Gallery() {
     { title: "Celebrity Look-alike", image: "/images/gallery/Celebrity Look-alike.webp", category: "Premium" },
     { title: "College Girl", image: "/images/gallery/College Girl.webp", category: "Young" },
     { title: "Housewife", image: "/images/gallery/Housewife.webp", category: "Mature" },
-    { title: "Air Hostess", image: "/images/gallery/Air Hostess.webp", category: "Professional" },
+    { title: "Call Girls", image: "/images/gallery/Call Girls.webp", category: "Professional" },
     { title: "Russian Model", image: "/images/gallery/Russian Model.webp", category: "International" },
     { title: "Corporate Event", image: "/images/gallery/Corporate Event.webp", category: "Business" },
     { title: "Wedding Escort", image: "/images/gallery/Wedding Escort.webp", category: "Special" },

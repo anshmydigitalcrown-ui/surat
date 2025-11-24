@@ -12,7 +12,7 @@ export default function MajuraGateEscorts() {
  { title: " Call Girl", image: "/images/services/ Call Girl.webp", description: " call girl services in Majura Gate", price: "₹19,000+", rating: "4.9" },
  { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Travel companion services from Majura Gate", price: "₹21,000+", rating: "5.0" },
  { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companions for exclusive events in Majura Gate", price: "₹25,000+", rating: "5.0" },
- { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Majura Gate", price: "₹24,000+", rating: "4.8" },
+ { title: "Call Girls", image: "/images/services/Call Girls.webp", description: "Professional Call Girls companions in Majura Gate", price: "₹24,000+", rating: "4.8" },
  { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Business meeting companions in Majura Gate", price: "₹20,000+", rating: "4.7" },
  { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Hotel escort services in Majura Gate area", price: "₹18,000+", rating: "4.6" },
  { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Outcall escort services in Majura Gate", price: "₹19,000+", rating: "4.6" },
@@ -209,7 +209,7 @@ export default function MajuraGateEscorts() {
  <h3 className="text-3xl font-bold text-red-600 mt-10 mb-6">Comprehensive Escort Services in Majura Gate</h3>
 
  <p className="text-gray-700 leading-relaxed mb-6">
- Our <strong>Majura Gate escort service</strong> provides an extensive array of companionship options designed to satisfy diverse tastes and occasions. We maintain rigorous quality standards, ensuring every client receives an unforgettable and gratifying experience. From sophisticated VIP companions to charming college girl escorts, professional air hostesses to elegant housewife companions, our diverse portfolio includes professionals with various backgrounds, specializations, and expertise levels to match your specific desires.
+ Our <strong>Majura Gate escort service</strong> provides an extensive array of companionship options designed to satisfy diverse tastes and occasions. We maintain rigorous quality standards, ensuring every client receives an unforgettable and gratifying experience. From sophisticated VIP companions to charming college girl escorts, professional Call Girlses to elegant housewife companions, our diverse portfolio includes professionals with various backgrounds, specializations, and expertise levels to match your specific desires.
  </p>
 
  <h4 className="text-2xl font-bold text-red-600 mt-8 mb-4"> In-Call Services</h4>

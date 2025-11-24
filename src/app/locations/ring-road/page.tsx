@@ -12,7 +12,7 @@ export default function RingRoadEscorts() {
  { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Business meeting companions on Ring Road", price: "₹20,000+", rating: "4.9" },
  { title: " Call Girl", image: "/images/services/ Call Girl.webp", description: " call girl services on Ring Road", price: "₹22,000+", rating: "4.9" },
  { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young college girl companions on Ring Road", price: "₹15,000+", rating: "4.7" },
- { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions on Ring Road", price: "₹24,000+", rating: "4.9" },
+ { title: "Call Girls", image: "/images/services/Call Girls.webp", description: "Professional Call Girls companions on Ring Road", price: "₹24,000+", rating: "4.9" },
  { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "Russian model escorts on Ring Road", price: "₹28,000+", rating: "5.0" },
  { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Celebrity look-alike companions on Ring Road", price: "₹30,000+", rating: "4.8" },
  { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Weekend special companions on Ring Road", price: "₹20,000+", rating: "4.8" },
@@ -364,7 +364,7 @@ export default function RingRoadEscorts() {
  <h3 className="text-3xl font-bold text-red-600 mt-10 mb-6">Comprehensive Escort Services in Ring Road</h3>
 
  <p className="text-gray-700 leading-relaxed mb-6">
- Our <strong>Ring Road escort service</strong> provides an extensive array of companionship options designed to satisfy diverse tastes and occasions. We maintain rigorous quality standards, ensuring every client receives an unforgettable and gratifying experience. From sophisticated VIP companions to charming college girl escorts, professional air hostesses to elegant housewife companions, our diverse portfolio includes professionals with various backgrounds, specializations, and expertise levels to match your specific desires.
+ Our <strong>Ring Road escort service</strong> provides an extensive array of companionship options designed to satisfy diverse tastes and occasions. We maintain rigorous quality standards, ensuring every client receives an unforgettable and gratifying experience. From sophisticated VIP companions to charming college girl escorts, professional Call Girlses to elegant housewife companions, our diverse portfolio includes professionals with various backgrounds, specializations, and expertise levels to match your specific desires.
  </p>
 
  <h4 className="text-2xl font-bold text-red-600 mt-8 mb-4"> In-Call Services</h4>
