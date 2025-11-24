@@ -49,6 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'celebrity-look-alike',
     'college-girl',
     'corporate-event',
+    'delhi-girls',
     'dinner-dates',
     'hotel-escort',
     'housewife',
