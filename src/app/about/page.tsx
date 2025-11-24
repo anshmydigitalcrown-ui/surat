@@ -388,146 +388,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-20 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent mb-6">
-              Frequently Asked Questions
-            </h2>
-            <p className="text-2xl md:text-3xl text-pink-700 max-w-4xl mx-auto font-medium leading-relaxed">
-              Get answers to common questions about our premium companion services in Surat
-            </p>
-          </div>
-
-          {/* FAQ Grid - 3 Rows x 4 Columns */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Row 1 */}
-            <div className="bg-gradient-to-br from-pink-100 to-pink-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-300">
-              <div className="bg-gradient-to-r from-pink-500 to-pink-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <span className="text-white font-bold text-lg">💰</span>
-              </div>
-              <h3 className="text-xl md:text-2xl font-bold text-pink-700 mb-3 text-center">Pricing?</h3>
-              <p className="text-pink-600 text-sm text-center leading-relaxed">
-                Competitive rates with transparent pricing. Contact us for detailed packages and special offers.
-              </p>
-            </div>
-
-            <div className="bg-gradient-to-br from-purple-100 to-purple-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-purple-300">
-              <div className="bg-gradient-to-r from-purple-500 to-purple-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <span className="text-white font-bold text-lg">🕐</span>
-              </div>
-              <h3 className="text-xl md:text-2xl font-bold text-purple-700 mb-3 text-center">Availability?</h3>
-              <p className="text-purple-600 text-sm text-center leading-relaxed">
-                24/7 availability with advance booking. Same-day bookings subject to availability.
-              </p>
-            </div>
-
-            <div className="bg-gradient-to-br from-indigo-100 to-indigo-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-indigo-300">
-              <div className="bg-gradient-to-r from-indigo-500 to-indigo-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <span className="text-white font-bold text-lg">📍</span>
-              </div>
-              <h3 className="text-xl md:text-2xl font-bold text-indigo-700 mb-3 text-center">Service Areas?</h3>
-              <p className="text-indigo-600 text-sm text-center leading-relaxed">
-                We serve all major areas in Surat including Varachha, Adajan, Vesu, and surrounding locations.
-              </p>
-            </div>
-
-            <div className="bg-gradient-to-br from-teal-100 to-teal-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-teal-300">
-              <div className="bg-gradient-to-r from-teal-500 to-teal-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <span className="text-white font-bold text-lg">🔒</span>
-              </div>
-              <h3 className="text-xl md:text-2xl font-bold text-teal-700 mb-3 text-center">Privacy?</h3>
-              <p className="text-teal-600 text-sm text-center leading-relaxed">
-                Complete confidentiality guaranteed. All client information is kept strictly private and secure.
-              </p>
-            </div>
-
-            {/* Row 2 */}
-            <div className="bg-gradient-to-br from-orange-100 to-orange-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-orange-300">
-              <div className="bg-gradient-to-r from-orange-500 to-orange-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <span className="text-white font-bold text-lg">📋</span>
-              </div>
-              <h3 className="text-xl md:text-2xl font-bold text-orange-700 mb-3 text-center">Booking Process?</h3>
-              <p className="text-orange-600 text-sm text-center leading-relaxed">
-                Simple 4-step process: Consultation, Selection, Confirmation, and Service Delivery.
-              </p>
-            </div>
-
-            <div className="bg-gradient-to-br from-red-100 to-red-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-red-300">
-              <div className="bg-gradient-to-r from-red-500 to-red-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <span className="text-white font-bold text-lg">💳</span>
-              </div>
-              <h3 className="text-xl md:text-2xl font-bold text-red-700 mb-3 text-center">Payment Methods?</h3>
-              <p className="text-red-600 text-sm text-center leading-relaxed">
-                We accept cash, bank transfers, and digital payments. Secure payment options available.
-              </p>
-            </div>
-
-            <div className="bg-gradient-to-br from-green-100 to-green-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-green-300">
-              <div className="bg-gradient-to-r from-green-500 to-green-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <span className="text-white font-bold text-lg">⭐</span>
-              </div>
-              <h3 className="text-xl md:text-2xl font-bold text-green-700 mb-3 text-center">Quality Assurance?</h3>
-              <p className="text-green-600 text-sm text-center leading-relaxed">
-                Rigorous screening process and continuous training ensure exceptional service quality.
-              </p>
-            </div>
-
-            <div className="bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-yellow-300">
-              <div className="bg-gradient-to-r from-yellow-500 to-yellow-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <span className="text-white font-bold text-lg">📞</span>
-              </div>
-              <h3 className="text-xl md:text-2xl font-bold text-yellow-700 mb-3 text-center">Customer Support?</h3>
-              <p className="text-yellow-600 text-sm text-center leading-relaxed">
-                24/7 customer support available via phone, WhatsApp, and email for any assistance.
-              </p>
-            </div>
-
-            {/* Row 3 */}
-            <div className="bg-gradient-to-br from-cyan-100 to-cyan-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-cyan-300">
-              <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <span className="text-white font-bold text-lg">🎯</span>
-              </div>
-              <h3 className="text-xl md:text-2xl font-bold text-cyan-700 mb-3 text-center">Special Requests?</h3>
-              <p className="text-cyan-600 text-sm text-center leading-relaxed">
-                We accommodate special requests and preferences. Contact us to discuss your specific requirements.
-              </p>
-            </div>
-
-            <div className="bg-gradient-to-br from-rose-100 to-rose-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-rose-300">
-              <div className="bg-gradient-to-r from-rose-500 to-rose-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <span className="text-white font-bold text-lg">📅</span>
-              </div>
-              <h3 className="text-xl md:text-2xl font-bold text-rose-700 mb-3 text-center">Advance Booking?</h3>
-              <p className="text-rose-600 text-sm text-center leading-relaxed">
-                We recommend booking 2-4 hours in advance, though same-day bookings are available based on availability.
-              </p>
-            </div>
-
-            <div className="bg-gradient-to-br from-violet-100 to-violet-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-violet-300">
-              <div className="bg-gradient-to-r from-violet-500 to-violet-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <span className="text-white font-bold text-lg">🌟</span>
-              </div>
-              <h3 className="text-xl md:text-2xl font-bold text-violet-700 mb-3 text-center">Service Packages?</h3>
-              <p className="text-violet-600 text-sm text-center leading-relaxed">
-                Multiple service packages available including hourly, extended stays, and overnight companionship options.
-              </p>
-            </div>
-
-            <div className="bg-gradient-to-br from-fuchsia-100 to-fuchsia-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-fuchsia-300">
-              <div className="bg-gradient-to-r from-fuchsia-500 to-fuchsia-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
-                <span className="text-white font-bold text-lg">🎁</span>
-              </div>
-              <h3 className="text-xl md:text-2xl font-bold text-fuchsia-700 mb-3 text-center">Gift Vouchers?</h3>
-              <p className="text-fuchsia-600 text-sm text-center leading-relaxed">
-                Gift vouchers available for premium experiences. Perfect for special occasions and celebrations.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* About Content Section */}
       <section className="py-20 bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -701,6 +561,146 @@ export default function About() {
               <Link href="/locations/nanpura" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
                 Nanpura Escorts
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent mb-6">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-2xl md:text-3xl text-pink-700 max-w-4xl mx-auto font-medium leading-relaxed">
+              Get answers to common questions about our premium companion services in Surat
+            </p>
+          </div>
+
+          {/* FAQ Grid - 3 Rows x 4 Columns */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Row 1 */}
+            <div className="bg-gradient-to-br from-pink-100 to-pink-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-300">
+              <div className="bg-gradient-to-r from-pink-500 to-pink-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">💰</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-pink-700 mb-3 text-center">Pricing?</h3>
+              <p className="text-pink-600 text-sm text-center leading-relaxed">
+                Competitive rates with transparent pricing. Contact us for detailed packages and special offers.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-purple-100 to-purple-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-purple-300">
+              <div className="bg-gradient-to-r from-purple-500 to-purple-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">🕐</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-purple-700 mb-3 text-center">Availability?</h3>
+              <p className="text-purple-600 text-sm text-center leading-relaxed">
+                24/7 availability with advance booking. Same-day bookings subject to availability.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-indigo-100 to-indigo-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-indigo-300">
+              <div className="bg-gradient-to-r from-indigo-500 to-indigo-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">📍</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-indigo-700 mb-3 text-center">Service Areas?</h3>
+              <p className="text-indigo-600 text-sm text-center leading-relaxed">
+                We serve all major areas in Surat including Varachha, Adajan, Vesu, and surrounding locations.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-teal-100 to-teal-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-teal-300">
+              <div className="bg-gradient-to-r from-teal-500 to-teal-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">🔒</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-teal-700 mb-3 text-center">Privacy?</h3>
+              <p className="text-teal-600 text-sm text-center leading-relaxed">
+                Complete confidentiality guaranteed. All client information is kept strictly private and secure.
+              </p>
+            </div>
+
+            {/* Row 2 */}
+            <div className="bg-gradient-to-br from-orange-100 to-orange-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-orange-300">
+              <div className="bg-gradient-to-r from-orange-500 to-orange-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">📋</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-orange-700 mb-3 text-center">Booking Process?</h3>
+              <p className="text-orange-600 text-sm text-center leading-relaxed">
+                Simple 4-step process: Consultation, Selection, Confirmation, and Service Delivery.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-red-100 to-red-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-red-300">
+              <div className="bg-gradient-to-r from-red-500 to-red-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">💳</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-red-700 mb-3 text-center">Payment Methods?</h3>
+              <p className="text-red-600 text-sm text-center leading-relaxed">
+                We accept cash, bank transfers, and digital payments. Secure payment options available.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-green-100 to-green-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-green-300">
+              <div className="bg-gradient-to-r from-green-500 to-green-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">⭐</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-green-700 mb-3 text-center">Quality Assurance?</h3>
+              <p className="text-green-600 text-sm text-center leading-relaxed">
+                Rigorous screening process and continuous training ensure exceptional service quality.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-yellow-300">
+              <div className="bg-gradient-to-r from-yellow-500 to-yellow-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">📞</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-yellow-700 mb-3 text-center">Customer Support?</h3>
+              <p className="text-yellow-600 text-sm text-center leading-relaxed">
+                24/7 customer support available via phone, WhatsApp, and email for any assistance.
+              </p>
+            </div>
+
+            {/* Row 3 */}
+            <div className="bg-gradient-to-br from-cyan-100 to-cyan-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-cyan-300">
+              <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">🎯</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-cyan-700 mb-3 text-center">Special Requests?</h3>
+              <p className="text-cyan-600 text-sm text-center leading-relaxed">
+                We accommodate special requests and preferences. Contact us to discuss your specific requirements.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-rose-100 to-rose-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-rose-300">
+              <div className="bg-gradient-to-r from-rose-500 to-rose-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">📅</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-rose-700 mb-3 text-center">Advance Booking?</h3>
+              <p className="text-rose-600 text-sm text-center leading-relaxed">
+                We recommend booking 2-4 hours in advance, though same-day bookings are available based on availability.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-violet-100 to-violet-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-violet-300">
+              <div className="bg-gradient-to-r from-violet-500 to-violet-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">🌟</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-violet-700 mb-3 text-center">Service Packages?</h3>
+              <p className="text-violet-600 text-sm text-center leading-relaxed">
+                Multiple service packages available including hourly, extended stays, and overnight companionship options.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-fuchsia-100 to-fuchsia-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-fuchsia-300">
+              <div className="bg-gradient-to-r from-fuchsia-500 to-fuchsia-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">🎁</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-fuchsia-700 mb-3 text-center">Gift Vouchers?</h3>
+              <p className="text-fuchsia-600 text-sm text-center leading-relaxed">
+                Gift vouchers available for premium experiences. Perfect for special occasions and celebrations.
+              </p>
             </div>
           </div>
         </div>
