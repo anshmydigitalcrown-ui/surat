@@ -173,7 +173,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black bg-gradient-to-r from-pink-700 to-pink-900 bg-clip-text text-transparent mb-4 sm:mb-6">
-              Premium Escorts In Surat - Our Services
+              Escorts  in Surat- Our Services
             </h2>
             <p className="text-lg sm:text-xl md:text-2xl text-pink-800 max-w-3xl mx-auto leading-relaxed px-4">
               Professional Call Girls & VIP Companions Available 24/7
