@@ -1,0 +1,44 @@
+# humanstxt.org
+
+/* TEAM */
+Website: Surat Escorts Service
+Location: Surat, Gujarat, India
+Contact: https://surat-escorts.vercel.app/contact
+
+/* SITE */
+Standards: HTML5, CSS3, JavaScript, TypeScript
+Components: React 19, Next.js 15.5
+Styling: Tailwind CSS 4.1
+Deployment: Vercel
+Last update: 2025-11-24
+Language: English / Hindi / Gujarati
+Doctype: HTML5
+IDE: VS Code
+
+/* FEATURES */
+- 24 Location-based service pages
+- 20+ Service category pages  
+- Comprehensive SEO optimization
+- Mobile-responsive design
+- Fast page load with Next.js 15
+- Professional image gallery
+- 24/7 booking support
+- FAQ sections on all pages
+- Privacy-focused design
+- Verified professional companions
+
+/* SERVICES */
+Locations: Varachha, Adajan, Vesu, Citylight, Piplod, Althan, Udhna, Athwa, Rander, Ghod Dod Road, Ring Road, Nanpura, Majura Gate, Pal, Katargam, Sagrampura, Mota Varachha, Magdalla, Dumas Road, Someshwara, Kamrej, Bhatar, Pandesara, New Civil Hospital Road
+
+Services: VIP Companionship, Air Hostess, College Girl, Russian Model, Housewife, Premium Call Girl, Private Model, Hotel Escort, In-Call Service, Outcall Service, Dinner Dates, Party Escort, Travel Companion, Business Meetings, Corporate Event, Social Events, Wedding Escort, Celebrity Look-Alike, Special Service, Weekend Special
+
+/* THANKS */
+Built with: Next.js, React, Tailwind CSS
+Hosted on: Vercel
+Thanks to all open-source contributors
+
+/* SITE METADATA */
+Name: Surat Escorts Service
+URL: https://surat-escorts.vercel.app
+Description: Premium escort services in Surat
+Keywords: escort service surat, vip companionship, call girls surat

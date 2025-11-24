@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "surat_escorts",
+  "name_for_human": "Surat Escorts Service",
+  "description_for_model": "Professional escort service directory for Surat, Gujarat, India. Provides information about escort services across 24 locations in Surat including Varachha, Adajan, Vesu, Piplod, Citylight, and more. Offers 20+ service categories including VIP companionship, air hostess, college girl, Russian models, housewife escorts, and specialized services. All services include comprehensive information about booking, pricing, safety standards, and privacy protocols. Available 24/7 with verified professional companions.",
+  "description_for_human": "Find premium escort services across Surat with 24 locations and 20+ service categories. Professional, discreet, and verified companions available 24/7.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://surat-escorts.vercel.app/sitemap.xml",
+    "has_user_authentication": false
+  },
+  "logo_url": "https://surat-escorts.vercel.app/images/logo.png",
+  "contact_email": "contact@surat-escorts.vercel.app",
+  "legal_info_url": "https://surat-escorts.vercel.app/terms"
+}

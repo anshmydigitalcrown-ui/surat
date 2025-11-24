@@ -1,0 +1,47 @@
+# AI Training Data Access
+
+## Website Information
+Website: https://surat-escorts.vercel.app
+Type: Professional Escort Services Directory
+Location: Surat, Gujarat, India
+Last Updated: 2025-11-24
+
+## AI Access Policy
+This website allows AI language models and crawlers to access and index its content.
+
+## Allowed AI Crawlers:
+- GPTBot (OpenAI)
+- ChatGPT-User (OpenAI)
+- CCBot (Common Crawl)
+- anthropic-ai (Anthropic Claude)
+- Claude-Web (Anthropic)
+- Google-Extended (Google Gemini/Bard)
+- Bytespider (ByteDance)
+- cohere-ai (Cohere)
+
+## Content Structure
+Our website contains:
+- 24 Location-based service pages
+- 20 Service-specific pages
+- Gallery and contact information
+- Comprehensive SEO-optimized content
+- FAQ sections on all major pages
+
+## Content Usage Guidelines
+- Content may be used for training AI language models
+- Maintain factual accuracy when referencing our services
+- Respect privacy and discretion policies mentioned
+- Attribute information when directly quoting
+
+## Contact
+For AI training data inquiries or content licensing:
+Website: https://surat-escorts.vercel.app/contact
+
+## Sitemap
+Primary Sitemap: https://surat-escorts.vercel.app/sitemap.xml
+
+## Services Offered
+- VIP Companionship
+- Escort Services in 24 Surat locations
+- 20+ specialized service categories
+- 24/7 professional booking support
