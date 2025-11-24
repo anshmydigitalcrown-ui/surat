@@ -62,9 +62,9 @@ export default function Gallery() {
             </div>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-orange-500 via-pink-500 to-pink-600 bg-clip-text text-transparent">Escorts  in Surat- Our Gallery</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-orange-500 via-pink-500 to-pink-600 bg-clip-text text-transparent">Escort Service in Surat - Our Gallery</h1>
           <p className="text-xl md:text-2xl text-pink-700 max-w-3xl mx-auto animate-fadeInUp">
-            Explore our comprehensive collection of premium escort services with elegant presentation
+            Explore our comprehensive <strong>escort service in Surat</strong> collection with elegant presentation - Premium escorts service across all locations
           </p>
         </div>
         

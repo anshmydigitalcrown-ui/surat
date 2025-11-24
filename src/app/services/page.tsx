@@ -56,9 +56,9 @@ export default function Services() {
             </div>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-orange-500 via-pink-500 to-pink-600 bg-clip-text text-transparent">Escorts  in Surat- Our Services</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-orange-500 via-pink-500 to-pink-600 bg-clip-text text-transparent">Best Escort Service in Surat - Our Services</h1>
           <p className="text-xl md:text-2xl text-pink-700 max-w-3xl mx-auto animate-fadeInUp">
-            Discover our comprehensive range of luxury escort services designed for discerning clients in Surat
+            Discover our comprehensive <strong>escort service in Surat</strong> - Premium escorts service in Surat designed for discerning clients
           </p>
         </div>
         

@@ -41,15 +41,15 @@ export default function Home() {
                 </div>
                 
                 <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
-                  Surat&apos;s Most
+                  Premium Escort Service in Surat
                   <span className="block bg-gradient-to-r from-pink-500 to-rose-600 bg-clip-text text-transparent">
-                    Trusted Companion
+                    #1 Trusted Companion Service
                   </span>
-                  Service
+                  Available 24/7
                 </h2>
                 
                 <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed max-w-xl">
-                  Experience luxury and sophistication with Surat&apos;s premier escort service. We offer discreet, professional companionship tailored to your needs with complete privacy and elegance.
+                  Experience the best <strong>escort service in Surat</strong> with luxury and sophistication. We offer discreet, professional <strong>escorts service in Surat</strong> tailored to your needs with complete privacy and elegance. Premium call girls and VIP companions available across all Surat locations.
                 </p>
               </div>
 
@@ -267,10 +267,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-6">
-              Our Location Areas in Surat
+              Escort Service in Surat - All Locations
             </h2>
             <p className="text-xl md:text-2xl text-red-600 max-w-3xl mx-auto leading-relaxed">
-              Premium escort locations available across all major areas of Surat
+              Premium <strong>escort service in Surat</strong> available across all major areas - Best escorts service in Surat for every location
             </p>
           </div>
 

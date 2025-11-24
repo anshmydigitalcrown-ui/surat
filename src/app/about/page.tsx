@@ -32,9 +32,9 @@ export default function About() {
             </div>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-orange-500 via-pink-500 to-pink-600 bg-clip-text text-transparent">About Us</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp bg-gradient-to-r from-orange-500 via-pink-500 to-pink-600 bg-clip-text text-transparent">About Our Escort Service in Surat</h1>
           <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto animate-fadeInUp leading-relaxed">
-            Where <span className="font-semibold text-pink-600">sophistication</span> meets <span className="font-semibold text-orange-500">exclusivity</span> — experience unparalleled elegance, absolute discretion, and bespoke luxury companionship services in the heart of Surat.
+            Leading <strong>escort service in Surat</strong> where <span className="font-semibold text-pink-600">sophistication</span> meets <span className="font-semibold text-orange-500">exclusivity</span> — experience unparalleled elegance, absolute discretion, and bespoke luxury <strong>escorts service in Surat</strong> across all major locations.
           </p>
         </div>
         
