@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://surat-escorts.vercel.app'),
   title: "RashmiKapoor | Best Escort Service in Surat - Premium Call Girls 24/7",
   description: "#1 Escort Service in Surat - Experience luxury with premium escorts service in Surat. Professional call girls, VIP companions, and sophisticated escort service in Surat available 24/7. Serving Varachha, Adajan, Vesu, Citylight & all locations.",
   keywords: [
@@ -78,7 +79,7 @@ export const metadata: Metadata = {
     images: ["/images/hero/sexy-wet-bhabhi.webp"],
   },
   verification: {
-    google: "your-google-site-verification-code",
+    google: "google-site-verification-RashmiKapoor2025",
   },
   other: {
     "geo.region": "IN-GJ",

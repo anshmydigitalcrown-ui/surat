@@ -120,7 +120,7 @@ export default function Services() {
                 <div className="relative h-64 bg-gray-50 overflow-hidden">
                   <Image
                     src={service.image}
-                    alt={service.title}
+                    alt={`${service.title} - Premium Escort Service in Surat | RashmiKapoor`}
                     fill
                     className="object-contain object-center p-2 transition-transform duration-300 hover:scale-105"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"

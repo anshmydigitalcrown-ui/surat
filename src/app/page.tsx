@@ -40,15 +40,13 @@ export default function Home() {
                   </div>
                 </div>
                 
-                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
                   Premium Escort Service in Surat
                   <span className="block bg-gradient-to-r from-pink-500 to-rose-600 bg-clip-text text-transparent">
-                    #1 Trusted Companion Service
+                  #1 Trusted Companion Service
                   </span>
                   Available 24/7
-                </h2>
-                
-                <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed max-w-xl">
+                </h1>                <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed max-w-xl">
                   Experience the best <strong>escort service in Surat</strong> with luxury and sophistication. We offer discreet, professional <strong>escorts service in Surat</strong> tailored to your needs with complete privacy and elegance. Premium call girls and VIP companions available across all Surat locations.
                 </p>
               </div>

@@ -159,7 +159,7 @@ export default function KatargamEscorts() {
                 <div className="relative aspect-[3/4]">
                   <Image
                     src={service.image}
-                    alt={service.title}
+                    alt={`${service.title} - Katargam Escort Service in Surat`}
                     fill
                     className="object-contain"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -268,6 +268,55 @@ export default function KatargamEscorts() {
             <p className="text-gray-700 leading-relaxed mb-6">
               Experience Surat&apos;s finest <strong>escort service in Katargam</strong> with our professional, discreet, and premium companionship solutions. Contact us now to book your ideal companion and discover why we&apos;re the most trusted name in Katargam escort services. Available 24/7 for your convenience!
             </p>
+          </div>
+        </div>
+      </section>
+
+      
+      {/* Related Services Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-pink-700 mb-4">Popular Services in Katargam</h2>
+            <p className="text-xl text-gray-600">Explore our premium escort services</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <Link
+              href="/services/vip-companionship"
+              className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-pink-200"
+            >
+              <h3 className="text-xl font-bold text-pink-700 mb-3">VIP Companionship</h3>
+              <p className="text-gray-600 mb-4">Premium vip companionship service available in Katargam</p>
+              <span className="text-pink-600 font-semibold hover:text-pink-700">View Details →</span>
+            </Link>
+            
+            <Link
+              href="/services/premium-call-girl"
+              className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-pink-200"
+            >
+              <h3 className="text-xl font-bold text-pink-700 mb-3">Premium Call Girl</h3>
+              <p className="text-gray-600 mb-4">Premium premium call girl service available in Katargam</p>
+              <span className="text-pink-600 font-semibold hover:text-pink-700">View Details →</span>
+            </Link>
+            
+            <Link
+              href="/services/hotel-escort"
+              className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-pink-200"
+            >
+              <h3 className="text-xl font-bold text-pink-700 mb-3">Hotel Escort</h3>
+              <p className="text-gray-600 mb-4">Premium hotel escort service available in Katargam</p>
+              <span className="text-pink-600 font-semibold hover:text-pink-700">View Details →</span>
+            </Link>
+            
+            <Link
+              href="/services/travel-companion"
+              className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-pink-200"
+            >
+              <h3 className="text-xl font-bold text-pink-700 mb-3">Travel Companion</h3>
+              <p className="text-gray-600 mb-4">Premium travel companion service available in Katargam</p>
+              <span className="text-pink-600 font-semibold hover:text-pink-700">View Details →</span>
+            </Link>
           </div>
         </div>
       </section>

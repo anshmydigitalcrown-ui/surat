@@ -70,6 +70,68 @@ export default function VarachhaEscorts() {
         }}
       />
 
+
+      {/* FAQ Schema Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How to book escorts in Varachha?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You can book through our website, WhatsApp, or by calling us directly. We provide 24/7 booking services for Varachha area."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are the escorts in Varachha verified?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, all our escorts in Varachha are thoroughly verified with authentic profiles and genuine photos."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the price range for escorts in Varachha?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our services in Varachha start from ₹14,000 and go up to ₹30,000+ depending on the service type and duration."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is discretion guaranteed for escort services in Varachha?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely. We maintain complete privacy and confidentiality for all our clients in Varachha."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are services available 24/7 in Varachha?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, our escort services in Varachha are available round the clock, all days of the week."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you provide outcall services in Varachha?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we provide both incall and outcall services throughout Varachha and surrounding areas."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
       <div className="min-h-screen bg-gradient-to-br from-red-50 via-white to-pink-50">
         {/* Hero Section - Mobile Optimized */}
         <section className="relative py-16 sm:py-24 lg:py-32 bg-gradient-to-br from-red-400 to-red-600 text-white overflow-hidden">
@@ -453,6 +515,55 @@ export default function VarachhaEscorts() {
             <p className="text-gray-700 leading-relaxed mb-6">
               Experience Surat&apos;s finest <strong>escort service in Varachha</strong> with our professional, discreet, and premium companionship solutions. Contact us now to book your ideal companion and discover why we&apos;re the most trusted name in Varachha escort services. Available 24/7 for your convenience! Our commitment to excellence, safety, and client satisfaction has made us the preferred choice for discerning clients throughout Surat and beyond.
             </p>
+          </div>
+        </div>
+      </section>
+
+      
+      {/* Related Services Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-pink-700 mb-4">Popular Services in Varachha</h2>
+            <p className="text-xl text-gray-600">Explore our premium escort services</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <Link
+              href="/services/vip-companionship"
+              className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-pink-200"
+            >
+              <h3 className="text-xl font-bold text-pink-700 mb-3">VIP Companionship</h3>
+              <p className="text-gray-600 mb-4">Premium vip companionship service available in Varachha</p>
+              <span className="text-pink-600 font-semibold hover:text-pink-700">View Details →</span>
+            </Link>
+            
+            <Link
+              href="/services/premium-call-girl"
+              className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-pink-200"
+            >
+              <h3 className="text-xl font-bold text-pink-700 mb-3">Premium Call Girl</h3>
+              <p className="text-gray-600 mb-4">Premium premium call girl service available in Varachha</p>
+              <span className="text-pink-600 font-semibold hover:text-pink-700">View Details →</span>
+            </Link>
+            
+            <Link
+              href="/services/hotel-escort"
+              className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-pink-200"
+            >
+              <h3 className="text-xl font-bold text-pink-700 mb-3">Hotel Escort</h3>
+              <p className="text-gray-600 mb-4">Premium hotel escort service available in Varachha</p>
+              <span className="text-pink-600 font-semibold hover:text-pink-700">View Details →</span>
+            </Link>
+            
+            <Link
+              href="/services/travel-companion"
+              className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-pink-200"
+            >
+              <h3 className="text-xl font-bold text-pink-700 mb-3">Travel Companion</h3>
+              <p className="text-gray-600 mb-4">Premium travel companion service available in Varachha</p>
+              <span className="text-pink-600 font-semibold hover:text-pink-700">View Details →</span>
+            </Link>
           </div>
         </div>
       </section>
