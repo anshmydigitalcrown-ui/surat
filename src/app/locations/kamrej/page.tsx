@@ -42,6 +42,18 @@ export default function KamrejEscorts() {
       <section className="relative py-32 bg-gradient-to-br from-fuchsia-500 to-fuchsia-700 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          {/* Service Icons */}
+          <div className="flex justify-center space-x-8 mb-8">
+            <div className="w-16 h-16 bg-gradient-to-r from-fuchsia-400 to-purple-500 rounded-full flex items-center justify-center shadow-lg animate-pulse">
+              <span className="text-3xl">🌾</span>
+            </div>
+            <div className="w-16 h-16 bg-gradient-to-r from-purple-400 to-fuchsia-500 rounded-full flex items-center justify-center shadow-lg animate-pulse" style={{animationDelay: '0.5s'}}>
+              <span className="text-3xl">💎</span>
+            </div>
+            <div className="w-16 h-16 bg-gradient-to-r from-fuchsia-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg animate-pulse" style={{animationDelay: '1s'}}>
+              <span className="text-3xl">⭐</span>
+            </div>
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp">
             Kamrej Escorts Services
           </h1>
