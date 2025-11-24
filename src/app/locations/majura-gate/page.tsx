@@ -173,6 +173,76 @@ export default function MajuraGateEscorts() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-20 bg-gradient-to-br from-lime-50 via-white to-green-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-lime-700 mb-4">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-xl text-gray-600">
+              Common questions about escort services in Majura Gate
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Left Column */}
+            <div className="space-y-6">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-lime-700 mb-3">How to book escorts in Majura Gate?</h3>
+                <p className="text-gray-600">You can book through our website, WhatsApp, or by calling us directly. We provide 24/7 booking services for Majura Gate area.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-lime-700 mb-3">Are the escorts verified?</h3>
+                <p className="text-gray-600">Yes, all our escorts in Majura Gate are thoroughly verified with authentic profiles and genuine photos.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-lime-700 mb-3">What is the price range?</h3>
+                <p className="text-gray-600">Our services in Majura Gate start from ₹14,000 and go up to ₹29,000+ depending on the service type and duration.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-lime-700 mb-3">Is advance booking required?</h3>
+                <p className="text-gray-600">While we accept last-minute bookings, advance booking is recommended for better availability in Majura Gate.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-lime-700 mb-3">Do you provide outcall services?</h3>
+                <p className="text-gray-600">Yes, we provide both incall and outcall services throughout Majura Gate and surrounding areas.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-lime-700 mb-3">What payment methods are accepted?</h3>
+                <p className="text-gray-600">We accept cash, UPI, and online transfers for all bookings in Majura Gate area.</p>
+              </div>
+            </div>
+            {/* Right Column */}
+            <div className="space-y-6">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-lime-700 mb-3">Is discretion guaranteed?</h3>
+                <p className="text-gray-600">Absolutely. We maintain complete privacy and confidentiality for all our clients in Majura Gate.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-lime-700 mb-3">Are services available 24/7?</h3>
+                <p className="text-gray-600">Yes, our escort services in Majura Gate are available round the clock, all days of the week.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-lime-700 mb-3">Can I choose a specific escort?</h3>
+                <p className="text-gray-600">Yes, you can browse profiles and select your preferred companion for Majura Gate area.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-lime-700 mb-3">What areas do you cover near Majura Gate?</h3>
+                <p className="text-gray-600">We cover Majura Gate and all nearby areas including the city center and surrounding localities.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-lime-700 mb-3">Are there any hidden charges?</h3>
+                <p className="text-gray-600">No, we maintain complete transparency. The price quoted is the final price with no hidden charges.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-lime-700 mb-3">How do I cancel or reschedule?</h3>
+                <p className="text-gray-600">You can cancel or reschedule by contacting us at least 2 hours before the booking time.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-lime-500 to-lime-700 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

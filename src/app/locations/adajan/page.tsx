@@ -356,6 +356,70 @@ export default function AdajanEscorts() {
             </div>
           </div>
         </section>
+      {/* FAQ Section */}
+      <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-blue-700 mb-4">Frequently Asked Questions</h2>
+            <p className="text-xl text-gray-600">Common questions about escort services in Adajan</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="space-y-6">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-blue-700 mb-3">How to book escorts in Adajan?</h3>
+                <p className="text-gray-600">You can book through our website, WhatsApp, or by calling us directly. We provide 24/7 booking services for Adajan area.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-blue-700 mb-3">Are the escorts verified?</h3>
+                <p className="text-gray-600">Yes, all our escorts in Adajan are thoroughly verified with authentic profiles and genuine photos.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-blue-700 mb-3">What is the price range?</h3>
+                <p className="text-gray-600">Our services in Adajan start from ₹14,000 and go up to ₹29,000+ depending on the service type and duration.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-blue-700 mb-3">Is advance booking required?</h3>
+                <p className="text-gray-600">While we accept last-minute bookings, advance booking is recommended for better availability in Adajan.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-blue-700 mb-3">Do you provide outcall services?</h3>
+                <p className="text-gray-600">Yes, we provide both incall and outcall services throughout Adajan and surrounding areas.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-blue-700 mb-3">What payment methods are accepted?</h3>
+                <p className="text-gray-600">We accept cash, UPI, and online transfers for all bookings in Adajan area.</p>
+              </div>
+            </div>
+            <div className="space-y-6">
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-blue-700 mb-3">Is discretion guaranteed?</h3>
+                <p className="text-gray-600">Absolutely. We maintain complete privacy and confidentiality for all our clients in Adajan.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-blue-700 mb-3">Are services available 24/7?</h3>
+                <p className="text-gray-600">Yes, our escort services in Adajan are available round the clock, all days of the week.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-blue-700 mb-3">Can I choose a specific escort?</h3>
+                <p className="text-gray-600">Yes, you can browse profiles and select your preferred companion for Adajan area.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-blue-700 mb-3">What areas do you cover near Adajan?</h3>
+                <p className="text-gray-600">We cover Adajan and all nearby areas with prompt service delivery.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-blue-700 mb-3">Are there any hidden charges?</h3>
+                <p className="text-gray-600">No, we maintain complete transparency. The price quoted is the final price with no hidden charges.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-blue-700 mb-3">How do I cancel or reschedule?</h3>
+                <p className="text-gray-600">You can cancel or reschedule by contacting us at least 2 hours before the booking time.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
         {/* Contact Section */}
         <section className="py-12 sm:py-16 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
