@@ -52,20 +52,6 @@ export const metadata: Metadata = {
       follow: true,
     },
   },
-  other: {
-    "geo.region": "IN-GJ",
-    "geo.placename": "Surat",
-    "geo.position": "21.1702;72.8311",
-    "ICBM": "21.1702, 72.8311",
-    // AI Crawler permissions
-    "gptbot": "allow",
-    "chatgpt-user": "allow",
-    "ccbot": "allow",
-    "anthropic-ai": "allow",
-    "claude-web": "allow",
-    "google-extended": "allow",
-    "cohere-ai": "allow",
-  },
   alternates: {
     canonical: "https://surat-escorts.vercel.app",
   },
@@ -99,6 +85,14 @@ export const metadata: Metadata = {
     "geo.placename": "Surat",
     "geo.position": "21.1702;72.8311",
     "ICBM": "21.1702, 72.8311",
+    // AI Crawler permissions
+    "gptbot": "allow",
+    "chatgpt-user": "allow",
+    "ccbot": "allow",
+    "anthropic-ai": "allow",
+    "claude-web": "allow",
+    "google-extended": "allow",
+    "cohere-ai": "allow",
   },
 };
 
