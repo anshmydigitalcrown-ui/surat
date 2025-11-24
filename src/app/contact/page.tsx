@@ -302,7 +302,7 @@ export default function Contact() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-pink-600 mb-2">Call Us Now</h3>
-                <p className="text-2xl font-bold text-gray-800 mb-2">+91 98765-43210</p>
+                <p className="text-2xl font-bold text-gray-800 mb-2">+91 93726 62471</p>
                 <p className="text-gray-600">24/7 Available</p>
               </div>
             </div>
@@ -316,7 +316,7 @@ export default function Contact() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-green-600 mb-2">WhatsApp</h3>
-                <p className="text-2xl font-bold text-gray-800 mb-2">+91 98765-43210</p>
+                <p className="text-2xl font-bold text-gray-800 mb-2">+91 93726 62471</p>
                 <p className="text-gray-600">Instant Response</p>
               </div>
             </div>
