@@ -56,7 +56,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'in-call-service',
     'outcall-service',
     'party-escort',
-    'premiumcall-girls',
+    'premium-call-girl',
     'private-model',
     'russian-model',
     'social-events',
