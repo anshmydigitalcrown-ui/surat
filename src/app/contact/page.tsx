@@ -474,7 +474,7 @@ export default function Contact() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Call Us Direct</h3>
                 <p className="text-green-100 mb-4">Available 24/7 for immediate assistance</p>
-                <a href="tel:+919876543210" className="bg-white text-green-600 px-6 py-3 rounded-full font-bold hover:bg-green-50 transition-colors inline-block">
+                <a href="tel:+919372662471" className="bg-white text-green-600 px-6 py-3 rounded-full font-bold hover:bg-green-50 transition-colors inline-block">
                   📞 +91 98765 43210
                 </a>
               </div>
@@ -488,7 +488,7 @@ export default function Contact() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4">WhatsApp Chat</h3>
                 <p className="text-emerald-100 mb-4">Quick responses & discrete communication</p>
-                <a href="https://wa.me/919876543210" className="bg-white text-emerald-600 px-6 py-3 rounded-full font-bold hover:bg-emerald-50 transition-colors inline-block">
+                <a href="https://wa.me/919372662471" className="bg-white text-emerald-600 px-6 py-3 rounded-full font-bold hover:bg-emerald-50 transition-colors inline-block">
                   💚 WhatsApp Now
                 </a>
               </div>

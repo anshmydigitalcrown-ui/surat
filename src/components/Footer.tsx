@@ -52,7 +52,7 @@ export default function Footer() {
  </svg>
  </a>
  <a 
- href="https://wa.me/919876543210" 
+ href="https://wa.me/919372662471" 
  className="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center hover:bg-white/30 transition-all duration-300 hover:scale-110"
  aria-label="WhatsApp"
  >

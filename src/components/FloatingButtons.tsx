@@ -2,12 +2,12 @@
 
 export default function FloatingButtons() {
   const handleCall = () => {
-    window.open('tel:+919876543210', '_self');
+    window.open('tel:+919372662471', '_self');
   };
 
   const handleWhatsApp = () => {
     const message = encodeURIComponent('Hi! I would like to inquire about your services.');
-    window.open(`https://wa.me/919876543210?text=${message}`, '_blank');
+    window.open(`https://wa.me/919372662471?text=${message}`, '_blank');
   };
 
   return (

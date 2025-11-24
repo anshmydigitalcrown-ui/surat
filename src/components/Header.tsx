@@ -70,7 +70,7 @@ export default function Header() {
  <div className="hidden md:flex items-center space-x-4">
  {/* WhatsApp Button */}
  <a 
- href="https://wa.me/919876543210"
+ href="https://wa.me/919372662471"
  target="_blank"
  rel="noopener noreferrer"
  className="bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600 transition-all duration-300 transform hover:scale-105 flex items-center space-x-2"
@@ -83,7 +83,7 @@ export default function Header() {
 
  {/* Call Button */}
  <a 
- href="tel:+919876543210"
+ href="tel:+919372662471"
  className="relative bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white px-6 py-3 rounded-full font-semibold text-sm shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center space-x-2 overflow-hidden group"
  >
  <div className="absolute inset-0 bg-gradient-to-r from-red-400 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -155,7 +155,7 @@ export default function Header() {
 
  {/* Mobile WhatsApp Button */}
  <a 
- href="https://wa.me/919876543210"
+ href="https://wa.me/919372662471"
  target="_blank"
  rel="noopener noreferrer"
  className="block mx-3 my-2 bg-green-500 text-white px-4 py-3 rounded-full text-center hover:bg-green-600 transition-all duration-300 font-medium text-base"
@@ -166,7 +166,7 @@ export default function Header() {
 
  {/* Mobile Call Button */}
  <a 
- href="tel:+919876543210"
+ href="tel:+919372662471"
  className="block mx-3 my-2 bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white px-4 py-3 rounded-full text-center font-semibold shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden group text-base"
  onClick={() => setIsMenuOpen(false)}
  >
