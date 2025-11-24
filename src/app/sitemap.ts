@@ -14,7 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/terms',
   ]
   
-  // Location pages
+  // All 24 Location pages
   const locations = [
     'varachha',
     'adajan', 
@@ -27,7 +27,43 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'rander',
     'ghod-dod-road',
     'ring-road',
-    'nanpura'
+    'nanpura',
+    'majura-gate',
+    'pal',
+    'katargam',
+    'sagrampura',
+    'mota-varachha',
+    'magdalla',
+    'dumas-road',
+    'someshwara',
+    'kamrej',
+    'bhatar',
+    'pandesara',
+    'new-civil-hospital-road'
+  ]
+
+  // All 20 Service pages
+  const services = [
+    'air-hostess',
+    'business-meetings',
+    'celebrity-look-alike',
+    'college-girl',
+    'corporate-event',
+    'dinner-dates',
+    'hotel-escort',
+    'housewife',
+    'in-call-service',
+    'outcall-service',
+    'party-escort',
+    'premium-call-girl',
+    'private-model',
+    'russian-model',
+    'social-events',
+    'special-service',
+    'travel-companion',
+    'vip-companionship',
+    'wedding-escort',
+    'weekend-special'
   ]
   
   const staticPages = routes.map((route) => ({
@@ -43,6 +79,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'weekly' as const,
     priority: 0.7,
   }))
+
+  const servicePages = services.map((service) => ({
+    url: `${baseUrl}/services/${service}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.6,
+  }))
   
-  return [...staticPages, ...locationPages]
+  return [...staticPages, ...locationPages, ...servicePages]
 }
