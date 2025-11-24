@@ -366,6 +366,98 @@ export default function Home() {
                 Nanpura Escorts
               </Link>
             </div>
+
+            {/* Row 5 */}
+            <div className="bg-gradient-to-br from-lime-400 to-lime-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Majura Gate</h3>
+              <p className="text-lime-100 mb-4">Premium companions near Majura Gate</p>
+              <Link href="/locations/majura-gate" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
+                Majura Gate Escorts
+              </Link>
+            </div>
+            <div className="bg-gradient-to-br from-amber-400 to-amber-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Pal</h3>
+              <p className="text-amber-100 mb-4">VIP escort services in Pal area</p>
+              <Link href="/locations/pal" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
+                Pal Escorts
+              </Link>
+            </div>
+            <div className="bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Katargam</h3>
+              <p className="text-emerald-100 mb-4">Luxury companions in Katargam locality</p>
+              <Link href="/locations/katargam" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
+                Katargam Escorts
+              </Link>
+            </div>
+
+            {/* Row 6 */}
+            <div className="bg-gradient-to-br from-sky-400 to-sky-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Sagrampura</h3>
+              <p className="text-sky-100 mb-4">Professional escorts in Sagrampura</p>
+              <Link href="/locations/sagrampura" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
+                Sagrampura Escorts
+              </Link>
+            </div>
+            <div className="bg-gradient-to-br from-fuchsia-400 to-fuchsia-600 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Mota Varachha</h3>
+              <p className="text-fuchsia-100 mb-4">Elite companions in Mota Varachha</p>
+              <Link href="/locations/mota-varachha" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
+                Mota Varachha Escorts
+              </Link>
+            </div>
+            <div className="bg-gradient-to-br from-red-500 to-red-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Magdalla</h3>
+              <p className="text-red-100 mb-4">Premium services in Magdalla port area</p>
+              <Link href="/locations/magdalla" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
+                Magdalla Escorts
+              </Link>
+            </div>
+
+            {/* Row 7 */}
+            <div className="bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Dumas Road</h3>
+              <p className="text-blue-100 mb-4">Beachside companions on Dumas Road</p>
+              <Link href="/locations/dumas-road" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
+                Dumas Road Escorts
+              </Link>
+            </div>
+            <div className="bg-gradient-to-br from-green-500 to-green-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Someshwara</h3>
+              <p className="text-green-100 mb-4">High-class escorts in Someshwara</p>
+              <Link href="/locations/someshwara" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
+                Someshwara Escorts
+              </Link>
+            </div>
+            <div className="bg-gradient-to-br from-purple-500 to-purple-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Kamrej</h3>
+              <p className="text-purple-100 mb-4">Professional companions in Kamrej area</p>
+              <Link href="/locations/kamrej" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
+                Kamrej Escorts
+              </Link>
+            </div>
+
+            {/* Row 8 */}
+            <div className="bg-gradient-to-br from-pink-500 to-pink-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Bhatar</h3>
+              <p className="text-pink-100 mb-4">VIP companions in Bhatar locality</p>
+              <Link href="/locations/bhatar" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
+                Bhatar Escorts
+              </Link>
+            </div>
+            <div className="bg-gradient-to-br from-indigo-500 to-indigo-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">Pandesara</h3>
+              <p className="text-indigo-100 mb-4">Luxury escorts in Pandesara industrial hub</p>
+              <Link href="/locations/pandesara" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
+                Pandesara Escorts
+              </Link>
+            </div>
+            <div className="bg-gradient-to-br from-orange-500 to-orange-700 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-white">
+              <h3 className="text-xl font-bold mb-2">New Civil Hospital Road</h3>
+              <p className="text-orange-100 mb-4">Elite escorts near New Civil Hospital</p>
+              <Link href="/locations/new-civil-hospital-road" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-semibold transition-all duration-200 inline-block">
+                NCH Road Escorts
+              </Link>
+            </div>
           </div>
         </div>
       </section>
