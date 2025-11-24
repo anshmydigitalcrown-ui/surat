@@ -72,7 +72,7 @@ export default function CelebrityLookAlikeService() {
  <div className="relative">
  <div className="aspect-w-4 aspect-h-5 rounded-3xl overflow-hidden shadow-2xl">
  <Image
- src="/images/services/Celebrity Look-alike.webp"
+ src="/images/services/Celebrity-Look-alike.webp"
  alt="Celebrity Look-alike Service in Surat"
  width={600}
  height={750}

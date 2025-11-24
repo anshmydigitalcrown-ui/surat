@@ -72,7 +72,7 @@ export default function WeekendSpecialService() {
  <div className="relative">
  <div className="aspect-w-4 aspect-h-5 rounded-3xl overflow-hidden shadow-2xl">
  <Image
- src="/images/services/Weekend Special.webp"
+ src="/images/services/Weekend-Special.webp"
  alt="Weekend Special Service in Surat"
  width={600}
  height={750}

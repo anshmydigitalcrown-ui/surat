@@ -72,7 +72,7 @@ export default function PremiumCallGirlService() {
  <div className="relative">
  <div className="aspect-w-4 aspect-h-5 rounded-3xl overflow-hidden shadow-2xl">
  <Image
- src="/images/services/ Call Girl.webp"
+ src="/images/services/Premium-Call-Girl.webp"
  alt=" Call Girl Service in Surat"
  width={600}
  height={750}

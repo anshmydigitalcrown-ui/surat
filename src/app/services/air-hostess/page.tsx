@@ -72,7 +72,7 @@ export default function AirHostessService() {
  <div className="relative">
  <div className="aspect-w-4 aspect-h-5 rounded-3xl overflow-hidden shadow-2xl">
  <Image
- src="/images/services/Air Hostess.webp"
+ src="/images/services/Air-Hostess.webp"
  alt="Professional Air Hostess Service in Surat"
  width={600}
  height={750}

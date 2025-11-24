@@ -72,7 +72,7 @@ export default function PartyEscortService() {
  <div className="relative">
  <div className="aspect-w-4 aspect-h-5 rounded-3xl overflow-hidden shadow-2xl">
  <Image
- src="/images/services/Party Escort.webp"
+ src="/images/services/Party-Escort.webp"
  alt="Party Escort Service in Surat"
  width={600}
  height={750}

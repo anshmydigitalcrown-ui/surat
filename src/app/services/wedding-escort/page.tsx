@@ -72,7 +72,7 @@ export default function WeddingEscortService() {
  <div className="relative">
  <div className="aspect-w-4 aspect-h-5 rounded-3xl overflow-hidden shadow-2xl">
  <Image
- src="/images/services/Wedding Escort.webp"
+ src="/images/services/Wedding-Escort.webp"
  alt="Wedding Escort Service in Surat"
  width={600}
  height={750}

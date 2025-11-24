@@ -72,7 +72,7 @@ export default function OutcallService() {
  <div className="relative">
  <div className="aspect-w-4 aspect-h-5 rounded-3xl overflow-hidden shadow-2xl">
  <Image
- src="/images/services/Outcall Service.webp"
+ src="/images/services/Outcall-Service.webp"
  alt="Outcall Service in Surat"
  width={600}
  height={750}

@@ -72,7 +72,7 @@ export default function BusinessMeetingsService() {
  <div className="relative">
  <div className="aspect-w-4 aspect-h-5 rounded-3xl overflow-hidden shadow-2xl">
  <Image
- src="/images/services/Business Meetings.webp"
+ src="/images/services/Business-Meetings.webp"
  alt="Professional Business Meetings Service in Surat"
  width={600}
  height={750}
