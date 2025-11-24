@@ -677,7 +677,7 @@ export default function Gallery() {
             </p>
           </div>
 
-          {/* FAQ Grid - 2 Rows x 4 Columns */}
+          {/* FAQ Grid - 3 Rows x 4 Columns */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Row 1 */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
@@ -773,6 +773,55 @@ export default function Gallery() {
                 <h3 className="text-lg font-bold text-teal-600 mb-3">Premium Quality?</h3>
                 <p className="text-gray-600 text-sm">
                   High-quality services with elegant, educated, and professional companions. Satisfaction guarantee with every booking.
+                </p>
+              </div>
+            </div>
+
+            {/* Row 3 */}
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-lg">📸</span>
+                </div>
+                <h3 className="text-lg font-bold text-orange-600 mb-3">Real Photos?</h3>
+                <p className="text-gray-600 text-sm">
+                  All photos in our gallery are 100% genuine and recently updated. What you see is what you get - guaranteed authenticity.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-cyan-500 to-cyan-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-lg">🎯</span>
+                </div>
+                <h3 className="text-lg font-bold text-cyan-600 mb-3">Choose Companion?</h3>
+                <p className="text-gray-600 text-sm">
+                  Yes, browse our gallery and select your preferred companion. We ensure your choice is available for your booking time.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-rose-500 to-rose-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-lg">🌟</span>
+                </div>
+                <h3 className="text-lg font-bold text-rose-600 mb-3">New Profiles?</h3>
+                <p className="text-gray-600 text-sm">
+                  We regularly update our gallery with new companions. Check back frequently for latest additions and profiles.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-violet-500 to-violet-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-lg">🎁</span>
+                </div>
+                <h3 className="text-lg font-bold text-violet-600 mb-3">VIP Services?</h3>
+                <p className="text-gray-600 text-sm">
+                  Premium VIP companions available with exclusive features, luxury experiences, and personalized attention for discerning clients.
                 </p>
               </div>
             </div>

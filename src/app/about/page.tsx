@@ -400,7 +400,7 @@ export default function About() {
             </p>
           </div>
 
-          {/* FAQ Grid - 2 Rows x 4 Columns */}
+          {/* FAQ Grid - 3 Rows x 4 Columns */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Row 1 */}
             <div className="bg-gradient-to-br from-pink-100 to-pink-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-300">
@@ -481,6 +481,47 @@ export default function About() {
               <h3 className="text-xl md:text-2xl font-bold text-yellow-700 mb-3 text-center">Customer Support?</h3>
               <p className="text-yellow-600 text-sm text-center leading-relaxed">
                 24/7 customer support available via phone, WhatsApp, and email for any assistance.
+              </p>
+            </div>
+
+            {/* Row 3 */}
+            <div className="bg-gradient-to-br from-cyan-100 to-cyan-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-cyan-300">
+              <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">🎯</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-cyan-700 mb-3 text-center">Special Requests?</h3>
+              <p className="text-cyan-600 text-sm text-center leading-relaxed">
+                We accommodate special requests and preferences. Contact us to discuss your specific requirements.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-rose-100 to-rose-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-rose-300">
+              <div className="bg-gradient-to-r from-rose-500 to-rose-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">📅</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-rose-700 mb-3 text-center">Advance Booking?</h3>
+              <p className="text-rose-600 text-sm text-center leading-relaxed">
+                We recommend booking 2-4 hours in advance, though same-day bookings are available based on availability.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-violet-100 to-violet-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-violet-300">
+              <div className="bg-gradient-to-r from-violet-500 to-violet-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">🌟</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-violet-700 mb-3 text-center">Service Packages?</h3>
+              <p className="text-violet-600 text-sm text-center leading-relaxed">
+                Multiple service packages available including hourly, extended stays, and overnight companionship options.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-fuchsia-100 to-fuchsia-200 rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-fuchsia-300">
+              <div className="bg-gradient-to-r from-fuchsia-500 to-fuchsia-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
+                <span className="text-white font-bold text-lg">🎁</span>
+              </div>
+              <h3 className="text-xl md:text-2xl font-bold text-fuchsia-700 mb-3 text-center">Gift Vouchers?</h3>
+              <p className="text-fuchsia-600 text-sm text-center leading-relaxed">
+                Gift vouchers available for premium experiences. Perfect for special occasions and celebrations.
               </p>
             </div>
           </div>

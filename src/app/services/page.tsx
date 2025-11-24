@@ -671,7 +671,7 @@ export default function Services() {
             </p>
           </div>
 
-          {/* FAQ Grid - 2 Rows x 4 Columns */}
+          {/* FAQ Grid - 3 Rows x 4 Columns */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Row 1 */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
@@ -767,6 +767,55 @@ export default function Services() {
                 <h3 className="text-lg font-bold text-teal-600 mb-3">Premium Quality?</h3>
                 <p className="text-gray-600 text-sm">
                   High-quality services with elegant, educated, and professional companions. Satisfaction guarantee with every booking.
+                </p>
+              </div>
+            </div>
+
+            {/* Row 3 */}
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-lg">🏨</span>
+                </div>
+                <h3 className="text-lg font-bold text-orange-600 mb-3">Hotel Service?</h3>
+                <p className="text-gray-600 text-sm">
+                  Yes, we provide both incall and outcall services. Our companions can visit your hotel or preferred location discreetly.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-cyan-500 to-cyan-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-lg">🎭</span>
+                </div>
+                <h3 className="text-lg font-bold text-cyan-600 mb-3">Event Companionship?</h3>
+                <p className="text-gray-600 text-sm">
+                  Professional companions available for business events, social gatherings, parties, and formal occasions.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-rose-500 to-rose-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-lg">✈️</span>
+                </div>
+                <h3 className="text-lg font-bold text-rose-600 mb-3">Travel Companion?</h3>
+                <p className="text-gray-600 text-sm">
+                  Travel companionship services available for business trips, vacations, and weekend getaways with professional escorts.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-pink-200">
+              <div className="text-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-violet-500 to-violet-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-lg">🎁</span>
+                </div>
+                <h3 className="text-lg font-bold text-violet-600 mb-3">Special Packages?</h3>
+                <p className="text-gray-600 text-sm">
+                  Customized packages available for extended services, special occasions, and recurring bookings with exclusive benefits.
                 </p>
               </div>
             </div>
