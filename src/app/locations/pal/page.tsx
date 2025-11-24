@@ -42,6 +42,18 @@ export default function PalEscorts() {
       <section className="relative py-32 bg-gradient-to-br from-sky-500 to-sky-700 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          {/* Service Icons */}
+          <div className="flex justify-center gap-4 sm:gap-6 mb-10">
+            <div className="w-20 h-20 bg-white/20 backdrop-blur-md rounded-2xl flex items-center justify-center shadow-2xl transform hover:scale-110 transition-all duration-300 border border-white/30">
+              <span className="text-4xl">🏡</span>
+            </div>
+            <div className="w-20 h-20 bg-white/20 backdrop-blur-md rounded-2xl flex items-center justify-center shadow-2xl transform hover:scale-110 transition-all duration-300 border border-white/30">
+              <span className="text-4xl">💎</span>
+            </div>
+            <div className="w-20 h-20 bg-white/20 backdrop-blur-md rounded-2xl flex items-center justify-center shadow-2xl transform hover:scale-110 transition-all duration-300 border border-white/30">
+              <span className="text-4xl">⭐</span>
+            </div>
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp">
             Pal Escorts Services
           </h1>
