@@ -5,26 +5,26 @@ import Link from 'next/link';
 
 export default function MotaVarachhaEscorts() {
  const services = [
- { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young and vibrant college girl companions in Mota Varachha", price: "₹15,000+", rating: "4.7" },
- { title: "Social Events", image: "/images/services/Social Events.webp", description: "Social event companions in Mota Varachha area", price: "₹17,000+", rating: "4.8" },
- { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", description: "Charming dinner date companions in Mota Varachha", price: "₹16,000+", rating: "4.6" },
- { title: "In-call Service", image: "/images/services/In-call Service.webp", description: "Comfortable in-call services in Mota Varachha", price: "₹14,000+", rating: "4.5" },
- { title: " Call Girl", image: "/images/services/ Call Girl.webp", description: " call girl services in Mota Varachha", price: "₹19,000+", rating: "4.9" },
- { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Travel companion services from Mota Varachha", price: "₹21,000+", rating: "5.0" },
- { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companions for exclusive events in Mota Varachha", price: "₹25,000+", rating: "5.0" },
- { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Mota Varachha", price: "₹24,000+", rating: "4.8" },
- { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Business meeting companions in Mota Varachha", price: "₹20,000+", rating: "4.7" },
- { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Hotel escort services in Mota Varachha area", price: "₹18,000+", rating: "4.6" },
- { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Outcall escort services in Mota Varachha", price: "₹19,000+", rating: "4.6" },
- { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Weekend special companions in Mota Varachha", price: "₹22,000+", rating: "4.8" },
- { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Celebrity look-alike companions in Mota Varachha", price: "₹26,000+", rating: "4.9" },
- { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Corporate event companions in Mota Varachha", price: "₹21,000+", rating: "4.7" },
+ { title: "College Girl", image: "/images/services/College-Girl.webp", description: "Young and vibrant college girl companions in Mota Varachha", price: "₹15,000+", rating: "4.7" },
+ { title: "Social Events", image: "/images/services/Social-Events.webp", description: "Social event companions in Mota Varachha area", price: "₹17,000+", rating: "4.8" },
+ { title: "Dinner Dates", image: "/images/services/Dinner-Dates.webp", description: "Charming dinner date companions in Mota Varachha", price: "₹16,000+", rating: "4.6" },
+ { title: "In-call Service", image: "/images/services/In-call-Service.webp", description: "Comfortable in-call services in Mota Varachha", price: "₹14,000+", rating: "4.5" },
+ { title: "Delhi Girls", image: "/images/services/Delhi-Girls.webp", description: " Delhi girls escort services in Mota Varachha", price: "₹19,000+", rating: "4.9" },
+ { title: "Travel Companion", image: "/images/services/Travel-Companion.webp", description: "Travel companion services from Mota Varachha", price: "₹21,000+", rating: "5.0" },
+ { title: "VIP Companionship", image: "/images/services/VIP-Companionship.webp", description: "VIP companions for exclusive events in Mota Varachha", price: "₹25,000+", rating: "5.0" },
+ { title: "Air Hostess", image: "/images/services/Air-Hostess.webp", description: "Professional air hostess companions in Mota Varachha", price: "₹24,000+", rating: "4.8" },
+ { title: "Business Meetings", image: "/images/services/Business-Meetings.webp", description: "Business meeting companions in Mota Varachha", price: "₹20,000+", rating: "4.7" },
+ { title: "Hotel Escort", image: "/images/services/Hotel-Escort.webp", description: "Hotel escort services in Mota Varachha area", price: "₹18,000+", rating: "4.6" },
+ { title: "Outcall Service", image: "/images/services/Outcall-Service.webp", description: "Outcall escort services in Mota Varachha", price: "₹19,000+", rating: "4.6" },
+ { title: "Weekend Special", image: "/images/services/Weekend-Special.webp", description: "Weekend special companions in Mota Varachha", price: "₹22,000+", rating: "4.8" },
+ { title: "Celebrity Look-alike", image: "/images/services/Celebrity-Look-alike.webp", description: "Celebrity look-alike companions in Mota Varachha", price: "₹26,000+", rating: "4.9" },
+ { title: "Corporate Event", image: "/images/services/Corporate-Event.webp", description: "Corporate event companions in Mota Varachha", price: "₹21,000+", rating: "4.7" },
  { title: "Housewife", image: "/images/services/Housewife.webp", description: "Mature housewife companions in Mota Varachha", price: "₹17,000+", rating: "4.5" },
- { title: "Party Escort", image: "/images/services/Party Escort.webp", description: "Party escort services in Mota Varachha", price: "₹18,000+", rating: "4.6" },
- { title: "Private Model", image: "/images/services/Private Model.webp", description: "Private model services in Mota Varachha", price: "₹27,000+", rating: "4.9" },
- { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "Russian model companions in Mota Varachha", price: "₹29,000+", rating: "5.0" },
- { title: "Special Service", image: "/images/services/Special Service.webp", description: "Special personalized services in Mota Varachha", price: "₹23,000+", rating: "4.8" },
- { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Wedding event companions in Mota Varachha", price: "₹20,000+", rating: "4.7" }
+ { title: "Party Escort", image: "/images/services/Party-Escort.webp", description: "Party escort services in Mota Varachha", price: "₹18,000+", rating: "4.6" },
+ { title: "Private Model", image: "/images/services/Private-Model.webp", description: "Private model services in Mota Varachha", price: "₹27,000+", rating: "4.9" },
+ { title: "Russian Model", image: "/images/services/Russian-Model.webp", description: "Russian model companions in Mota Varachha", price: "₹29,000+", rating: "5.0" },
+ { title: "Special Service", image: "/images/services/Special-Service.webp", description: "Special personalized services in Mota Varachha", price: "₹23,000+", rating: "4.8" },
+ { title: "Wedding Escort", image: "/images/services/Wedding-Escort.webp", description: "Wedding event companions in Mota Varachha", price: "₹20,000+", rating: "4.7" }
  ];
 
  const getServiceSlug = (title: string): string => {

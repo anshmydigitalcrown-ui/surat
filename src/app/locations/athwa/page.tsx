@@ -5,26 +5,26 @@ import Link from 'next/link';
 
 export default function AthwaEscorts() {
  const services = [
- { title: "Social Events", image: "/images/services/Social Events.webp", description: "Social event companions in Athwa cultural area", price: "₹18,000+", rating: "4.8" },
- { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", description: "Elegant dinner date companions in Athwa", price: "₹16,000+", rating: "4.7" },
- { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Cultural travel companion services from Athwa", price: "₹22,000+", rating: "5.0" },
- { title: " Call Girl", image: "/images/services/ Call Girl.webp", description: " call girl services in Athwa", price: "₹20,000+", rating: "4.9" },
- { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Hotel escort services in Athwa area", price: "₹17,000+", rating: "4.6" },
- { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companionship for Athwa cultural events", price: "₹25,000+", rating: "4.9" },
- { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Athwa", price: "₹24,000+", rating: "4.9" },
- { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Business meeting companions in Athwa", price: "₹21,000+", rating: "4.9" },
- { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Corporate event companions in Athwa", price: "₹22,000+", rating: "4.8" },
- { title: "Private Model", image: "/images/services/Private Model.webp", description: "Private model services in Athwa cultural area", price: "₹28,000+", rating: "4.9" },
- { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "Russian model companions in Athwa", price: "₹30,000+", rating: "5.0" },
- { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Celebrity look-alike companions in Athwa", price: "₹26,000+", rating: "4.8" },
- { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young college girl companions in Athwa", price: "₹14,000+", rating: "4.7" },
+ { title: "Social Events", image: "/images/services/Social-Events.webp", description: "Social event companions in Athwa cultural area", price: "₹18,000+", rating: "4.8" },
+ { title: "Dinner Dates", image: "/images/services/Dinner-Dates.webp", description: "Elegant dinner date companions in Athwa", price: "₹16,000+", rating: "4.7" },
+ { title: "Travel Companion", image: "/images/services/Travel-Companion.webp", description: "Cultural travel companion services from Athwa", price: "₹22,000+", rating: "5.0" },
+ { title: "Delhi Girls", image: "/images/services/Delhi-Girls.webp", description: " Delhi girls escort services in Athwa", price: "₹20,000+", rating: "4.9" },
+ { title: "Hotel Escort", image: "/images/services/Hotel-Escort.webp", description: "Hotel escort services in Athwa area", price: "₹17,000+", rating: "4.6" },
+ { title: "VIP Companionship", image: "/images/services/VIP-Companionship.webp", description: "VIP companionship for Athwa cultural events", price: "₹25,000+", rating: "4.9" },
+ { title: "Air Hostess", image: "/images/services/Air-Hostess.webp", description: "Professional air hostess companions in Athwa", price: "₹24,000+", rating: "4.9" },
+ { title: "Business Meetings", image: "/images/services/Business-Meetings.webp", description: "Business meeting companions in Athwa", price: "₹21,000+", rating: "4.9" },
+ { title: "Corporate Event", image: "/images/services/Corporate-Event.webp", description: "Corporate event companions in Athwa", price: "₹22,000+", rating: "4.8" },
+ { title: "Private Model", image: "/images/services/Private-Model.webp", description: "Private model services in Athwa cultural area", price: "₹28,000+", rating: "4.9" },
+ { title: "Russian Model", image: "/images/services/Russian-Model.webp", description: "Russian model companions in Athwa", price: "₹30,000+", rating: "5.0" },
+ { title: "Celebrity Look-alike", image: "/images/services/Celebrity-Look-alike.webp", description: "Celebrity look-alike companions in Athwa", price: "₹26,000+", rating: "4.8" },
+ { title: "College Girl", image: "/images/services/College-Girl.webp", description: "Young college girl companions in Athwa", price: "₹14,000+", rating: "4.7" },
  { title: "Housewife", image: "/images/services/Housewife.webp", description: "Mature housewife companions in Athwa", price: "₹17,000+", rating: "4.8" },
- { title: "In-call Service", image: "/images/services/In-call Service.webp", description: "Comfortable in-call services in Athwa", price: "₹16,000+", rating: "4.5" },
- { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Professional outcall services in Athwa", price: "₹18,000+", rating: "4.6" },
- { title: "Party Escort", image: "/images/services/Party Escort.webp", description: "Party escort services in Athwa", price: "₹19,000+", rating: "4.8" },
- { title: "Special Service", image: "/images/services/Special Service.webp", description: "Specialized escort services in Athwa", price: "₹23,000+", rating: "4.9" },
- { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Wedding companion services in Athwa", price: "₹21,000+", rating: "4.7" },
- { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Weekend special companions in Athwa", price: "₹20,000+", rating: "4.8" }
+ { title: "In-call Service", image: "/images/services/In-call-Service.webp", description: "Comfortable in-call services in Athwa", price: "₹16,000+", rating: "4.5" },
+ { title: "Outcall Service", image: "/images/services/Outcall-Service.webp", description: "Professional outcall services in Athwa", price: "₹18,000+", rating: "4.6" },
+ { title: "Party Escort", image: "/images/services/Party-Escort.webp", description: "Party escort services in Athwa", price: "₹19,000+", rating: "4.8" },
+ { title: "Special Service", image: "/images/services/Special-Service.webp", description: "Specialized escort services in Athwa", price: "₹23,000+", rating: "4.9" },
+ { title: "Wedding Escort", image: "/images/services/Wedding-Escort.webp", description: "Wedding companion services in Athwa", price: "₹21,000+", rating: "4.7" },
+ { title: "Weekend Special", image: "/images/services/Weekend-Special.webp", description: "Weekend special companions in Athwa", price: "₹20,000+", rating: "4.8" }
  ];
 
  // Function to convert service title to URL slug

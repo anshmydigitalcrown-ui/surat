@@ -5,26 +5,26 @@ import Link from 'next/link';
 
 export default function PiplodEscorts() {
  const services = [
- { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Professional companions for business meetings in Piplod", price: "₹20,000+", rating: "4.9" },
- { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Corporate event companions in Piplod business district", price: "₹18,000+", rating: "4.8" },
- { title: " Call Girl", image: "/images/services/ Call Girl.webp", description: "High-class call girl services in Piplod", price: "₹22,000+", rating: "4.9" },
- { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Professional hotel escort services in Piplod", price: "₹19,000+", rating: "4.6" },
- { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Business travel companion services from Piplod", price: "₹25,000+", rating: "5.0" },
- { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "VIP companionship for Piplod business executives", price: "₹28,000+", rating: "4.9" },
- { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Piplod", price: "₹24,000+", rating: "4.9" },
- { title: "Social Events", image: "/images/services/Social Events.webp", description: "Social event companions in Piplod", price: "₹17,000+", rating: "4.8" },
- { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", description: "Elegant dinner companions in Piplod", price: "₹16,000+", rating: "4.7" },
- { title: "Private Model", image: "/images/services/Private Model.webp", description: "Private model services in Piplod", price: "₹27,000+", rating: "4.9" },
- { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "Russian model companions in Piplod", price: "₹30,000+", rating: "5.0" },
- { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Weekend special companions in Piplod", price: "₹21,000+", rating: "4.8" },
- { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Celebrity look-alike companions in Piplod", price: "₹26,000+", rating: "4.8" },
- { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young college girl companions in Piplod", price: "₹14,000+", rating: "4.7" },
+ { title: "Business Meetings", image: "/images/services/Business-Meetings.webp", description: "Professional companions for business meetings in Piplod", price: "₹20,000+", rating: "4.9" },
+ { title: "Corporate Event", image: "/images/services/Corporate-Event.webp", description: "Corporate event companions in Piplod business district", price: "₹18,000+", rating: "4.8" },
+ { title: "Delhi Girls", image: "/images/services/Delhi-Girls.webp", description: "High-class Delhi girls escort services in Piplod", price: "₹22,000+", rating: "4.9" },
+ { title: "Hotel Escort", image: "/images/services/Hotel-Escort.webp", description: "Professional hotel escort services in Piplod", price: "₹19,000+", rating: "4.6" },
+ { title: "Travel Companion", image: "/images/services/Travel-Companion.webp", description: "Business travel companion services from Piplod", price: "₹25,000+", rating: "5.0" },
+ { title: "VIP Companionship", image: "/images/services/VIP-Companionship.webp", description: "VIP companionship for Piplod business executives", price: "₹28,000+", rating: "4.9" },
+ { title: "Air Hostess", image: "/images/services/Air-Hostess.webp", description: "Professional air hostess companions in Piplod", price: "₹24,000+", rating: "4.9" },
+ { title: "Social Events", image: "/images/services/Social-Events.webp", description: "Social event companions in Piplod", price: "₹17,000+", rating: "4.8" },
+ { title: "Dinner Dates", image: "/images/services/Dinner-Dates.webp", description: "Elegant dinner companions in Piplod", price: "₹16,000+", rating: "4.7" },
+ { title: "Private Model", image: "/images/services/Private-Model.webp", description: "Private model services in Piplod", price: "₹27,000+", rating: "4.9" },
+ { title: "Russian Model", image: "/images/services/Russian-Model.webp", description: "Russian model companions in Piplod", price: "₹30,000+", rating: "5.0" },
+ { title: "Weekend Special", image: "/images/services/Weekend-Special.webp", description: "Weekend special companions in Piplod", price: "₹21,000+", rating: "4.8" },
+ { title: "Celebrity Look-alike", image: "/images/services/Celebrity-Look-alike.webp", description: "Celebrity look-alike companions in Piplod", price: "₹26,000+", rating: "4.8" },
+ { title: "College Girl", image: "/images/services/College-Girl.webp", description: "Young college girl companions in Piplod", price: "₹14,000+", rating: "4.7" },
  { title: "Housewife", image: "/images/services/Housewife.webp", description: "Mature housewife companions in Piplod", price: "₹17,000+", rating: "4.8" },
- { title: "In-call Service", image: "/images/services/In-call Service.webp", description: "Comfortable in-call services in Piplod", price: "₹16,000+", rating: "4.5" },
- { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Professional outcall services in Piplod", price: "₹18,000+", rating: "4.6" },
- { title: "Party Escort", image: "/images/services/Party Escort.webp", description: "Party escort services in Piplod", price: "₹19,000+", rating: "4.8" },
- { title: "Special Service", image: "/images/services/Special Service.webp", description: "Specialized escort services in Piplod", price: "₹23,000+", rating: "4.9" },
- { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Wedding companion services in Piplod", price: "₹20,000+", rating: "4.7" }
+ { title: "In-call Service", image: "/images/services/In-call-Service.webp", description: "Comfortable in-call services in Piplod", price: "₹16,000+", rating: "4.5" },
+ { title: "Outcall Service", image: "/images/services/Outcall-Service.webp", description: "Professional outcall services in Piplod", price: "₹18,000+", rating: "4.6" },
+ { title: "Party Escort", image: "/images/services/Party-Escort.webp", description: "Party escort services in Piplod", price: "₹19,000+", rating: "4.8" },
+ { title: "Special Service", image: "/images/services/Special-Service.webp", description: "Specialized escort services in Piplod", price: "₹23,000+", rating: "4.9" },
+ { title: "Wedding Escort", image: "/images/services/Wedding-Escort.webp", description: "Wedding companion services in Piplod", price: "₹20,000+", rating: "4.7" }
  ];
 
  // Function to convert service title to URL slug

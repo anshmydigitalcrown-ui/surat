@@ -5,26 +5,26 @@ import Link from 'next/link';
 
 export default function CitylightEscorts() {
  const services = [
- { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "Elite companions for exclusive events in Citylight", price: "₹25,000+", rating: "4.9" },
- { title: "Party Escort", image: "/images/services/Party Escort.webp", description: "Perfect party companions in Citylight entertainment district", price: "₹16,000+", rating: "4.8" },
- { title: "Social Events", image: "/images/services/Social Events.webp", description: "Professional companions for Citylight social gatherings", price: "₹15,000+", rating: "4.8" },
- { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", description: "Elegant dining companions in Citylight restaurants", price: "₹12,000+", rating: "4.7" },
- { title: " Call Girl", image: "/images/services/ Call Girl.webp", description: "High-class call girl services in Citylight", price: "₹20,000+", rating: "4.9" },
- { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: " hotel escort services in Citylight area", price: "₹18,000+", rating: "4.6" },
- { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional air hostess companions in Citylight", price: "₹24,000+", rating: "4.9" },
- { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Business meeting companions in Citylight", price: "₹21,000+", rating: "4.9" },
- { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Corporate event companions in Citylight", price: "₹22,000+", rating: "4.8" },
- { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Travel companion services from Citylight", price: "₹23,000+", rating: "5.0" },
- { title: "Private Model", image: "/images/services/Private Model.webp", description: "Private model services in Citylight", price: "₹28,000+", rating: "4.9" },
- { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Weekend special companions in Citylight", price: "₹21,000+", rating: "4.8" },
- { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "Russian model companions in Citylight", price: "₹30,000+", rating: "5.0" },
- { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Celebrity look-alike companions in Citylight", price: "₹26,000+", rating: "4.8" },
- { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young college girl companions in Citylight", price: "₹14,000+", rating: "4.7" },
+ { title: "VIP Companionship", image: "/images/services/VIP-Companionship.webp", description: "Elite companions for exclusive events in Citylight", price: "₹25,000+", rating: "4.9" },
+ { title: "Party Escort", image: "/images/services/Party-Escort.webp", description: "Perfect party companions in Citylight entertainment district", price: "₹16,000+", rating: "4.8" },
+ { title: "Social Events", image: "/images/services/Social-Events.webp", description: "Professional companions for Citylight social gatherings", price: "₹15,000+", rating: "4.8" },
+ { title: "Dinner Dates", image: "/images/services/Dinner-Dates.webp", description: "Elegant dining companions in Citylight restaurants", price: "₹12,000+", rating: "4.7" },
+ { title: "Delhi Girls", image: "/images/services/Delhi-Girls.webp", description: "High-class Delhi girls escort services in Citylight", price: "₹20,000+", rating: "4.9" },
+ { title: "Hotel Escort", image: "/images/services/Hotel-Escort.webp", description: " hotel escort services in Citylight area", price: "₹18,000+", rating: "4.6" },
+ { title: "Air Hostess", image: "/images/services/Air-Hostess.webp", description: "Professional air hostess companions in Citylight", price: "₹24,000+", rating: "4.9" },
+ { title: "Business Meetings", image: "/images/services/Business-Meetings.webp", description: "Business meeting companions in Citylight", price: "₹21,000+", rating: "4.9" },
+ { title: "Corporate Event", image: "/images/services/Corporate-Event.webp", description: "Corporate event companions in Citylight", price: "₹22,000+", rating: "4.8" },
+ { title: "Travel Companion", image: "/images/services/Travel-Companion.webp", description: "Travel companion services from Citylight", price: "₹23,000+", rating: "5.0" },
+ { title: "Private Model", image: "/images/services/Private-Model.webp", description: "Private model services in Citylight", price: "₹28,000+", rating: "4.9" },
+ { title: "Weekend Special", image: "/images/services/Weekend-Special.webp", description: "Weekend special companions in Citylight", price: "₹21,000+", rating: "4.8" },
+ { title: "Russian Model", image: "/images/services/Russian-Model.webp", description: "Russian model companions in Citylight", price: "₹30,000+", rating: "5.0" },
+ { title: "Celebrity Look-alike", image: "/images/services/Celebrity-Look-alike.webp", description: "Celebrity look-alike companions in Citylight", price: "₹26,000+", rating: "4.8" },
+ { title: "College Girl", image: "/images/services/College-Girl.webp", description: "Young college girl companions in Citylight", price: "₹14,000+", rating: "4.7" },
  { title: "Housewife", image: "/images/services/Housewife.webp", description: "Mature housewife companions in Citylight", price: "₹17,000+", rating: "4.8" },
- { title: "In-call Service", image: "/images/services/In-call Service.webp", description: "Comfortable in-call services in Citylight", price: "₹16,000+", rating: "4.5" },
- { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Professional outcall services in Citylight", price: "₹18,000+", rating: "4.6" },
- { title: "Special Service", image: "/images/services/Special Service.webp", description: "Specialized escort services in Citylight", price: "₹23,000+", rating: "4.9" },
- { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Wedding companion services in Citylight", price: "₹20,000+", rating: "4.7" }
+ { title: "In-call Service", image: "/images/services/In-call-Service.webp", description: "Comfortable in-call services in Citylight", price: "₹16,000+", rating: "4.5" },
+ { title: "Outcall Service", image: "/images/services/Outcall-Service.webp", description: "Professional outcall services in Citylight", price: "₹18,000+", rating: "4.6" },
+ { title: "Special Service", image: "/images/services/Special-Service.webp", description: "Specialized escort services in Citylight", price: "₹23,000+", rating: "4.9" },
+ { title: "Wedding Escort", image: "/images/services/Wedding-Escort.webp", description: "Wedding companion services in Citylight", price: "₹20,000+", rating: "4.7" }
  ];
 
  // Function to convert service title to URL slug
