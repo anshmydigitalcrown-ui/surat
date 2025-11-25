@@ -7,28 +7,28 @@ import Link from 'next/link';
 export default function Gallery() {
   const [selectedCategory, setSelectedCategory] = useState('all');
 
-  const services = [
-    { title: "VIP Companionship", image: "/images/gallery/VIP Companionship.webp", category: "Premium" },
-    { title: "Social Events", image: "/images/gallery/Social Events.webp", category: "Social" },
-    { title: "Business Meetings", image: "/images/gallery/Business Meetings.webp", category: "Business" },
-    { title: "Travel Companion", image: "/images/gallery/Travel Companion.webp", category: "Travel" },
-    { title: "Dinner Dates", image: "/images/gallery/Dinner Dates.webp", category: "Social" },
-    { title: "Party Escort", image: "/images/gallery/Party Escort.webp", category: "Entertainment" },
-    { title: "Private Model", image: "/images/gallery/Private Model.webp", category: "Premium" },
-    { title: "Hotel Escort", image: "/images/gallery/Hotel Escort.webp", category: "Standard" },
-    { title: "Celebrity Look-alike", image: "/images/gallery/Celebrity Look-alike.webp", category: "Premium" },
-    { title: "College Girl", image: "/images/gallery/College Girl.webp", category: "Young" },
-    { title: "Housewife", image: "/images/gallery/Housewife.webp", category: "Mature" },
-    { title: "Air Hostess", image: "/images/gallery/Air Hostess.webp", category: "Professional" },
-    { title: "Russian Model", image: "/images/gallery/Russian Model.webp", category: "International" },
-    { title: "Corporate Event", image: "/images/gallery/Corporate Event.webp", category: "Business" },
-    { title: "Wedding Escort", image: "/images/gallery/Wedding Escort.webp", category: "Special" },
-    { title: "Premium Call Girl", image: "/images/gallery/Premium Call Girl.webp", category: "Premium" },
-    { title: "Outcall Service", image: "/images/gallery/Outcall Service.webp", category: "Outcall" },
-    { title: "In-call Service", image: "/images/gallery/In-call Service.webp", category: "Incall" },
-    { title: "Weekend Special", image: "/images/gallery/Weekend Special.webp", category: "Special" },
-    { title: "Special Service", image: "/images/gallery/Special Service.webp", category: "Premium" }
-  ];
+ const services = [
+ { title: "VIP Companionship", image: "/images/services/VIP-Companionship.webp", category: "", description: "Elite companions for exclusive events and occasions", price: "₹25,000+", rating: "4.9", features: ["Verified Profile", "24/7 Available", "Discrete Service"] },
+ { title: "Social Events", image: "/images/services/Social-Events.webp", category: "Social", description: "Perfect companions for social gatherings and parties", price: "₹15,000+", rating: "4.8", features: ["Event Ready", "Social Skills", "Professional"] },
+ { title: "Business Meetings", image: "/images/services/Business-Meetings.webp", category: "Business", description: "Professional support for corporate events", price: "₹20,000+", rating: "4.9", features: ["Corporate Ready", "Professional", "Confidential"] },
+ { title: "Travel Companion", image: "/images/services/Travel-Companion.webp", category: "Travel", description: "Elegant travel partners for business or leisure", price: "₹30,000+", rating: "5.0", features: ["Travel Ready", "Passport Valid", "International"] },
+ { title: "Dinner Dates", image: "/images/services/Dinner-Dates.webp", category: "Social", description: "Sophisticated dining companions", price: "₹12,000+", rating: "4.7", features: ["Fine Dining", "Elegant", "Conversational"] },
+ { title: "Party Escort", image: "/images/services/Party-Escort.webp", category: "Entertainment", description: "Fun and engaging party companions", price: "₹18,000+", rating: "4.8", features: ["Party Ready", "Energetic", "Fun Loving"] },
+ { title: "Private Model", image: "/images/services/Private-Model.webp", category: "", description: "Exclusive modeling and photography sessions", price: "₹35,000+", rating: "4.9", features: ["Model Figure", "Photogenic", "Professional"] },
+ { title: "Hotel Escort", image: "/images/services/Hotel-Escort.webp", category: "Standard", description: "Discreet hotel visit arrangements", price: "₹10,000+", rating: "4.6", features: ["Hotel Services", "Discrete", "Flexible Timing"] },
+ { title: "Celebrity Look-alike", image: "/images/services/Celebrity-Look-alike.webp", category: "", description: "Companions resembling famous personalities", price: "₹40,000+", rating: "4.8", features: ["Celebrity Look", "Unique", "Exclusive"] },
+ { title: "College Girl", image: "/images/services/College-Girl.webp", category: "Young", description: "Young and vibrant companions", price: "₹8,000+", rating: "4.7", features: ["Young & Fresh", "Energetic", "Student Look"] },
+ { title: "Housewife", image: "/images/services/Housewife.webp", category: "Mature", description: "Mature and experienced companions", price: "₹14,000+", rating: "4.8", features: ["Mature", "Experienced", "Homely"] },
+ { title: "Air Hostess", image: "/images/services/Air-Hostess.webp", category: "Professional", description: "Professional airline crew companions", price: "₹22,000+", rating: "4.9", features: ["Professional", "Well Groomed", "Service Oriented"] },
+ { title: "Russian Model", image: "/images/services/Russian-Model.webp", category: "International", description: "International model companions", price: "₹50,000+", rating: "5.0", features: ["International", "Model Figure", "Exotic"] },
+ { title: "Corporate Event", image: "/images/services/Corporate-Event.webp", category: "Business", description: "Business event support and networking", price: "₹25,000+", rating: "4.8", features: ["Corporate", "Professional", "Networking"] },
+ { title: "Wedding Escort", image: "/images/services/Wedding-Escort.webp", category: "Special", description: "Elegant companions for wedding events", price: "₹20,000+", rating: "4.7", features: ["Wedding Ready", "Elegant", "Traditional"] },
+ { title: "Delhi Girls", image: "/images/services/Delhi-Girls.webp", category: "Luxury", description: "Premium Delhi escort companions in Surat", price: "₹35,000+", rating: "5.0", features: ["Premium Quality", "Verified", "Exclusive"] },
+ { title: "Outcall Service", image: "/images/services/Outcall-Service.webp", category: "Outcall", description: "Professional outcall escort services", price: "₹15,000+", rating: "4.6", features: ["Outcall Only", "Your Location", "Flexible"] },
+ { title: "In-call Service", image: "/images/services/In-call-Service.webp", category: "Incall", description: "Comfortable in-call arrangements", price: "₹12,000+", rating: "4.5", features: ["Incall Only", "Safe Location", "Private"] },
+ { title: "Weekend Special", image: "/images/services/Weekend-Special.webp", category: "Special", description: "Special weekend companion packages", price: "₹25,000+", rating: "4.8", features: ["Weekend Only", "Special Rates", "Extended Time"] },
+ { title: "Special Service", image: "/images/services/Special-Service.webp", category: "", description: "Customized special occasion services", price: "₹35,000+", rating: "4.9", features: ["Custom Service", "Special Events", "Personalized"] }
+ ];
 
   const categories = [
     { id: 'all', name: 'All Services', icon: '🌟' },
