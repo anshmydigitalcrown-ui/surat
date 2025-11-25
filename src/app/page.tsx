@@ -863,7 +863,7 @@ export default function Home() {
  {/* FAQ Item 1 */}
  <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
  <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
- <h3 className="text-lg md:text-xl font-semibold text-pink-800 pr-4">Are your services available 24/7?</h3>
+ <h3 className="text-lg md:text-xl font-semibold text-purple-700 pr-4">Are your services available 24/7?</h3>
  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
  </svg>
@@ -876,7 +876,7 @@ export default function Home() {
  {/* FAQ Item 2 */}
  <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
  <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
- <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">How do I make a booking?</h3>
+ <h3 className="text-lg md:text-xl font-semibold text-purple-700 pr-4">How do I make a booking?</h3>
  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
  </svg>
@@ -889,7 +889,7 @@ export default function Home() {
  {/* FAQ Item 3 */}
  <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
  <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
- <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">What types of services do you offer?</h3>
+ <h3 className="text-lg md:text-xl font-semibold text-purple-700 pr-4">What types of services do you offer?</h3>
  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
  </svg>
@@ -902,7 +902,7 @@ export default function Home() {
  {/* FAQ Item 4 */}
  <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
  <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
- <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">What are your service charges?</h3>
+ <h3 className="text-lg md:text-xl font-semibold text-purple-700 pr-4">What are your service charges?</h3>
  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
  </svg>
@@ -915,7 +915,7 @@ export default function Home() {
  {/* FAQ Item 9 */}
  <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
  <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
- <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">Can I choose my companion?</h3>
+ <h3 className="text-lg md:text-xl font-semibold text-purple-700 pr-4">Can I choose my companion?</h3>
  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
  </svg>
@@ -928,7 +928,7 @@ export default function Home() {
  {/* FAQ Item 10 */}
  <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
  <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
- <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">What payment methods do you accept?</h3>
+ <h3 className="text-lg md:text-xl font-semibold text-purple-700 pr-4">What payment methods do you accept?</h3>
  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
  </svg>
@@ -944,7 +944,7 @@ export default function Home() {
  {/* FAQ Item 5 */}
  <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
  <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
- <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">What areas in Surat do you cover?</h3>
+ <h3 className="text-lg md:text-xl font-semibold text-purple-700 pr-4">What areas in Surat do you cover?</h3>
  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
  </svg>
@@ -957,7 +957,7 @@ export default function Home() {
  {/* FAQ Item 6 */}
  <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
  <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
- <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">Is privacy and discretion guaranteed?</h3>
+ <h3 className="text-lg md:text-xl font-semibold text-purple-700 pr-4">Is privacy and discretion guaranteed?</h3>
  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
  </svg>
@@ -970,7 +970,7 @@ export default function Home() {
  {/* FAQ Item 7 */}
  <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
  <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
- <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">Are your companions verified?</h3>
+ <h3 className="text-lg md:text-xl font-semibold text-purple-700 pr-4">Are your companions verified?</h3>
  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
  </svg>
@@ -983,7 +983,7 @@ export default function Home() {
  {/* FAQ Item 8 */}
  <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
  <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
- <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">Do you provide hotel bookings assistance?</h3>
+ <h3 className="text-lg md:text-xl font-semibold text-purple-700 pr-4">Do you provide hotel bookings assistance?</h3>
  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
  </svg>
@@ -996,7 +996,7 @@ export default function Home() {
  {/* FAQ Item 11 */}
  <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
  <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
- <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">How far in advance should I book?</h3>
+ <h3 className="text-lg md:text-xl font-semibold text-purple-700 pr-4">How far in advance should I book?</h3>
  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
  </svg>
@@ -1009,7 +1009,7 @@ export default function Home() {
  {/* FAQ Item 12 */}
  <details className="group bg-white/80 backdrop-blur-sm rounded-2xl border border-pink-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 faq-item">
  <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-pink-50/50 transition-all duration-300">
- <h3 className="text-lg md:text-xl font-semibold text-gray-800 pr-4">Do you offer outcall and incall services?</h3>
+ <h3 className="text-lg md:text-xl font-semibold text-purple-700 pr-4">Do you offer outcall and incall services?</h3>
  <svg className="w-6 h-6 text-pink-600 transform group-open:rotate-180 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
  </svg>
