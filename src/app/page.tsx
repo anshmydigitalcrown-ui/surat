@@ -181,26 +181,26 @@ export default function Home() {
  {/* Service Grid - 4 Cards Per Row with Larger Images */}
  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 max-w-7xl mx-auto">
  {[
- { title: "VIP Companionship", image: "/images/services/VIP Companionship.webp", description: "Elite companions for exclusive events and occasions", price: "", rating: "4.9" },
- { title: "Social Events", image: "/images/services/Social Events.webp", description: "Perfect companions for social gatherings and parties", price: "Standard", rating: "4.8" },
- { title: "Business Meetings", image: "/images/services/Business Meetings.webp", description: "Professional support for corporate events", price: "", rating: "4.9" },
- { title: "Travel Companion", image: "/images/services/Travel Companion.webp", description: "Elegant travel partners for business or leisure", price: "Luxury", rating: "5.0" },
- { title: "Dinner Dates", image: "/images/services/Dinner Dates.webp", description: "Sophisticated dining companions", price: "Standard", rating: "4.7" },
- { title: "Party Escort", image: "/images/services/Party Escort.webp", description: "Fun and engaging party companions", price: "Standard", rating: "4.8" },
- { title: "Private Model", image: "/images/services/Private Model.webp", description: "Exclusive modeling and photography sessions", price: "Luxury", rating: "4.9" },
- { title: "Hotel Escort", image: "/images/services/Hotel Escort.webp", description: "Discreet hotel visit arrangements", price: "Standard", rating: "4.6" },
- { title: "Celebrity Look-alike", image: "/images/services/Celebrity Look-alike.webp", description: "Companions resembling famous personalities", price: "", rating: "4.8" },
- { title: "College Girl", image: "/images/services/College Girl.webp", description: "Young and vibrant companions", price: "Standard", rating: "4.7" },
+ { title: "VIP Companionship", image: "/images/services/VIP-Companionship.webp", description: "Elite companions for exclusive events and occasions", price: "", rating: "4.9" },
+ { title: "Social Events", image: "/images/services/Social-Events.webp", description: "Perfect companions for social gatherings and parties", price: "Standard", rating: "4.8" },
+ { title: "Business Meetings", image: "/images/services/Business-Meetings.webp", description: "Professional support for corporate events", price: "", rating: "4.9" },
+ { title: "Travel Companion", image: "/images/services/Travel-Companion.webp", description: "Elegant travel partners for business or leisure", price: "Luxury", rating: "5.0" },
+ { title: "Dinner Dates", image: "/images/services/Dinner-Dates.webp", description: "Sophisticated dining companions", price: "Standard", rating: "4.7" },
+ { title: "Party Escort", image: "/images/services/Party-Escort.webp", description: "Fun and engaging party companions", price: "Standard", rating: "4.8" },
+ { title: "Private Model", image: "/images/services/Private-Model.webp", description: "Exclusive modeling and photography sessions", price: "Luxury", rating: "4.9" },
+ { title: "Hotel Escort", image: "/images/services/Hotel-Escort.webp", description: "Discreet hotel visit arrangements", price: "Standard", rating: "4.6" },
+ { title: "Celebrity Look-alike", image: "/images/services/Celebrity-Look-alike.webp", description: "Companions resembling famous personalities", price: "", rating: "4.8" },
+ { title: "College Girl", image: "/images/services/College-Girl.webp", description: "Young and vibrant companions", price: "Standard", rating: "4.7" },
  { title: "Housewife", image: "/images/services/Housewife.webp", description: "Mature and experienced companions", price: "Standard", rating: "4.8" },
- { title: "Air Hostess", image: "/images/services/Air Hostess.webp", description: "Professional airline crew companions", price: "", rating: "4.9" },
- { title: "Russian Model", image: "/images/services/Russian Model.webp", description: "International model companions", price: "Luxury", rating: "5.0" },
- { title: "Corporate Event", image: "/images/services/Corporate Event.webp", description: "Business event support and networking", price: "", rating: "4.8" },
- { title: "Wedding Escort", image: "/images/services/Wedding Escort.webp", description: "Elegant companions for wedding events", price: "", rating: "4.7" },
- { title: " Call Girl", image: "/images/services/ Call Girl.webp", description: "High-end escort services", price: "Luxury", rating: "4.9" },
- { title: "Outcall Service", image: "/images/services/Outcall Service.webp", description: "Professional outcall escort services", price: "Standard", rating: "4.6" },
- { title: "In-call Service", image: "/images/services/In-call Service.webp", description: "Comfortable in-call arrangements", price: "Standard", rating: "4.5" },
- { title: "Weekend Special", image: "/images/services/Weekend Special.webp", description: "Special weekend companion packages", price: "", rating: "4.8" },
- { title: "Special Service", image: "/images/services/Special Service.webp", description: "Customized special occasion services", price: "Luxury", rating: "4.9" }
+ { title: "Air Hostess", image: "/images/services/Air-Hostess.webp", description: "Professional airline crew companions", price: "", rating: "4.9" },
+ { title: "Russian Model", image: "/images/services/Russian-Model.webp", description: "International model companions", price: "Luxury", rating: "5.0" },
+ { title: "Corporate Event", image: "/images/services/Corporate-Event.webp", description: "Business event support and networking", price: "", rating: "4.8" },
+ { title: "Wedding Escort", image: "/images/services/Wedding-Escort.webp", description: "Elegant companions for wedding events", price: "", rating: "4.7" },
+ { title: "Delhi Girls", image: "/images/services/Delhi-Girls.webp", description: "Premium Delhi escort companions in Surat", price: "Luxury", rating: "5.0" },
+ { title: "Outcall Service", image: "/images/services/Outcall-Service.webp", description: "Professional outcall escort services", price: "Standard", rating: "4.6" },
+ { title: "In-call Service", image: "/images/services/In-call-Service.webp", description: "Comfortable in-call arrangements", price: "Standard", rating: "4.5" },
+ { title: "Weekend Special", image: "/images/services/Weekend-Special.webp", description: "Special weekend companion packages", price: "", rating: "4.8" },
+ { title: "Special Service", image: "/images/services/Special-Service.webp", description: "Customized special occasion services", price: "Luxury", rating: "4.9" }
  ].map((service, index) => (
  <Link
  key={index}
