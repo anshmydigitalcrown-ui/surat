@@ -2,9 +2,11 @@ import Link from 'next/link';
 
 export default function Footer() {
  return (
- <footer className="bg-gradient-to-br from-rose-400 via-rose-500 to-rose-600 text-white relative overflow-hidden">
+ <footer className="text-white relative overflow-hidden" style={{ backgroundColor: '#9f0720' }}>
  {/* Background Pattern */}
- <div className="absolute inset-0 bg-gradient-to-br from-rose-300/30 to-rose-800/20"></div>
+ <div className="absolute inset-0 opacity-10">
+ <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-white/10 to-black/10"></div>
+ </div>
 
  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -16,10 +18,10 @@ export default function Footer() {
  </div>
  <div>
  <h3 className="text-2xl font-bold text-white">RashmiKapoor</h3>
- <p className="text-rose-100 font-medium">No.1 Best Escort Service Surat</p>
+ <p className="text-white/90 font-medium">No.1 Best Escort Service Surat</p>
  </div>
  </div>
- <p className="text-white/90 mb-6 max-w-md leading-relaxed">
+ <p className="text-white/95 mb-6 max-w-md leading-relaxed">
  Experience luxury and elegance with Surat&apos;s premier escort service. 
  We provide sophisticated, professional, and discreet companionship for all occasions.
  </p>
@@ -65,30 +67,30 @@ export default function Footer() {
 
  {/* Quick Links */}
  <div>
- <h4 className="text-lg font-semibold mb-4 text-rose-100">Quick Links</h4>
+ <h4 className="text-lg font-semibold mb-4 text-white/95">Quick Links</h4>
  <ul className="space-y-2">
  <li>
- <Link href="/" className="text-white/80 hover:text-rose-100 transition-colors duration-200 hover:translate-x-1 transform block">
+ <Link href="/" className="text-white/90 hover:text-white transition-colors duration-200 hover:translate-x-1 transform block">
  Home
  </Link>
  </li>
  <li>
- <Link href="/about" className="text-white/80 hover:text-rose-100 transition-colors duration-200 hover:translate-x-1 transform block">
+ <Link href="/about" className="text-white/90 hover:text-white transition-colors duration-200 hover:translate-x-1 transform block">
  About Us
  </Link>
  </li>
  <li>
- <Link href="/services" className="text-white/80 hover:text-rose-100 transition-colors duration-200 hover:translate-x-1 transform block">
+ <Link href="/services" className="text-white/90 hover:text-white transition-colors duration-200 hover:translate-x-1 transform block">
  Our Services
  </Link>
  </li>
  <li>
- <Link href="/gallery" className="text-white/80 hover:text-rose-100 transition-colors duration-200 hover:translate-x-1 transform block">
+ <Link href="/gallery" className="text-white/90 hover:text-white transition-colors duration-200 hover:translate-x-1 transform block">
  Gallery
  </Link>
  </li>
  <li>
- <Link href="/contact" className="text-white/80 hover:text-rose-100 transition-colors duration-200 hover:translate-x-1 transform block">
+ <Link href="/contact" className="text-white/90 hover:text-white transition-colors duration-200 hover:translate-x-1 transform block">
  Contact
  </Link>
  </li>
@@ -97,7 +99,7 @@ export default function Footer() {
 
  {/* Contact Info */}
  <div>
- <h4 className="text-lg font-semibold mb-4 text-rose-100">Contact Info</h4>
+ <h4 className="text-lg font-semibold mb-4 text-white/95">Contact Info</h4>
  <div className="space-y-3">
  <div className="flex items-center space-x-3">
  <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
@@ -106,7 +108,7 @@ export default function Footer() {
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
  </svg>
  </div>
- <span className="text-white/80">Surat, Gujarat, India</span>
+ <span className="text-white/90">Surat, Gujarat, India</span>
  </div>
  <div className="flex items-center space-x-3">
  <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
@@ -115,7 +117,7 @@ export default function Footer() {
  </svg>
  </div>
  <div className="flex items-center space-x-2">
- <a href="tel:+919372662471" className="text-white/80 hover:text-rose-100 transition-colors duration-200">+91 93726 62471</a>
+ <a href="tel:+919372662471" className="text-white/90 hover:text-white transition-colors duration-200">+91 93726 62471</a>
  <a 
  href="tel:+919372662471"
  className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center hover:bg-green-600 transition-all duration-300 hover:scale-110"
@@ -146,7 +148,7 @@ export default function Footer() {
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
  </svg>
  </div>
- <span className="text-white/80">info@escortsinsurat.com</span>
+ <span className="text-white/90">info@escortsinsurat.com</span>
  </div>
  <div className="flex items-center space-x-3">
  <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
@@ -154,7 +156,7 @@ export default function Footer() {
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
  </svg>
  </div>
- <span className="text-white/80">24/7 Available</span>
+ <span className="text-white/90">24/7 Available</span>
  </div>
  </div>
  </div>
@@ -162,12 +164,12 @@ export default function Footer() {
 
  {/* Bottom Bar */}
  <div className="border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
- <p className="text-white/80 text-sm">
+ <p className="text-white/90 text-sm">
  © 2024 RashmiKapoor. All rights reserved. | 
- <Link href="/privacy" className="hover:text-rose-100 ml-1 transition-colors duration-200">Privacy Policy</Link> | 
- <Link href="/terms" className="hover:text-rose-100 ml-1 transition-colors duration-200">Terms of Service</Link>
+ <Link href="/privacy" className="hover:text-white ml-1 transition-colors duration-200">Privacy Policy</Link> | 
+ <Link href="/terms" className="hover:text-white ml-1 transition-colors duration-200">Terms of Service</Link>
  </p>
- <p className="text-white/80 text-sm mt-2 md:mt-0">
+ <p className="text-white/90 text-sm mt-2 md:mt-0">
  Made with ❤️ in Surat
  </p>
  </div>
