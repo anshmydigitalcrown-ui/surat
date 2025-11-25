@@ -7,6 +7,15 @@ import Link from 'next/link';
 export default function Gallery() {
   const [selectedCategory, setSelectedCategory] = useState('all');
 
+  const getServiceSlug = (title: string): string => {
+    return title.toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^\w\-]+/g, '')
+      .replace(/\-\-+/g, '-')
+      .replace(/^-+/, '')
+      .replace(/-+$/, '');
+  };
+
  const services = [
  { title: "VIP Companionship", image: "/images/services/VIP-Companionship.webp", category: "", description: "Elite companions for exclusive events and occasions", price: "₹25,000+", rating: "4.9", features: ["Verified Profile", "24/7 Available", "Discrete Service"] },
  { title: "Social Events", image: "/images/services/Social-Events.webp", category: "Social", description: "Perfect companions for social gatherings and parties", price: "₹15,000+", rating: "4.8", features: ["Event Ready", "Social Skills", "Professional"] },
@@ -135,9 +144,12 @@ export default function Gallery() {
                   </p>
                   
                   {/* Action Button */}
-                  <button className="bg-pink-500 hover:bg-pink-600 text-white py-3 px-8 rounded-full font-semibold text-sm transition-colors duration-300 w-full">
-                    Book
-                  </button>
+                  <Link 
+                    href={`/services/${getServiceSlug(service.title)}`}
+                    className="bg-pink-500 hover:bg-pink-600 text-white py-3 px-8 rounded-full font-semibold text-sm transition-colors duration-300 w-full block text-center"
+                  >
+                    View Details
+                  </Link>
                 </div>
               </div>
             ))}
